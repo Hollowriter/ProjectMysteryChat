@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,8 @@ public class TextBox : MonoBehaviour
     bool textWritten = false;
     [SerializeField]
     Text dialogueText;
+    [SerializeField]
+    int textSlowDown;
 
     void WriteText()
     {
@@ -27,18 +30,21 @@ public class TextBox : MonoBehaviour
 
     void Next()
     {
-        if (GUILayout.Button("Next"))
+        if (textWritten == true)
         {
-            if (speechIndex < speech.Length)
+            if (GUILayout.Button("Next"))
             {
-                this.speechIndex++;
+                if (speechIndex < speech.Length)
+                {
+                    this.speechIndex++;
+                }
+                else
+                {
+                    return;
+                }
+                dialogueText.text = "";
+                textWritten = false;
             }
-            else
-            {
-                return;
-            }
-            dialogueText.text = "";
-            textWritten = false;
         }
     }
 
@@ -59,7 +65,7 @@ public class TextBox : MonoBehaviour
         foreach (char letter in _word.ToCharArray())
         {
             dialogueText.text += letter;
-            Debug.Log("entro");
+            Thread.Sleep(textSlowDown);
             yield return null;
         }
     }
