@@ -12,7 +12,7 @@ public class TextBox : MonoBehaviour
     [SerializeField]
     Text dialogueText;
 
-    private void OnGUI()
+    void WriteText()
     {
         if (textWritten == false)
         {
@@ -23,6 +23,10 @@ public class TextBox : MonoBehaviour
             }
             textWritten = true;
         }
+    }
+
+    void Next()
+    {
         if (GUILayout.Button("Next"))
         {
             if (speechIndex < speech.Length)
@@ -36,6 +40,17 @@ public class TextBox : MonoBehaviour
             dialogueText.text = "";
             textWritten = false;
         }
+    }
+
+    void Behave()
+    {
+        WriteText();
+        Next();
+    }
+
+    private void OnGUI()
+    {
+        Behave();
     }
 
     IEnumerator DialogTyping(string _word)
