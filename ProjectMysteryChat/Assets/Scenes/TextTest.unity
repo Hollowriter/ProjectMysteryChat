@@ -312,6 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 183138189}
   textSlowDown: 15
+  dialogFileName: DialogoPrueba.json
 --- !u!1 &915737112
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,15 +15,19 @@ public class TextBox : MonoBehaviour
     Text dialogueText;
     [SerializeField]
     int textSlowDown;
+    // JSON Dialogs
+    [SerializeField]
+    string dialogFileName;
+    DialogCollection items;
 
     void WriteText()
     {
         if (textWritten == false)
         {
             StopAllCoroutines();
-            if (speechIndex < speech.Length)
+            if (speechIndex < items.Dialogs.Length)
             {
-                StartCoroutine(DialogTyping(this.speech[this.speechIndex]));
+                StartCoroutine(DialogTyping(this.items.Dialogs[this.speechIndex].Text));
             }
             textWritten = true;
         }
@@ -34,7 +39,7 @@ public class TextBox : MonoBehaviour
         {
             if (GUILayout.Button("Next"))
             {
-                if (speechIndex < speech.Length)
+                if (speechIndex < items.Dialogs.Length)
                 {
                     this.speechIndex++;
                 }
@@ -54,6 +59,22 @@ public class TextBox : MonoBehaviour
         Next();
     }
 
+    // Para testear, borrar despues
+    private void Awake()
+    {
+       string fileName = Application.streamingAssetsPath + "/Dialogs/" + dialogFileName;
+        using (StreamReader reader = new StreamReader(fileName))
+        {
+            string json = reader.ReadToEnd();
+            items = JsonUtility.FromJson<DialogCollection>(json);
+            Debug.Log(items.Dialogs.Length);
+            for (int i = 0; i < items.Dialogs.Length; i++)
+            {
+                Debug.Log(items.Dialogs[i].Text);
+            }
+        }
+    }
+
     private void OnGUI()
     {
         Behave();
@@ -69,4 +90,16 @@ public class TextBox : MonoBehaviour
             yield return null;
         }
     }
+}
+
+[System.Serializable]
+public class Dialogs
+{
+    public string Text;
+}
+
+[System.Serializable]
+public class DialogCollection
+{
+    public Dialogs[] Dialogs;
 }
