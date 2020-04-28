@@ -7,18 +7,32 @@ using UnityEngine.UI;
 
 public class TextBox : MonoBehaviour
 {
-    string[] speech = new string[4] { "Hi", "How are you ?", "Nice weather today", "Want some ice cream ?" };
+    public static TextBox textBox = null;
     char letter;
-    int speechIndex = 0;
-    bool textWritten = false;
+    int speechIndex;
+    bool textWritten;
+    bool activated;
     [SerializeField]
     Text dialogueText;
     [SerializeField]
     int textSlowDown;
-    // JSON Dialogs
-    [SerializeField]
-    string dialogFileName;
     DialogCollection items;
+
+    private void Awake()
+    {
+        speechIndex = 0;
+        textWritten = false;
+        activated = false;
+        if (textBox == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            textBox = this;
+        }
+        else if (textBox != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void WriteText()
     {
@@ -45,6 +59,8 @@ public class TextBox : MonoBehaviour
                 }
                 else
                 {
+                    speechIndex = 0;
+                    SetActivated(false); // fijarme si esto se puede hacer mejor
                     return;
                 }
                 dialogueText.text = "";
@@ -53,25 +69,32 @@ public class TextBox : MonoBehaviour
         }
     }
 
-    void Behave()
+    public void SetDialog(string dialogFileName)
     {
-        WriteText();
-        Next();
-    }
-
-    // Para testear, borrar despues
-    private void Awake()
-    {
-       string fileName = Application.streamingAssetsPath + "/Dialogs/" + dialogFileName;
+        string fileName = Application.streamingAssetsPath + "/Dialogs/" + dialogFileName;
         using (StreamReader reader = new StreamReader(fileName))
         {
             string json = reader.ReadToEnd();
             items = JsonUtility.FromJson<DialogCollection>(json);
-            Debug.Log(items.Dialogs.Length);
-            for (int i = 0; i < items.Dialogs.Length; i++)
-            {
-                Debug.Log(items.Dialogs[i].Text);
-            }
+        }
+    }
+
+    public void SetActivated(bool _active)
+    {
+        activated = _active;
+    }
+
+    public bool GetActivated()
+    {
+        return activated;
+    }
+
+    public void Behave()
+    {
+        if (activated)
+        {
+            WriteText();
+            Next();
         }
     }
 

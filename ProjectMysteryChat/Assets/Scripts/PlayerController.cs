@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     int playerSpeed;
+    InteractObject objectToInteract;
 
     public void MovementKeys()
     {
@@ -27,12 +28,26 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Behave()
+    public void InteractObject()
     {
-        if (InputHandler.input.inputDetected())
+        if (objectToInteract != null)
         {
-            MovementKeys();
+            if (Input.GetKey(InputHandler.input.interact))
+            {
+                objectToInteract.ShowText();
+            }
         }
+    }
+
+    public void CollideWithObject(InteractObject objectCollided)
+    {
+        objectToInteract = objectCollided;
+        objectToInteract.NearPlayer();
+    }
+
+    public void StopCollideWithObject()
+    {
+        objectToInteract = null;
     }
 
     public int GetPlayerSpeed()
@@ -40,8 +55,33 @@ public class PlayerController : MonoBehaviour
         return playerSpeed;
     }
 
+    public void Behave()
+    {
+        if (InputHandler.input.inputDetected())
+        {
+            MovementKeys();
+            InteractObject();
+        }
+    }
+
     void Update()
     {
         Behave();
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Interactuable")
+        {
+            CollideWithObject(other.gameObject.GetComponent<InteractObject>());
+        }
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        if (other.name == "Interactuable")
+        {
+            StopCollideWithObject();
+        }
     }
 }
