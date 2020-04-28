@@ -34,7 +34,8 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetKey(InputHandler.input.interact))
             {
-                objectToInteract.ShowText();
+                objectToInteract.BehaveInteraction();
+                Debug.Log("behaveInteract");
             }
         }
     }
@@ -71,15 +72,16 @@ public class PlayerController : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Interactuable")
+        if (other.tag == "Interactuable")
         {
             CollideWithObject(other.gameObject.GetComponent<InteractObject>());
+            Debug.Log("CollideInteractuable");
         }
     }
 
     public void OnTriggerExit(Collider other)
     {
-        if (other.name == "Interactuable")
+        if (other.tag == "Interactuable")
         {
             StopCollideWithObject();
         }
