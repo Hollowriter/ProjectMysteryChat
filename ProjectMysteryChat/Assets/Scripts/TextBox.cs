@@ -56,12 +56,12 @@ public class TextBox : MonoBehaviour
                 if (speechIndex < items.Dialogs.Length)
                 {
                     this.speechIndex++;
-                }
-                else
-                {
-                    speechIndex = 0;
-                    SetActivated(false); // fijarme si esto se puede hacer mejor
-                    return;
+                    if (speechIndex >= items.Dialogs.Length)
+                    {
+                        speechIndex = 0;
+                        SetActivated(false); // fijarme si esto se puede hacer mejor
+                        // return;
+                    }
                 }
                 dialogueText.text = "";
                 textWritten = false;
