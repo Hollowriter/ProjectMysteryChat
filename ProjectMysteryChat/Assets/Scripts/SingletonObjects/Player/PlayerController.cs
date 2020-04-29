@@ -59,10 +59,13 @@ public class PlayerController : MonoBehaviour
 
     public void Behave()
     {
-        if (InputHandler.input.inputDetected())
+        if (TextBox.textBox.GetActivated() == false)
         {
-            MovementKeys();
-            InteractObject();
+            if (InputHandler.input.inputDetected())
+            {
+                MovementKeys();
+                InteractObject();
+            }
         }
     }
 
