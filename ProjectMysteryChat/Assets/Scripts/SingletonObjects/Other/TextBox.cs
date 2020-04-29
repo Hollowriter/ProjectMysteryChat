@@ -10,6 +10,7 @@ public class TextBox : MonoBehaviour
     public static TextBox textBox = null;
     char letter;
     int speechIndex;
+    bool textWriting;
     bool textWritten;
     bool activated;
     [SerializeField]
@@ -17,10 +18,12 @@ public class TextBox : MonoBehaviour
     [SerializeField]
     int textSlowDown;
     DialogCollection items;
-
+    [SerializeField]
+    Button nextButton;
     private void Awake()
     {
         speechIndex = 0;
+        textWriting = false;
         textWritten = false;
         activated = false;
         if (textBox == null)
@@ -36,14 +39,14 @@ public class TextBox : MonoBehaviour
 
     void WriteText()
     {
-        if (textWritten == false)
+        if (textWriting == false)
         {
             StopAllCoroutines();
             if (speechIndex < items.Dialogs.Length)
             {
                 StartCoroutine(DialogTyping(this.items.Dialogs[this.speechIndex].Text));
             }
-            textWritten = true;
+            textWriting = true;
         }
     }
 
@@ -64,6 +67,7 @@ public class TextBox : MonoBehaviour
                 }
                 dialogueText.text = "";
                 textWritten = false;
+                textWriting = false;
             }
         }
     }
@@ -104,11 +108,17 @@ public class TextBox : MonoBehaviour
 
     IEnumerator DialogTyping(string _word)
     {
+        int typingIndex = 0;
         dialogueText.text = "";
         foreach (char letter in _word.ToCharArray())
         {
             dialogueText.text += letter;
             Thread.Sleep(textSlowDown);
+            typingIndex++;
+            if (typingIndex >= _word.ToCharArray().Length)
+            {
+                textWritten = true;
+            }
             yield return null;
         }
     }

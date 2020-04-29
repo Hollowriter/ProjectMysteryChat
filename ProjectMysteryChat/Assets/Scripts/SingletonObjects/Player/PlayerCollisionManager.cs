@@ -41,7 +41,6 @@ public class PlayerCollisionManager : MonoBehaviour
         if (other.tag == "Interactuable")
         {
             CollideWithObject(other.gameObject.GetComponent<InteractObject>());
-            Debug.Log("CollideInteractuable");
         }
     }
 
