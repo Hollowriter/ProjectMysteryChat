@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Door : InteractObject
 {
+    [SerializeField]
+    string levelToGo;
+
     public void PassLevel()
     {
-        SceneManager.LoadScene("PassLevelTest");
+        SceneManager.LoadScene(levelToGo);
     }
 
     public override void NearPlayer()

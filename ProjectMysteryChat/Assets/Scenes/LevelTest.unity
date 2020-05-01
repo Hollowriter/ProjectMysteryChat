@@ -1098,6 +1098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogFileName: 
+  levelToGo: PassLevelTest
 --- !u!1 &1883797034
 GameObject:
   m_ObjectHideFlags: 0
