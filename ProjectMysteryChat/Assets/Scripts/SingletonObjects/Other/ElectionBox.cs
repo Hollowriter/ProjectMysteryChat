@@ -32,13 +32,38 @@ public class ElectionBox : MonoBehaviour
         activated = _activated;
     }
 
+    public bool ElectionsEmpty()
+    {
+        if (elections != null)
+        {
+            if (elections.Elections != null)
+            {
+                if (elections.Elections.Length > 0)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public void SendElectionToTextBox(string electionSelected)
+    {
+        TextBox.textBox.SetDialog(electionSelected);
+        TextBox.textBox.SetActivated(true);
+    }
+
     public void ShowElections()
     {
-        if (!ElectionsEmpty())
+        if (activated)
         {
             for (int i = 0; i < elections.Elections.Length; i++)
             {
-                GUILayout.Button(elections.Elections[i].Candidate);
+                if (GUILayout.Button(elections.Elections[i].Candidate))
+                {
+                    SendElectionToTextBox(elections.Elections[i].Candidate + ".json");
+                    return;
+                }
             }
         }
     }
@@ -51,21 +76,12 @@ public class ElectionBox : MonoBehaviour
         }
     }
 
-    public bool ElectionsEmpty()
-    {
-        if (elections.Elections.Length <= 0)
-        {
-            return true;
-        }
-        return false;
-    }
-
     void Behave()
     {
         if (activated)
         {
-            ShowElections();
             CheckToAutoDeactivate();
+            ShowElections();
         }
     }
 
