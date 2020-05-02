@@ -10,5 +10,14 @@
     {
       "Text":"Detective: ¿Que rayos fue eso?"
     }
+  ],
+  "Elections":
+  [
+  	{
+  		"Candidate":"No fue un carajo."
+  	},
+  	{
+  		"Candidate":"Fue algo importante."
+  	}
   ]
 }

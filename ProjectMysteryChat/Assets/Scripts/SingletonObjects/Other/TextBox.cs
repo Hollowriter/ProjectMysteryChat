@@ -18,8 +18,7 @@ public class TextBox : MonoBehaviour
     [SerializeField]
     int textSlowDown;
     DialogCollection items;
-    [SerializeField]
-    Button nextButton;
+
     private void Awake()
     {
         speechIndex = 0;
@@ -63,6 +62,7 @@ public class TextBox : MonoBehaviour
                     {
                         speechIndex = 0;
                         SetActivated(false);
+                        ElectionBox.electionBox.SetActivate(true); // Motivo de testeo, esto despues se refactorea
                     }
                 }
                 dialogueText.text = "";
@@ -79,6 +79,7 @@ public class TextBox : MonoBehaviour
         {
             string json = reader.ReadToEnd();
             items = JsonUtility.FromJson<DialogCollection>(json);
+            ElectionBox.electionBox.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
         }
     }
 
@@ -134,4 +135,16 @@ public class Dialogs
 public class DialogCollection
 {
     public Dialogs[] Dialogs;
+}
+
+[System.Serializable]
+public class Elections
+{
+    public string Candidate;
+}
+
+[System.Serializable]
+public class ElectionCollection
+{
+    public Elections[] Elections;
 }
