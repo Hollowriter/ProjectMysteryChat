@@ -6,7 +6,6 @@ public class EvidenceInventory : MonoBehaviour
 {
     public static EvidenceInventory inventory = null;
     EvidenceCollection evidence;
-    // Evidence evidenceSelected; // Debate si va en jugador o en inventario
     int evidenceQuantity;
 
     private void Awake()
@@ -26,12 +25,12 @@ public class EvidenceInventory : MonoBehaviour
     public void SetCollection(EvidenceCollection _evidence)
     {
         evidence = _evidence;
-        evidenceQuantity = _evidence.evidenceList.Length;
+        evidenceQuantity = _evidence.EvidenceList.Length;
     }
 
     public void AddEvidence(Evidence evidenceAdded)
     {
-        evidence.evidenceList[evidenceQuantity] = evidenceAdded;
+        evidence.EvidenceList[evidenceQuantity] = evidenceAdded;
         evidenceQuantity++;
     }
 
@@ -39,7 +38,7 @@ public class EvidenceInventory : MonoBehaviour
     {
         if (evidence != null)
         {
-            if (evidence.evidenceList.Length > 0)
+            if (evidence.EvidenceList.Length > 0)
             {
                 return false;
             }
@@ -49,24 +48,24 @@ public class EvidenceInventory : MonoBehaviour
 
     public Evidence GetEvidence(int toReturn)
     {
-        return evidence.evidenceList[toReturn];
+        return evidence.EvidenceList[toReturn];
     }
 
     public Evidence GetEvidenceByName(string evidenceName)
     {
         if (!EvidenceEmpty())
         {
-            for (int i = 0; i < evidence.evidenceList.Length; i++)
+            for (int i = 0; i < evidence.EvidenceList.Length; i++)
             {
-                if (evidence.evidenceList[i].item == evidenceName)
+                if (evidence.EvidenceList[i].Item == evidenceName)
                 {
-                    return evidence.evidenceList[i];
+                    return evidence.EvidenceList[i];
                 }
             }
         }
         Evidence nullEvidence = new Evidence();
-        nullEvidence.item = "nullified";
-        nullEvidence.description = "No evidence found";
+        nullEvidence.Item = "nullified";
+        nullEvidence.Description = "No evidence found";
         return nullEvidence;
     }
 }
@@ -74,12 +73,12 @@ public class EvidenceInventory : MonoBehaviour
 [System.Serializable]
 public class Evidence
 {
-    public string item;
-    public string description;
+    public string Item;
+    public string Description;
 }
 
 [System.Serializable]
 public class EvidenceCollection
 {
-    public Evidence[] evidenceList;
+    public Evidence[] EvidenceList;
 }
