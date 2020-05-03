@@ -59,9 +59,9 @@ public class ElectionBox : MonoBehaviour
         {
             for (int i = 0; i < elections.Elections.Length; i++)
             {
-                if (GUILayout.Button(elections.Elections[i].Candidate))
+                if (GUILayout.Button(elections.Elections[i].CandidateName))
                 {
-                    SendElectionToTextBox(elections.Elections[i].Candidate + ".json");
+                    SendElectionToTextBox(elections.Elections[i].Candidate);
                     return;
                 }
             }

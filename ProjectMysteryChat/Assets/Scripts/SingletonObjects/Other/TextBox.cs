@@ -141,6 +141,7 @@ public class DialogCollection
 public class Elections
 {
     public string Candidate;
+    public string CandidateName;
 }
 
 [System.Serializable]
