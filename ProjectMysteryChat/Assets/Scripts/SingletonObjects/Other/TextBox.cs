@@ -93,7 +93,7 @@ public class TextBox : MonoBehaviour
         return activated;
     }
 
-    public void Behave()
+    void Behave()
     {
         if (activated)
         {
