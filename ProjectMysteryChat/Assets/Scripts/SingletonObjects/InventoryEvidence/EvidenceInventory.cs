@@ -6,10 +6,14 @@ public class EvidenceInventory : MonoBehaviour
 {
     public static EvidenceInventory inventory = null;
     EvidenceCollection evidence;
+    [SerializeField]
+    GameObject nameSign;
     int evidenceQuantity;
+    bool activated;
 
     private void Awake()
     {
+        activated = true; // Motivo de testeo, despues setear a false
         evidenceQuantity = 0;
         if (inventory == null)
         {
@@ -26,6 +30,7 @@ public class EvidenceInventory : MonoBehaviour
     {
         evidence = _evidence;
         evidenceQuantity = _evidence.EvidenceList.Length;
+        UIItems.inventoryUI.RefreshInventory(); // Motivo de testeo, despues esto no deberia estar aca
     }
 
     public void AddEvidence(Evidence evidenceAdded)
@@ -34,7 +39,25 @@ public class EvidenceInventory : MonoBehaviour
         {
             evidence.EvidenceList[evidenceQuantity] = evidenceAdded;
             evidenceQuantity++;
+            UIItems.inventoryUI.RefreshInventory(); // Motivo de testeo, despues esto no deberia estar aca
         }
+    }
+
+    public void SetActivated(bool _activated)
+    {
+        activated = _activated;
+        UIItems.inventoryUI.enabled = _activated;
+        UIItems.inventoryUI.gameObject.SetActive(_activated);
+        nameSign.SetActive(_activated);
+        if (_activated)
+        {
+            UIItems.inventoryUI.RefreshInventory();
+        }
+    }
+
+    public bool GetActivated()
+    {
+        return activated;
     }
 
     public bool EvidenceEmpty()
