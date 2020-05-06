@@ -21,6 +21,11 @@ public class UIItems : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        RefreshInventory();
+    }
+
     public void RefreshInventory()
     {
         for (int i = 0; i < itemSlots.Length; i++)
