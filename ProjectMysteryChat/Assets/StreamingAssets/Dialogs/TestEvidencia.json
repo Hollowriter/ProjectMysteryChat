@@ -1,0 +1,15 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Detective: Mmm, ¿Y esto que es?"		
+		}
+	],
+	"Evidence":
+	[
+		{
+			"Item":"Evidencia",
+			"Description":"Prueba para destapar el caso."
+		}
+    ]
+}

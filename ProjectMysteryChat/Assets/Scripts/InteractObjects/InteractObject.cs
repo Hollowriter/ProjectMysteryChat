@@ -5,16 +5,21 @@ using UnityEngine;
 public class InteractObject : MonoBehaviour
 {
     [SerializeField]
-    string dialogFileName;
+    string interactionFileName;
 
     public void SetTextToBox()
     {
-        TextBox.textBox.SetDialog(dialogFileName);
+        TextBox.textBox.SetDialog(interactionFileName);
     }
 
     public void ShowText()
     {
         TextBox.textBox.SetActivated(true);
+    }
+
+    public void SetEvidenceToInventory()
+    {
+        EvidenceInventory.inventory.AddEvidence(interactionFileName);
     }
 
     public virtual void NearPlayer()

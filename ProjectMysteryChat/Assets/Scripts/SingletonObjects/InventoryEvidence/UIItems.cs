@@ -21,17 +21,31 @@ public class UIItems : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        RefreshInventory();
-    }
-
     public void RefreshInventory()
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {
-            itemSlots[i].SetItemName(EvidenceInventory.inventory.GetEvidence(i).Item);
-            itemSlots[i].SetItemDescription(EvidenceInventory.inventory.GetEvidence(i).Description);
+            if (EvidenceInventory.inventory.GetEvidence(i).Item != null && 
+                EvidenceInventory.inventory.GetEvidence(i).Item != "nullified")
+            {
+                itemSlots[i].SetItemName(EvidenceInventory.inventory.GetEvidence(i).Item);
+                itemSlots[i].SetItemDescription(EvidenceInventory.inventory.GetEvidence(i).Description);
+                itemSlots[i].EnableImage(true);
+            }
+            else
+            {
+                itemSlots[i].EnableImage(false);
+            }
         }
+    }
+
+    public void StartBehave()
+    {
+        RefreshInventory();
+    }
+
+    private void Start()
+    {
+        StartBehave();
     }
 }

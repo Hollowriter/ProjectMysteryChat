@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class EvidenceInventory : MonoBehaviour
@@ -8,6 +9,8 @@ public class EvidenceInventory : MonoBehaviour
     EvidenceCollection evidence;
     [SerializeField]
     GameObject nameSign;
+    [SerializeField]
+    int maxEvidenceQuantity;
     int evidenceQuantity;
     bool activated;
 
@@ -15,6 +18,12 @@ public class EvidenceInventory : MonoBehaviour
     {
         activated = true; // Motivo de testeo, despues setear a false
         evidenceQuantity = 0;
+        evidence = new EvidenceCollection();
+        evidence.Evidence = new Evidence[maxEvidenceQuantity];
+        for (int i = 0; i < maxEvidenceQuantity; i++)
+        {
+            evidence.Evidence[i] = GetNullEvidence();
+        }
         if (inventory == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -29,18 +38,33 @@ public class EvidenceInventory : MonoBehaviour
     public void SetCollection(EvidenceCollection _evidence)
     {
         evidence = _evidence;
-        evidenceQuantity = _evidence.EvidenceList.Length;
-        UIItems.inventoryUI.RefreshInventory(); // Motivo de testeo, despues esto no deberia estar aca
+        evidenceQuantity = _evidence.Evidence.Length;
+        Debug.Log(evidenceQuantity);
     }
 
-    public void AddEvidence(Evidence evidenceAdded)
+    public void AddEvidence(string evidenceFileName)
     {
-        if (evidenceAdded != null)
+        EvidenceCollection evidenceAdded;
+        string fileName = Application.streamingAssetsPath + "/Dialogs/" + evidenceFileName;
+        using (StreamReader reader = new StreamReader(fileName))
         {
-            evidence.EvidenceList[evidenceQuantity] = evidenceAdded;
-            evidenceQuantity++;
-            UIItems.inventoryUI.RefreshInventory(); // Motivo de testeo, despues esto no deberia estar aca
+            string json = reader.ReadToEnd();
+            evidenceAdded = JsonUtility.FromJson<EvidenceCollection>(json);
+            // Debug.Log(evidenceAdded.Evidence[0].Item);
         }
+        if (!EvidenceEmpty() && evidenceQuantity < maxEvidenceQuantity)
+        {
+            for (int i = 0; i < evidenceAdded.Evidence.Length; i++)
+            {
+                evidence.Evidence[evidenceQuantity] = evidenceAdded.Evidence[i];
+                evidenceQuantity++;
+            }
+        }
+        else
+        {
+            SetCollection(evidenceAdded);
+        }
+        UIItems.inventoryUI.RefreshInventory();
     }
 
     public void SetActivated(bool _activated)
@@ -64,9 +88,12 @@ public class EvidenceInventory : MonoBehaviour
     {
         if (evidence != null)
         {
-            if (evidence.EvidenceList.Length > 0)
+            if (evidence.Evidence != null)
             {
-                return false;
+                if (evidence.Evidence.Length > 0)
+                {
+                    return false;
+                }
             }
         }
         return true;
@@ -84,7 +111,10 @@ public class EvidenceInventory : MonoBehaviour
     {
         if (!EvidenceEmpty())
         {
-            return evidence.EvidenceList[toReturn];
+            if (toReturn < evidence.Evidence.Length)
+            {
+                return evidence.Evidence[toReturn];
+            }
         }
         return GetNullEvidence();
     }
@@ -93,11 +123,11 @@ public class EvidenceInventory : MonoBehaviour
     {
         if (!EvidenceEmpty())
         {
-            for (int i = 0; i < evidence.EvidenceList.Length; i++)
+            for (int i = 0; i < evidence.Evidence.Length; i++)
             {
-                if (evidence.EvidenceList[i].Item == evidenceName)
+                if (evidence.Evidence[i].Item == evidenceName)
                 {
-                    return evidence.EvidenceList[i];
+                    return evidence.Evidence[i];
                 }
             }
         }
@@ -115,5 +145,5 @@ public class Evidence
 [System.Serializable]
 public class EvidenceCollection
 {
-    public Evidence[] EvidenceList;
+    public Evidence[] Evidence;
 }
