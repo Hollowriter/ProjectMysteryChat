@@ -35,36 +35,37 @@ public class EvidenceInventory : MonoBehaviour
         }
     }
 
-    public void SetCollection(EvidenceCollection _evidence)
+    void SetToCollection(EvidenceCollection _evidence)
     {
-        evidence = _evidence;
-        evidenceQuantity = _evidence.Evidence.Length;
-        Debug.Log(evidenceQuantity);
+        if (!EvidenceFull())
+        {
+            for (int i = 0; i < _evidence.Evidence.Length; i++)
+            {
+                evidence.Evidence[evidenceQuantity] = _evidence.Evidence[i];
+                evidenceQuantity++;
+                if (EvidenceFull())
+                    return;
+            }
+        }
+    }
+
+    EvidenceCollection ProcessEvidenceDocument(string documentName)
+    {
+        EvidenceCollection evidenceProcessed;
+        string fileName = Application.streamingAssetsPath + "/Dialogs/" + documentName;
+        using (StreamReader reader = new StreamReader(fileName))
+        {
+            string json = reader.ReadToEnd();
+            evidenceProcessed = JsonUtility.FromJson<EvidenceCollection>(json);
+        }
+        return evidenceProcessed;
     }
 
     public void AddEvidence(string evidenceFileName)
     {
-        EvidenceCollection evidenceAdded;
-        string fileName = Application.streamingAssetsPath + "/Dialogs/" + evidenceFileName;
-        using (StreamReader reader = new StreamReader(fileName))
-        {
-            string json = reader.ReadToEnd();
-            evidenceAdded = JsonUtility.FromJson<EvidenceCollection>(json);
-            // Debug.Log(evidenceAdded.Evidence[0].Item);
-        }
-        if (!EvidenceEmpty() && evidenceQuantity < maxEvidenceQuantity)
-        {
-            for (int i = 0; i < evidenceAdded.Evidence.Length; i++)
-            {
-                evidence.Evidence[evidenceQuantity] = evidenceAdded.Evidence[i];
-                evidenceQuantity++;
-            }
-        }
-        else
-        {
-            SetCollection(evidenceAdded);
-        }
-        UIItems.inventoryUI.RefreshInventory();
+        EvidenceCollection evidenceAdded = ProcessEvidenceDocument(evidenceFileName);
+        SetToCollection(evidenceAdded);
+        UIItems.inventoryUI.RefreshInventory(); // Esta aca por testeo, se borrara cuando se active y desactive el inventario
     }
 
     public void SetActivated(bool _activated)
@@ -97,6 +98,15 @@ public class EvidenceInventory : MonoBehaviour
             }
         }
         return true;
+    }
+
+    public bool EvidenceFull()
+    {
+        if (evidenceQuantity >= maxEvidenceQuantity)
+        {
+            return true;
+        }
+        return false;
     }
 
     public Evidence GetNullEvidence()
