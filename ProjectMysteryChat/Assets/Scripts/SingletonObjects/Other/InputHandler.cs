@@ -10,13 +10,14 @@ public class InputHandler : MonoBehaviour
     public KeyCode walkLeft { get; set; }
     public KeyCode walkRight { get; set; }
     public KeyCode interact { get; set; }
+    public KeyCode showInventory { get; set; }
 
    public bool inputDetected()
-    {
+   {
         if (Input.anyKey)
             return true;
         return false;
-    }
+   }
 
     void Awake()
     {
@@ -34,5 +35,6 @@ public class InputHandler : MonoBehaviour
         walkLeft = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "A"));
         walkRight = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
         interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "Space"));
+        showInventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("inventoryKey", "I"));
     }
 }

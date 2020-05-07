@@ -16,7 +16,7 @@ public class EvidenceInventory : MonoBehaviour
 
     private void Awake()
     {
-        activated = true; // Motivo de testeo, despues setear a false
+        activated = false;
         evidenceQuantity = 0;
         evidence = new EvidenceCollection();
         evidence.Evidence = new Evidence[maxEvidenceQuantity];
@@ -33,6 +33,7 @@ public class EvidenceInventory : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        SetActivated(false);
     }
 
     void SetToCollection(EvidenceCollection _evidence)
@@ -65,7 +66,6 @@ public class EvidenceInventory : MonoBehaviour
     {
         EvidenceCollection evidenceAdded = ProcessEvidenceDocument(evidenceFileName);
         SetToCollection(evidenceAdded);
-        UIItems.inventoryUI.RefreshInventory(); // Esta aca por testeo, se borrara cuando se active y desactive el inventario
     }
 
     public void SetActivated(bool _activated)
@@ -74,6 +74,7 @@ public class EvidenceInventory : MonoBehaviour
         UIItems.inventoryUI.enabled = _activated;
         UIItems.inventoryUI.gameObject.SetActive(_activated);
         nameSign.SetActive(_activated);
+        this.gameObject.SetActive(_activated);
         if (_activated)
         {
             UIItems.inventoryUI.RefreshInventory();

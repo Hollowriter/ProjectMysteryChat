@@ -6,10 +6,12 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     int playerSpeed;
+    bool showInventoryProcessed;
     public static PlayerController mainPlayer = null;
 
     private void Awake()
     {
+        showInventoryProcessed = false;
         if (mainPlayer == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -52,6 +54,28 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void ShowInventory()
+    {
+        if (Input.GetKey(InputHandler.input.showInventory) && !showInventoryProcessed)
+        {
+            if (EvidenceInventory.inventory.GetActivated())
+            {
+                EvidenceInventory.inventory.SetActivated(false);
+            }
+            else
+            {
+                EvidenceInventory.inventory.SetActivated(true);
+            }
+            showInventoryProcessed = true;
+        }
+    }
+
+    public void ProcessAllower()
+    {
+        if (Input.GetKeyUp(InputHandler.input.showInventory))
+            showInventoryProcessed = false;
+    }
+
     public int GetPlayerSpeed()
     {
         return playerSpeed;
@@ -59,14 +83,18 @@ public class PlayerController : MonoBehaviour
 
     public void Behave()
     {
-        if (TextBox.textBox.GetActivated() == false)
+        if (InputHandler.input.inputDetected())
         {
-            if (InputHandler.input.inputDetected())
+            if (TextBox.textBox.GetActivated() == false &&
+                EvidenceInventory.inventory.GetActivated() == false &&
+                ElectionBox.electionBox.GetActivated() == false)
             {
                 MovementKeys();
                 InteractObject();
             }
+            ShowInventory();
         }
+        ProcessAllower();
     }
 
     void Update()

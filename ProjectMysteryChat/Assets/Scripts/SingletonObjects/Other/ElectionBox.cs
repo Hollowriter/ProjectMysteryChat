@@ -76,6 +76,11 @@ public class ElectionBox : MonoBehaviour
         }
     }
 
+    public bool GetActivated()
+    {
+        return activated;
+    }
+
     void Behave()
     {
         if (activated)
