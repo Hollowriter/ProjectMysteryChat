@@ -73,8 +73,10 @@ public class EvidenceInventory : MonoBehaviour
         activated = _activated;
         UIItems.inventoryUI.enabled = _activated;
         UIItems.inventoryUI.gameObject.SetActive(_activated);
-        nameSign.SetActive(_activated);
+        EvidenceText.evidenceText.SetActivated(_activated);
+        EvidenceText.evidenceText.DeleteText();
         this.gameObject.SetActive(_activated);
+        nameSign.SetActive(_activated);
         if (_activated)
         {
             UIItems.inventoryUI.RefreshInventory();
