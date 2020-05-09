@@ -26,7 +26,6 @@ public class EvidenceInventory : MonoBehaviour
         }
         if (inventory == null)
         {
-            DontDestroyOnLoad(gameObject);
             inventory = this;
         }
         else if (inventory != this)
@@ -71,11 +70,11 @@ public class EvidenceInventory : MonoBehaviour
     public void SetActivated(bool _activated)
     {
         activated = _activated;
+        this.gameObject.SetActive(_activated);
         UIItems.inventoryUI.enabled = _activated;
         UIItems.inventoryUI.gameObject.SetActive(_activated);
         EvidenceText.evidenceText.SetActivated(_activated);
         EvidenceText.evidenceText.DeleteText();
-        this.gameObject.SetActive(_activated);
         nameSign.SetActive(_activated);
         if (_activated)
         {

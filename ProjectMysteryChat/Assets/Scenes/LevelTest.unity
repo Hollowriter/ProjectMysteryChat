@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 32119949}
   - component: {fileID: 32119952}
   - component: {fileID: 32119951}
+  - component: {fileID: 32119950}
   m_Layer: 5
   m_Name: EvidenceText
   m_TagString: Untagged
@@ -158,6 +159,21 @@ RectTransform:
   m_AnchoredPosition: {x: -125, y: -35}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &32119950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32119948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3f43ffeb7380a4bb3ba32c0c4cdb29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+  itemText: {fileID: 32119951}
+  descriptionText: {fileID: 2040344389}
 --- !u!114 &32119951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3870,7 +3886,6 @@ GameObject:
   - component: {fileID: 2023204338}
   - component: {fileID: 2023204337}
   - component: {fileID: 2023204339}
-  - component: {fileID: 2023204340}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -3951,21 +3966,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSign: {fileID: 1539116698}
   maxEvidenceQuantity: 16
---- !u!114 &2023204340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023204335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3f43ffeb7380a4bb3ba32c0c4cdb29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activated: 0
-  itemText: {fileID: 32119951}
-  descriptionText: {fileID: 2040344389}
 --- !u!1 &2040344386
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,7 +27,6 @@ public class TextBox : MonoBehaviour
         activated = false;
         if (textBox == null)
         {
-            DontDestroyOnLoad(gameObject);
             textBox = this;
         }
         else if (textBox != this)

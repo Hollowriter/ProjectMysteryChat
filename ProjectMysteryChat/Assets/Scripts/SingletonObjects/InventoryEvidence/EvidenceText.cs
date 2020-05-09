@@ -14,12 +14,9 @@ public class EvidenceText : MonoBehaviour
 
     private void Awake()
     {
-        /*itemText = this.GetComponent<Text>();
-        descriptionText = this.GetComponentInChildren<Text>();*/
         activated = false;
         if (evidenceText == null)
         {
-            DontDestroyOnLoad(gameObject);
             evidenceText = this;
         }
         else if (evidenceText != this)

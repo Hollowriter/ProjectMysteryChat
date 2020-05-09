@@ -12,7 +12,6 @@ public class UIItems : MonoBehaviour
         itemSlots = GetComponentsInChildren<ItemSlot>();
         if (inventoryUI == null)
         {
-            DontDestroyOnLoad(gameObject);
             inventoryUI = this;
         }
         else if (inventoryUI != this)
