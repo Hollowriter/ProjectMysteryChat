@@ -123,28 +123,3 @@ public class TextBox : MonoBehaviour
         }
     }
 }
-
-[System.Serializable]
-public class Dialogs
-{
-    public string Text;
-}
-
-[System.Serializable]
-public class DialogCollection
-{
-    public Dialogs[] Dialogs;
-}
-
-[System.Serializable]
-public class Elections
-{
-    public string Candidate;
-    public string CandidateName;
-}
-
-[System.Serializable]
-public class ElectionCollection
-{
-    public Elections[] Elections;
-}

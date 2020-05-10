@@ -146,16 +146,3 @@ public class EvidenceInventory : MonoBehaviour
         return GetNullEvidence();
     }
 }
-
-[System.Serializable]
-public class Evidence
-{
-    public string Item;
-    public string Description;
-}
-
-[System.Serializable]
-public class EvidenceCollection
-{
-    public Evidence[] Evidence;
-}
