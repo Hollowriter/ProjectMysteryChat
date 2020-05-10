@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     int playerSpeed;
     bool showInventoryProcessed;
-    public static PlayerController mainPlayer = null;
+    public static PlayerController mainPlayer = null; // Singleton class (Anotacion)
 
     private void Awake()
     {
@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         else if (mainPlayer != this)
         {
             Destroy(gameObject);
-        }
+        } // Singleton class (Anotacion)
     }
 
     public void MovementKeys()
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         return playerSpeed;
     }
 
-    public void Behave()
+    public void Behave() // Singleton class (Anotacion)
     {
         if (InputHandler.input.inputDetected())
         {
