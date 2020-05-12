@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputHandler : MonoBehaviour
+public class InputHandler : SingletonBase<InputHandler>
 {
-    public static InputHandler input;
     public KeyCode walkUp { get; set; }
     public KeyCode walkDown { get; set; }
     public KeyCode walkLeft { get; set; }
@@ -19,22 +18,20 @@ public class InputHandler : MonoBehaviour
         return false;
    }
 
-    void Awake()
+    protected override void SingletonAwake()
     {
-        if (input == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            input = this;
-        }
-        else if (input != this)
-        {
-            Destroy(gameObject);
-        }
+        base.SingletonAwake();
+        SetActivated(true);
         walkUp = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("upKey", "W"));
         walkDown = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("downKey", "S"));
         walkLeft = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "A"));
         walkRight = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
         interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "Space"));
         showInventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("inventoryKey", "I"));
+    }
+
+    void Awake()
+    {
+        SingletonAwake();
     }
 }

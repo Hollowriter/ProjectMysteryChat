@@ -9,17 +9,17 @@ public class InteractObject : MonoBehaviour
 
     public void SetTextToBox()
     {
-        TextBox.textBox.SetDialog(interactionFileName);
+        TextBox.instance.SetDialog(interactionFileName);
     }
 
     public void ShowText()
     {
-        TextBox.textBox.SetActivated(true);
+        TextBox.instance.SetActivated(true);
     }
 
     public void SetEvidenceToInventory()
     {
-        EvidenceInventory.inventory.AddEvidence(interactionFileName);
+        EvidenceInventory.instance.AddEvidence(interactionFileName);
     }
 
     public virtual void NearPlayer()

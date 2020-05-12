@@ -37,6 +37,6 @@ public class ItemSlot : MonoBehaviour
 
     public void ShowItem()
     {
-        EvidenceText.evidenceText.ShowItem(this);
+        EvidenceText.instance.ShowItem(this);
     }
 }

@@ -2,34 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ElectionBox : MonoBehaviour
+public class ElectionBox : SingletonBase<ElectionBox>
 {
-    public static ElectionBox electionBox = null;
     ElectionCollection elections;
-    bool activated;
+
+    protected override void SingletonAwake()
+    {
+        base.SingletonAwake();
+    }
 
     private void Awake()
     {
-        activated = false;
-        if (electionBox == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            electionBox = this;
-        }
-        else if (electionBox != this)
-        {
-            Destroy(gameObject);
-        }
+        SingletonAwake();
     }
 
     public void SetElections(ElectionCollection newElections)
     {
         elections = newElections;
-    }
-
-    public void SetActivate(bool _activated)
-    {
-        activated = _activated;
     }
 
     public bool ElectionsEmpty()
@@ -47,51 +36,44 @@ public class ElectionBox : MonoBehaviour
         return true;
     }
 
+    protected override bool ConditionsToBeActive()
+    {
+        if (!ElectionsEmpty() && GetActivated())
+        {
+            return GetActivated();
+        }
+        SetActivated(false);
+        return GetActivated();
+    }
+
     public void SendElectionToTextBox(string electionSelected)
     {
-        TextBox.textBox.SetDialog(electionSelected);
-        TextBox.textBox.SetActivated(true);
+        TextBox.instance.SetDialog(electionSelected);
+        TextBox.instance.SetActivated(true);
     }
 
     public void ShowElections()
     {
-        if (activated)
+        for (int i = 0; i < elections.Elections.Length; i++)
         {
-            for (int i = 0; i < elections.Elections.Length; i++)
+            if (GUILayout.Button(elections.Elections[i].CandidateName))
             {
-                if (GUILayout.Button(elections.Elections[i].CandidateName))
-                {
-                    SendElectionToTextBox(elections.Elections[i].Candidate);
-                    return;
-                }
+                SendElectionToTextBox(elections.Elections[i].Candidate);
+                return;
             }
         }
     }
 
-    public void CheckToAutoDeactivate()
+    protected override void BehaveSingleton()
     {
-        if (ElectionsEmpty())
+        if (ConditionsToBeActive())
         {
-            activated = false;
-        }
-    }
-
-    public bool GetActivated()
-    {
-        return activated;
-    }
-
-    void Behave()
-    {
-        if (activated)
-        {
-            CheckToAutoDeactivate();
             ShowElections();
         }
     }
 
     public void OnGUI()
     {
-        Behave();
+        BehaveSingleton();
     }
 }

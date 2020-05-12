@@ -2,22 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCollisionManager : MonoBehaviour
+public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
 {
     InteractObject objectToInteract;
-    public static PlayerCollisionManager mainPlayer = null;
+
+    protected override void SingletonAwake()
+    {
+        base.SingletonAwake();
+        SetActivated(true);
+    }
 
     private void Awake()
     {
-        if (mainPlayer == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            mainPlayer = this;
-        }
-        else if (mainPlayer != this)
-        {
-            Destroy(gameObject);
-        }
+        SingletonAwake();
     }
 
     public void CollideWithObject(InteractObject objectCollided)

@@ -3,20 +3,18 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class EvidenceInventory : MonoBehaviour
+public class EvidenceInventory : SingletonBase<EvidenceInventory>
 {
-    public static EvidenceInventory inventory = null;
     EvidenceCollection evidence;
     [SerializeField]
     GameObject nameSign;
     [SerializeField]
     int maxEvidenceQuantity;
     int evidenceQuantity;
-    bool activated;
 
-    private void Awake()
+    protected override void SingletonAwake()
     {
-        activated = false;
+        base.SingletonAwake();
         evidenceQuantity = 0;
         evidence = new EvidenceCollection();
         evidence.Evidence = new Evidence[maxEvidenceQuantity];
@@ -24,15 +22,12 @@ public class EvidenceInventory : MonoBehaviour
         {
             evidence.Evidence[i] = GetNullEvidence();
         }
-        if (inventory == null)
-        {
-            inventory = this;
-        }
-        else if (inventory != this)
-        {
-            Destroy(gameObject);
-        }
-        SetActivated(false);
+        SetActivatedInventoryMembers(false);
+    }
+
+    private void Awake()
+    {
+        SingletonAwake();
     }
 
     void SetToCollection(EvidenceCollection _evidence)
@@ -67,24 +62,19 @@ public class EvidenceInventory : MonoBehaviour
         SetToCollection(evidenceAdded);
     }
 
-    public void SetActivated(bool _activated)
+    public void SetActivatedInventoryMembers(bool _activated)
     {
-        activated = _activated;
+        SetActivated(_activated);
         this.gameObject.SetActive(_activated);
-        UIItems.inventoryUI.enabled = _activated;
-        UIItems.inventoryUI.gameObject.SetActive(_activated);
-        EvidenceText.evidenceText.SetActivated(_activated);
-        EvidenceText.evidenceText.DeleteText();
+        UIItems.instance.enabled = _activated;
+        UIItems.instance.gameObject.SetActive(_activated);
+        EvidenceText.instance.SetActivated(_activated);
+        EvidenceText.instance.DeleteText();
         nameSign.SetActive(_activated);
         if (_activated)
         {
-            UIItems.inventoryUI.RefreshInventory();
+            UIItems.instance.RefreshInventory();
         }
-    }
-
-    public bool GetActivated()
-    {
-        return activated;
     }
 
     public bool EvidenceEmpty()

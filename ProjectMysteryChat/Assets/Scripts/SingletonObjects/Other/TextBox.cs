@@ -5,34 +5,42 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextBox : MonoBehaviour
+public class TextBox : SingletonBase<TextBox>
 {
-    public static TextBox textBox = null;
     char letter;
     int speechIndex;
     bool textWriting;
     bool textWritten;
-    bool activated;
     [SerializeField]
     Text dialogueText;
     [SerializeField]
     int textSlowDown;
     DialogCollection items;
 
-    private void Awake()
+    protected override void SingletonAwake()
     {
+        base.SingletonAwake();
         speechIndex = 0;
         textWriting = false;
         textWritten = false;
-        activated = false;
-        if (textBox == null)
+    }
+
+    private void Awake()
+    {
+        SingletonAwake();
+    }
+
+    protected override bool ConditionsToBeActive()
+    {
+        if (items != null && GetActivated())
         {
-            textBox = this;
+            if (speechIndex < items.Dialogs.Length)
+            {
+                return GetActivated();
+            }
         }
-        else if (textBox != this)
-        {
-            Destroy(gameObject);
-        }
+        SetActivated(false);
+        return GetActivated();
     }
 
     void WriteText()
@@ -48,53 +56,47 @@ public class TextBox : MonoBehaviour
         }
     }
 
+    void CheckElections()
+    {
+        if (speechIndex >= items.Dialogs.Length)
+        {
+            ElectionBox.instance.SetActivated(true);
+        }
+    }
+
     void Next()
     {
         if (textWritten == true)
         {
             if (GUILayout.Button("Next"))
             {
-                if (speechIndex < items.Dialogs.Length)
-                {
-                    this.speechIndex++;
-                    if (speechIndex >= items.Dialogs.Length)
-                    {
-                        speechIndex = 0;
-                        SetActivated(false);
-                        ElectionBox.electionBox.SetActivate(true); // Motivo de testeo, esto despues se refactorea
-                    }
-                }
+                this.speechIndex++;
                 dialogueText.text = "";
                 textWritten = false;
                 textWriting = false;
+                CheckElections();
             }
         }
     }
 
     public void SetDialog(string dialogFileName)
     {
+        speechIndex = 0;
+        dialogueText.text = "";
+        textWritten = false;
+        textWriting = false;
         string fileName = Application.streamingAssetsPath + "/Dialogs/" + dialogFileName;
         using (StreamReader reader = new StreamReader(fileName))
         {
             string json = reader.ReadToEnd();
             items = JsonUtility.FromJson<DialogCollection>(json);
-            ElectionBox.electionBox.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
+            ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
         }
     }
 
-    public void SetActivated(bool _active)
+    protected override void BehaveSingleton()
     {
-        activated = _active;
-    }
-
-    public bool GetActivated()
-    {
-        return activated;
-    }
-
-    void Behave()
-    {
-        if (activated)
+        if (ConditionsToBeActive())
         {
             WriteText();
             Next();
@@ -103,7 +105,7 @@ public class TextBox : MonoBehaviour
 
     private void OnGUI()
     {
-        Behave();
+        BehaveSingleton();
     }
 
     IEnumerator DialogTyping(string _word)

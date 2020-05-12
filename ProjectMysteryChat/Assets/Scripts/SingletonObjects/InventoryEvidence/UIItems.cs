@@ -2,33 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIItems : MonoBehaviour
+public class UIItems : SingletonBase<UIItems>
 {
-    public static UIItems inventoryUI = null;
     ItemSlot[] itemSlots;
+
+    protected override void SingletonAwake()
+    {
+        base.SingletonAwake();
+        itemSlots = GetComponentsInChildren<ItemSlot>();
+    }
 
     private void Awake()
     {
-        itemSlots = GetComponentsInChildren<ItemSlot>();
-        if (inventoryUI == null)
-        {
-            inventoryUI = this;
-        }
-        else if (inventoryUI != this)
-        {
-            Destroy(gameObject);
-        }
+        SingletonAwake();
     }
 
     public void RefreshInventory()
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {
-            if (EvidenceInventory.inventory.GetEvidence(i).Item != null && 
-                EvidenceInventory.inventory.GetEvidence(i).Item != "nullified")
+            if (EvidenceInventory.instance.GetEvidence(i).Item != null && 
+                EvidenceInventory.instance.GetEvidence(i).Item != "nullified")
             {
-                itemSlots[i].SetItemName(EvidenceInventory.inventory.GetEvidence(i).Item);
-                itemSlots[i].SetItemDescription(EvidenceInventory.inventory.GetEvidence(i).Description);
+                itemSlots[i].SetItemName(EvidenceInventory.instance.GetEvidence(i).Item);
+                itemSlots[i].SetItemDescription(EvidenceInventory.instance.GetEvidence(i).Description);
                 itemSlots[i].EnableImage(true);
             }
             else
@@ -38,13 +35,13 @@ public class UIItems : MonoBehaviour
         }
     }
 
-    public void StartBehave()
+    protected override void BehaveSingleton()
     {
         RefreshInventory();
     }
 
     private void Start()
     {
-        StartBehave();
+        BehaveSingleton();
     }
 }

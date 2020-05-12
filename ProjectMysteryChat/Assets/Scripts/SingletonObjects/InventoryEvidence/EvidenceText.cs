@@ -3,41 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EvidenceText : MonoBehaviour
+public class EvidenceText : SingletonBase<EvidenceText>
 {
-    public static EvidenceText evidenceText = null;
-    public bool activated;
     [SerializeField]
     Text itemText;
     [SerializeField]
     Text descriptionText;
 
+    protected override void SingletonAwake()
+    {
+        base.SingletonAwake();
+    }
+
     private void Awake()
     {
-        activated = false;
-        if (evidenceText == null)
-        {
-            evidenceText = this;
-        }
-        else if (evidenceText != this)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    public void SetActivated(bool _activated)
-    {
-        activated = _activated;
-    }
-
-    public bool GetActivated()
-    {
-        return activated;
+        SingletonAwake();
     }
 
     public void ShowItem(ItemSlot itemSelected)
     {
-        if (activated)
+        if (GetActivated())
         {
             itemText.text = "Evidence: " + itemSelected.GetItemName();
             descriptionText.text = "Description: " + itemSelected.GetItemDescription();
@@ -46,7 +31,7 @@ public class EvidenceText : MonoBehaviour
 
     public void DeleteText()
     {
-        if (activated)
+        if (GetActivated())
         {
             itemText.text = " ";
             descriptionText.text = " ";

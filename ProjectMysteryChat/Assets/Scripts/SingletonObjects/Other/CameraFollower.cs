@@ -2,35 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollower : MonoBehaviour
+public class CameraFollower : SingletonBase<CameraFollower>
 {
-    public static CameraFollower mainCamera = null;
+    protected override void SingletonAwake()
+    {
+        base.SingletonAwake();
+    }
 
     private void Awake()
     {
-        if (mainCamera == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            mainCamera = this;
-        }
-        else if (mainCamera != this)
-        {
-            Destroy(gameObject);
-        }
+        SingletonAwake();
     }
 
     public void Follow()
     {
-        float interpolation = PlayerController.mainPlayer.GetPlayerSpeed() * Time.deltaTime;
+        float interpolation = PlayerController.instance.GetPlayerSpeed() * Time.deltaTime;
         Vector3 position = this.transform.position;
-        position.z = Mathf.Lerp(this.transform.position.z, PlayerController.mainPlayer.transform.position.z, interpolation);
-        position.x = Mathf.Lerp(this.transform.position.x, PlayerController.mainPlayer.transform.position.x, interpolation);
+        position.z = Mathf.Lerp(this.transform.position.z, PlayerController.instance.transform.position.z, interpolation);
+        position.x = Mathf.Lerp(this.transform.position.x, PlayerController.instance.transform.position.x, interpolation);
         this.transform.position = position;
     }
 
-    public void Behave()
+    protected override void BehaveSingleton()
     {
-        if (InputHandler.input.inputDetected())
+        if (PlayerController.instance.GetActivated())
         {
             Follow();
         }
@@ -38,7 +33,7 @@ public class CameraFollower : MonoBehaviour
 
     void Update()
     {
-        Behave();
+        BehaveSingleton();
     }
 }
  

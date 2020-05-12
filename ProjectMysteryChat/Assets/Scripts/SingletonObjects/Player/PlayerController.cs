@@ -2,42 +2,50 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : SingletonBase<PlayerController>
 {
     [SerializeField]
     int playerSpeed;
     bool showInventoryProcessed;
-    public static PlayerController mainPlayer = null; // Singleton class (Anotacion)
+
+    protected override void SingletonAwake()
+    {
+        base.SingletonAwake();
+        SetActivated(true);
+        showInventoryProcessed = false;
+    }
 
     private void Awake()
     {
-        showInventoryProcessed = false;
-        if (mainPlayer == null)
+        SingletonAwake();
+    }
+
+    protected override bool ConditionsToBeActive()
+    {
+        if (InputHandler.instance.inputDetected())
         {
-            DontDestroyOnLoad(gameObject);
-            mainPlayer = this;
+            SetActivated(true);
+            return GetActivated();
         }
-        else if (mainPlayer != this)
-        {
-            Destroy(gameObject);
-        } // Singleton class (Anotacion)
+        SetActivated(false);
+        return GetActivated();
     }
 
     public void MovementKeys()
     {
-        if (Input.GetKey(InputHandler.input.walkUp))
+        if (Input.GetKey(InputHandler.instance.walkUp))
         {
             transform.position += (Vector3.forward) * playerSpeed * Time.deltaTime;
         }
-        if (Input.GetKey(InputHandler.input.walkDown))
+        if (Input.GetKey(InputHandler.instance.walkDown))
         {
             transform.position -= (Vector3.forward) * playerSpeed * Time.deltaTime;
         }
-        if (Input.GetKey(InputHandler.input.walkLeft))
+        if (Input.GetKey(InputHandler.instance.walkLeft))
         {
             transform.position += (Vector3.left) * playerSpeed * Time.deltaTime;
         }
-        if (Input.GetKey(InputHandler.input.walkRight))
+        if (Input.GetKey(InputHandler.instance.walkRight))
         {
             transform.position += (Vector3.right) * playerSpeed * Time.deltaTime;
         }
@@ -45,26 +53,26 @@ public class PlayerController : MonoBehaviour
 
     public void InteractObject()
     {
-        if (PlayerCollisionManager.mainPlayer.GetInteractObject() != null)
+        if (PlayerCollisionManager.instance.GetInteractObject() != null)
         {
-            if (Input.GetKey(InputHandler.input.interact))
+            if (Input.GetKey(InputHandler.instance.interact))
             {
-                PlayerCollisionManager.mainPlayer.GetInteractObject().BehaveInteraction();
+                PlayerCollisionManager.instance.GetInteractObject().BehaveInteraction();
             }
         }
     }
 
     public void ShowInventory()
     {
-        if (Input.GetKey(InputHandler.input.showInventory) && !showInventoryProcessed)
+        if (Input.GetKey(InputHandler.instance.showInventory) && !showInventoryProcessed)
         {
-            if (EvidenceInventory.inventory.GetActivated())
+            if (EvidenceInventory.instance.GetActivated())
             {
-                EvidenceInventory.inventory.SetActivated(false);
+                EvidenceInventory.instance.SetActivatedInventoryMembers(false);
             }
             else
             {
-                EvidenceInventory.inventory.SetActivated(true);
+                EvidenceInventory.instance.SetActivatedInventoryMembers(true);
             }
             showInventoryProcessed = true;
         }
@@ -72,8 +80,15 @@ public class PlayerController : MonoBehaviour
 
     public void ProcessAllower()
     {
-        if (Input.GetKeyUp(InputHandler.input.showInventory))
+        if (Input.GetKeyUp(InputHandler.instance.showInventory))
             showInventoryProcessed = false;
+    }
+
+    bool AllGUIDeactivated()
+    {
+        return TextBox.instance.GetActivated() == false &&
+                EvidenceInventory.instance.GetActivated() == false &&
+                ElectionBox.instance.GetActivated() == false;
     }
 
     public int GetPlayerSpeed()
@@ -81,13 +96,11 @@ public class PlayerController : MonoBehaviour
         return playerSpeed;
     }
 
-    public void Behave() // Singleton class (Anotacion)
+    protected override void BehaveSingleton()
     {
-        if (InputHandler.input.inputDetected())
+        if (ConditionsToBeActive())
         {
-            if (TextBox.textBox.GetActivated() == false &&
-                EvidenceInventory.inventory.GetActivated() == false &&
-                ElectionBox.electionBox.GetActivated() == false)
+            if (AllGUIDeactivated())
             {
                 MovementKeys();
                 InteractObject();
@@ -99,6 +112,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Behave();
+        BehaveSingleton();
     }
 }

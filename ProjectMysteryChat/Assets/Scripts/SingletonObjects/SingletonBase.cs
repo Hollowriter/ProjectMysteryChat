@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SingletonBase<T> : MonoBehaviour where T : MonoBehaviour
 {
+    bool activated = false;
     public static T _instance;
 
     public static T instance
@@ -30,5 +31,20 @@ public class SingletonBase<T> : MonoBehaviour where T : MonoBehaviour
 
     protected virtual void BehaveSingleton()
     {
+    }
+
+    protected virtual bool ConditionsToBeActive()
+    {
+        return activated;
+    }
+
+    public void SetActivated(bool _activated)
+    {
+        activated = _activated;
+    }
+
+    public bool GetActivated()
+    {
+        return activated;
     }
 }
