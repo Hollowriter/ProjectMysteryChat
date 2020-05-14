@@ -16,6 +16,7 @@ public class TextBox : SingletonBase<TextBox>
     [SerializeField]
     int textSlowDown;
     DialogCollection items;
+    string dialogSetted;
 
     protected override void SingletonAwake()
     {
@@ -24,6 +25,7 @@ public class TextBox : SingletonBase<TextBox>
         textWriting = false;
         textWritten = false;
         dialogueText.text = "";
+        dialogSetted = "";
     }
 
     private void Awake()
@@ -82,6 +84,7 @@ public class TextBox : SingletonBase<TextBox>
 
     public void SetDialog(string dialogFileName)
     {
+        dialogSetted = dialogFileName;
         speechIndex = 0;
         dialogueText.text = "";
         textWritten = false;
@@ -93,6 +96,11 @@ public class TextBox : SingletonBase<TextBox>
             items = JsonUtility.FromJson<DialogCollection>(json);
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
         }
+    }
+
+    public string GetDialogSetted()
+    {
+        return dialogSetted;
     }
 
     protected override void BehaveSingleton()

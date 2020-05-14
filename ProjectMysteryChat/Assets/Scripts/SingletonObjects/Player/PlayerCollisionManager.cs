@@ -33,7 +33,7 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         return objectToInteract;
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerStay(Collider other)
     {
         if (other.tag == "Interactuable")
         {
