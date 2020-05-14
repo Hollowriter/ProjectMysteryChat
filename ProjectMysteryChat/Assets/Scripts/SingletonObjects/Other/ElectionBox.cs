@@ -54,12 +54,15 @@ public class ElectionBox : SingletonBase<ElectionBox>
 
     public void ShowElections()
     {
-        for (int i = 0; i < elections.Elections.Length; i++)
+        if (EvidenceInventory.instance.GetActivated() == false)
         {
-            if (GUILayout.Button(elections.Elections[i].CandidateName))
+            for (int i = 0; i < elections.Elections.Length; i++)
             {
-                SendElectionToTextBox(elections.Elections[i].Candidate);
-                return;
+                if (GUILayout.Button(elections.Elections[i].CandidateName))
+                {
+                    SendElectionToTextBox(elections.Elections[i].Candidate);
+                    return;
+                }
             }
         }
     }

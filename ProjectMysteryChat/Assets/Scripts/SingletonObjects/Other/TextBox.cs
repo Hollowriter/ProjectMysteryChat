@@ -23,6 +23,7 @@ public class TextBox : SingletonBase<TextBox>
         speechIndex = 0;
         textWriting = false;
         textWritten = false;
+        dialogueText.text = "";
     }
 
     private void Awake()
@@ -66,7 +67,7 @@ public class TextBox : SingletonBase<TextBox>
 
     void Next()
     {
-        if (textWritten == true)
+        if (textWritten == true && EvidenceInventory.instance.GetActivated() == false)
         {
             if (GUILayout.Button("Next"))
             {
