@@ -21,6 +21,7 @@ public class InteractObject : MonoBehaviour
     public void SetEvidenceToInventory()
     {
         EvidenceInventory.instance.AddEvidence(interactionFileName);
+        Destroy(gameObject);
     }
 
     public virtual void NearPlayer()
