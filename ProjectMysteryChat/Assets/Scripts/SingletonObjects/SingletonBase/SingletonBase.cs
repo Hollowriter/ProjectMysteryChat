@@ -20,7 +20,6 @@ public class SingletonBase<T> : MonoBehaviour where T : MonoBehaviour
     {
         if (_instance == null)
         {
-            // DontDestroyOnLoad(gameObject);
             _instance = this as T;
         }
         else if (_instance != this)
