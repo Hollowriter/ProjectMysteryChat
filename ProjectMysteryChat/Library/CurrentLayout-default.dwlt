@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 82
+  controlID: 62
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 83
+  controlID: 63
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 18
+  controlID: 88
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 19
+  controlID: 89
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -362,9 +362,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 409.668, y: 171.99065, z: 231.36897}
+    m_Target: {x: 470.2762, y: 237.6323, z: 253.25151}
     speed: 2
-    m_Value: {x: 409.668, y: 171.99065, z: 231.36897}
+    m_Value: {x: 470.2762, y: 237.6323, z: 253.25151}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -410,13 +410,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06168747, y: -0.051780924, z: 0.0032132338, w: -0.99675786}
+    m_Target: {x: -0.037787758, y: -0.026381267, z: 0.0010065832, w: -0.99894875}
     speed: 2
-    m_Value: {x: -0.061686758, y: -0.051780324, z: 0.0032131965, w: -0.99674636}
+    m_Value: {x: -0.037787315, y: -0.02638096, z: 0.0010065715, w: -0.9989371}
   m_Size:
-    m_Target: 223.12009
+    m_Target: 230.80927
     speed: 2
-    m_Value: 223.12009
+    m_Value: 230.80927
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -601,34 +601,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/SingletonObjects/SingletonBase
+    - Assets/StreamingAssets/Dialogs
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Scripts/SingletonObjects/SingletonBase
+  - Assets/StreamingAssets/Dialogs
   m_LastFoldersGridSize: 65
   m_LastProjectPath: D:\Desktop\Repo\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 92}
-    m_SelectedIDs: 1a350000
-    m_LastClickedID: 13594
+    scrollPos: {x: 0, y: 156}
+    m_SelectedIDs: 1c350000
+    m_LastClickedID: 13596
     m_ExpandedIDs: 00000000fc340000fe340000003500000235000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Inventory
+      m_OriginalName: Inventory
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13598
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e310000
+      m_SelectedIDs: 90360000
       m_LastClickedID: 0
       m_ExpandedIDs: 70fbffff
       m_RenameOverlay:
