@@ -33,5 +33,6 @@ public class InputHandler : SingletonBase<InputHandler>
     void Awake()
     {
         SingletonAwake();
+        DontDestroyOnLoad(gameObject);
     }
 }

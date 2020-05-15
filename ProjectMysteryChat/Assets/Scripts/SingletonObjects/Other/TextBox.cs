@@ -21,6 +21,7 @@ public class TextBox : SingletonBase<TextBox>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
+        DontDestroyOnLoad(gameObject);
         speechIndex = 0;
         textWriting = false;
         textWritten = false;

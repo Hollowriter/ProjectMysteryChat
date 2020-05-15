@@ -7,6 +7,7 @@ public class CameraFollower : SingletonBase<CameraFollower>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Awake()

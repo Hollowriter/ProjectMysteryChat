@@ -11,6 +11,7 @@ public class PlayerController : SingletonBase<PlayerController>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
+        DontDestroyOnLoad(gameObject);
         SetActivated(true);
         showInventoryProcessed = false;
     }
