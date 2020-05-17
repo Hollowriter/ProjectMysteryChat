@@ -38,5 +38,6 @@ public class ItemSlot : MonoBehaviour
     public void ShowItem()
     {
         EvidenceText.instance.ShowItem(this);
+        AnswerInspector.instance.SetEvidenceToCheck(this.GetItemName());
     }
 }

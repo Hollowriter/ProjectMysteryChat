@@ -96,6 +96,7 @@ public class TextBox : SingletonBase<TextBox>
             string json = reader.ReadToEnd();
             items = JsonUtility.FromJson<DialogCollection>(json);
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
+            AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
         }
     }
 

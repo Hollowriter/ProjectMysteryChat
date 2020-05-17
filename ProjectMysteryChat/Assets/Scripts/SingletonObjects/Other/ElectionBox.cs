@@ -50,6 +50,8 @@ public class ElectionBox : SingletonBase<ElectionBox>
     {
         TextBox.instance.SetDialog(electionSelected);
         TextBox.instance.SetActivated(true);
+        AnswerInspector.instance.SetActivated(false);
+        PresentButton.instance.SetActivated(false);
     }
 
     public void ShowElections()
