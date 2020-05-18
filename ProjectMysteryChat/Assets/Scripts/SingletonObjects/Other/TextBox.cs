@@ -68,6 +68,15 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
+    void CheckAnswers()
+    {
+        if (speechIndex >= items.Dialogs.Length)
+        {
+            AnswerInspector.instance.SetActivated(true);
+            PresentButton.instance.SetActivated(true);
+        }
+    }
+
     void Next()
     {
         if (textWritten == true && EvidenceInventory.instance.GetActivated() == false)
@@ -79,6 +88,7 @@ public class TextBox : SingletonBase<TextBox>
                 textWritten = false;
                 textWriting = false;
                 CheckElections();
+                CheckAnswers();
             }
         }
     }

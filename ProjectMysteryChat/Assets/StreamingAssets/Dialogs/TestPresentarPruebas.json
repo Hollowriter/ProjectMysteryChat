@@ -11,7 +11,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"PienseloTest.json",
+			"Candidate":"Pienselo.json",
 			"CandidateName":"Pienselo"
 		},
 		{
@@ -23,8 +23,8 @@
 	[
 		{
 			"ExpectedAnswer":"Evidencia",
-			"CorrectAnswer":"CorrectTest.json",
-			"WrongAnswer":"WrongTest.json"
+			"CorrectDialog":"CorrectTest.json",
+			"WrongDialog":"WrongTest.json"
 		}
 	]
 }

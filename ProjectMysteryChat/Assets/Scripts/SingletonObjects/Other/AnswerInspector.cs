@@ -10,6 +10,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
+        evidenceName = " ";
     }
 
     private void Awake()
@@ -19,7 +20,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
 
     protected override bool ConditionsToBeActive()
     {
-        if (GetActivated())
+        if (GetActivated() && answers.Answers.Length > 0)
         {
             return GetActivated();
         }
@@ -37,26 +38,29 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         evidenceName = _evidenceName;
     }
 
-    public void CheckAnswer()
+    public void CheckAnswer() // Problema con el acceso del archivo que tiene la respuesta. No me deja acceder.
     {
-        for (int i = 0; i < answers.Answers.Length; i++)
+        if (ConditionsToBeActive())
         {
-            if (evidenceName == answers.Answers[i].ExpectedAnswer)
+            for (int i = 0; i < answers.Answers.Length; i++)
             {
-                TextBox.instance.SetDialog(answers.Answers[i].CorrectDialog);
-                TextBox.instance.SetActivated(true);
-                PresentButton.instance.SetActivated(false);
-                EvidenceInventory.instance.SetActivated(false);
-                ElectionBox.instance.SetActivated(false);
-                SetActivated(false);
-                return;
+                if (evidenceName == answers.Answers[i].ExpectedAnswer)
+                {
+                    TextBox.instance.SetDialog(answers.Answers[i].CorrectDialog);
+                    TextBox.instance.SetActivated(true);
+                    PresentButton.instance.SetActivated(false);
+                    EvidenceInventory.instance.SetActivated(false);
+                    ElectionBox.instance.SetActivated(false);
+                    SetActivated(false);
+                    return;
+                }
             }
+            TextBox.instance.SetDialog(answers.Answers[0].WrongDialog);
+            TextBox.instance.SetActivated(true);
+            PresentButton.instance.SetActivated(false);
+            EvidenceInventory.instance.SetActivated(false);
+            ElectionBox.instance.SetActivated(false);
+            SetActivated(false);
         }
-        TextBox.instance.SetDialog(answers.Answers[0].WrongDialog);
-        TextBox.instance.SetActivated(true);
-        PresentButton.instance.SetActivated(false);
-        EvidenceInventory.instance.SetActivated(false);
-        ElectionBox.instance.SetActivated(false);
-        SetActivated(false);
     }
 }
