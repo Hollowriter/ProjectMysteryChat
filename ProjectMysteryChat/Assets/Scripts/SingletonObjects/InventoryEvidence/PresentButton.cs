@@ -10,7 +10,7 @@ public class PresentButton : SingletonBase<PresentButton>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
-        presentButton = this.GetComponent<Button>();
+        presentButton = this.GetComponentInChildren<Button>();
     }
 
     private void Awake()
@@ -34,5 +34,15 @@ public class PresentButton : SingletonBase<PresentButton>
         {
             AnswerInspector.instance.CheckAnswer();
         }
+    }
+
+    protected override void BehaveSingleton()
+    {
+        presentButton.gameObject.SetActive(ConditionsToBeActive());
+    }
+
+    private void OnGUI()
+    {
+        BehaveSingleton();
     }
 }

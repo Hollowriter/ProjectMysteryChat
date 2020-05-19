@@ -20,7 +20,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
 
     protected override bool ConditionsToBeActive()
     {
-        if (GetActivated() && answers.Answers.Length > 0)
+        if (GetActivated() && answers != null)
         {
             return GetActivated();
         }
@@ -38,7 +38,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         evidenceName = _evidenceName;
     }
 
-    public void CheckAnswer() // Problema con el acceso del archivo que tiene la respuesta. No me deja acceder.
+    public void CheckAnswer()
     {
         if (ConditionsToBeActive())
         {
@@ -48,19 +48,29 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
                 {
                     TextBox.instance.SetDialog(answers.Answers[i].CorrectDialog);
                     TextBox.instance.SetActivated(true);
-                    PresentButton.instance.SetActivated(false);
-                    EvidenceInventory.instance.SetActivated(false);
+                    EvidenceInventory.instance.SetActivatedInventoryMembers(false);
                     ElectionBox.instance.SetActivated(false);
                     SetActivated(false);
+                    answers = null;
                     return;
                 }
             }
             TextBox.instance.SetDialog(answers.Answers[0].WrongDialog);
             TextBox.instance.SetActivated(true);
-            PresentButton.instance.SetActivated(false);
-            EvidenceInventory.instance.SetActivated(false);
+            EvidenceInventory.instance.SetActivatedInventoryMembers(false);
             ElectionBox.instance.SetActivated(false);
             SetActivated(false);
+            answers = null;
         }
+    }
+
+    protected override void BehaveSingleton()
+    {
+        ConditionsToBeActive();
+    }
+
+    private void Update()
+    {
+        BehaveSingleton();
     }
 }

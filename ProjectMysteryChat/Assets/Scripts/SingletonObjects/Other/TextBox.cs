@@ -73,7 +73,6 @@ public class TextBox : SingletonBase<TextBox>
         if (speechIndex >= items.Dialogs.Length)
         {
             AnswerInspector.instance.SetActivated(true);
-            PresentButton.instance.SetActivated(true);
         }
     }
 

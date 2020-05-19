@@ -70,6 +70,7 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
         UIItems.instance.gameObject.SetActive(_activated);
         EvidenceText.instance.SetActivated(_activated);
         EvidenceText.instance.DeleteText();
+        PresentButton.instance.SetActivated(_activated);
         nameSign.SetActive(_activated);
         if (_activated)
         {
