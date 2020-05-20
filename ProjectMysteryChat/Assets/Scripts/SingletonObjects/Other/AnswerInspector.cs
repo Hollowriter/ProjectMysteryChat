@@ -10,6 +10,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
+        DontDestroyOnLoad(gameObject);
         evidenceName = " ";
     }
 
@@ -22,7 +23,10 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
     {
         if (GetActivated() && answers != null)
         {
-            return GetActivated();
+            if (answers.Answers != null)
+            {
+                return GetActivated();
+            }
         }
         SetActivated(false);
         return GetActivated();
@@ -38,6 +42,16 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         evidenceName = _evidenceName;
     }
 
+    void SendAnswerToTextBox(string sentAnswer)
+    {
+        TextBox.instance.SetDialog(sentAnswer);
+        TextBox.instance.SetActivated(true);
+        EvidenceInventory.instance.SetActivatedInventoryMembers(false);
+        ElectionBox.instance.SetActivated(false);
+        SetActivated(false);
+        answers = null;
+    }
+
     public void CheckAnswer()
     {
         if (ConditionsToBeActive())
@@ -46,21 +60,11 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
             {
                 if (evidenceName == answers.Answers[i].ExpectedAnswer)
                 {
-                    TextBox.instance.SetDialog(answers.Answers[i].CorrectDialog);
-                    TextBox.instance.SetActivated(true);
-                    EvidenceInventory.instance.SetActivatedInventoryMembers(false);
-                    ElectionBox.instance.SetActivated(false);
-                    SetActivated(false);
-                    answers = null;
+                    SendAnswerToTextBox(answers.Answers[i].CorrectDialog);
                     return;
                 }
             }
-            TextBox.instance.SetDialog(answers.Answers[0].WrongDialog);
-            TextBox.instance.SetActivated(true);
-            EvidenceInventory.instance.SetActivatedInventoryMembers(false);
-            ElectionBox.instance.SetActivated(false);
-            SetActivated(false);
-            answers = null;
+            SendAnswerToTextBox(answers.Answers[0].WrongDialog);
         }
     }
 
