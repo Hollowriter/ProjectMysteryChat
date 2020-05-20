@@ -76,6 +76,13 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
+    void WipeTextBox()
+    {
+        dialogueText.text = "";
+        textWritten = false;
+        textWriting = false;
+    }
+
     void Next()
     {
         if (textWritten == true && EvidenceInventory.instance.GetActivated() == false)
@@ -83,9 +90,7 @@ public class TextBox : SingletonBase<TextBox>
             if (GUILayout.Button("Next"))
             {
                 this.speechIndex++;
-                dialogueText.text = "";
-                textWritten = false;
-                textWriting = false;
+                WipeTextBox();
                 CheckElections();
                 CheckAnswers();
             }
@@ -96,9 +101,7 @@ public class TextBox : SingletonBase<TextBox>
     {
         dialogSetted = dialogFileName;
         speechIndex = 0;
-        dialogueText.text = "";
-        textWritten = false;
-        textWriting = false;
+        WipeTextBox();
         string fileName = Application.streamingAssetsPath + "/Dialogs/" + dialogFileName;
         using (StreamReader reader = new StreamReader(fileName))
         {

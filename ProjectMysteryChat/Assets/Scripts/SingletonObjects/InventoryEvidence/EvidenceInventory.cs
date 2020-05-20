@@ -122,7 +122,7 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
         return GetNullEvidence();
     }
 
-    public Evidence GetEvidenceByName(string evidenceName)
+    /*public Evidence GetEvidenceByName(string evidenceName)
     {
         if (!EvidenceEmpty())
         {
@@ -135,5 +135,5 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
             }
         }
         return GetNullEvidence();
-    }
+    }*/
 }
