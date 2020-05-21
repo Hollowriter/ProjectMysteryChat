@@ -60,7 +60,7 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
-    void CheckElections()
+    void CheckElections() // FIJARME SI ESTO VA EN DOCUMENT MANAGER O EN TEXTBOX
     {
         if (speechIndex >= items.Dialogs.Length)
         {
@@ -70,7 +70,7 @@ public class TextBox : SingletonBase<TextBox>
 
     void CheckAnswers()
     {
-        if (speechIndex >= items.Dialogs.Length)
+        if (speechIndex >= items.Dialogs.Length) // FIJARME SI ESTO VA EN DOCUMENT MANAGER O EN TEXTBOX
         {
             AnswerInspector.instance.SetActivated(true);
         }
@@ -97,7 +97,7 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
-    public void SetDialog(string dialogFileName)
+    /*public void SetDialog(string dialogFileName)
     {
         dialogSetted = dialogFileName;
         speechIndex = 0;
@@ -110,6 +110,13 @@ public class TextBox : SingletonBase<TextBox>
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
             AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
         }
+    }*/
+
+    public void SetDialog(DialogCollection dialogs)
+    {
+        items = dialogs;
+        speechIndex = 0;
+        WipeTextBox();
     }
 
     public string GetDialogSetted()
