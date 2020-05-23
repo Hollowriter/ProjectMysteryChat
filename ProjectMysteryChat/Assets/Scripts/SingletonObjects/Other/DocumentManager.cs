@@ -32,7 +32,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
         }
     }
 
-    public void CheckElectionsAndInspector() // FIJARME SI ESTO LO DEBE REALIZAR TEXTBOX O EL DOCUMENT MANAGER
+    public void CheckElectionsAndInspector()
     {
         ElectionBox.instance.SetActivated(true);
         AnswerInspector.instance.SetActivated(true);

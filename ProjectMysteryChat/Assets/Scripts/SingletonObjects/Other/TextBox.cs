@@ -60,22 +60,6 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
-    void CheckElections() // FIJARME SI ESTO VA EN DOCUMENT MANAGER O EN TEXTBOX
-    {
-        if (speechIndex >= items.Dialogs.Length)
-        {
-            ElectionBox.instance.SetActivated(true);
-        }
-    }
-
-    void CheckAnswers()
-    {
-        if (speechIndex >= items.Dialogs.Length) // FIJARME SI ESTO VA EN DOCUMENT MANAGER O EN TEXTBOX
-        {
-            AnswerInspector.instance.SetActivated(true);
-        }
-    }
-
     void WipeTextBox()
     {
         dialogueText.text = "";
@@ -91,32 +75,22 @@ public class TextBox : SingletonBase<TextBox>
             {
                 this.speechIndex++;
                 WipeTextBox();
-                CheckElections();
-                CheckAnswers();
             }
         }
     }
 
-    /*public void SetDialog(string dialogFileName)
+    void CheckOnDocumentManager()
     {
-        dialogSetted = dialogFileName;
-        speechIndex = 0;
-        WipeTextBox();
-        string fileName = Application.streamingAssetsPath + "/Dialogs/" + dialogFileName;
-        using (StreamReader reader = new StreamReader(fileName))
+        if (speechIndex >= items.Dialogs.Length)
         {
-            string json = reader.ReadToEnd();
-            items = JsonUtility.FromJson<DialogCollection>(json);
-            ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
-            AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
+            DocumentManager.instance.CheckElectionsAndInspector();
         }
-    }*/
+    }
 
     public void SetDialog(DialogCollection dialogs)
     {
         items = dialogs;
         speechIndex = 0;
-        WipeTextBox();
     }
 
     public string GetDialogSetted()
@@ -130,6 +104,7 @@ public class TextBox : SingletonBase<TextBox>
         {
             WriteText();
             Next();
+            CheckOnDocumentManager();
         }
     }
 

@@ -9,8 +9,6 @@ public class InteractObject : MonoBehaviour
 
     public void SetTextToBox()
     {
-        /*if (TextBox.instance.GetActivated() == false && TextBox.instance.GetDialogSetted() != interactionFileName)
-            TextBox.instance.SetDialog(interactionFileName);*/
         if (TextBox.instance.GetActivated() == false && DocumentManager.instance.GetDocument() != interactionFileName)
             DocumentManager.instance.SetDocument(interactionFileName);
     }

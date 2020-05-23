@@ -48,7 +48,6 @@ public class ElectionBox : SingletonBase<ElectionBox>
 
     public void SendElectionToTextBox(string electionSelected)
     {
-        // TextBox.instance.SetDialog(electionSelected);
         DocumentManager.instance.SetDocument(electionSelected);
         TextBox.instance.SetActivated(true);
         AnswerInspector.instance.SetActivated(false);

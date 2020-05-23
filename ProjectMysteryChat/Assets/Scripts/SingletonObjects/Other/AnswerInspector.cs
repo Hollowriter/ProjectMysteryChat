@@ -44,7 +44,6 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
 
     void SendAnswerToTextBox(string sentAnswer)
     {
-        // TextBox.instance.SetDialog(sentAnswer);
         DocumentManager.instance.SetDocument(sentAnswer);
         TextBox.instance.SetActivated(true);
         EvidenceInventory.instance.SetActivatedInventoryMembers(false);
