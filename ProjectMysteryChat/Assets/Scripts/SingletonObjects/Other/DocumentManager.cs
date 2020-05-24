@@ -29,6 +29,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
             TextBox.instance.SetDialog(JsonUtility.FromJson<DialogCollection>(json));
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
             AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
+            SingleTransitionManager.instance.SetTransition(JsonUtility.FromJson<LoneTransition>(json));
         }
     }
 
@@ -36,6 +37,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
     {
         ElectionBox.instance.SetActivated(true);
         AnswerInspector.instance.SetActivated(true);
+        SingleTransitionManager.instance.SetActivated(true);
     }
 
     public string GetDocument()

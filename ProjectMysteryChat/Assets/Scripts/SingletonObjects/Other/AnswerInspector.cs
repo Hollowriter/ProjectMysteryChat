@@ -19,11 +19,26 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         SingletonAwake();
     }
 
-    protected override bool ConditionsToBeActive()
+    bool ThereAreAnswers()
     {
-        if (GetActivated() && answers != null)
+        if (answers != null)
         {
             if (answers.Answers != null)
+            {
+                if (answers.Answers.Length > 0)
+                {
+                    return true;
+                }
+            }
+        }
+        return true;
+    }
+
+    protected override bool ConditionsToBeActive()
+    {
+        if (GetActivated())
+        {
+            if (ThereAreAnswers())
             {
                 return GetActivated();
             }
