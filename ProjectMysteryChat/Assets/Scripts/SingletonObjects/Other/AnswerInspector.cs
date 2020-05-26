@@ -31,7 +31,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
                 }
             }
         }
-        return true;
+        return false;
     }
 
     protected override bool ConditionsToBeActive()

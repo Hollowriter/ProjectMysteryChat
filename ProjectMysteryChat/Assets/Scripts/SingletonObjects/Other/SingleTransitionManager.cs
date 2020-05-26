@@ -58,12 +58,10 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
 
     public void SendTransitionToBox()
     {
-        Debug.Log("Answer" + AnswerInspector.instance.GetActivated());
-        Debug.Log("Election" + ElectionBox.instance.GetActivated());
         if (!AnswerInspector.instance.GetActivated() && !ElectionBox.instance.GetActivated())
         {
-            Debug.Log("SendTransition");
             DocumentManager.instance.SetDocument(transition.Transition[0].Dialog);
+            TextBox.instance.SetActivated(true);
             transition = null;
         }
     }
