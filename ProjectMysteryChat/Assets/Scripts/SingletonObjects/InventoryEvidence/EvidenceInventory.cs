@@ -122,6 +122,11 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
         return GetNullEvidence();
     }
 
+    public EvidenceCollection GetCollection() 
+    {
+        return evidence;
+    }
+
     /*public Evidence GetEvidenceByName(string evidenceName)
     {
         if (!EvidenceEmpty())
