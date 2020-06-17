@@ -6,6 +6,7 @@ public class Stage
     public string SceneName;
     public string PositionX;
     public string PositionY;
+    public string PositionZ;
 }
 
 [System.Serializable]

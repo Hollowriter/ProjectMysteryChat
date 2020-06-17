@@ -16,7 +16,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         scene = SceneManager.GetActiveScene();
         dataToSave = new SaveData();
 #if UNITY_EDITOR
-        path = "Assets/Resources/ItemInfo.json"; // Esto es cuando esta en el editor
+        path = "Assets/Resources/ItemInfo.json";
 #endif
 #if UNITY_STANDALONE && !UNITY_EDITOR
         path = "ProjectMysteryChat_Data/Resources/ItemInfo.json";
@@ -34,6 +34,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         dataToSave.StageSaved.SceneName = scene.name;
         dataToSave.StageSaved.PositionX = (PlayerController.instance.gameObject.GetComponent<Transform>().position.x).ToString();
         dataToSave.StageSaved.PositionY = (PlayerController.instance.gameObject.GetComponent<Transform>().position.y).ToString();
+        dataToSave.StageSaved.PositionZ = (PlayerController.instance.gameObject.GetComponent<Transform>().position.z).ToString();
         dataToSave.EvidenceSaved = new EvidenceCollection();
         dataToSave.EvidenceSaved = EvidenceInventory.instance.GetCollection();
         string json = JsonUtility.ToJson(dataToSave);
@@ -46,7 +47,21 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
             }
         }
 #if UNITY_EDITOR
-        UnityEditor.AssetDatabase.Refresh(); // Esto solo cuando esta en el editor
+        UnityEditor.AssetDatabase.Refresh();
 #endif
+    }
+
+    public void Load()
+    {
+        if (System.IO.File.Exists(path)) 
+        {
+            using (StreamReader reader = new StreamReader(path)) 
+            {
+                string json = reader.ReadToEnd();
+                SceneManager.LoadScene(JsonUtility.FromJson<Stage>(json).SceneName);
+                PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<Stage>(json).PositionX), float.Parse(JsonUtility.FromJson<Stage>(json).PositionY), float.Parse(JsonUtility.FromJson<Stage>(json).PositionZ));
+                // Pendiente de testear.
+            }
+        }
     }
 }
