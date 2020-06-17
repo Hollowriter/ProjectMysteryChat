@@ -8,12 +8,19 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
 {
     Scene scene;
     SaveData dataToSave;
+    string path;
 
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
         scene = SceneManager.GetActiveScene();
         dataToSave = new SaveData();
+#if UNITY_EDITOR
+        path = "Assets/Resources/ItemInfo.json"; // Esto es cuando esta en el editor
+#endif
+#if UNITY_STANDALONE && !UNITY_EDITOR
+        path = "ProjectMysteryChat_Data/Resources/ItemInfo.json";
+#endif
     }
 
     private void Awake()
@@ -30,7 +37,6 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         dataToSave.EvidenceSaved = new EvidenceCollection();
         dataToSave.EvidenceSaved = EvidenceInventory.instance.GetCollection();
         string json = JsonUtility.ToJson(dataToSave);
-        string path = "Assets/Resources/ItemInfo.json"; // Esto es cuando esta en el editor
         string str = json.ToString();
         using (FileStream fs = new FileStream(path, FileMode.Create)) 
         {
@@ -39,6 +45,8 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
                 writer.Write(str);
             }
         }
+#if UNITY_EDITOR
         UnityEditor.AssetDatabase.Refresh(); // Esto solo cuando esta en el editor
+#endif
     }
 }
