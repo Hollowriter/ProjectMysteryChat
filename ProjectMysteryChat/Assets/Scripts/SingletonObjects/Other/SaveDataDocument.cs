@@ -21,6 +21,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
 #if UNITY_STANDALONE && !UNITY_EDITOR
         path = "ProjectMysteryChat_Data/Resources/ItemInfo.json";
 #endif
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Awake()
@@ -30,7 +31,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
 
     public void Save() 
     {
-        dataToSave.StageSaved = new Stage();
+        dataToSave.StageSaved = new StageSaved();
         dataToSave.StageSaved.SceneName = scene.name;
         dataToSave.StageSaved.PositionX = (PlayerController.instance.gameObject.GetComponent<Transform>().position.x).ToString();
         dataToSave.StageSaved.PositionY = (PlayerController.instance.gameObject.GetComponent<Transform>().position.y).ToString();
@@ -58,9 +59,8 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
             using (StreamReader reader = new StreamReader(path)) 
             {
                 string json = reader.ReadToEnd();
-                SceneManager.LoadScene(JsonUtility.FromJson<Stage>(json).SceneName);
-                PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<Stage>(json).PositionX), float.Parse(JsonUtility.FromJson<Stage>(json).PositionY), float.Parse(JsonUtility.FromJson<Stage>(json).PositionZ));
-                // Pendiente de testear.
+                SceneManager.LoadScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
+                // PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
             }
         }
     }

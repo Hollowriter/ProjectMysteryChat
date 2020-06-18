@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [System.Serializable]
-public class Stage 
+public class StageSaved 
 {
     public string SceneName;
     public string PositionX;
@@ -24,7 +24,7 @@ public class InteractionCollection
 [System.Serializable]
 public class SaveData
 {
-    public Stage StageSaved;
+    public StageSaved StageSaved;
     public EvidenceCollection EvidenceSaved;
     public InteractionCollection InteractionsDone;
 }
