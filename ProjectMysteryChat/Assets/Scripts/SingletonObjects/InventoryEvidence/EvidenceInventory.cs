@@ -30,7 +30,7 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
         SingletonAwake();
     }
 
-    void SetToCollection(EvidenceCollection _evidence)
+    public void SetToCollection(EvidenceCollection _evidence)
     {
         if (!EvidenceFull())
         {
