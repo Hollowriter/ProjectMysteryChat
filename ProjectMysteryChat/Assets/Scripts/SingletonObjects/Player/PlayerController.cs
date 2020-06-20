@@ -23,10 +23,13 @@ public class PlayerController : SingletonBase<PlayerController>
 
     protected override bool ConditionsToBeActive()
     {
-        if (InputHandler.instance.inputDetected())
+        if (InputHandler.instance != null)
         {
-            SetActivated(true);
-            return GetActivated();
+            if (InputHandler.instance.inputDetected())
+            {
+                SetActivated(true);
+                return GetActivated();
+            }
         }
         SetActivated(false);
         return GetActivated();
@@ -107,8 +110,8 @@ public class PlayerController : SingletonBase<PlayerController>
                 InteractObject();
             }
             ShowInventory();
+            ProcessAllower();
         }
-        ProcessAllower();
     }
 
     void Update()
