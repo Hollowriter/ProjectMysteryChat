@@ -6,14 +6,12 @@ using UnityEngine;
 
 public class SaveDataDocument : SingletonBase<SaveDataDocument>
 {
-    // string scene;
     SaveData dataToSave;
     string path;
 
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
-        // scene = LevelManager.instance.GetSceneName();
         dataToSave = new SaveData();
 #if UNITY_EDITOR
         path = "Assets/Resources/ItemInfo.json";
@@ -36,6 +34,8 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         dataToSave.StageSaved.PositionX = (PlayerController.instance.gameObject.GetComponent<Transform>().position.x).ToString();
         dataToSave.StageSaved.PositionY = (PlayerController.instance.gameObject.GetComponent<Transform>().position.y).ToString();
         dataToSave.StageSaved.PositionZ = (PlayerController.instance.gameObject.GetComponent<Transform>().position.z).ToString();
+        dataToSave.StageSaved.CameraX = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.x).ToString();
+        dataToSave.StageSaved.CameraY = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.y).ToString();
         dataToSave.EvidenceSaved = new EvidenceCollection();
         dataToSave.EvidenceSaved = EvidenceInventory.instance.GetCollection();
         string json = JsonUtility.ToJson(dataToSave);
@@ -61,10 +61,9 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
             {
                 string json = reader.ReadToEnd();
                 PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
-                CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), cameraPositionZ);
+                CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), cameraPositionZ);
                 EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
                 LevelManager.instance.ChangeScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
-                // Pendiente de testear
             }
         }
     }

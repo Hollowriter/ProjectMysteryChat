@@ -7,6 +7,8 @@ public class StageSaved
     public string PositionX;
     public string PositionY;
     public string PositionZ;
+    public string CameraX;
+    public string CameraY;
 }
 
 [System.Serializable]

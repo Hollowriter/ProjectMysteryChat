@@ -84,8 +84,13 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public void ProcessAllower()
     {
-        if (Input.GetKeyUp(InputHandler.instance.showInventory))
-            showInventoryProcessed = false;
+        if (LevelManager.instance.GetSceneName() != "Menu")
+        {
+            if (Input.GetKeyUp(InputHandler.instance.showInventory))
+            {
+                showInventoryProcessed = false;
+            }
+        }
     }
 
     bool AllGUIDeactivated()
