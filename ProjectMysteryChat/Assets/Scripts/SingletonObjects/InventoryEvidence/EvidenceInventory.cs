@@ -66,14 +66,14 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
     {
         SetActivated(_activated);
         this.gameObject.SetActive(_activated);
-        UIItems.instance.enabled = _activated;
-        UIItems.instance.gameObject.SetActive(_activated);
-        EvidenceText.instance.SetActivated(_activated);
-        EvidenceText.instance.DeleteText();
-        PresentButton.instance.SetActivated(_activated);
-        nameSign.SetActive(_activated);
         if (_activated)
         {
+            UIItems.instance.enabled = _activated;
+            UIItems.instance.gameObject.SetActive(_activated);
+            EvidenceText.instance.SetActivated(_activated);
+            EvidenceText.instance.DeleteText();
+            PresentButton.instance.SetActivated(_activated);
+            nameSign.SetActive(_activated);
             UIItems.instance.RefreshInventory();
         }
     }

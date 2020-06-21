@@ -110,8 +110,8 @@ public class PlayerController : SingletonBase<PlayerController>
                 InteractObject();
             }
             ShowInventory();
-            ProcessAllower();
         }
+        ProcessAllower();
     }
 
     void Update()

@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.ExceptionServices;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SaveDataDocument : SingletonBase<SaveDataDocument>
 {
-    Scene scene;
+    // string scene;
     SaveData dataToSave;
     string path;
 
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
-        scene = SceneManager.GetActiveScene();
+        // scene = LevelManager.instance.GetSceneName();
         dataToSave = new SaveData();
 #if UNITY_EDITOR
         path = "Assets/Resources/ItemInfo.json";
@@ -33,7 +32,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
     public void Save() 
     {
         dataToSave.StageSaved = new StageSaved();
-        dataToSave.StageSaved.SceneName = scene.name;
+        dataToSave.StageSaved.SceneName = LevelManager.instance.GetSceneName();
         dataToSave.StageSaved.PositionX = (PlayerController.instance.gameObject.GetComponent<Transform>().position.x).ToString();
         dataToSave.StageSaved.PositionY = (PlayerController.instance.gameObject.GetComponent<Transform>().position.y).ToString();
         dataToSave.StageSaved.PositionZ = (PlayerController.instance.gameObject.GetComponent<Transform>().position.z).ToString();
@@ -64,7 +63,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
                 PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
                 CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), cameraPositionZ);
                 EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
-                SceneManager.LoadScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
+                LevelManager.instance.ChangeScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
                 // Pendiente de testear
             }
         }
