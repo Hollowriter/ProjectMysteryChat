@@ -6,7 +6,7 @@ public class EvidenceTestObject : InteractObject
 {
     private void Awake()
     {
-        IShouldExist(); // Interacciones (Testear)
+        IShouldExist();
     }
 
     public override void NearPlayer()
@@ -17,7 +17,7 @@ public class EvidenceTestObject : InteractObject
     public override void BehaveInteraction()
     {
         ShowText();
-        SetPermanentInteraction(); // Interacciones (testear)
+        SetPermanentInteraction();
         SetEvidenceToInventory();
     }
 }

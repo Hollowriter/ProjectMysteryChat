@@ -7,7 +7,7 @@ public class InteractObject : MonoBehaviour
     [SerializeField]
     string interactionFileName;
 
-    protected void IShouldExist()  // Interacciones (testear)
+    protected void IShouldExist()
     {
         if (InteractionsManager.instance.InteractionExists(interactionFileName)) 
         {
@@ -32,7 +32,7 @@ public class InteractObject : MonoBehaviour
         Destroy(gameObject);
     }
 
-    protected void SetPermanentInteraction() // Interacciones (Testear)
+    protected void SetPermanentInteraction()
     {
         InteractionsManager.instance.AddInteraction(interactionFileName);
     }

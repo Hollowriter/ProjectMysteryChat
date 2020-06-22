@@ -38,7 +38,6 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         dataToSave.StageSaved.CameraY = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.y).ToString();
         dataToSave.EvidenceSaved = new EvidenceCollection();
         dataToSave.EvidenceSaved = EvidenceInventory.instance.GetCollection();
-        // Interacciones (testear)
         dataToSave.InteractionsDone = new InteractionCollection();
         dataToSave.InteractionsDone = InteractionsManager.instance.GetCollection();
         string json = JsonUtility.ToJson(dataToSave);
@@ -66,7 +65,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
                 PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
                 CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), cameraPositionZ);
                 EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
-                InteractionsManager.instance.SetCollection(JsonUtility.FromJson<SaveData>(json).InteractionsDone); // Interacciones (Testear)
+                InteractionsManager.instance.SetCollection(JsonUtility.FromJson<SaveData>(json).InteractionsDone);
                 LevelManager.instance.ChangeScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
             }
         }
