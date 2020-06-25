@@ -1,0 +1,17 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Detective: ¿Ah, si? Apuesto que no te esperabas esto."
+		},
+		{
+			"Text":"Persona: ¿Que demonios es eso?"
+		},
+		{
+			"Text":"Detective: ¿Como que es---? Ah, lo siento, prueba equivocada."
+		},
+		{
+			"Text":"Persona: ¿Puede dejarme tranquilo?"
+		}
+	]
+}

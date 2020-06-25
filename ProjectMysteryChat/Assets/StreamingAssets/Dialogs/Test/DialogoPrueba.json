@@ -1,0 +1,25 @@
+{
+  "Dialogs": 
+  [
+    {
+      "Text":"Detective: Parece que estos servidores siguen activos."
+    },
+    {
+      "Text":"*Boom*"
+    },
+    {
+      "Text":"Detective: ¿Que rayos fue eso?"
+    }
+  ],
+  "Elections":
+  [
+  	{
+  		"Candidate":"TestEleccionA.json",
+  		"CandidateName":"No fue nada"
+  	},
+  	{
+  		"Candidate":"TestEleccionB.json",
+  		"CandidateName":"Fue algo importante"
+  	}
+  ]
+}

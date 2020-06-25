@@ -1,0 +1,14 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Detective: (Probablemente tenga que encontrar una prueba que lo ate a la escena del crimen)"
+		},
+		{
+			"Text":"Detective: Creo que necesito hacer una busqueda mas exahustiva, muchas gracias por su tiempo."
+		},
+		{
+			"Text":"Persona: Si, si, dejeme tranquilo."
+		}
+	]
+}

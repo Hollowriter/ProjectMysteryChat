@@ -1,0 +1,17 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Detective: aca no hay nadie, asi que mejor mato el rato."
+		},
+		{
+			"Text":"*El detective se prepara para hacer la transicion*"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Dialog":"ToTransitionTest.json"
+		}
+	]
+}
