@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestLevels/PassLevelTest.unity
     guid: 82b27b1dbf907f24d946a22a77e4f3b7
+  - enabled: 1
+    path: Assets/Scenes/WorldLevels/FirstLevel.unity
+    guid: 8d0bd7c0e48725f41858a6dd77d22767
   m_configObjects: {}
