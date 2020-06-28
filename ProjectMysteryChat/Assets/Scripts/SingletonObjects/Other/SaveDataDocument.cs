@@ -36,6 +36,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         dataToSave.StageSaved.PositionZ = (PlayerController.instance.gameObject.GetComponent<Transform>().position.z).ToString();
         dataToSave.StageSaved.CameraX = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.x).ToString();
         dataToSave.StageSaved.CameraY = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.y).ToString();
+        dataToSave.StageSaved.CameraZ = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.z).ToString();
         dataToSave.EvidenceSaved = new EvidenceCollection();
         dataToSave.EvidenceSaved = EvidenceInventory.instance.GetCollection();
         dataToSave.InteractionsDone = new InteractionCollection();
@@ -56,14 +57,13 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
 
     public void Load()
     {
-        const float cameraPositionZ = -5.62f;
         if (System.IO.File.Exists(path)) 
         {
             using (StreamReader reader = new StreamReader(path)) 
             {
                 string json = reader.ReadToEnd();
                 PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
-                CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), cameraPositionZ);
+                CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraZ));
                 EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
                 InteractionsManager.instance.SetCollection(JsonUtility.FromJson<SaveData>(json).InteractionsDone);
                 LevelManager.instance.ChangeScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
