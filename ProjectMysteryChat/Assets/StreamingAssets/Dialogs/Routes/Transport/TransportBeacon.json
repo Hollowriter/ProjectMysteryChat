@@ -1,0 +1,30 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: What is this? Asking for an invitation input?"
+		},
+		{
+			"Text":"Thomas B: Do i have one of those somewhere in my notes?"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"TransportAttempt.json",
+			"CandidateName":"Open sesame"	
+		},
+		{
+			"Candidate":"TransportNegation.json",
+			"CandidateName":"I don't have one"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Maki Artist Card",
+			"CorrectDialog":"ToMakiRoom.json",
+			"WrongDialog":"TransportInvalid.json"
+		}
+	]
+}
