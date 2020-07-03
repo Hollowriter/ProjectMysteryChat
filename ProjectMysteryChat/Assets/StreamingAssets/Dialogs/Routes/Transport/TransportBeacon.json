@@ -11,11 +11,11 @@
 	"Elections":
 	[
 		{
-			"Candidate":"TransportAttempt.json",
+			"Candidate":"Routes/Transport/TransportAttempt.json",
 			"CandidateName":"Open sesame"	
 		},
 		{
-			"Candidate":"TransportNegation.json",
+			"Candidate":"Routes/Transport/TransportNegation.json",
 			"CandidateName":"I don't have one"
 		}
 	],
@@ -23,8 +23,8 @@
 	[
 		{
 			"ExpectedAnswer":"Maki Artist Card",
-			"CorrectDialog":"ToMakiRoom.json",
-			"WrongDialog":"TransportInvalid.json"
+			"CorrectDialog":"Routes/Transport/ToMakiRoom.json",
+			"WrongDialog":"Routes/Transport/TransportInvalid.json"
 		}
 	]
 }
