@@ -1,0 +1,15 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Beacon: MSMAKI95 INVITATION PROCESSED."
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Scene",
+			"Name":"MsMakiRoom"
+		}
+	]
+}

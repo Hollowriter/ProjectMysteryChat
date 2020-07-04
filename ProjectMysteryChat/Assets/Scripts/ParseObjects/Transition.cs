@@ -3,7 +3,8 @@
 [System.Serializable]
 public class Transition
 {
-    public string Dialog;
+    public string Type;
+    public string Name;
 }
 
 [System.Serializable]

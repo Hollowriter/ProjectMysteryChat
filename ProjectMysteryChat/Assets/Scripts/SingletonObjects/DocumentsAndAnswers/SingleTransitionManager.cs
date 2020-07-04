@@ -58,11 +58,33 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
 
     public void SendTransitionToBox()
     {
-        if (!AnswerInspector.instance.GetActivated() && !ElectionBox.instance.GetActivated())
-        {
-            DocumentManager.instance.SetDocument(transition.Transition[0].Dialog);
+        //if (!AnswerInspector.instance.GetActivated() && !ElectionBox.instance.GetActivated() 
+          //  && transition.Transition[0].Type == "Dialog")
+        //{
+            DocumentManager.instance.SetDocument(transition.Transition[0].Name);
             TextBox.instance.SetActivated(true);
             transition = null;
+        // }
+    }
+
+    public void SendTransitionToLevelManager() 
+    {
+        LevelManager.instance.ChangeScene(transition.Transition[0].Name);
+    }
+
+    public void CheckWhereToSendTransition() 
+    {
+        if (!AnswerInspector.instance.GetActivated() && !ElectionBox.instance.GetActivated()) 
+        {
+            switch (transition.Transition[0].Type) 
+            {
+                case "Dialog":
+                    SendTransitionToBox();
+                    break;
+                case "Scene":
+                    SendTransitionToLevelManager();
+                    break;
+            }
         }
     }
 
@@ -70,7 +92,7 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
     {
         if (ConditionsToBeActive())
         {
-            SendTransitionToBox();
+            CheckWhereToSendTransition();
         }
     }
 

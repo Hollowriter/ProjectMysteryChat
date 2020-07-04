@@ -11,7 +11,8 @@
 	"Transition":
 	[
 		{
-			"Dialog":"ToTransitionTest.json"
+			"Type":"Dialog",
+			"Name":"ToTransitionTest.json"
 		}
 	]
 }
