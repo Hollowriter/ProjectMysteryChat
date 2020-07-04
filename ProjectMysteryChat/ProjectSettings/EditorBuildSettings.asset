@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldLevels/HubLevel.unity
     guid: 2369db48a5eb5b54c8c5fad541d9fc57
+  - enabled: 1
+    path: Assets/Scenes/WorldLevels/ArtGalleryLevel.unity
+    guid: bf67b64bf74192e4e949ad3ed63204c3
+  - enabled: 1
+    path: Assets/Scenes/WorldLevels/MsMakiRoom.unity
+    guid: 0d892c99a2743c74da2e2359022267ef
   m_configObjects: {}
