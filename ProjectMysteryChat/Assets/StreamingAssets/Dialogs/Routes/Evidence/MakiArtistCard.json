@@ -1,0 +1,27 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Quite colorful drawings here, similar to my daughter's."
+		},
+		{
+			"Text":"Thomas B: Judging by the names on the heads, seems they represent users from this place."
+		},
+		{
+			"Text":"Thomas B: Back when this place had activity, seems that artists gath--- Wait..."
+		},
+		{
+			"Text":"Thomas B: All of them have the same signature. Also... Is this a card with a code?"
+		},
+		{
+			"Text":"Thomas B: Better write this down, it can come in handy somewhere."
+		}
+	],
+	"Evidence":
+	[
+		{
+			"Item":"MsMaki95 Artist Card",
+			"Description":"A colorful card with an user name and a code."
+		}
+	]
+}

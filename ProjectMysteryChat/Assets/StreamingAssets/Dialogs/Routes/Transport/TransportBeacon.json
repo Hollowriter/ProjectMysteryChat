@@ -22,7 +22,7 @@
 	"Answers":
 	[
 		{
-			"ExpectedAnswer":"Maki Artist Card",
+			"ExpectedAnswer":"MsMaki95 Artist Card",
 			"CorrectDialog":"Routes/Transport/TransportToRoom/ToMakiRoom.json",
 			"WrongDialog":"Routes/Transport/TransportInvalid.json"
 		}
