@@ -58,13 +58,9 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
 
     public void SendTransitionToBox()
     {
-        //if (!AnswerInspector.instance.GetActivated() && !ElectionBox.instance.GetActivated() 
-          //  && transition.Transition[0].Type == "Dialog")
-        //{
-            DocumentManager.instance.SetDocument(transition.Transition[0].Name);
-            TextBox.instance.SetActivated(true);
-            transition = null;
-        // }
+        DocumentManager.instance.SetDocument(transition.Transition[0].Name);
+        TextBox.instance.SetActivated(true);
+        transition = null;
     }
 
     public void SendTransitionToLevelManager() 
@@ -75,22 +71,14 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
 
     public void CheckWhereToSendTransition() 
     {
-        Debug.Log("CheckTransitionNotInsideYet");
-        if (!AnswerInspector.instance.GetActivated() && !ElectionBox.instance.GetActivated()) 
+        switch (transition.Transition[0].Type) 
         {
-            Debug.Log("CheckWhereToSendTransition");
-            switch (transition.Transition[0].Type) 
-            {
-                case "Dialog":
-                    Debug.Log("SendTransitionToBox");
-                    SendTransitionToBox();
-                    break;
-                case "Scene":
-                    Debug.Log("SendTransitionToLevelManager");
-                    SendTransitionToLevelManager();
-                    break;
-            }
-            Debug.Log("EndFunction");
+            case "Dialog":
+                SendTransitionToBox();
+                break;
+            case "Scene":
+                SendTransitionToLevelManager();
+                break;
         }
     }
 
