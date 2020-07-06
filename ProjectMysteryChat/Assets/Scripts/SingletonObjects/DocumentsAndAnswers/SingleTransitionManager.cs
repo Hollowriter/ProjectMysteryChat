@@ -70,21 +70,27 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
     public void SendTransitionToLevelManager() 
     {
         LevelManager.instance.ChangeScene(transition.Transition[0].Name);
+        transition = null;
     }
 
     public void CheckWhereToSendTransition() 
     {
+        Debug.Log("CheckTransitionNotInsideYet");
         if (!AnswerInspector.instance.GetActivated() && !ElectionBox.instance.GetActivated()) 
         {
+            Debug.Log("CheckWhereToSendTransition");
             switch (transition.Transition[0].Type) 
             {
                 case "Dialog":
+                    Debug.Log("SendTransitionToBox");
                     SendTransitionToBox();
                     break;
                 case "Scene":
+                    Debug.Log("SendTransitionToLevelManager");
                     SendTransitionToLevelManager();
                     break;
             }
+            Debug.Log("EndFunction");
         }
     }
 
