@@ -18,6 +18,6 @@ public class EvidenceObject : InteractObject
     {
         ShowText();
         SetPermanentInteraction();
-        SetEvidenceToInventory();
+        Destroy(gameObject);
     }
 }

@@ -30,6 +30,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
             AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
             SingleTransitionManager.instance.SetTransition(JsonUtility.FromJson<LoneTransition>(json));
+            EvidenceInventory.instance.AddEvidence(_fileName);
         }
     }
 

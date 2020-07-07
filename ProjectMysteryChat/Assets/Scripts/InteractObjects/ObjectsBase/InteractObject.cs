@@ -26,12 +26,6 @@ public class InteractObject : MonoBehaviour
         TextBox.instance.SetActivated(true);
     }
 
-    public void SetEvidenceToInventory()
-    {
-        EvidenceInventory.instance.AddEvidence(interactionFileName);
-        Destroy(gameObject);
-    }
-
     protected void SetPermanentInteraction()
     {
         InteractionsManager.instance.AddInteraction(interactionFileName);

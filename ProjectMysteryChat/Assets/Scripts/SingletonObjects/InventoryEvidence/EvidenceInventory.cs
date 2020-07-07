@@ -59,7 +59,13 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
     public void AddEvidence(string evidenceFileName)
     {
         EvidenceCollection evidenceAdded = ProcessEvidenceDocument(evidenceFileName);
-        SetToCollection(evidenceAdded);
+        if (evidenceAdded != null)
+        {
+            if (evidenceAdded.Evidence != null)
+            {
+                SetToCollection(evidenceAdded);
+            }
+        }
     }
 
     public void SetActivatedInventoryMembers(bool _activated)

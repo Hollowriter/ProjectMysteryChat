@@ -362,9 +362,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.3002515, y: -3.326458, z: 78.08366}
+    m_Target: {x: 239.18129, y: -11.731201, z: 27.365776}
     speed: 2
-    m_Value: {x: 7.3002515, y: -3.326458, z: 78.08366}
+    m_Value: {x: 239.18129, y: -11.731201, z: 27.365776}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -414,9 +414,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.64712757, y: 0.0004675094, z: -0.0003714959, w: -0.7623815}
   m_Size:
-    m_Target: 15.753799
+    m_Target: 212.314
     speed: 2
-    m_Value: 15.753799
+    m_Value: 212.314
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -601,20 +601,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/SingletonObjects/UIObjects
+    - Assets/StreamingAssets/Dialogs/Routes/Evidence
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Scripts/SingletonObjects/UIObjects
+  - Assets/StreamingAssets/Dialogs/Routes/Evidence
   m_LastFoldersGridSize: 65
   m_LastProjectPath: D:\Desktop\Repo\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 311}
-    m_SelectedIDs: 54350000
-    m_LastClickedID: 13652
-    m_ExpandedIDs: 00000000223500002435000026350000283500002a3500002c3500002e35000000ca9a3b
+    m_SelectedIDs: 64350000
+    m_LastClickedID: 13668
+    m_ExpandedIDs: 00000000223500002435000026350000283500002a3500002c3500002e3500005635000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,9 +667,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ba2f0000
-    m_LastClickedInstanceID: 12218
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 2e340000
+    m_LastClickedInstanceID: 13358
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000803a0000dc2a000002070100ea060100b0440000944e00003c2b0000f02d0000b6380000d242000028910000645f000000000000c4d20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -765,8 +765,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba2f0000
-      m_LastClickedID: 0
+      m_SelectedIDs: 2e340000
+      m_LastClickedID: 13358
       m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0

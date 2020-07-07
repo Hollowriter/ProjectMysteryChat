@@ -17,11 +17,11 @@
 			"Text":"Thomas B: Better write this down, it can come in handy somewhere."
 		}
 	],
-	"Evidence":
+	"Transition":
 	[
 		{
-			"Item":"MsMaki95 Artist Card",
-			"Description":"A colorful card with an user name and a code."
+			"Type":"Dialog",
+			"Name":"Routes/Evidence/GrabMakiArtistCard.json"
 		}
 	]
 }
