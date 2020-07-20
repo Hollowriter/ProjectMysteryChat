@@ -427,7 +427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345435649}
   m_LocalRotation: {x: 0.005048634, y: -0.4078347, z: -0.0022551103, w: 0.913039}
-  m_LocalPosition: {x: 35.5, y: -0.9, z: 70.1}
+  m_LocalPosition: {x: 35.85, y: 0.24, z: 69.76}
   m_LocalScale: {x: 30.904793, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2023377669}
@@ -956,7 +956,7 @@ GameObject:
   - component: {fileID: 649023086}
   - component: {fileID: 649023085}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1625,7 +1625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Statue.json
+  interactionFileName: Routes/Interactions/Hub/Chapter1/Statue.json
 --- !u!65 &1255831272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1881,7 +1881,7 @@ GameObject:
   - component: {fileID: 1711390536}
   - component: {fileID: 1711390535}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Wall16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2215,7 +2215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Transport/TransportBeacon.json
+  interactionFileName: Routes/Transport/PrologueInteractions/TransportBeacon.json
 --- !u!65 &2026872972
 BoxCollider:
   m_ObjectHideFlags: 0
