@@ -12,6 +12,7 @@ public class EvidenceObject : InteractObject
     public override void NearPlayer()
     {
         SetTextToBox();
+        IShouldExist();
     }
 
     public override void BehaveInteraction()
