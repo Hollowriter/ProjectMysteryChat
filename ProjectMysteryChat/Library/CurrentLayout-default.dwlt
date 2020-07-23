@@ -362,9 +362,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 102, y: -2.5, z: 50.4}
+    m_Target: {x: 99.719284, y: -2.4777527, z: 50.64582}
     speed: 2
-    m_Value: {x: 102, y: -2.5, z: 50.4}
+    m_Value: {x: 99.719284, y: -2.4777527, z: 50.64582}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -410,13 +410,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.6770275, y: -0.027121803, z: 0.025015043, w: -0.7350822}
+    m_Target: {x: -0.67525774, y: 0.005989875, z: -0.005447972, w: -0.73758733}
     speed: 2
-    m_Value: {x: -0.67700267, y: -0.027120806, z: 0.025014125, w: -0.7350552}
+    m_Value: {x: -0.6752329, y: 0.0059896545, z: -0.0054477714, w: -0.73756015}
   m_Size:
-    m_Target: 62.849594
+    m_Target: 19.587242
     speed: 2
-    m_Value: 62.849594
+    m_Value: 19.587242
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -601,34 +601,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/WorldLevels
+    - Assets/Scripts/SceneAlgorithms
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Scenes/WorldLevels
+  - Assets/Scripts/SceneAlgorithms
   m_LastFoldersGridSize: 65
   m_LastProjectPath: D:\Desktop\Repo\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 30}
-    m_SelectedIDs: 3c350000
-    m_LastClickedID: 13628
-    m_ExpandedIDs: 000000002435000026350000283500002a3500002c35000000ca9a3b
+    m_SelectedIDs: c6380000
+    m_LastClickedID: 14534
+    m_ExpandedIDs: 00000000223500002435000026350000283500002a3500003c3500001c38000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Sprites
+      m_OriginalName: Sprites
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13630
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -642,7 +642,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002435000026350000283500002a3500002c350000
+    m_ExpandedIDs: 00000000223500002435000026350000283500002a350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -765,9 +765,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52350000
+      m_SelectedIDs: ca380000
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ad0ffff10d1fffff4d4ffffe2d5ffffded9ffff0ee1ffff7ce1ffff8ae1ffff00e2ffffa6e3ffffb6e3ffff2ae5ffffa2e6ffffb2e6ffff26e8ffff36e8ffff94f4ffff1af6ffff32f6ffffa6f7ffffc0f7ffff3ef9ffff60f9ffff68fbfffff4ffffffda3b0000f83b0000
+      m_ExpandedIDs: 30f7ffff6afbffffe0370000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
