@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class SceneAlgorithm : MonoBehaviour
 {
-    public abstract void ActScript(string[] interactionFiles, GameObject[] pointsToGo); // Note: Needs to be implemented
+    public abstract void ActScript(string[] interactionFiles, GameObject[] pointsToGo);
 }
