@@ -5,6 +5,10 @@ using UnityEngine;
 public class CharacterObject : InteractObject
 {
     SceneAlgorithm algorithm;
+    public int arrayOfPointsSize;
+    public int arrayOfInteractionFiles;
+    public GameObject[] pointsToGo;
+    public string[] cutSceneInteractionFiles;
 
     public void SetAlgorithm(SceneAlgorithm _algorithm) 
     {
@@ -18,5 +22,6 @@ public class CharacterObject : InteractObject
 
     public virtual void ActScript() 
     {
+        algorithm.ActScript(cutSceneInteractionFiles, pointsToGo, this.gameObject);
     }
 }
