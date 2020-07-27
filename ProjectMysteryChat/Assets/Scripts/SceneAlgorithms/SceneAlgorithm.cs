@@ -4,7 +4,8 @@ using UnityEngine;
 
 public abstract class SceneAlgorithm : MonoBehaviour
 {
-    int pointsPassed = 0;
-    int interactionFilesCompleted = 0;
-    public abstract void ActScript(string[] interactionFiles, GameObject[] pointsToGo, GameObject character);
+    public string[] dialogFiles;
+    public GameObject[] followPoints;
+    public GameObject[] characters;
+    public abstract void ActScript();
 }
