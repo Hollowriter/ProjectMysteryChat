@@ -17,7 +17,7 @@ public class CutsceneManager : SingletonBase<CutsceneManager>
 
     protected override bool ConditionsToBeActive()
     {
-        if (cutscene != null) 
+        if (cutscene != null && cutscene.GetAlgorithmEnd() == false) 
         {
             SetActivated(true);
             return GetActivated();

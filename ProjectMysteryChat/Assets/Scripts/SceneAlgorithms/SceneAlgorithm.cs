@@ -4,8 +4,20 @@ using UnityEngine;
 
 public abstract class SceneAlgorithm : MonoBehaviour
 {
-    public string[] dialogFiles;
-    public GameObject[] followPoints;
-    public GameObject[] characters;
+    bool algorithmEnd = false;
+    protected string[] dialogFiles;
+    protected GameObject[] followPoints;
+    protected GameObject[] characters;
+
+    public void SetAlgorithmEnd(bool _algorithmEnd) 
+    {
+        algorithmEnd = _algorithmEnd;
+    }
+
+    public bool GetAlgorithmEnd() 
+    {
+        return algorithmEnd;
+    }
+
     public abstract void ActScript();
 }
