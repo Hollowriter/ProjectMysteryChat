@@ -20,7 +20,7 @@ public class FollowAlgorithm : SceneAlgorithm
 
     void FollowPoints() 
     {
-
+        // Nota: necesito un algoritmo de pathfinding.
     }
 
     public override void ActScript()
