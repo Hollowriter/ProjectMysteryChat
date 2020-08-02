@@ -19,7 +19,7 @@ public class NodeCreator : SingletonBase<NodeCreator>
             {
                 GameObject go = new GameObject("Node");
                 nodes[col, row] = go.AddComponent<Node>();
-                go.transform.position = new Vector3(this.GetComponent<Transform>().position.x + col * space, 0.0f, this.GetComponent<Transform>().position.z + row * space);
+                go.transform.position = new Vector3(this.GetComponent<Transform>().position.x + col * space, this.GetComponent<Transform>().position.y, this.GetComponent<Transform>().position.z + row * space);
             }
         }
     }
