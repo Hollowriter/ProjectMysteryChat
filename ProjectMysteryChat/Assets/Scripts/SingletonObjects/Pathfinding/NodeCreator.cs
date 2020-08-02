@@ -6,6 +6,7 @@ public class NodeCreator : SingletonBase<NodeCreator>
 {
     public int Cols;
     public int Rows;
+    public float space;
     Node[,] nodes;
     Node nodeOrigin = null;
 
@@ -18,7 +19,7 @@ public class NodeCreator : SingletonBase<NodeCreator>
             {
                 GameObject go = new GameObject("Node");
                 nodes[col, row] = go.AddComponent<Node>();
-                go.transform.position = new Vector3(col * 2.0f, 0.0f, row * 2.0f);
+                go.transform.position = new Vector3(this.GetComponent<Transform>().position.x + col * space, 0.0f, this.GetComponent<Transform>().position.z + row * space);
             }
         }
     }
@@ -91,7 +92,6 @@ public class NodeCreator : SingletonBase<NodeCreator>
             {
                 Node n = nodes[c, r];
                 float newDist = (pos - n.transform.position).magnitude;
-
                 if (dist > newDist)
                 {
                     nodeOrigin = n;
