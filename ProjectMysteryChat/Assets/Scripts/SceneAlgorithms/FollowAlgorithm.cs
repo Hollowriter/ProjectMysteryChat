@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FollowAlgorithm : SceneAlgorithm
 {
-    public GameObject[] pointsToFollow;
-    public GameObject[] actCharacters;
+    public GameObject[] pointsToFollow; // Puntos que debe seguir-
+    public GameObject[] actCharacters; // Personajes que deben seguir dichos puntos.
 
     void Begin() 
     {
