@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class FollowAlgorithm : SceneAlgorithm
 {
-    public GameObject[] pointsToFollow; // Puntos que debe seguir-
-    public GameObject[] actCharacters; // Personajes que deben seguir dichos puntos.
+    public GameObject[] pointsToFollow;
+    public GameObject actCharacter;
+    public float characterSpeed;
+    int pointsFollowed;
 
     void Begin() 
     {
         followPoints = pointsToFollow;
-        characters = actCharacters;
+        character = actCharacter;
+        pointsFollowed = 0;
     }
 
     private void Awake()
@@ -18,13 +21,23 @@ public class FollowAlgorithm : SceneAlgorithm
         Begin();
     }
 
-    void FollowPoints() 
+    void FollowPoint()
     {
-        // Nota: necesito un algoritmo de pathfinding.
+        float step = characterSpeed * Time.deltaTime;
+        character.transform.position = Vector3.MoveTowards(character.transform.position, followPoints[pointsFollowed].transform.position, step);
+    }
+
+    void CheckToChangePoint() 
+    {
+        if ((followPoints[pointsFollowed].transform.position - character.transform.position).magnitude < 0.25f)
+        {
+            pointsFollowed++;
+        }
     }
 
     public override void ActScript()
     {
-
+        FollowPoint();
+        CheckToChangePoint();
     }
 }

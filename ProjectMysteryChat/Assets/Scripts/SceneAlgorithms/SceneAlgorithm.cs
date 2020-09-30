@@ -7,7 +7,7 @@ public abstract class SceneAlgorithm : MonoBehaviour
     bool algorithmEnd = false;
     protected string[] dialogFiles;
     protected GameObject[] followPoints;
-    protected GameObject[] characters;
+    protected GameObject character;
 
     public void SetAlgorithmEnd(bool _algorithmEnd) 
     {
