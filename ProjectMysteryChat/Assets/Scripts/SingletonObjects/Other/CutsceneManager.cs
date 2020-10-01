@@ -5,19 +5,21 @@ using UnityEngine;
 
 public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manager deberia agarrar una lista de algoritmos?
 {
-    SceneAlgorithm cutscene;
+    List<SceneAlgorithm> cutscenes; // Nota: Hacer que se puedan leer varias listas a la vez a voluntad.
+    List<SceneAlgorithm> readingCutscenes; // Nota: Hacer que se lean solo las escenas de la lista.
 
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
-        cutscene = null;
+        cutscenes = null;
+        readingCutscenes = null;
         SetActivated(false);
         DontDestroyOnLoad(gameObject);
     }
 
     protected override bool ConditionsToBeActive()
     {
-        if (cutscene != null && cutscene.GetAlgorithmEnd() == false) 
+        if (cutscenes != null /*&& cutscene.GetAlgorithmEnd() == false*/) 
         {
             SetActivated(true);
             return GetActivated();
@@ -31,21 +33,21 @@ public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manage
         SingletonAwake();
     }
 
-    public void SetCutscene(SceneAlgorithm _cutscene) 
+    public void SetCutscenes(List<SceneAlgorithm> _cutscenes) 
     {
-        cutscene = _cutscene;
+        cutscenes = _cutscenes;
     }
 
-    public SceneAlgorithm GetCutscene() 
+    public List<SceneAlgorithm> GetCutscenes() 
     {
-        return cutscene;
+        return cutscenes;
     }
 
     public void ActScript() 
     {
         if (ConditionsToBeActive()) 
         {
-            cutscene.ActScript();
+            cutscenes[0].ActScript(); // Leer unicamente las escenas que necesito en el orden correcto.
         }
     }
 
