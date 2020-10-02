@@ -12,7 +12,7 @@ public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manage
     {
         base.SingletonAwake();
         cutscenes = null;
-        readingCutscenes = null;
+        readingCutscenes = new List<SceneAlgorithm>();
         SetActivated(false);
         DontDestroyOnLoad(gameObject);
     }
@@ -38,6 +38,21 @@ public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manage
         cutscenes = _cutscenes;
     }
 
+    public void ProcessCutscenes() // Esto es el encargado de rellenar las escenas a leer. (EN PROCESO)
+    {
+        if (readingCutscenes.Count == 0) 
+        {
+            for (int i = 0; i < cutscenes.Count; i++) 
+            {
+                readingCutscenes.Add(cutscenes[i]);
+                if (cutscenes[i].GetWithOtherAlgorithm() == false) 
+                {
+                    return;
+                }
+            }
+        }
+    }
+
     public List<SceneAlgorithm> GetCutscenes() 
     {
         return cutscenes;
@@ -47,7 +62,7 @@ public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manage
     {
         if (ConditionsToBeActive()) 
         {
-            cutscenes[0].ActScript(); // Leer unicamente las escenas que necesito en el orden correcto.
+            
         }
     }
 
