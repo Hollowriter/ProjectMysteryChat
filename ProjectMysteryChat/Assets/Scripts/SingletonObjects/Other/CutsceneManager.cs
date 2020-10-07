@@ -113,6 +113,7 @@ public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manage
     {
         if (ConditionsToBeActive())
         {
+            Debug.Log("ReadingScene: " + readingCutscenes.Count); // Nota: Si, tiene mas de 2 escenas, pero no funciona el camino trazado.
             ProcessCutscenes();
             ReadActScript();
             CheckReadingCutscenesEnding();

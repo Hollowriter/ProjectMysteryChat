@@ -86,6 +86,10 @@ public class PlayerController : SingletonBase<PlayerController>
     {
         if (LevelManager.instance.GetSceneName() != "Menu")
         {
+            if (CutsceneManager.instance.GetActivated()) 
+            {
+                return;
+            }
             if (Input.GetKeyUp(InputHandler.instance.showInventory))
             {
                 showInventoryProcessed = false;

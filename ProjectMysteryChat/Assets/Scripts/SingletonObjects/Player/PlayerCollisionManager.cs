@@ -39,6 +39,10 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         {
             CollideWithObject(other.gameObject.GetComponent<InteractObject>());
         }
+        if (other.tag == "Cutscene") 
+        {
+            other.gameObject.GetComponent<CutsceneObject>().NearPlayer(); // Nota: Colision con la cutscene.
+        }
     }
 
     public void OnTriggerExit(Collider other)

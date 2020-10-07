@@ -29,7 +29,7 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
         SingletonAwake();
     }
 
-    public void AddInteraction(string interactionName) 
+    public void AddInteraction(string interactionName)
     {
         if (interactionsQuantity < interactionsLimit)
         {
