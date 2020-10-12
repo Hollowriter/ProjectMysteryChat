@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manager deberia agarrar una lista de algoritmos?
+public class CutsceneManager : SingletonBase<CutsceneManager>
 {
     List<SceneAlgorithm> cutscenes; // Nota: Hacer que se puedan leer varias listas a la vez a voluntad.
     List<SceneAlgorithm> readingCutscenes; // Nota: Hacer que se lean solo las escenas de la lista.
@@ -48,16 +48,19 @@ public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manage
         return cutscenes;
     }
 
-    void ProcessCutscenes() // Esto es el encargado de rellenar las escenas a leer. (EN PROCESO)
+    void ProcessCutscenes()
     {
         if (readingCutscenes.Count == 0) 
         {
             for (int i = 0; i < cutscenes.Count; i++) 
             {
-                readingCutscenes.Add(cutscenes[i]);
-                if (cutscenes[i].GetWithOtherAlgorithm() == false) 
+                if (!cutscenes[i].GetAlgorithmEnd())
                 {
-                    return;
+                    readingCutscenes.Add(cutscenes[i]);
+                    if (!cutscenes[i].GetWithOtherAlgorithm())
+                    {
+                        return;
+                    }
                 }
             }
         }
@@ -113,7 +116,6 @@ public class CutsceneManager : SingletonBase<CutsceneManager> // Cutscene manage
     {
         if (ConditionsToBeActive())
         {
-            Debug.Log("ReadingScene: " + readingCutscenes.Count); // Nota: Si, tiene mas de 2 escenas, pero no funciona el camino trazado.
             ProcessCutscenes();
             ReadActScript();
             CheckReadingCutscenesEnding();

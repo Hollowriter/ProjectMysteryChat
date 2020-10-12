@@ -8,7 +8,7 @@ public abstract class SceneAlgorithm : MonoBehaviour
     protected string[] dialogFiles;
     protected GameObject[] followPoints;
     protected GameObject character;
-    public bool withOtherAlgorithm; // Nota: Chequea si es una cutscene que se lee al mismo tiempo con otra.
+    public bool withOtherAlgorithm;
 
     public void SetAlgorithmEnd(bool _algorithmEnd) 
     {

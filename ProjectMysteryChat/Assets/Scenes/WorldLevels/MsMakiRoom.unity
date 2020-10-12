@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0c46f17ccc1664085afd50dda45ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  withOtherAlgorithm: 1
+  withOtherAlgorithm: 0
   pointsToFollow:
   - {fileID: 2090215890}
   actCharacter: {fileID: 649112576}

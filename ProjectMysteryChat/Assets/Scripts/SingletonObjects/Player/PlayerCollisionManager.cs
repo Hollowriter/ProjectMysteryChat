@@ -41,7 +41,7 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         }
         if (other.tag == "Cutscene") 
         {
-            other.gameObject.GetComponent<CutsceneObject>().NearPlayer(); // Nota: Colision con la cutscene.
+            other.gameObject.GetComponent<CutsceneObject>().NearPlayer();
         }
     }
 

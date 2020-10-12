@@ -31,7 +31,14 @@ public class FollowAlgorithm : SceneAlgorithm
     {
         if ((followPoints[pointsFollowed].transform.position - character.transform.position).magnitude < 0.25f)
         {
-            pointsFollowed++;
+            if (pointsFollowed < followPoints.Length - 1)
+            {
+                pointsFollowed++;
+            }
+            else 
+            {
+                SetAlgorithmEnd(true);
+            }
         }
     }
 
