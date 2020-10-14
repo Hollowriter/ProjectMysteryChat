@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class SceneAlgorithm : MonoBehaviour
 {
     bool algorithmEnd = false;
-    protected string[] dialogFiles;
+    protected string dialogFile;
     protected GameObject[] followPoints;
     protected GameObject character;
     public bool withOtherAlgorithm;

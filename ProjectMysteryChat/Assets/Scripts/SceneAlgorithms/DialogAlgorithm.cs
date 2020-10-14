@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class DialogAlgorithm : SceneAlgorithm // NOTA: PENDIENTE DE TERMINAR
 {
-    public string[] dialogsForTheScene;
-    int dialogsFinished;
+    public string dialogForTheScene;
+    bool dialogIsSet;
 
     void Begin() 
     {
-        dialogFiles = dialogsForTheScene;
-        dialogsFinished = 0;
+        dialogFile = dialogForTheScene;
+        dialogIsSet = false;
     }
 
     private void Awake()
@@ -18,13 +18,33 @@ public class DialogAlgorithm : SceneAlgorithm // NOTA: PENDIENTE DE TERMINAR
         Begin();
     }
 
-    public int GetDialogsFinished() 
+    void InsertDialog() 
     {
-        return dialogsFinished;
+        if (!dialogIsSet) 
+        {
+            DocumentManager.instance.SetDocument(dialogFile);
+            TextBox.instance.SetActivated(true);
+            dialogIsSet = true;
+        }
+    }
+
+    void CheckEndAlgorithm() 
+    {
+        if (!TextBox.instance.GetActivated()) 
+        {
+            if (!ElectionBox.instance.GetActivated()) 
+            {
+                if (dialogIsSet)
+                {
+                    SetAlgorithmEnd(true);
+                }
+            }
+        }
     }
 
     public override void ActScript()
     {
-        throw new System.NotImplementedException();
+        InsertDialog();
+        CheckEndAlgorithm();
     }
 }
