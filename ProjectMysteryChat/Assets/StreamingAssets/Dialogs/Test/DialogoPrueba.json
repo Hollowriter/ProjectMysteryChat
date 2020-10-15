@@ -14,11 +14,11 @@
   "Elections":
   [
   	{
-  		"Candidate":"TestEleccionA.json",
+  		"Candidate":"Test/TestEleccionA.json",
   		"CandidateName":"No fue nada"
   	},
   	{
-  		"Candidate":"TestEleccionB.json",
+  		"Candidate":"Test/TestEleccionB.json",
   		"CandidateName":"Fue algo importante"
   	}
   ]

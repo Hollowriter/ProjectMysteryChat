@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   withOtherAlgorithm: 0
-  dialogForTheScene: Test/Pienselo.json
+  dialogForTheScene: Test/DialogoPrueba.json
 --- !u!1 &174091357
 GameObject:
   m_ObjectHideFlags: 0

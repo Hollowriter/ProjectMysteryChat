@@ -12,7 +12,7 @@
 	[
 		{
 			"Type":"Dialog",
-			"Name":"ToTransitionTest.json"
+			"Name":"Test/ToTransitionTest.json"
 		}
 	]
 }
