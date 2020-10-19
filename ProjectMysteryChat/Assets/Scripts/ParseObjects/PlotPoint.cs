@@ -3,11 +3,11 @@
 [System.Serializable]
 public class PlotPoint
 {
-    public string plotPointName;
+    public string PlotPointName;
 }
 
 [System.Serializable]
 public class PlotPointCollection 
 {
-    public PlotPoint[] plotPoints;
+    public PlotPoint[] PlotPoints;
 }
