@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlotPointManager : SingletonBase<PlotPointManager>
 {
-    PlotPointCollection PlotPoints;
+    PlotPointCollection PlotPoint;
     [SerializeField]
     int plotPointLimit;
     int plotPointQuantity;
@@ -12,12 +12,12 @@ public class PlotPointManager : SingletonBase<PlotPointManager>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
-        PlotPoints = new PlotPointCollection();
-        PlotPoints.PlotPoints = new PlotPoint[plotPointLimit];
-        for (int i = 0; i < PlotPoints.PlotPoints.Length; i++)
+        PlotPoint = new PlotPointCollection();
+        PlotPoint.PlotPoint = new PlotPoint[plotPointLimit];
+        for (int i = 0; i < PlotPoint.PlotPoint.Length; i++)
         {
-            PlotPoints.PlotPoints[i] = new PlotPoint();
-            PlotPoints.PlotPoints[i].PlotPointName = "null";
+            PlotPoint.PlotPoint[i] = new PlotPoint();
+            PlotPoint.PlotPoint[i].PlotPointName = "null";
         }
         plotPointQuantity = 0;
         DontDestroyOnLoad(gameObject);
@@ -30,11 +30,11 @@ public class PlotPointManager : SingletonBase<PlotPointManager>
 
     public void SetPlotPointCollection(PlotPointCollection newCollection)
     {
-        PlotPoints = newCollection;
+        PlotPoint = newCollection;
         plotPointQuantity = 0;
-        for (int i = 0; i < PlotPoints.PlotPoints.Length; i++)
+        for (int i = 0; i < PlotPoint.PlotPoint.Length; i++)
         {
-            if (PlotPoints.PlotPoints[i].PlotPointName != "null")
+            if (PlotPoint.PlotPoint[i].PlotPointName != "null")
             {
                 plotPointQuantity++;
             }
@@ -45,16 +45,16 @@ public class PlotPointManager : SingletonBase<PlotPointManager>
     {
         if (plotPointQuantity < plotPointLimit)
         {
-            PlotPoints.PlotPoints[plotPointQuantity].PlotPointName = plotPointName;
+            PlotPoint.PlotPoint[plotPointQuantity].PlotPointName = plotPointName;
             plotPointQuantity++;
         }
     }
 
     public bool PlotPointTaken(string plotPointName) 
     {
-        for (int i = 0; i < PlotPoints.PlotPoints.Length; i++)
+        for (int i = 0; i < PlotPoint.PlotPoint.Length; i++)
         {
-            if (PlotPoints.PlotPoints[i].PlotPointName == plotPointName)
+            if (PlotPoint.PlotPoint[i].PlotPointName == plotPointName)
             {
                 return true;
             }
@@ -64,6 +64,6 @@ public class PlotPointManager : SingletonBase<PlotPointManager>
 
     public PlotPointCollection GetPlotPointCollection()
     {
-        return PlotPoints;
+        return PlotPoint;
     }
 }

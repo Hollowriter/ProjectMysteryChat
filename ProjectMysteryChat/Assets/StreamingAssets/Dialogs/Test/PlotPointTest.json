@@ -1,0 +1,14 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Detective: Alright, the door must've been opened."
+		}
+	],
+	"PlotPoint":
+	[
+		{
+			"PlotPointName":"MsMakiPlotPoint"
+		}
+	]
+}

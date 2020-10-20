@@ -9,5 +9,5 @@ public class PlotPoint
 [System.Serializable]
 public class PlotPointCollection 
 {
-    public PlotPoint[] PlotPoints;
+    public PlotPoint[] PlotPoint;
 }

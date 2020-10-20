@@ -30,6 +30,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
             AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
             SingleTransitionManager.instance.SetTransition(JsonUtility.FromJson<LoneTransition>(json));
+            PlotPointManager.instance.SetPlotPointCollection(JsonUtility.FromJson<PlotPointCollection>(json)); // Nota: Agregar un plotpoint para esto en algun documento
             EvidenceInventory.instance.AddEvidence(_fileName);
         }
     }
@@ -39,6 +40,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
         ElectionBox.instance.SetActivated(true);
         AnswerInspector.instance.SetActivated(true);
         SingleTransitionManager.instance.SetActivated(true);
+        PlotPointManager.instance.SetActivated(true);
     }
 
     public string GetDocument()

@@ -30,4 +30,5 @@ public class SaveData
     public StageSaved StageSaved;
     public EvidenceCollection EvidenceSaved;
     public InteractionCollection InteractionsDone;
+    public PlotPointCollection plotPointsPassed;
 }
