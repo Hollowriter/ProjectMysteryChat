@@ -6,6 +6,12 @@ public class InteractObject : MonoBehaviour
 {
     [SerializeField]
     string interactionFileName;
+    PlotConditioned plotCondition;
+
+    protected virtual void Begin() 
+    {
+        plotCondition = this.gameObject.GetComponent<PlotConditioned>();
+    }
 
     protected void IShouldExist()
     {
@@ -13,6 +19,18 @@ public class InteractObject : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public bool IShouldBeActive()
+    {
+        if (plotCondition != null)
+        {
+            if (!plotCondition.CheckCondition())
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public void SetTextToBox()

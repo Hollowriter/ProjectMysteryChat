@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class ActionableTestObject : InteractObject
 {
+    private void Awake()
+    {
+        Begin();
+    }
+
     public override void NearPlayer()
     {
-        Debug.Log("I'm just near him");
+        if (IShouldBeActive())
+        {
+            Debug.Log("I'm just near him");
+        }
     }
 
     public override void BehaveInteraction()
     {
-        Debug.Log("I function");
+        if (IShouldBeActive())
+        {
+            Debug.Log("I function");
+        }
     }
 }

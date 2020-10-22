@@ -44,4 +44,10 @@ public class PlotConditioned : MonoBehaviour // NOTA: Pendiente de testear.
         }
         return !toActivate;
     }
+
+    public bool CheckCondition() 
+    {
+        CheckPlotPoints();
+        return ConfirmActivation();
+    }
 }

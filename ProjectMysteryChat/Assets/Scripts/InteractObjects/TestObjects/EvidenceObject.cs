@@ -4,21 +4,33 @@ using UnityEngine;
 
 public class EvidenceObject : InteractObject
 {
+    protected override void Begin()
+    {
+        base.Begin();
+        IShouldExist();
+    }
+
     private void Awake()
     {
-        IShouldExist();
+        Begin();
     }
 
     public override void NearPlayer()
     {
-        SetTextToBox();
-        IShouldExist();
+        if (IShouldBeActive())
+        {
+            SetTextToBox();
+            IShouldExist();
+        }
     }
 
     public override void BehaveInteraction()
     {
-        ShowText();
-        SetPermanentInteraction();
-        Destroy(gameObject);
+        if (IShouldBeActive())
+        {
+            ShowText();
+            SetPermanentInteraction();
+            Destroy(gameObject);
+        }
     }
 }

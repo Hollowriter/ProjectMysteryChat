@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class TextObject : InteractObject
 {
+    private void Awake()
+    {
+        Begin();
+    }
+
     public override void NearPlayer()
     {
-        SetTextToBox();
+        if (IShouldBeActive())
+        {
+            SetTextToBox();
+        }
     }
 
     public override void BehaveInteraction()
     {
-        ShowText();
+        if (IShouldBeActive())
+        {
+            ShowText();
+        }
     }
 }

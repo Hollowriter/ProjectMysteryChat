@@ -6,8 +6,9 @@ public class CutsceneObject : InteractObject
 {
     List<SceneAlgorithm> scenes;
 
-    void Begin() 
+    protected override void Begin() 
     {
+        base.Begin();
         scenes = new List<SceneAlgorithm>();
         for (int i = 0; i < this.gameObject.GetComponentsInChildren<SceneAlgorithm>().Length; i++)
         {
@@ -22,7 +23,10 @@ public class CutsceneObject : InteractObject
 
     public override void NearPlayer()
     {
-        CutsceneManager.instance.SetCutscenes(scenes);
-        SetPermanentInteraction();
+        if (IShouldBeActive())
+        {
+            CutsceneManager.instance.SetCutscenes(scenes);
+            SetPermanentInteraction();
+        }
     }
 }
