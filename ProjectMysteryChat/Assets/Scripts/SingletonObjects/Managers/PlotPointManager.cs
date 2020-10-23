@@ -28,25 +28,29 @@ public class PlotPointManager : SingletonBase<PlotPointManager>
         SingletonAwake();
     }
 
-    public void SetPlotPointCollection(PlotPointCollection newCollection)
-    {
-        PlotPoint = newCollection;
-        plotPointQuantity = 0;
-        for (int i = 0; i < PlotPoint.PlotPoint.Length; i++)
-        {
-            if (PlotPoint.PlotPoint[i].PlotPointName != "null")
-            {
-                plotPointQuantity++;
-            }
-        }
-    }
-
-    public void AddPlotPoint(string plotPointName) 
+    void AddPlotPoint(string plotPointName)
     {
         if (plotPointQuantity < plotPointLimit)
         {
             PlotPoint.PlotPoint[plotPointQuantity].PlotPointName = plotPointName;
             plotPointQuantity++;
+        }
+    }
+
+    public void CheckPlotPointCollection(PlotPointCollection newCollection)
+    {
+        if (newCollection != null)
+        {
+            if (newCollection.PlotPoint != null)
+            {
+                for (int i = 0; i < newCollection.PlotPoint.Length; i++)
+                {
+                    if (newCollection.PlotPoint[i].PlotPointName != "null")
+                    {
+                        AddPlotPoint(newCollection.PlotPoint[i].PlotPointName);
+                    }
+                }
+            }
         }
     }
 

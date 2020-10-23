@@ -21,10 +21,6 @@ public class Door : InteractObject
     public override void NearPlayer()
     {
         // Se usara cuando haya animaciones en este objeto
-        if (!IShouldBeActive()) 
-        {
-            Destroy(gameObject); // ESTO ES PARA TESTEAR.
-        }
     }
 
     public override void BehaveInteraction()

@@ -68,7 +68,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
                 CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraZ));
                 EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
                 InteractionsManager.instance.SetCollection(JsonUtility.FromJson<SaveData>(json).InteractionsDone);
-                PlotPointManager.instance.SetPlotPointCollection(JsonUtility.FromJson<SaveData>(json).plotPointsPassed);
+                PlotPointManager.instance.CheckPlotPointCollection(JsonUtility.FromJson<SaveData>(json).plotPointsPassed);
                 LevelManager.instance.ChangeScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
             }
         }

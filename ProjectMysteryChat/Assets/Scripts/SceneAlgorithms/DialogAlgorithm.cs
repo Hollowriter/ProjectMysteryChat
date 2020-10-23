@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogAlgorithm : SceneAlgorithm // NOTA: PENDIENTE DE TERMINAR
+public class DialogAlgorithm : SceneAlgorithm
 {
     public string dialogForTheScene;
     bool dialogIsSet;

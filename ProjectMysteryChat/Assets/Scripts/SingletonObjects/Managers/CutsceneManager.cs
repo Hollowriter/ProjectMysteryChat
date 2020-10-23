@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class CutsceneManager : SingletonBase<CutsceneManager>
 {
-    List<SceneAlgorithm> cutscenes; // Nota: Hacer que se puedan leer varias listas a la vez a voluntad.
-    List<SceneAlgorithm> readingCutscenes; // Nota: Hacer que se lean solo las escenas de la lista.
+    List<SceneAlgorithm> cutscenes;
+    List<SceneAlgorithm> readingCutscenes;
     int cutscenesFinished;
 
     protected override void SingletonAwake()

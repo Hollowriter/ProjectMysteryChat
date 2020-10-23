@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 436278153}
   m_Layer: 0
   m_Name: TestDoor
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -299,8 +299,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.230151, y: 1, z: 1.6655158}
-  m_Center: {x: -0.026530074, y: 0, z: 0.103109136}
+  m_Size: {x: 1.2697917, y: 1, z: 1.6655158}
+  m_Center: {x: -0.006709749, y: 0, z: 0.103109136}
 --- !u!65 &436278150
 BoxCollider:
   m_ObjectHideFlags: 0
