@@ -39,11 +39,11 @@ public class PlayerController : SingletonBase<PlayerController>
     {
         if (Input.GetKey(InputHandler.instance.walkUp))
         {
-            transform.position += (Vector3.forward) * playerSpeed * Time.deltaTime;
+            transform.position += (Vector3.up) * playerSpeed * Time.deltaTime;
         }
         if (Input.GetKey(InputHandler.instance.walkDown))
         {
-            transform.position -= (Vector3.forward) * playerSpeed * Time.deltaTime;
+            transform.position += (Vector3.down) * playerSpeed * Time.deltaTime;
         }
         if (Input.GetKey(InputHandler.instance.walkLeft))
         {

@@ -19,7 +19,7 @@ public class CameraFollower : SingletonBase<CameraFollower>
     {
         float interpolation = PlayerController.instance.GetPlayerSpeed() * Time.deltaTime;
         Vector3 position = this.transform.position;
-        position.z = Mathf.Lerp(this.transform.position.z, PlayerController.instance.transform.position.z, interpolation);
+        position.y = Mathf.Lerp(this.transform.position.y, PlayerController.instance.transform.position.y, interpolation);
         position.x = Mathf.Lerp(this.transform.position.x, PlayerController.instance.transform.position.x, interpolation);
         this.transform.position = position;
     }
