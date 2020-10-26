@@ -33,7 +33,7 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         return objectToInteract;
     }
 
-    public void OnTriggerStay(Collider other)
+    public void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Interactuable")
         {
@@ -45,7 +45,7 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         }
     }
 
-    public void OnTriggerExit(Collider other)
+    public void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Interactuable")
         {
