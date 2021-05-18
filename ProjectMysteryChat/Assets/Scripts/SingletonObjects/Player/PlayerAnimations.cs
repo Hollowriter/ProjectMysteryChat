@@ -11,30 +11,42 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
         SetActivated(true);
     }
 
-    void WalkingAnimations() 
+    private void Awake()
     {
-        if (Input.GetKey(InputHandler.instance.walkUp))
+        SingletonAwake();
+    }
+
+    void WalkingPositions() 
+    {
+        if (!PauseManager.instance.Paused())
         {
-            this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 1);
+            if (Input.GetKey(InputHandler.instance.walkUp))
+            {
+                this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 1);
+            }
+            if (Input.GetKey(InputHandler.instance.walkDown))
+            {
+                this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 0);
+            }
+            if (Input.GetKey(InputHandler.instance.walkLeft))
+            {
+                this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 2);
+            }
+            if (Input.GetKey(InputHandler.instance.walkRight))
+            {
+                this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 3);
+            }
+        }
+    }
+
+    void MovingAnimation() 
+    {
+        if ((Input.GetKey(InputHandler.instance.walkUp) || Input.GetKey(InputHandler.instance.walkDown)
+            || Input.GetKey(InputHandler.instance.walkLeft) || Input.GetKey(InputHandler.instance.walkRight)) && !PauseManager.instance.Paused())
+        {
             this.gameObject.GetComponentInChildren<Animator>().SetBool("Moving", true);
         }
-        if (Input.GetKey(InputHandler.instance.walkDown))
-        {
-            this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 0);
-            this.gameObject.GetComponentInChildren<Animator>().SetBool("Moving", true);
-        }
-        if (Input.GetKey(InputHandler.instance.walkLeft))
-        {
-            this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 2);
-            this.gameObject.GetComponentInChildren<Animator>().SetBool("Moving", true);
-        }
-        if (Input.GetKey(InputHandler.instance.walkRight))
-        {
-            this.gameObject.GetComponentInChildren<Animator>().SetInteger("Position", 3);
-            this.gameObject.GetComponentInChildren<Animator>().SetBool("Moving", true);
-        }
-        if (!Input.GetKey(InputHandler.instance.walkUp) && !Input.GetKey(InputHandler.instance.walkDown) 
-            && !Input.GetKey(InputHandler.instance.walkLeft) && !Input.GetKey(InputHandler.instance.walkRight))
+        else 
         {
             this.gameObject.GetComponentInChildren<Animator>().SetBool("Moving", false);
         }
@@ -42,8 +54,8 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
 
     protected override void BehaveSingleton()
     {
-        base.BehaveSingleton();
-        WalkingAnimations();
+        WalkingPositions();
+        MovingAnimation();
     }
 
     private void Update()

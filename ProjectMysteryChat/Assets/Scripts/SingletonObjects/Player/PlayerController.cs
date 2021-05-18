@@ -37,27 +37,30 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public void MovementKeys()
     {
-        if (Input.GetKey(InputHandler.instance.walkUp))
+        if (!PauseManager.instance.Paused())
         {
-            transform.position += (Vector3.up) * playerSpeed * Time.deltaTime;
-        }
-        if (Input.GetKey(InputHandler.instance.walkDown))
-        {
-            transform.position += (Vector3.down) * playerSpeed * Time.deltaTime;
-        }
-        if (Input.GetKey(InputHandler.instance.walkLeft))
-        {
-            transform.position += (Vector3.left) * playerSpeed * Time.deltaTime;
-        }
-        if (Input.GetKey(InputHandler.instance.walkRight))
-        {
-            transform.position += (Vector3.right) * playerSpeed * Time.deltaTime;
+            if (Input.GetKey(InputHandler.instance.walkUp))
+            {
+                transform.position += (Vector3.up) * playerSpeed * Time.deltaTime;
+            }
+            if (Input.GetKey(InputHandler.instance.walkDown))
+            {
+                transform.position += (Vector3.down) * playerSpeed * Time.deltaTime;
+            }
+            if (Input.GetKey(InputHandler.instance.walkLeft))
+            {
+                transform.position += (Vector3.left) * playerSpeed * Time.deltaTime;
+            }
+            if (Input.GetKey(InputHandler.instance.walkRight))
+            {
+                transform.position += (Vector3.right) * playerSpeed * Time.deltaTime;
+            }
         }
     }
 
     public void InteractObject()
     {
-        if (PlayerCollisionManager.instance.GetInteractObject() != null)
+        if (PlayerCollisionManager.instance.GetInteractObject() != null && !PauseManager.instance.Paused())
         {
             if (Input.GetKey(InputHandler.instance.interact))
             {
@@ -97,14 +100,6 @@ public class PlayerController : SingletonBase<PlayerController>
         }
     }
 
-    bool AllGUIDeactivated()
-    {
-        return TextBox.instance.GetActivated() == false &&
-                EvidenceInventory.instance.GetActivated() == false &&
-                ElectionBox.instance.GetActivated() == false &&
-                CutsceneManager.instance.GetActivated() == false;
-    }
-
     public int GetPlayerSpeed()
     {
         return playerSpeed;
@@ -114,11 +109,8 @@ public class PlayerController : SingletonBase<PlayerController>
     {
         if (ConditionsToBeActive())
         {
-            if (AllGUIDeactivated())
-            {
-                MovementKeys();
-                InteractObject();
-            }
+            MovementKeys();
+            InteractObject();
             ShowInventory();
         }
         ProcessAllower();
