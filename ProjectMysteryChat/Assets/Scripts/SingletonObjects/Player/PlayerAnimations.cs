@@ -54,8 +54,11 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
 
     protected override void BehaveSingleton()
     {
-        WalkingPositions();
-        MovingAnimation();
+        if (PauseManager.instance != null)
+        {
+            WalkingPositions();
+            MovingAnimation();
+        }
     }
 
     private void Update()
