@@ -14,7 +14,31 @@
 			"Text":"MsMaki95: Hello o-o! Welcome to my art shop ^o^!"
 		},
 		{
-			"Text":"SecurPink1850: Greetings. (END OF DIALOG PENDANT)"
+			"Text":"SecurPink1850: Greetings."
+		},
+		{
+			"Text":"MsMaki95: Are you new around here by any chance? ^-^"
+		},
+		{
+			"Text":"Thomas B: So, is this actually an user or an AI?"
+		},
+		{
+			"Text":"Thomas B: One way to find out."
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CoolShopMaki.json",
+			"CandidateName":"Cool shop"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/MeNewMaki.json",
+			"CandidateName":"Yes, i am new"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/MaybeWhyMaki.json",
+			"CandidateName":"Maybe, why?"
 		}
 	]
 }
