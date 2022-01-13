@@ -40,5 +40,12 @@
 		{
 			"Text":"MsMaki95: Speaking of new... o-o"
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/WhereMaki.json"
+		}
 	]
 }
