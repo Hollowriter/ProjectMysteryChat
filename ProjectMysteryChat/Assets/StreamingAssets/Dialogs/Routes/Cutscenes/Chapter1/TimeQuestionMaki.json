@@ -1,0 +1,15 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Question1"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/OthersAfterTimeQuestionMaki.json",
+			"CandidateName":"There are other people here?"
+		}
+	]
+}

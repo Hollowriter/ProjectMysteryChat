@@ -28,5 +28,16 @@
 		{
 			"Text":"MsMaki95: What do you wanna know? n-n"
 		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/TimeQuestionMaki.json",
+			"CandidateName":"When did you join the server?"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/OthersQuestionMaki.json",
+			"CandidateName":"There are other people here?"
+		}
 	]
 }

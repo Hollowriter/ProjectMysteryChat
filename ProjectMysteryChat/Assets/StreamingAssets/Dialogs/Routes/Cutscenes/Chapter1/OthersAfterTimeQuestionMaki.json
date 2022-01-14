@@ -1,0 +1,19 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Question2"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/LostMediaArchiveQuestionMaki.json",
+			"CandidateName":"Who are the Lost Media Archive?"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CultQuestion.json",
+			"CandidateName":"There is a cult here?"
+		}
+	]
+}
