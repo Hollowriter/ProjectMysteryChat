@@ -28,8 +28,11 @@ public class DocumentManager : SingletonBase<DocumentManager>
             string json = reader.ReadToEnd();
             TextBox.instance.SetDialog(JsonUtility.FromJson<DialogCollection>(json));
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
+            ElectionBox.instance.SetActivated(false);
             AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
+            AnswerInspector.instance.SetActivated(false);
             SingleTransitionManager.instance.SetTransition(JsonUtility.FromJson<LoneTransition>(json));
+            SingleTransitionManager.instance.SetActivated(false);
             PlotPointManager.instance.CheckPlotPointCollection(JsonUtility.FromJson<PlotPointCollection>(json));
             EvidenceInventory.instance.AddEvidence(_fileName);
         }

@@ -48,11 +48,11 @@ public class ElectionBox : SingletonBase<ElectionBox>
 
     public void SendElectionToTextBox(string electionSelected)
     {
+        elections = null;
         DocumentManager.instance.SetDocument(electionSelected);
         TextBox.instance.SetActivated(true);
         AnswerInspector.instance.SetActivated(false);
         PresentButton.instance.SetActivated(false);
-        elections = null;
     }
 
     public void ShowElections()
