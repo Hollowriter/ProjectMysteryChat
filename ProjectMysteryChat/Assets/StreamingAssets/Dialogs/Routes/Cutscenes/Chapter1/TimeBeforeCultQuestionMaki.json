@@ -1,0 +1,15 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"QuestionTime"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CultQuestion.json",
+			"CandidateName":"There is a cult here?"
+		}
+	]
+}

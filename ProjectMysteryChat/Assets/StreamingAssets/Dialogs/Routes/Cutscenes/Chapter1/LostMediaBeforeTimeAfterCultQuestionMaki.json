@@ -1,0 +1,15 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"QuestionLostMedia"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/TimeAfterOthersQuestionMaki.json",
+			"CandidateName":"When did you join the server?"	
+		}
+	]
+}
