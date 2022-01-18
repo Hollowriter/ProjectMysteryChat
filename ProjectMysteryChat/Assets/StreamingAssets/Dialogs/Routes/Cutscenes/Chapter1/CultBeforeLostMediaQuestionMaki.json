@@ -8,7 +8,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/LostMediaArchiveQuestionMaki.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/LostMediaLastQuestionMaki.json",
 			"CandidateName":"Who are the Lost Media Archive?"
 		}
 	]

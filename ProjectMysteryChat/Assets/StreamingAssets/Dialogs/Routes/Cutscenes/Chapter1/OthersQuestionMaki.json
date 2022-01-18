@@ -12,11 +12,11 @@
 			"CandidateName":"When did you join the server?"	
 		},
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/LostMediaArchiveQuestionMaki.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/LostMediaBeforeCultAndTimeQuestionMaki.json",
 			"CandidateName":"Who are the Lost Media Archive?"
 		},
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/CultQuestion.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/CultBeforeLostMediaAndTimeQuestionMaki.json",
 			"CandidateName":"There is a cult here?"
 		}
 	]

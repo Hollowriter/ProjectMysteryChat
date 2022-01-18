@@ -12,7 +12,7 @@
 			"CandidateName":"When did you join the server?"	
 		},
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/CultQuestion.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/CultAfterLostMediaBeforeTimeQuestionMaki.json",
 			"CandidateName":"There is a cult here?"
 		}
 	]

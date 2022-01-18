@@ -8,7 +8,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/CultQuestion.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/CultLastQuestion.json",
 			"CandidateName":"There is a cult here?"
 		}
 	]
