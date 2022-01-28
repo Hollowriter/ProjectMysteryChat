@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   withOtherAlgorithm: 0
-  dialogForTheScene: Routes/Cutscenes/Chapter1/MeetMaki.json
+  dialogForTheScene: Routes/Cutscenes/Chapter1/MeetingMaki/MeetMaki.json
 --- !u!1 &1193820407
 GameObject:
   m_ObjectHideFlags: 0

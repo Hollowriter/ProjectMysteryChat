@@ -1,0 +1,48 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"SecurPink1850: I could be... Why?"
+		},
+		{
+			"Text":"MsMaki95: Mmm? o-o Why? Well, i never saw you before."
+		},
+		{
+			"Text":"SecurPink1850: Of course, this is a new avatar."
+		},
+		{
+			"Text":">No one writes anything for a couple of seconds."
+		},
+		{
+			"Text":"MsMaki95: You are clearly new. n-n"
+		},
+		{
+			"Text":"Thomas B: How did they...?"
+		},
+		{
+			"Text":"MsMaki95: You can only have one avatar by mail and IP. n-n And because of a glitch, you can't change your name. u-u"
+		},
+		{
+			"Text":"MsMaki95: The only one who would take that much time to do that is one person. Password? o-o"
+		},
+		{
+			"Text":"SecurPink1850: A password?"
+		},
+		{
+			"Text":"MsMaki95: Yeah, you are not him. n-n But you sound a bit like him, hehehe. >-o"
+		},
+		{
+			"Text":"Thomas B: I sound like who...? Well, with this i know there is more people here. And, she doesn't sound like an AI for a place as old as this."
+		},
+		{
+			"Text":"MsMaki95: Oh! Speaking of new... o-o"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/MeetingMaki/WhereMaki.json"
+		}
+	]
+}
