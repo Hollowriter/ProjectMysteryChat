@@ -2,7 +2,31 @@
 	"Dialogs":
 	[
 		{
-			"Text":"QuestionTime"
+			"Text":"SecurPink1850: Since you asked me, i think it's correct to ask you now. How long have you been coming here?"
+		},
+		{
+			"Text":"MsMaki95: Last year, a friend invited me over here. He said i could make good use of the art tools of this chat. c:"
+		},
+		{
+			"Text":"MsMaki95: He found this place with some people in our non vr server and, well, i'm here! n-n"
+		},
+		{
+			"Text":"SecurPink1850: Seems they are interested in abandonware."
+		},
+		{
+			"Text":"MsMaki95: Abandonware? o-o"
+		},
+		{
+			"Text":"SecurPink1850: Sorry, old term, it was used for software that it's not supported or ignored by their creators."
+		},
+		{
+			"Text":"MsMaki95: Oh that! oOo Yeah, you bet they are interested in that!"
+		},
+		{
+			"Text":"Thomas B: People with peculiar interests, nothing new here. The doubt is how did they hid this place from authorities?"
+		},
+		{
+			"Text":"Thomas B: Still, asking that to this user would probably not yield answers, and just raise unwanted attention on me."
 		}
 	]
 }
