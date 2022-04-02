@@ -17,6 +17,7 @@ public class TextBox : SingletonBase<TextBox>
     int textSlowDown;
     DialogCollection items;
     string dialogSetted;
+    GameObject nextButton;
 
     protected override void SingletonAwake()
     {
@@ -27,6 +28,7 @@ public class TextBox : SingletonBase<TextBox>
         textWritten = false;
         dialogueText.text = "";
         dialogSetted = "";
+        nextButton = null;
     }
 
     private void Awake()
@@ -71,7 +73,11 @@ public class TextBox : SingletonBase<TextBox>
     {
         if (textWritten == true && EvidenceInventory.instance.GetActivated() == false)
         {
-            if (GUILayout.Button("Next"))
+            if (nextButton == null)
+                nextButton = ButtonCreator.instance.CreateButton("Next", this.gameObject.transform.position.x, this.gameObject.transform.position.y);
+            else
+                nextButton.SetActive(true);
+            if (GUILayout.Button("Next")) // Replace this with a next button from the button generator. (Hollow)
             {
                 this.speechIndex++;
                 WipeTextBox();
