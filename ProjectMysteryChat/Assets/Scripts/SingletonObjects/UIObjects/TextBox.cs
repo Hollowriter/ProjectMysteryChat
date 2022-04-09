@@ -69,18 +69,18 @@ public class TextBox : SingletonBase<TextBox>
         textWriting = false;
     }
 
-    void Next()
+    void NextButtonAppear()
     {
         if (textWritten == true && EvidenceInventory.instance.GetActivated() == false)
         {
             if (nextButton == null)
-                nextButton = ButtonCreator.instance.CreateButton("Next", this.gameObject.transform.position.x, this.gameObject.transform.position.y);
-            else
-                nextButton.SetActive(true);
-            if (GUILayout.Button("Next")) // Replace this with a next button from the button generator. (Hollow)
             {
-                this.speechIndex++;
-                WipeTextBox();
+                nextButton = ButtonCreator.instance.CreateButton("Next", this.gameObject.transform.position.x, this.gameObject.transform.position.y);
+                nextButton.GetComponent<Button>().onClick.AddListener(NextPressed);
+            }
+            else
+            {
+                nextButton.SetActive(true);
             }
         }
     }
@@ -109,14 +109,21 @@ public class TextBox : SingletonBase<TextBox>
         if (ConditionsToBeActive())
         {
             WriteText();
-            Next();
-            CheckOnDocumentManager();
+            NextButtonAppear();
         }
     }
 
     private void OnGUI()
     {
         BehaveSingleton();
+    }
+
+    void NextPressed()
+    {
+        this.speechIndex++;
+        WipeTextBox();
+        nextButton.SetActive(false);
+        CheckOnDocumentManager();
     }
 
     IEnumerator DialogTyping(string _word)
