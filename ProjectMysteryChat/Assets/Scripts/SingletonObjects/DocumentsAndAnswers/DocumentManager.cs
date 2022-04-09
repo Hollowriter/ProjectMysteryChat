@@ -41,6 +41,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
     public void CheckElectionsAndInspector()
     {
         ElectionBox.instance.SetActivated(true);
+        ElectionBox.instance.ShowElections(); // Works, but now elections have to work with this new system. (Hollow)
         AnswerInspector.instance.SetActivated(true);
         SingleTransitionManager.instance.SetActivated(true);
         PlotPointManager.instance.SetActivated(true);

@@ -61,11 +61,12 @@ public class ElectionBox : SingletonBase<ElectionBox>
         {
             for (int i = 0; i < elections.Elections.Length; i++)
             {
-                if (GUILayout.Button(elections.Elections[i].CandidateName))
+                ButtonCreator.instance.CreateButton(elections.Elections[i].CandidateName, 50, (5 * i)); // Find better coordinates. (Hollow)
+                /*if (GUILayout.Button(elections.Elections[i].CandidateName))
                 {
                     SendElectionToTextBox(elections.Elections[i].Candidate);
                     return;
-                }
+                }*/
             }
         }
     }
@@ -78,8 +79,8 @@ public class ElectionBox : SingletonBase<ElectionBox>
         }
     }
 
-    public void OnGUI()
+    /*public void OnGUI()
     {
         BehaveSingleton();
-    }
+    }*/
 }
