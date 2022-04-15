@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ElectionBox : SingletonBase<ElectionBox>
 {
     ElectionCollection elections;
+    List<Button> buttons;
+    public float separationOfButtons;
 
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
+        buttons = new List<Button>();
     }
 
     private void Awake()
@@ -53,25 +57,44 @@ public class ElectionBox : SingletonBase<ElectionBox>
         TextBox.instance.SetActivated(true);
         AnswerInspector.instance.SetActivated(false);
         PresentButton.instance.SetActivated(false);
+        DitchListeners();
+        DeactivateButtons();
+        buttons.Clear();
     }
 
     public void ShowElections()
     {
         if (EvidenceInventory.instance.GetActivated() == false)
         {
+            GameObject theButton;
             if (elections != null){
                 if (elections.Elections != null){
                     for (int i = 0; i < elections.Elections.Length; i++)
                     {
-                        ButtonCreator.instance.CreateButton(elections.Elections[i].CandidateName, this.gameObject.transform.position.x, (this.gameObject.transform.position.y + (i * 70))); // Find better coordinates. (Hollow)
-                        /*if (GUILayout.Button(elections.Elections[i].CandidateName))
-                        {
-                            SendElectionToTextBox(elections.Elections[i].Candidate);
-                            return;
-                        }*/
+                        theButton = ButtonCreator.instance.CreateButton(elections.Elections[i].CandidateName, this.gameObject.transform.position.x, (this.gameObject.transform.position.y + (i * separationOfButtons))); // Find better coordinates. (Hollow)
+                        string candidate = elections.Elections[i].Candidate;
+                        theButton.GetComponent<Button>().onClick.AddListener(delegate {SendElectionToTextBox(candidate);});
+                        buttons.Add(theButton.GetComponent<Button>()); // NOTE: BUG REGARDING THE DEACTIVATION OF BUTTONS. (Hollow)
+                        // TO DO: DESTROY THE BUTTONS AND DEACTIVATE THEM WHEN YOU OPEN THE EVIDENCE MENU. (Hollow)
                     }
                 }
             }
+        }
+    }
+
+    void DitchListeners()
+    {
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            buttons[i].onClick.RemoveAllListeners();
+        }
+    }
+
+    void DeactivateButtons()
+    {
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            buttons[i].gameObject.SetActive(false);
         }
     }
 
