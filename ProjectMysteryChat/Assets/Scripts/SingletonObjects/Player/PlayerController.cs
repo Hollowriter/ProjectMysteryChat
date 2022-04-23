@@ -76,10 +76,14 @@ public class PlayerController : SingletonBase<PlayerController>
             if (EvidenceInventory.instance.GetActivated())
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(false);
+                ElectionBox.instance.SetButtonsActive(true);
+                TextBox.instance.SetNextButtonActive(true);
             }
             else
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(true);
+                ElectionBox.instance.SetButtonsActive(false);
+                TextBox.instance.SetNextButtonActive(false);
             }
             showInventoryProcessed = true;
         }

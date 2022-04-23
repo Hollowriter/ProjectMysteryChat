@@ -82,6 +82,14 @@ public class ElectionBox : SingletonBase<ElectionBox>
         }
     }
 
+    public void SetButtonsActive(bool active)
+    {
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            buttons[i].gameObject.SetActive(active);
+        }
+    }
+
     void DitchListeners()
     {
         for (int i = 0; i < buttons.Count; i++)
@@ -95,6 +103,7 @@ public class ElectionBox : SingletonBase<ElectionBox>
         for (int i = 0; i < buttons.Count; i++)
         {
             buttons[i].gameObject.SetActive(false);
+            buttons[i] = null;
         }
     }
 

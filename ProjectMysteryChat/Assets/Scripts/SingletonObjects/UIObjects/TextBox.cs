@@ -104,6 +104,17 @@ public class TextBox : SingletonBase<TextBox>
         return dialogSetted;
     }
 
+    public void SetNextButtonActive(bool activate)
+    {
+        if (nextButton != null)
+        {
+            if (dialogueText.text != "" && dialogueText.text != null)
+                nextButton.SetActive(activate);
+            else
+                nextButton.SetActive(false);
+        }
+    }
+
     protected override void BehaveSingleton()
     {
         if (ConditionsToBeActive())
