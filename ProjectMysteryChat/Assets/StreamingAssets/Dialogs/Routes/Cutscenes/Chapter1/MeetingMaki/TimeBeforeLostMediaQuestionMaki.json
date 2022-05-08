@@ -32,7 +32,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/MeetingMaki/LostMediaArchiveQuestionMaki.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/MeetingMaki/LostMediaLastQuestionMaki.json",
 			"CandidateName":"Who are the Lost Media Archive?"
 		}
 	]

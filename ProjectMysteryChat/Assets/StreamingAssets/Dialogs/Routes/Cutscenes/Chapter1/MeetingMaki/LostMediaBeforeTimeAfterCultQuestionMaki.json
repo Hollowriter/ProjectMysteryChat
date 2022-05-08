@@ -38,8 +38,8 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/MeetingMaki/TimeAfterOthersQuestionMaki.json",
-			"CandidateName":"When did you join the server?"	
+			"Candidate":"Routes/Cutscenes/Chapter1/MeetingMaki/TimeLastQuestionMaki.json",
+			"CandidateName":"When did you join the server?"
 		}
 	]
 }
