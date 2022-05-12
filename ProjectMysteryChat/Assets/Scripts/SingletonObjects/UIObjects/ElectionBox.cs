@@ -67,14 +67,16 @@ public class ElectionBox : SingletonBase<ElectionBox>
         if (EvidenceInventory.instance.GetActivated() == false)
         {
             GameObject theButton;
+            Button buttonScript;
             if (elections != null){
                 if (elections.Elections != null){
                     for (int i = 0; i < elections.Elections.Length; i++)
                     {
                         theButton = ButtonCreator.instance.CreateButton(elections.Elections[i].CandidateName, this.gameObject.transform.position.x, (this.gameObject.transform.position.y + (i * separationOfButtons))); // Find better coordinates. (Hollow)
                         string candidate = elections.Elections[i].Candidate;
-                        theButton.GetComponent<Button>().onClick.AddListener(delegate {SendElectionToTextBox(candidate);});
-                        buttons.Add(theButton.GetComponent<Button>()); // NOTE: BUG REGARDING THE DEACTIVATION OF BUTTONS. (Hollow)
+                        buttonScript = theButton.GetComponent<Button>();
+                        buttonScript.onClick.AddListener(delegate {SendElectionToTextBox(candidate);});
+                        buttons.Add(buttonScript); // NOTE: BUG REGARDING THE DEACTIVATION OF BUTTONS. (Hollow)
                         // TO DO: DESTROY THE BUTTONS AND DEACTIVATE THEM WHEN YOU OPEN THE EVIDENCE MENU. (Hollow)
                     }
                 }
