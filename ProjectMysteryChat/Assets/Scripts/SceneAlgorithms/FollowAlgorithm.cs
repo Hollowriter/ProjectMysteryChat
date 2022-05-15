@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class FollowAlgorithm : SceneAlgorithm
 {
-    public GameObject[] pointsToFollow;
+    public PointToFollow[] pointsToFollow;
     public GameObject actCharacter;
+    CharacterAnimationsManager animationsManagerCharacter;
     public float characterSpeed;
     int pointsFollowed;
 
@@ -13,6 +14,7 @@ public class FollowAlgorithm : SceneAlgorithm
     {
         followPoints = pointsToFollow;
         character = actCharacter;
+        animationsManagerCharacter = actCharacter.GetComponent<CharacterAnimationsManager>();
         pointsFollowed = 0;
     }
 
@@ -24,12 +26,17 @@ public class FollowAlgorithm : SceneAlgorithm
     void FollowPoint()
     {
         float step = characterSpeed * Time.deltaTime;
-        character.transform.position = Vector3.MoveTowards(character.transform.position, followPoints[pointsFollowed].transform.position, step);
+        character.transform.position = Vector3.MoveTowards(character.transform.position, followPoints[pointsFollowed].gameObject.transform.position, step);
+    }
+
+    void CheckPositionToChange()
+    {
+        animationsManagerCharacter.ChangeCharacterPosition(followPoints[pointsFollowed].positionToChange);
     }
 
     void CheckToChangePoint() 
     {
-        if ((followPoints[pointsFollowed].transform.position - character.transform.position).magnitude < 0.25f)
+        if ((followPoints[pointsFollowed].gameObject.transform.position - character.transform.position).magnitude < 0.25f)
         {
             if (pointsFollowed < followPoints.Length - 1)
             {
@@ -37,6 +44,7 @@ public class FollowAlgorithm : SceneAlgorithm
             }
             else 
             {
+                animationsManagerCharacter.SetMoving(false);
                 SetAlgorithmEnd(true);
             }
         }
@@ -44,7 +52,9 @@ public class FollowAlgorithm : SceneAlgorithm
 
     public override void ActScript()
     {
+        animationsManagerCharacter.SetMoving(true);
         FollowPoint();
         CheckToChangePoint();
+        CheckPositionToChange();
     }
 }
