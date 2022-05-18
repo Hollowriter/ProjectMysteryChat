@@ -2,7 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PositionToLook
+{
+    Up,
+    Down,
+    Left,
+    Right
+}
+
 public class PointToFollow : MonoBehaviour
 {
-    public int positionToChange;
+    public PositionToLook positionToChange;
 }

@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a31395222c3ef2478ed281e458c819d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionToChange: 1
+  positionToChange: 3
 --- !u!1 &1180981316
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,7 +1473,7 @@ PrefabInstance:
     - target: {fileID: 9213160112660533865, guid: 93897519c884f124b99e241d346a8aa5,
         type: 3}
       propertyPath: startPosition
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93897519c884f124b99e241d346a8aa5, type: 3}

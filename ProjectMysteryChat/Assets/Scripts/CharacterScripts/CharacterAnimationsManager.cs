@@ -5,17 +5,17 @@ using UnityEngine;
 public class CharacterAnimationsManager : MonoBehaviour
 {
     Animator characterAnimator;
-    public int startPosition;
+    public PositionToLook startPosition;
 
     void Start()
     {
         characterAnimator = this.gameObject.GetComponentInChildren<Animator>();
-        characterAnimator.SetInteger("Position", startPosition);
+        characterAnimator.SetTrigger(startPosition.ToString());
     }
 
-    public void ChangeCharacterPosition(int position)
+    public void ChangeCharacterPosition(PositionToLook position)
     {
-        characterAnimator.SetInteger("Position", position);
+        characterAnimator.SetTrigger(position.ToString());
     }
 
     public void SetMoving(bool isMoving)
