@@ -5,9 +5,13 @@ using UnityEngine;
 public enum PositionToLook
 {
     Up,
+    UpMoving,
     Down,
+    DownMoving,
     Left,
-    Right
+    LeftMoving,
+    Right,
+    RightMoving
 }
 
 public class PointToFollow : MonoBehaviour

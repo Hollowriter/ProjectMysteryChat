@@ -44,7 +44,6 @@ public class FollowAlgorithm : SceneAlgorithm
             }
             else 
             {
-                animationsManagerCharacter.SetMoving(false);
                 SetAlgorithmEnd(true);
             }
         }
@@ -52,7 +51,6 @@ public class FollowAlgorithm : SceneAlgorithm
 
     public override void ActScript()
     {
-        // animationsManagerCharacter.SetMoving(true);
         CheckPositionToChange();
         FollowPoint();
         CheckToChangePoint();
