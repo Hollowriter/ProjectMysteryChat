@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerPositionToLook
+{
+    Up = 1,
+    Down = 0,
+    Left = 2,
+    Right = 3
+}
+
 public class PlayerAnimations : SingletonBase<PlayerAnimations>
 {
     Animator playerAnimator;
@@ -25,19 +33,19 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
         {
             if (Input.GetKey(InputHandler.instance.walkUp))
             {
-                playerAnimator.SetInteger("Position", 1);
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Up);
             }
             if (Input.GetKey(InputHandler.instance.walkDown))
             {
-                playerAnimator.SetInteger("Position", 0);
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Down);
             }
             if (Input.GetKey(InputHandler.instance.walkLeft))
             {
-                playerAnimator.SetInteger("Position", 2);
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Left);
             }
             if (Input.GetKey(InputHandler.instance.walkRight))
             {
-                playerAnimator.SetInteger("Position", 3);
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Right);
             }
         }
     }
