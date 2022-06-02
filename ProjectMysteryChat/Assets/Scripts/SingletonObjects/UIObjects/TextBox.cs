@@ -14,6 +14,8 @@ public class TextBox : SingletonBase<TextBox>
     [SerializeField]
     Text dialogueText;
     [SerializeField]
+    GameObject dialogueBackground;
+    [SerializeField]
     int textSlowDown;
     DialogCollection items;
     string dialogSetted;
@@ -29,6 +31,7 @@ public class TextBox : SingletonBase<TextBox>
         dialogueText.text = "";
         dialogSetted = "";
         nextButton = null;
+        dialogueBackground.SetActive(false);
     }
 
     private void Awake()
@@ -90,6 +93,7 @@ public class TextBox : SingletonBase<TextBox>
         if (speechIndex >= items.Dialogs.Length)
         {
             DocumentManager.instance.CheckElectionsAndInspector();
+            dialogueBackground.SetActive(false); // Check to improve this. (Hollow)
         }
     }
 
@@ -139,6 +143,8 @@ public class TextBox : SingletonBase<TextBox>
 
     IEnumerator DialogTyping(string _word)
     {
+        if (!dialogueBackground.activeInHierarchy)
+            dialogueBackground.SetActive(true);
         int typingIndex = 0;
         dialogueText.text = "";
         foreach (char letter in _word.ToCharArray())
