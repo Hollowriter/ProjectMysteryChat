@@ -31,7 +31,8 @@ public class TextBox : SingletonBase<TextBox>
         dialogueText.text = "";
         dialogSetted = "";
         nextButton = null;
-        dialogueBackground.SetActive(false);
+        if (dialogueBackground != null) // Checkear este null reference. (Hollow)
+            dialogueBackground.SetActive(false);
     }
 
     private void Awake()
