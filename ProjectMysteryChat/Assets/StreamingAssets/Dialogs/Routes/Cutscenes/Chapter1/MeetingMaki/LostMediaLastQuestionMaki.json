@@ -34,5 +34,12 @@
 		{
 			"Text":"Thomas B: Note to myself, i have to be more relaxed with the way i ask questions."
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/StartingExploration/MakiStartExploring.json"
+		}
 	]
 }

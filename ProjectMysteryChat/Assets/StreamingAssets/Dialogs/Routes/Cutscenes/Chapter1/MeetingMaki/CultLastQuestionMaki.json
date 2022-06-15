@@ -49,5 +49,12 @@
 		{
 			"Text":"Thomas B: My client is not going to believe the report, maybe i should take out some details."
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/StartingExploration/MakiStartExploring.json"
+		}
 	]
 }

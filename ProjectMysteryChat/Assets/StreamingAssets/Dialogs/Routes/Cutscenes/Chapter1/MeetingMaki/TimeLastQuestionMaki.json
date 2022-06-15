@@ -28,5 +28,12 @@
 		{
 			"Text":"Thomas B: Still, asking that to this user would probably not yield answers, and just raise unwanted attention on me."
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/StartingExploration/MakiStartExploring.json"
+		}
 	]
 }
