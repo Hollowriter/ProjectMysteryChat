@@ -665,7 +665,7 @@ PrefabInstance:
     - target: {fileID: 8567648032969131861, guid: 17672fed22964ac4b9c8be777de690e4,
         type: 3}
       propertyPath: characterSpeed
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8567648032969131861, guid: 17672fed22964ac4b9c8be777de690e4,
         type: 3}
