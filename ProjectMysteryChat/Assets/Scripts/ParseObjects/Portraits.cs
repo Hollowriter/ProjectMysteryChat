@@ -3,10 +3,10 @@
 [System.Serializable]
 public class Portraits
 {
-    public string Character1;
-    public string Expression1;
-    public string Character2;
-    public string Expression2;
+    public string CharacterLeft;
+    public string ExpressionLeft;
+    public string CharacterRight;
+    public string ExpressionRight;
 }
 
 [System.Serializable]

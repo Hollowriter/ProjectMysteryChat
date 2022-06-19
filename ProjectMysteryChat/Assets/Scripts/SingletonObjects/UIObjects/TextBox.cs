@@ -81,6 +81,7 @@ public class TextBox : SingletonBase<TextBox>
             {
                 nextButton = ButtonCreator.instance.CreateButton("Next", this.gameObject.transform.position.x, this.gameObject.transform.position.y);
                 nextButton.GetComponent<Button>().onClick.AddListener(NextPressed);
+                nextButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PutOnImage);
             }
             else
             {

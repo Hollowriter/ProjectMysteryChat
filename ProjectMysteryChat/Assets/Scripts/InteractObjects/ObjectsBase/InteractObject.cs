@@ -42,6 +42,7 @@ public class InteractObject : MonoBehaviour
     public void ShowText()
     {
         TextBox.instance.SetActivated(true);
+        PortraitBoxes.instance.PutOnImage();
     }
 
     protected void SetPermanentInteraction()

@@ -27,6 +27,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
         {
             string json = reader.ReadToEnd();
             TextBox.instance.SetDialog(JsonUtility.FromJson<DialogCollection>(json));
+            PortraitBoxes.instance.SetPortraitImages(JsonUtility.FromJson<PortraitCollection>(json));
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
             ElectionBox.instance.SetActivated(false);
             AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
