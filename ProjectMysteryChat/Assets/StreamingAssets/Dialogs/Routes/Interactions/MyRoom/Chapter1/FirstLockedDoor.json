@@ -7,5 +7,14 @@
 		{
 			"Text":"Thomas B: Permission that i don't know if still exists, given how old this forgotten place is."
 		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
 	]
 }

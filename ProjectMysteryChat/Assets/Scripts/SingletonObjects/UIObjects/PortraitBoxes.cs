@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class PortraitBoxes : SingletonBase<PortraitBoxes>
 {
     [SerializeField]
-    RawImage portraitLeft;
+    Image portraitLeft;
     [SerializeField]
-    RawImage portraitRight;
+    Image portraitRight;
     const string path = "Sprites/Portraits/";
     PortraitCollection portraits;
     int portraitIndex;
@@ -36,30 +36,33 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
     {
         if (portraits != null)
         {
-            if (portraitIndex < portraits.Portraits.Length)
+            if (portraits.Portraits != null)
             {
-                if (portraits.Portraits[portraitIndex].CharacterLeft != "" && portraits.Portraits[portraitIndex].CharacterLeft != null 
-                    && portraits.Portraits[portraitIndex].ExpressionLeft != "" && portraits.Portraits[portraitIndex].ExpressionLeft != null)
+                if (portraitIndex < portraits.Portraits.Length)
                 {
-                    portraitLeft.gameObject.SetActive(true);
-                    portraitLeft.texture = Resources.Load<Texture>(path + portraits.Portraits[portraitIndex].CharacterLeft + "/" + portraits.Portraits[portraitIndex].ExpressionLeft);
+                    if (portraits.Portraits[portraitIndex].CharacterLeft != "" && portraits.Portraits[portraitIndex].CharacterLeft != null 
+                        && portraits.Portraits[portraitIndex].ExpressionLeft != "" && portraits.Portraits[portraitIndex].ExpressionLeft != null)
+                    {
+                        portraitLeft.gameObject.SetActive(true);
+                        portraitLeft.sprite = Resources.Load<Sprite>(path + portraits.Portraits[portraitIndex].CharacterLeft + "/" + portraits.Portraits[portraitIndex].ExpressionLeft);
+                    }
+                    else
+                    {
+                        portraitLeft.gameObject.SetActive(false);
+                    }
+                    if (portraits.Portraits[portraitIndex].CharacterRight != "" && portraits.Portraits[portraitIndex].CharacterRight != null 
+                        && portraits.Portraits[portraitIndex].ExpressionRight != "" && portraits.Portraits[portraitIndex].ExpressionRight != null)
+                    {
+                        portraitRight.gameObject.SetActive(true);
+                        portraitRight.sprite = Resources.Load<Sprite>(path + portraits.Portraits[portraitIndex].CharacterRight + "/" + portraits.Portraits[portraitIndex].ExpressionRight);
+                    }
+                    else
+                    {
+                        portraitRight.gameObject.SetActive(false);
+                    }
+                    portraitIndex++;
+                    return;
                 }
-                else
-                {
-                    portraitLeft.gameObject.SetActive(false);
-                }
-                if (portraits.Portraits[portraitIndex].CharacterRight != "" && portraits.Portraits[portraitIndex].CharacterRight != null 
-                    && portraits.Portraits[portraitIndex].ExpressionRight != "" && portraits.Portraits[portraitIndex].ExpressionRight != null)
-                {
-                    portraitRight.gameObject.SetActive(true);
-                    portraitRight.texture = Resources.Load<Texture>(path + portraits.Portraits[portraitIndex].CharacterRight + "/" + portraits.Portraits[portraitIndex].ExpressionRight);
-                }
-                else
-                {
-                    portraitRight.gameObject.SetActive(false);
-                }
-                portraitIndex++;
-                return;
             }
         }
         WipePortraitBoxes();
