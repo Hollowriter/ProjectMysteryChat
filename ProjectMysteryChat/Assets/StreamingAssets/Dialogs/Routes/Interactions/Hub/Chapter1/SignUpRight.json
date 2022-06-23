@@ -5,7 +5,22 @@
 			"Text":"Thomas B: Let's see; 'Up: Art Gallery', 'Right: Transport Beacon'."
 		},
 		{
-			"Text":"Thomas B: There is even signs to help guide people. Quite tidy to be abandoned in that regard."
+			"Text":"Thomas B: There is even signs to help guide people. Whoever managed this world before was quite tidy with it."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }

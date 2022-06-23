@@ -2,7 +2,43 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Along with the sign, this looks like another gathering point. I guess this place was vibrating with activity in it's better times."
+			"Text":"Thomas B: I remember that every hubworld had a campfire."
+		},
+		{
+			"Text":"Thomas B: Not a lot of people replaced them and there was a lot of people around them in every server."
+		},
+		{
+			"Text":"Thomas B: Good times, really."
+		},
+		{
+			"Text":"Thomas B: ...I'm starting to sound like an old man."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Happy",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }

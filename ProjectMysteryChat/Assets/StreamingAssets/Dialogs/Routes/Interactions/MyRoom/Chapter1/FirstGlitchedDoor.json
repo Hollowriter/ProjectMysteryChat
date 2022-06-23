@@ -3,6 +3,24 @@
 	[
 		{
 			"Text":"Thomas B: This door doesn't seem to respond to any command at all."
+		},
+		{
+			"Text":"Thomas B: I guess the announcements room only works if the original server is working."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }

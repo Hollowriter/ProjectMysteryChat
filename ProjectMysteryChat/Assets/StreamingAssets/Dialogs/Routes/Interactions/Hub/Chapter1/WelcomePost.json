@@ -3,9 +3,15 @@
 	[
 		{
 			"Text":"Thomas B: With the welcome sign like this, it seems like i'm walking into a ghost town."
-		},
+		}
+	],
+	"Portraits":
+	[
 		{
-			"Text":"Thomas B: But i must admit, the font looks wacky enough to make the glitches blend with it."
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }

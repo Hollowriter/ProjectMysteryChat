@@ -2,10 +2,10 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: This one is locked, it says it needs a premission of some kind to be opened."
+			"Text":"Thomas B: It's locked, it says i need permission to open it."
 		},
 		{
-			"Text":"Thomas B: Permission that i don't know if still exists, given how old this forgotten place is."
+			"Text":"Thomas B: That's strange, this is my intial room in the chat, only visitors should have this restricted."
 		}
 	],
 	"Portraits":
@@ -13,6 +13,12 @@
 		{
 			"CharacterLeft":"Detective",
 			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}

@@ -5,10 +5,22 @@
 			"Text":"Thomas B: The users here have avatars with the same outfits."
 		},
 		{
-			"Text":"Thomas B: Looks like the picture of a cult... In this case, users playing a cult."
+			"Text":"Thomas B: Probably people roleplaying that they are in a cult."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
-			"Text":"Thomas B: How silly."
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }

@@ -2,19 +2,61 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Quite colorful drawings here, similar to my daughter's."
+			"Text":"Thomas B: Seems that still some cool art survived in this server."
 		},
 		{
-			"Text":"Thomas B: Judging by the names on the heads, seems they represent users from this place."
+			"Text":"Thomas B: It seems it's from previous users of this place."
 		},
 		{
-			"Text":"Thomas B: Back when this place had activity, seems that artists gath--- Wait..."
+			"Text":"Thomas B: Back when this place had activity, lots of artists gath---"
+		},
+		{
+			"Text":"Thomas B: Wait!"
 		},
 		{
 			"Text":"Thomas B: All of them have the same signature. Also... Is this a card with a code?"
 		},
 		{
 			"Text":"Thomas B: Better write this down, it can come in handy somewhere."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Happy",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	],
 	"Transition":

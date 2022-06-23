@@ -2,13 +2,34 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: They are two separate photos... In the same space."
+			"Text":"Thomas B: They are two separate photos of two different users."
 		},
 		{
-			"Text":"Thomas B: Of two users seemingly unrelated with each other. Even more on how their personalities are depicted in this drawings."
+			"Text":"Thomas B: One is bald and the other... Is a fox guy."
 		},
 		{
-			"Text":"Thomas B: Their silly names are the only thing in common they have."
+			"Text":"Thomas B: I can't help but think that it reminds me of someone."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }

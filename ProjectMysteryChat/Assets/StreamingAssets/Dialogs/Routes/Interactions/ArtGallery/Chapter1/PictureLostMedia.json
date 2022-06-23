@@ -5,10 +5,22 @@
 			"Text":"Thomas B: It's a group of avatars with a name behind. 'Lost Media Archive'."
 		},
 		{
-			"Text":"Thomas B: I feel they should be striking a pose, they look too serious even when the avatars have happy expressions..."
+			"Text":"Thomas B: The one who passed me the link here is part of this group so... I'm in the correct server."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
-			"Text":"Thomas B: Why i was thinking about this anyway?"
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Happy",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }
