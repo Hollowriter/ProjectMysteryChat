@@ -8,22 +8,64 @@
 			"Text":"CHAT: NEW CONVERSATION REQUEST."
 		},
 		{
-			"Text":"Thomas B: Huh?"
-		},
-		{
 			"Text":"MsMaki95: Hello o-o! Welcome to my art shop ^o^!"
 		},
 		{
-			"Text":"SecurPink1850: Greetings."
+			"Text":"SecurPink1850: Hello."
 		},
 		{
 			"Text":"MsMaki95: Are you new around here by any chance? ^-^"
 		},
 		{
-			"Text":"Thomas B: So, is this actually an user or an AI?"
+			"Text":"Thomas B: So there is people here already. And an artist doing commissions no less."
 		},
 		{
-			"Text":"Thomas B: One way to find out."
+			"Text":"Thomas B: Why is it doing bussiness here of all places? I guess there is one way to find out."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
 		}
 	],
 	"Elections":

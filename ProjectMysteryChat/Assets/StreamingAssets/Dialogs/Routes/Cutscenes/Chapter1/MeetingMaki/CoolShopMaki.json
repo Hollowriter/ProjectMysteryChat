@@ -17,28 +17,136 @@
 			"Text":"MsMaki95: I mean, i put a lot of effort into it, but, they can be better! >-<"
 		},
 		{
-			"Text":"Thomas B: Judging by the type of answer and age of this place, this seems to be an actual user."
+			"Text":"MsMaki95: Do you have any clients here?"
 		},
 		{
-			"Text":"MsMaki95: Hehe, it seems you are going to fit right in when you meet the others. ^-^"
+			"Text":"MsMaki95: I do art for the others coming here. ^-^"
 		},
 		{
-			"Text":"SecurPink1850: The others?"
+			"Text":"SecurPink1850: There is more people here then?"
 		},
 		{
-			"Text":"SecurPink1850: Wait, how do you know i'm new? I didn't answer yet and i could be an alt account of... Someone else."
+			"Text":"MsMaki95: Yeah, someone invited me here and even that they aren't much people, they are nice, and some commission me from time to time. c:"
 		},
 		{
-			"Text":"MsMaki95: Eh? o-o"
+			"Text":"MsMaki95: Also, i can show my art here before making it public. n-n"
 		},
 		{
-			"Text":"MsMaki95: Oh! Well, you don't know me and you didn't knew there were other people here. That's how i know. >-o"
+			"Text":"SecurPink1850: You can get feedback making it public, you know."
 		},
 		{
-			"Text":"Thomas B: Hmph, smart one here."
+			"Text":"MsMaki95: Yeah but... Showing it to too much people at once... It's just..."
 		},
 		{
-			"Text":"MsMaki95: Speaking of new... o-o"
+			"Text":"MsMaki95: Let's say i'm kind of shy and i'm just starting. Un-n"
+		},
+		{
+			"Text":"SecurPink1850: I see."
+		},
+		{
+			"Text":"Thomas B: More than shy, seems like something else happened."
+		},
+		{
+			"Text":"MsMaki95: Anyway, changing subject. Speaking of just starting... o-o"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
 		}
 	],
 	"Transition":

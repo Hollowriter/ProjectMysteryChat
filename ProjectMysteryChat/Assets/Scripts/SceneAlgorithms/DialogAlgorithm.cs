@@ -24,6 +24,7 @@ public class DialogAlgorithm : SceneAlgorithm
         {
             DocumentManager.instance.SetDocument(dialogFile);
             TextBox.instance.SetActivated(true);
+            PortraitBoxes.instance.PutOnImage();
             dialogIsSet = true;
         }
     }
