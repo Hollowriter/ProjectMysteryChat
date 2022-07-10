@@ -2,7 +2,7 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: So, what is your group exactly?"
+			"Text":"SecurPink1850: So, what is your group doing here?"
 		},
 		{
 			"Text":"MsMaki95: We are interested in lost software, movies and many other things. ^-^"
@@ -11,28 +11,22 @@
 			"Text":"MsMaki95: Things that people remember existed, but can't be found anymore. u-u"
 		},
 		{
-			"Text":"SecurPink1850: You are like a lost and found group, then."
+			"Text":"SecurPink1850: I know that, i mean, how did they found this place?"
 		},
 		{
-			"Text":"MsMaki95: That's a cold way to put it but, yes. o-o"
+			"Text":"MsMaki95: Oh that Un-n. Well, i don't know how they found it, some friends that were in the group passed me the link and i joined."
 		},
 		{
-			"Text":"SecurPink1850: Why do you do it?"
+			"Text":"MsMaki95: It's interesting, you find something new every day. c:"
 		},
 		{
-			"Text":"MsMaki95: It's interesting, you find something new every day. And well, it feels like recording history. c:"
-		},
-		{
-			"Text":"Thomas B: Basically, people with a lot of free time."
+			"Text":"Thomas B: So she got here by invitation, i will have to look who else is in this place and trace the origin of this invitation."
 		},
 		{
 			"Text":"MsMaki95: You seem like a curious guy, i think they will love to include you in the team if you meet them. n-n"
 		},
 		{
 			"Text":"SecurPink1850: Sounds interesting, but i will have to think about it."
-		},
-		{
-			"Text":"Thomas B: Note to myself, i have to be more relaxed with the way i ask questions."
 		}
 	],
 	"Portraits":
@@ -53,25 +47,13 @@
 			"CharacterLeft":"Detective",
 			"ExpressionLeft":"SecurPink1850-Neutral",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"Detective",
 			"ExpressionLeft":"SecurPink1850-Neutral",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Happy"
-		},
-		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Angry",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Happy"
-		},
-		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Happy"
+			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"Detective",
@@ -84,6 +66,24 @@
 			"ExpressionLeft":"SecurPink1850-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
 		}
 	],
 	"Elections":
