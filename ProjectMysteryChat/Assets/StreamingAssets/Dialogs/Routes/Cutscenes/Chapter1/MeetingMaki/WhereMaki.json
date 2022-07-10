@@ -72,7 +72,10 @@
 		},
 		{
 			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		}
 	],
 	"Elections":
 	[
