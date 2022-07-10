@@ -2,31 +2,70 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: Since you asked me, i think it's correct to ask you now. How long have you been coming here?"
+			"Text":"SecurPink1850: Since you asked me. How long have you been here?"
 		},
 		{
-			"Text":"MsMaki95: Last year, a friend invited me over here. He said i could make good use of the art tools of this chat. c:"
+			"Text":"MsMaki95: A month ago, a group of friends invited me over. They said i could make good use of the tools of this chat. c:"
 		},
 		{
-			"Text":"MsMaki95: He found this place with some people in our non vr server and, well, i'm here! n-n"
+			"Text":"SecurPink1850: The tools?"
 		},
 		{
-			"Text":"SecurPink1850: Seems they are interested in abandonware."
+			"Text":"MsMaki95: Yeah, to show off my art, to make new things here, and test if everything is working properly. n-n"
 		},
 		{
-			"Text":"MsMaki95: Abandonware? o-o"
+			"Text":"SecurPink1850: I see, so you are having fun and helping your friends here."
 		},
 		{
-			"Text":"SecurPink1850: Sorry, old term, it was used for software that it's not supported or ignored by their creators."
+			"Text":"Thomas B: A month ago? They discovered this place and didn't got leaked during a whole month."
 		},
 		{
-			"Text":"MsMaki95: Oh that! oOo Yeah, you bet they are interested in that!"
+			"Text":"Thomas B: Strange, this would make noise in curiosity forums."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"Text":"Thomas B: People with peculiar interests, nothing new here. The doubt is how did they hid this place from authorities?"
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"Text":"Thomas B: Still, asking that to this user would probably not yield answers, and just raise unwanted attention on me."
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
 		}
 	],
 	"Elections":
