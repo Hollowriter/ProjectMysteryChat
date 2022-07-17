@@ -5,7 +5,23 @@
 			"Text":"Thomas B: Seems, i don't have one at the moment."
 		},
 		{
-			"Text":"Thomas B: Curious thing to see something like this, invitations are usually handled directly by menus, not by interactive objects."
+			"Text":"Thomas B: Still, where in this abandoned place could i find one?."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
+	
 }

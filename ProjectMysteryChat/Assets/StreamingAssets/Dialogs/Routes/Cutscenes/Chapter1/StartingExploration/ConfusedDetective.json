@@ -5,10 +5,31 @@
 			"Text":"SecurPink1850: Wait, what is it?"
 		},
 		{
-			"Text":"Thomas B: She ignored me... Maybe that's for the best since i lied about knowing this place."
+			"Text":"Thomas B: Ok, completely ignored..."
 		},
 		{
-			"Text":"Thomas B: Now i better locate her fast as to not blow my cover."
+			"Text":"Thomas B: I better follow her, though, let's see what she wants to show me."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }

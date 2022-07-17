@@ -2,22 +2,13 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: About this Sun Cult... What is it about?"
+			"Text":"SecurPink1850: About this Sun Cult... Who are they?"
 		},
 		{
-			"Text":"MsMaki95: Are you interested in them? Want to join them? o-o"
+			"Text":"MsMaki95: I don't know exactly where they come from but..."
 		},
 		{
-			"Text":"SecurPink1850: What?"
-		},
-		{
-			"Text":"SecurPink1850: No, i just want to know about them if i Happen to bump into them."
-		},
-		{
-			"Text":"MsMaki95: Oh, i see. -.-U"
-		},
-		{
-			"Text":"MsMaki95: They are 3 users with avatars in tunics. They go around the server 'finding' items for rituals or something like that. -.-"
+			"Text":"MsMaki95: They are 3 users with avatars with magenta tunics. They go around the server 'finding' items for rituals or something like that. -.-"
 		},
 		{
 			"Text":"MsMaki95: Sometimes they try to make some of us join. n-nU"
@@ -26,28 +17,55 @@
 			"Text":"SecurPink1850: Someone interested so far?"
 		},
 		{
-			"Text":"MsMaki95: No, they are really weird, and also i'm not so much into that cult stuff, you know? n-n"
+			"Text":"MsMaki95: What? No, i'm not much into roleplaying, to be honest. n-nU"
 		},
 		{
-			"Text":"Thomas B: You are in a group that looks for missing pieces of abandonware, no matter how irrelevant. And you call them weird."
+			"Text":"Thomas B: I said, 'someone', not you specifically but... Ok."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"Text":"SecurPink1850: I see. They call themselves 'Sun Cult', they adore the sun or something like that?"
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
-			"Text":"MsMaki95: I don't get it too much myself, but they say it's not the sun as... Our star, but an 'entity', or something."
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
-			"Text":"SecurPink1850: Something?"
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"Text":"MsMaki95: I don't get it, but it's not our star. The point is, they are probably playing role or something, don't worry too much about them. n-n"
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"Text":"Thomas B: A group of roleplayers and a group of missing things searchers in an abandoned old chatroom that's supposed to be defunct."
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
-			"Text":"Thomas B: My client is not going to believe the report, maybe i should take out some details."
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
 		}
 	],
 	"Elections":

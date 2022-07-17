@@ -8,19 +8,13 @@
 			"Text":"MsMaki95: Yeah, here you have me. >-o"
 		},
 		{
-			"Text":"SecurPink1850: I mean... If there is more people around."
-		},
-		{
-			"Text":"MsMaki95: I know, i know, just messing with you. xD"
-		},
-		{
-			"Text":"MsMaki95: I'm here with the people of my 2D server and a friend of mine."
+			"Text":"MsMaki95: Jk jk. xD I'm here with the people of my 2D server and a friend of mine."
 		},
 		{
 			"Text":"SecurPink1850: I see, seems quite some people are interested back in this place."
 		},
 		{
-			"Text":"MsMaki95: It's not all the server that comes here though, but the ones that come are regulars."
+			"Text":"MsMaki95: It's not all the server that comes here though, the ones we are here is because of a private link."
 		},
 		{
 			"Text":"MsMaki95: We call ourselves 'The Lost Media Archive', we are interested in old places like this. And we are all friendly. ^-^"
@@ -32,20 +26,84 @@
 			"Text":"SecurPink1850: ...Another group?"
 		},
 		{
-			"Text":"MsMaki95: Yeah, they call themselves a Sun cult... Or something like that. Probably a bunch of little kids playing. U^-^"
+			"Text":"MsMaki95: Yeah, the 'Sun cult'... Or something like that. Probably a bunch of little kids roleplaying. U^-^"
 		},
 		{
-			"Text":"Thomas B: Little kids? Here? I can buy they are a bunch of grown men playing weird games."
+			"Text":"Thomas B: Little kids? Here? If it's this private, how did they got here?"
 		},
 		{
-			"Text":"SecurPink1850: Are they friendly?"
-		},
-		{
-			"Text":"MsMaki95: They are weird. o-o"
-		},
-		{
-			"Text":"Thomas B: So there is a small group of colorful people around here. Seems i won't be alone during this investigation."
+			"Text":"Thomas B: Anway, seems i won't be alone during my stay here."
 		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		}
+
 	],
 	"Elections":
 	[

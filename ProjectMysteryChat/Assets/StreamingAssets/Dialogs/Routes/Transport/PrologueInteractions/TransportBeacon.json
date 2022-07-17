@@ -8,6 +8,21 @@
 			"Text":"Thomas B: Do i have one of those somewhere in my notes?"
 		}
 	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
 	"Elections":
 	[
 		{

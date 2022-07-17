@@ -8,10 +8,28 @@
 			"Text":"Beacon: INVITATION CODE INVALID."
 		},
 		{
-			"Text":"Thomas B: The victim's invitation code doesn't work. Now this is interesting."
+			"Text":"Thomas B: Of course it wasn't going to work."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
-			"Text":"Thomas B: But it could also be a glitch or an error, judging how old this place is."
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"Detective",
+			"ExpressionLeft":"SecurPink1850-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	]
 }
