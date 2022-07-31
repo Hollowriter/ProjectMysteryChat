@@ -2,7 +2,7 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: Wait, what is it?"
+			"Text":"LostDecipher2: Wait, what is it?"
 		},
 		{
 			"Text":"Thomas B: Ok, completely ignored..."
@@ -14,20 +14,20 @@
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Angry",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}

@@ -11,14 +11,14 @@
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Happy",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}

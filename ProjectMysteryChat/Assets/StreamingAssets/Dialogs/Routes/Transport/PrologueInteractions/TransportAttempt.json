@@ -2,7 +2,7 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: OpenSeattle!"
+			"Text":"LostDecipher2: OpenSeattle!"
 		},
 		{
 			"Text":"Beacon: INVITATION CODE INVALID."
@@ -14,8 +14,8 @@
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -26,8 +26,8 @@
 			"ExpressionRight":""
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Sad",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}

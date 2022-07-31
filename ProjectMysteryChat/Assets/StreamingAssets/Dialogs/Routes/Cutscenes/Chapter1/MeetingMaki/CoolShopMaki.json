@@ -2,13 +2,13 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: Is this art yours?"
+			"Text":"LostDecipher2: Is this art yours?"
 		},
 		{
 			"Text":"MsMaki95: Oh, yeah! All done by this hands. >-o"
 		},
 		{
-			"Text":"SecurPink1850: Impressive, they all look quite well done."
+			"Text":"LostDecipher2: Impressive, they all look quite well done."
 		},
 		{
 			"Text":"MsMaki95: Waaa o^o, thank you! ^o^"
@@ -23,7 +23,7 @@
 			"Text":"MsMaki95: I do art for the others coming here. ^-^"
 		},
 		{
-			"Text":"SecurPink1850: There is more people here then?"
+			"Text":"LostDecipher2: There is more people here then?"
 		},
 		{
 			"Text":"MsMaki95: Yeah, someone invited me here and even that they aren't much people, they are nice, and some commission me from time to time. c:"
@@ -32,7 +32,7 @@
 			"Text":"MsMaki95: Also, i can show my art here before making it public. n-n"
 		},
 		{
-			"Text":"SecurPink1850: You can get feedback making it public, you know."
+			"Text":"LostDecipher2: You can get feedback making it public, you know."
 		},
 		{
 			"Text":"MsMaki95: Yeah but... Showing it to too much people at once... It's just..."
@@ -41,7 +41,7 @@
 			"Text":"MsMaki95: Let's say i'm kind of shy and i'm just starting. Un-n"
 		},
 		{
-			"Text":"SecurPink1850: I see."
+			"Text":"LostDecipher2: I see."
 		},
 		{
 			"Text":"Thomas B: More than shy, seems like something else happened."
@@ -53,98 +53,98 @@
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Surprised"
 		}

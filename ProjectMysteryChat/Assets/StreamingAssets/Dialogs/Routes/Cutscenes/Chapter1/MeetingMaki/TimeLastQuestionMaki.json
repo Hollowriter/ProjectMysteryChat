@@ -2,19 +2,19 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: Since you asked me. How long have you been here?"
+			"Text":"LostDecipher2: Since you asked me. How long have you been here?"
 		},
 		{
 			"Text":"MsMaki95: A month ago, a group of friends invited me over. They said i could make good use of the tools of this chat. c:"
 		},
 		{
-			"Text":"SecurPink1850: The tools?"
+			"Text":"LostDecipher2: The tools?"
 		},
 		{
 			"Text":"MsMaki95: Yeah, to show off my art, to make new things here, and test if everything is working properly. n-n"
 		},
 		{
-			"Text":"SecurPink1850: I see, so you are having fun and helping your friends here."
+			"Text":"LostDecipher2: I see, so you are having fun and helping your friends here."
 		},
 		{
 			"Text":"Thomas B: A month ago? They discovered this place and didn't got leaked during a whole month."
@@ -26,44 +26,44 @@
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Happy",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		}

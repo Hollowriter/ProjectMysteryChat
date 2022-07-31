@@ -2,13 +2,13 @@
 	"Dialogs":
 	[
 		{
-			"Text":"SecurPink1850: I could be... Why?"
+			"Text":"LostDecipher2: I could be... Why?"
 		},
 		{
 			"Text":"MsMaki95: Mmm? o-o Why? Well, i never saw you before."
 		},
 		{
-			"Text":"SecurPink1850: Of course, this is a new avatar."
+			"Text":"LostDecipher2: Of course, this is a new avatar."
 		},
 		{
 			"Text":">No one writes anything for a couple of seconds."
@@ -29,7 +29,7 @@
 			"Text":"MsMaki95: Password o-o?"
 		},
 		{
-			"Text":"SecurPink1850: A password?"
+			"Text":"LostDecipher2: A password?"
 		},
 		{
 			"Text":"MsMaki95: Yeah, you are not him. n-n But you sound a bit like him, hehehe. >-o"
@@ -44,20 +44,20 @@
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
@@ -68,62 +68,62 @@
 			"ExpressionRight":""
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Surprised",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
-			"CharacterLeft":"Detective",
-			"ExpressionLeft":"SecurPink1850-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Surprised"
 		}
