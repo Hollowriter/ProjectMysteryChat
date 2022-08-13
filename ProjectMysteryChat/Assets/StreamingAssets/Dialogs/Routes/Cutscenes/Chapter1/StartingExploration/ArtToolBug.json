@@ -41,7 +41,7 @@
 			"Text":"Thomas B: Leak? They made you sign a contract for their friendship?"
 		},
 		{
-			"Text":"MsMaki95: I know it's random and... A long shot but... Can you happen to know about bugs and all that?"
+			"Text":"MsMaki95: I know it's random... And a long shot but... Can you happen to know about bugs and all that?"
 		},
 		{
 			"Text":"LostDecipher2: Well, you are lucky, because a i happen to know about this things."
@@ -57,9 +57,6 @@
 		},
 		{
 			"Text":"Thomas B: Now that she says it, it's curious, but i think it will be better to see if we can solve this glitch first."
-		},
-		{
-			"Text":"TO BE COTINUED"
 		}
 	],
 	"Portraits":
@@ -141,6 +138,42 @@
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
 		}
 	]
 }
