@@ -26,7 +26,7 @@ public class CutsceneObject : InteractObject
         if (IShouldBeActive())
         {
             CutsceneManager.instance.SetCutscenes(scenes);
-            SetPermanentInteraction();
+            SetPermanentInteraction(); // This should work differently. (Hollow)
         }
     }
 }

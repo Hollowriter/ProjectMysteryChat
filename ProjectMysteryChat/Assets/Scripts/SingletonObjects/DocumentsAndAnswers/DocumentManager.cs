@@ -36,6 +36,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
             SingleTransitionManager.instance.SetActivated(false);
             PlotPointManager.instance.CheckPlotPointCollection(JsonUtility.FromJson<PlotPointCollection>(json));
             EvidenceInventory.instance.AddEvidence(_fileName);
+            // Create a permanent point manager. (Hollow)
         }
     }
 

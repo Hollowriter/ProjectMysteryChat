@@ -45,7 +45,7 @@ public class InteractObject : MonoBehaviour
         PortraitBoxes.instance.PutOnImage();
     }
 
-    protected void SetPermanentInteraction()
+    protected void SetPermanentInteraction() // Permanent interaction should work differently. (Hollow)
     {
         InteractionsManager.instance.AddInteraction(interactionFileName);
     }

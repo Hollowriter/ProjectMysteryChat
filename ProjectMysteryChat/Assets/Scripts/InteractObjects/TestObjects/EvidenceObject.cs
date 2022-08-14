@@ -29,7 +29,7 @@ public class EvidenceObject : InteractObject
         if (IShouldBeActive())
         {
             ShowText();
-            SetPermanentInteraction();
+            SetPermanentInteraction(); // This should work differently. (Hollow)
             Destroy(gameObject);
         }
     }
