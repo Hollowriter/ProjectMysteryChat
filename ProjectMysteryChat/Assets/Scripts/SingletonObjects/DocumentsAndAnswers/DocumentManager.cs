@@ -35,8 +35,8 @@ public class DocumentManager : SingletonBase<DocumentManager>
             SingleTransitionManager.instance.SetTransition(JsonUtility.FromJson<LoneTransition>(json));
             SingleTransitionManager.instance.SetActivated(false);
             PlotPointManager.instance.CheckPlotPointCollection(JsonUtility.FromJson<PlotPointCollection>(json));
+            InteractionsManager.instance.SetPermanentInteraction(JsonUtility.FromJson<InteractionCollection>(json));
             EvidenceInventory.instance.AddEvidence(_fileName);
-            // Create a permanent point manager. (Hollow)
         }
     }
 

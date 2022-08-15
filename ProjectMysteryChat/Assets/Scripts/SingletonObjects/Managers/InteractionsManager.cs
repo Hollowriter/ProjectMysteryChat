@@ -51,6 +51,20 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
         }
     }
 
+    public void SetPermanentInteraction(InteractionCollection collectionToCheck)
+    {
+        if (collectionToCheck != null)
+        {
+            for (int i = 0; i < collectionToCheck.Interactions.Length; i++)
+            {
+                if (collectionToCheck.Interactions[i].InteractionName != "null")
+                {
+                    AddInteraction(collectionToCheck.Interactions[i].InteractionName);
+                }
+            }
+        }
+    }
+
     public bool InteractionExists(string interactionName) 
     {
         for (int i = 0; i < Interactions.Interactions.Length; i++) 
