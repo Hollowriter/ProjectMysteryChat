@@ -21,7 +21,7 @@ public class Interaction
 [System.Serializable]
 public class InteractionCollection 
 {
-    public Interaction[] Interactions;
+    public Interaction[] Interaction;
 }
 
 [System.Serializable]

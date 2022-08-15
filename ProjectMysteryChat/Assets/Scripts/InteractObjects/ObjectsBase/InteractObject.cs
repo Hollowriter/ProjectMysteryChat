@@ -6,6 +6,8 @@ public class InteractObject : MonoBehaviour
 {
     [SerializeField]
     string interactionFileName;
+    [SerializeField]
+    string interactionPermanenceName;
     PlotConditioned plotCondition;
 
     protected virtual void Begin() 
@@ -15,7 +17,7 @@ public class InteractObject : MonoBehaviour
 
     protected void IShouldExist()
     {
-        if (InteractionsManager.instance.InteractionExists(interactionFileName)) 
+        if (InteractionsManager.instance.InteractionExists(interactionPermanenceName)) 
         {
             Destroy(gameObject);
         }
@@ -43,11 +45,6 @@ public class InteractObject : MonoBehaviour
     {
         TextBox.instance.SetActivated(true);
         PortraitBoxes.instance.PutOnImage();
-    }
-
-    protected void SetPermanentInteraction() // Permanent interaction should work differently. (Hollow)
-    {
-        InteractionsManager.instance.AddInteraction(interactionFileName);
     }
 
     public virtual void NearPlayer()

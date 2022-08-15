@@ -11,5 +11,11 @@
 			"Item":"MsMaki95 Artist Card",
 			"Description":"A colorful card with an user name and a code."
 		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"MakiArtistCard"
+		}
 	]
 }

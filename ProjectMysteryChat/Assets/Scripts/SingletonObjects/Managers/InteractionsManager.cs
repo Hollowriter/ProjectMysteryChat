@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class InteractionsManager : SingletonBase<InteractionsManager>
 {
-    InteractionCollection Interactions;
+    InteractionCollection Interaction;
     [SerializeField]
     int interactionsLimit;
     int interactionsQuantity;
@@ -13,12 +13,12 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
-        Interactions = new InteractionCollection();
-        Interactions.Interactions = new Interaction[interactionsLimit];
-        for (int i = 0; i < Interactions.Interactions.Length; i++) 
+        Interaction = new InteractionCollection();
+        Interaction.Interaction = new Interaction[interactionsLimit];
+        for (int i = 0; i < Interaction.Interaction.Length; i++) 
         {
-            Interactions.Interactions[i] = new Interaction();
-            Interactions.Interactions[i].InteractionName = "null";
+            Interaction.Interaction[i] = new Interaction();
+            Interaction.Interaction[i].InteractionName = "null";
         }
         interactionsQuantity = 0;
         DontDestroyOnLoad(gameObject);
@@ -33,18 +33,18 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
     {
         if (interactionsQuantity < interactionsLimit)
         {
-            Interactions.Interactions[interactionsQuantity].InteractionName = interactionName;
+            Interaction.Interaction[interactionsQuantity].InteractionName = interactionName;
             interactionsQuantity++;
         }
     }
 
     public void SetCollection(InteractionCollection newCollection) 
     {
-        Interactions = newCollection;
+        Interaction = newCollection;
         interactionsQuantity = 0;
-        for (int i = 0; i < Interactions.Interactions.Length; i++) 
+        for (int i = 0; i < Interaction.Interaction.Length; i++) 
         { 
-            if (Interactions.Interactions[i].InteractionName != "null") 
+            if (Interaction.Interaction[i].InteractionName != "null") 
             {
                 interactionsQuantity++;
             }
@@ -55,11 +55,14 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
     {
         if (collectionToCheck != null)
         {
-            for (int i = 0; i < collectionToCheck.Interactions.Length; i++)
+            if (collectionToCheck.Interaction != null)
             {
-                if (collectionToCheck.Interactions[i].InteractionName != "null")
+                for (int i = 0; i < collectionToCheck.Interaction.Length; i++)
                 {
-                    AddInteraction(collectionToCheck.Interactions[i].InteractionName);
+                    if (collectionToCheck.Interaction[i].InteractionName != "null")
+                    {
+                        AddInteraction(collectionToCheck.Interaction[i].InteractionName);
+                    }
                 }
             }
         }
@@ -67,9 +70,9 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
 
     public bool InteractionExists(string interactionName) 
     {
-        for (int i = 0; i < Interactions.Interactions.Length; i++) 
+        for (int i = 0; i < Interaction.Interaction.Length; i++) 
         {
-            if (Interactions.Interactions[i].InteractionName == interactionName) 
+            if (Interaction.Interaction[i].InteractionName == interactionName) 
             {
                 return true;
             }
@@ -79,6 +82,6 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
 
     public InteractionCollection GetCollection() 
     {
-        return Interactions;
+        return Interaction;
     }
 }

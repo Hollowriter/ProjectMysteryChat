@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/ArtGallery/Chapter1/PictureLoners.json
+  interactionPermanenceName: 
 --- !u!61 &48148250
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -267,6 +268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
+  interactionPermanenceName: 
   levelToGo: HubLevel
 --- !u!61 &81044639
 BoxCollider2D:
@@ -938,6 +940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/ArtGallery/Chapter1/PictureLostMedia.json
+  interactionPermanenceName: 
 --- !u!61 &904841701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1188,6 +1191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Evidence/MakiArtistCard.json
+  interactionPermanenceName: MakiArtistCard
 --- !u!61 &1038723918
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1368,6 +1372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Evidence/MakiArtistCard.json
+  interactionPermanenceName: MakiArtistCard
 --- !u!61 &1195158858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1776,6 +1781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Evidence/MakiArtistCard.json
+  interactionPermanenceName: MakiArtistCard
 --- !u!61 &1521431764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2469,6 +2475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/ArtGallery/Chapter1/PictureCult.json
+  interactionPermanenceName: 
 --- !u!61 &1873788860
 BoxCollider2D:
   m_ObjectHideFlags: 0
