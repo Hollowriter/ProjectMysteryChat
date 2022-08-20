@@ -1,0 +1,50 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Another locked door!?"
+		},
+		{
+			"Text":"Thomas B: Wait, this barriers seem to be made recently... And asks for something concrete."
+		},
+		{
+			"Text":"Thomas B: Ah... I think i saw something similar around here..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Transport/PrologueInteractions/KeepCheckingArtGuild.json",
+			"CandidateName":"I need to keep looking"	
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Maki's fixed authorization",
+			"CorrectDialog":"Routes/Interactions/ArtistsGuild/Chapter1/FixedAuthorizationUncloked.json",
+			"WrongDialog":"Routes/Interactions/Wrong/WrongAccess.json"
+		}
+	]
+}

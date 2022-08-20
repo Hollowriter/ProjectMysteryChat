@@ -196,14 +196,15 @@ PrefabInstance:
     - target: {fileID: 2060167583296444891, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}
       propertyPath: m_Name
-      value: RoomDoor (3)
+      value: ContestDoor
       objectReference: {fileID: 0}
     - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}
       propertyPath: levelToGo
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52, type: 3}
 --- !u!4 &155848966 stripped
 Transform:
@@ -211,6 +212,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 155848965}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &155848967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2060167583296444891, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 155848965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &155848968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155848967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8da1cc5cec281b419ba77bb54dc2af6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionFileName: 
+  interactionPermanenceName: 
 --- !u!1 &194926792
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,6 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
+  interactionPermanenceName: 
 --- !u!61 &352607470
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -914,6 +936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
+  interactionPermanenceName: 
 --- !u!61 &1113074170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1433,6 +1456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
+  interactionPermanenceName: 
 --- !u!61 &1986138869
 BoxCollider2D:
   m_ObjectHideFlags: 0
