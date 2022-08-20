@@ -1,0 +1,26 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"*ACCESS GRANTED*"
+		},
+		{
+			"Text":"Thomas B: Hopefully she is in here."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
