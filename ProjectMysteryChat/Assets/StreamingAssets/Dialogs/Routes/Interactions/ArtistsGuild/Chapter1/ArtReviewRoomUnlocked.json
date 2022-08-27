@@ -22,5 +22,11 @@
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"ArtReviewRoomUnlocked"
+		}
 	]
 }

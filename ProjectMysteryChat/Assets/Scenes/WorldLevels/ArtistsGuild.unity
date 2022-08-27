@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8da1cc5cec281b419ba77bb54dc2af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: 
+  interactionFileName: Routes/Interactions/ArtistsGuild/Chapter1/DoorLocked.json
   interactionPermanenceName: 
 --- !u!1 &194926792
 GameObject:
@@ -462,8 +462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8da1cc5cec281b419ba77bb54dc2af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: 
-  interactionPermanenceName: 
+  interactionFileName: Routes/Interactions/ArtistsGuild/Chapter1/ArtReviewRoomLocked.json
+  interactionPermanenceName: ArtReviewRoomUnlocked
 --- !u!61 &352607470
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -935,8 +935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8da1cc5cec281b419ba77bb54dc2af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: 
-  interactionPermanenceName: 
+  interactionFileName: Routes/Interactions/ArtistsGuild/Chapter1/ArtReviewRoomLocked.json
+  interactionPermanenceName: ArtReviewRoomUnlocked
 --- !u!61 &1113074170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1455,8 +1455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8da1cc5cec281b419ba77bb54dc2af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: 
-  interactionPermanenceName: 
+  interactionFileName: Routes/Interactions/ArtistsGuild/Chapter1/ArtReviewRoomLocked.json
+  interactionPermanenceName: ArtReviewRoomUnlocked
 --- !u!61 &1986138869
 BoxCollider2D:
   m_ObjectHideFlags: 0

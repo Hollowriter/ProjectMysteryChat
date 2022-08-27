@@ -35,7 +35,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Transport/PrologueInteractions/KeepCheckingArtGuild.json",
+			"Candidate":"Routes/Interactions/ArtistsGuild/Chapter1/KeepCheckingArtGuild.json",
 			"CandidateName":"I need to keep looking"	
 		}
 	],
