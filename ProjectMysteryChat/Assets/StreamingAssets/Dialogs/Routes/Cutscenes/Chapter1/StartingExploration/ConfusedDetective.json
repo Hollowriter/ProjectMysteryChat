@@ -31,5 +31,11 @@
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"MakiConversationEnd"
+		}
 	]
 }

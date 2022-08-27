@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 352607469}
   m_Layer: 0
   m_Name: MakiDoorBlocked
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -828,7 +828,7 @@ GameObject:
   - component: {fileID: 1113074169}
   m_Layer: 0
   m_Name: MakiDoorBlocked
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1348,7 +1348,7 @@ GameObject:
   - component: {fileID: 1986138868}
   m_Layer: 0
   m_Name: MakiDoorBlocked
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
