@@ -722,6 +722,16 @@ PrefabInstance:
       propertyPath: levelToGo
       value: MsMakiRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: newPlayerPositionX
+      value: 154
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: newPlayerPositionY
+      value: 45
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52, type: 3}
 --- !u!4 &708461857 stripped

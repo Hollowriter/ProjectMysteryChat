@@ -357,6 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/Hub/Chapter1/WelcomePost.json
+  interactionPermanenceName: 
 --- !u!61 &213170560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -630,6 +631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Transport/PrologueInteractions/TransportBeacon.json
+  interactionPermanenceName: 
 --- !u!61 &394364683
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1552,7 +1554,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
+  interactionPermanenceName: 
   levelToGo: ArtGalleryLevel
+  newPlayerPositionX: -2.3
+  newPlayerPositionY: 46.4
 --- !u!61 &1212163425
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2002,6 +2007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/Hub/Chapter1/SignUpRight.json
+  interactionPermanenceName: 
 --- !u!61 &1581960579
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2252,6 +2258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/Hub/Chapter1/Statue.json
+  interactionPermanenceName: 
 --- !u!61 &1677621009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2351,6 +2358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/Hub/Chapter1/Campfire.json
+  interactionPermanenceName: 
 --- !u!61 &1680393459
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3333,6 +3341,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: newPlayerPositionX
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: newPlayerPositionY
+      value: 4.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52, type: 3}

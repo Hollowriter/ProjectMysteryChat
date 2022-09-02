@@ -7,6 +7,10 @@ public class Door : InteractObject
 {
     [SerializeField]
     string levelToGo;
+    [SerializeField]
+    float newPlayerPositionX;
+    [SerializeField]
+    float newPlayerPositionY;
 
     private void Awake()
     {
@@ -15,6 +19,7 @@ public class Door : InteractObject
 
     public void PassLevel()
     {
+        PlayerController.instance.gameObject.transform.position = new Vector3(newPlayerPositionX, newPlayerPositionY, PlayerController.instance.gameObject.transform.position.z);
         SceneManager.LoadScene(levelToGo);
     }
 

@@ -1179,6 +1179,8 @@ MonoBehaviour:
   interactionFileName: 
   interactionPermanenceName: 
   levelToGo: ArtistsGuild
+  newPlayerPositionX: -39.85
+  newPlayerPositionY: 13.1
 --- !u!61 &1490901217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1447,6 +1449,8 @@ MonoBehaviour:
   interactionFileName: 
   interactionPermanenceName: 
   levelToGo: HubLevel
+  newPlayerPositionX: 110.5
+  newPlayerPositionY: 38.6
 --- !u!61 &1847240464
 BoxCollider2D:
   m_ObjectHideFlags: 0

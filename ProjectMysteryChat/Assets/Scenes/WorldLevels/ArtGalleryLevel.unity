@@ -270,6 +270,8 @@ MonoBehaviour:
   interactionFileName: 
   interactionPermanenceName: 
   levelToGo: HubLevel
+  newPlayerPositionX: -3.39
+  newPlayerPositionY: 49
 --- !u!61 &81044639
 BoxCollider2D:
   m_ObjectHideFlags: 0
