@@ -9,7 +9,9 @@
 	[
 		{
 			"Type":"Scene",
-			"Name":"MsMakiRoom"
+			"Name":"MsMakiRoom",
+			"NewPlayerPositionX":"112,5",
+			"NewPlayerPositionY":"37"
 		}
 	]
 }

@@ -19,7 +19,7 @@ public class Door : InteractObject
 
     public void PassLevel()
     {
-        PlayerController.instance.gameObject.transform.position = new Vector3(newPlayerPositionX, newPlayerPositionY, PlayerController.instance.gameObject.transform.position.z);
+        PlayerController.instance.ChangePlayerPosition(newPlayerPositionX, newPlayerPositionY);
         SceneManager.LoadScene(levelToGo);
     }
 

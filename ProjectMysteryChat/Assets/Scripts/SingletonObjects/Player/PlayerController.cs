@@ -100,6 +100,11 @@ public class PlayerController : SingletonBase<PlayerController>
         }
     }
 
+    public void ChangePlayerPosition(float newPlayerPositionX, float newPlayerPositionY)
+    {
+        this.gameObject.transform.position = new Vector3(newPlayerPositionX, newPlayerPositionY, PlayerController.instance.gameObject.transform.position.z);
+    }
+
     public int GetPlayerSpeed()
     {
         return playerSpeed;

@@ -70,6 +70,11 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
         transition = null;
     }
 
+    public void SendTransitionPositionToPlayer()
+    {
+        PlayerController.instance.ChangePlayerPosition(float.Parse(transition.Transition[0].NewPlayerPositionX), float.Parse(transition.Transition[0].NewPlayerPositionY));
+    }
+
     public void CheckWhereToSendTransition() 
     {
         switch (transition.Transition[0].Type) 
@@ -78,6 +83,7 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
                 SendTransitionToBox();
                 break;
             case "Scene":
+                SendTransitionPositionToPlayer();
                 SendTransitionToLevelManager();
                 break;
         }
