@@ -5,9 +5,9 @@ using UnityEngine;
 public class CodePuzzle : MonoBehaviour
 {
     [SerializeField]
-    List<Number> numbers;
+    protected List<Number> numbers;
     [SerializeField]
-    int answer;
+    protected int answer;
 
     public virtual bool CheckAnswer()
     {
