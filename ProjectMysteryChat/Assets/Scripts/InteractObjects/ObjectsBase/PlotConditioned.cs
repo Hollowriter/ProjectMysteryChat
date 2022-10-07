@@ -5,14 +5,16 @@ using UnityEngine;
 public class PlotConditioned : MonoBehaviour
 {
     [SerializeField]
-    List<string> plotPointNames;
+    List<string> interactionNamesToActivate;
     [SerializeField]
-    bool toActivate;
-    int plotPointActivated;
+    List<string> interactionNamesToDeactivate;
+    int interactionsToActivate;
+    int interactionsToDeactivate;
 
     void Begin() 
     {
-        plotPointActivated = 0;
+        interactionsToActivate = 0;
+        interactionsToDeactivate = 0;
     }
 
     private void Awake()
@@ -20,34 +22,56 @@ public class PlotConditioned : MonoBehaviour
         Begin();
     }
 
-    public void CheckPlotPoints() 
+    private void CheckinteractionsToActivate() 
     {
-        plotPointActivated = 0;
-        for (int i = 0; i < plotPointNames.Count; i++) 
+        interactionsToActivate = 0;
+        for (int i = 0; i < interactionNamesToActivate.Count; i++) 
         {
-            for (int r = 0; r < PlotPointManager.instance.GetPlotPointCollection().PlotPoint.Length; r++) 
+            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++) 
             {
-                if (plotPointNames[i] == PlotPointManager.instance.GetPlotPointCollection().PlotPoint[r].PlotPointName) 
+                if (interactionNamesToActivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName) 
                 {
-                    plotPointActivated++;
+                    interactionsToActivate++;
                     break;
                 }
             }
         }
     }
 
-    public bool ConfirmActivation() 
+    private void CheckinteractionsToDeactivate()
     {
-        if (plotPointActivated == plotPointNames.Count) 
+        interactionsToDeactivate = 0;
+        for (int i = 0; i < interactionNamesToDeactivate.Count; i++) 
         {
-            return toActivate;
+            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++) 
+            {
+                if (interactionNamesToDeactivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName) 
+                {
+                    interactionsToDeactivate++;
+                    break;
+                }
+            }
         }
-        return !toActivate;
+    }
+
+    private bool ConfirmActivation() 
+    {
+        if (interactionNamesToDeactivate.Count > 0)
+        {
+            if (interactionsToDeactivate == interactionNamesToDeactivate.Count)
+            {
+                return false;
+            }
+        }
+        if (interactionsToActivate == interactionNamesToActivate.Count) 
+            return true;
+        return false;
     }
 
     public bool CheckCondition() 
     {
-        CheckPlotPoints();
+        CheckinteractionsToActivate();
+        CheckinteractionsToDeactivate();
         return ConfirmActivation();
     }
 }

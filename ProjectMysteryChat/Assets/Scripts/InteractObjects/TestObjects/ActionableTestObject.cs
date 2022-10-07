@@ -15,6 +15,10 @@ public class ActionableTestObject : InteractObject
         {
             Debug.Log("I'm just near him");
         }
+        else
+        {
+            Debug.Log("I'm not active dude");
+        }
     }
 
     public override void BehaveInteraction()
