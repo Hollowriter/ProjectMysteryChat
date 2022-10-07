@@ -19,7 +19,7 @@ public class InteractObject : MonoBehaviour
     {
         if (InteractionsManager.instance.InteractionExists(interactionPermanenceName)) 
         {
-            Destroy(gameObject);
+            this.gameObject.SetActive(false);
         }
     }
 
