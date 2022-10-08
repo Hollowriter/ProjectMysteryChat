@@ -1177,7 +1177,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
-  interactionPermanenceName: 
   levelToGo: ArtistsGuild
   newPlayerPositionX: -39.85
   newPlayerPositionY: 13.1
@@ -1447,7 +1446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
-  interactionPermanenceName: 
   levelToGo: HubLevel
   newPlayerPositionX: 110.5
   newPlayerPositionY: 38.6
@@ -1964,6 +1962,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4240291287320824606}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4240291287320824608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5847051410860041163, guid: 3e59b54ddcdb5aa40b074850648882a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 4240291287320824606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4240291287320824609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240291287320824608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiConversationEnd
 --- !u!1001 &6161708086752108533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2044,6 +2063,21 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6161708086752108533}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6161708086752108535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161708086752108534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiConversationEnd
 --- !u!1001 &7819845362091097791
 PrefabInstance:
   m_ObjectHideFlags: 0

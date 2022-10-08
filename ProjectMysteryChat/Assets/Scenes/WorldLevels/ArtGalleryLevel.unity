@@ -1158,6 +1158,7 @@ GameObject:
   - component: {fileID: 1038723919}
   - component: {fileID: 1038723918}
   - component: {fileID: 1038723917}
+  - component: {fileID: 1038723920}
   m_Layer: 0
   m_Name: MakiArtistCard
   m_TagString: Interactuable
@@ -1193,7 +1194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Evidence/MakiArtistCard.json
-  interactionPermanenceName: MakiArtistCard
+  interactionPermanenceName: 
 --- !u!61 &1038723918
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1246,6 +1247,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5654764, y: 2.5343704}
   m_EdgeRadius: 0
+--- !u!114 &1038723920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038723915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiArtistCard
 --- !u!1 &1137479391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1355,7 @@ GameObject:
   - component: {fileID: 1195158859}
   - component: {fileID: 1195158858}
   - component: {fileID: 1195158857}
+  - component: {fileID: 1195158860}
   m_Layer: 0
   m_Name: MakiArtistCard (1)
   m_TagString: Interactuable
@@ -1374,7 +1391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Evidence/MakiArtistCard.json
-  interactionPermanenceName: MakiArtistCard
+  interactionPermanenceName: 
 --- !u!61 &1195158858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1427,6 +1444,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5654764, y: 2.5343704}
   m_EdgeRadius: 0
+--- !u!114 &1195158860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195158855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiArtistCard
 --- !u!1 &1231837054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,6 +1780,7 @@ GameObject:
   - component: {fileID: 1521431765}
   - component: {fileID: 1521431764}
   - component: {fileID: 1521431763}
+  - component: {fileID: 1521431766}
   m_Layer: 0
   m_Name: MakiArtistCard (2)
   m_TagString: Interactuable
@@ -1783,7 +1816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Evidence/MakiArtistCard.json
-  interactionPermanenceName: MakiArtistCard
+  interactionPermanenceName: 
 --- !u!61 &1521431764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1836,6 +1869,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5654764, y: 2.5343704}
   m_EdgeRadius: 0
+--- !u!114 &1521431766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521431761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiArtistCard
 --- !u!1 &1581128288
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,11 +17,8 @@ public class EvidenceObject : InteractObject
 
     public override void NearPlayer()
     {
-        if (IShouldBeActive())
-        {
-            SetTextToBox();
-            IShouldExist();
-        }
+        IShouldExist();
+        SetTextToBox();
     }
 
     public override void BehaveInteraction()
@@ -29,7 +26,7 @@ public class EvidenceObject : InteractObject
         if (IShouldBeActive())
         {
             ShowText();
-            Destroy(gameObject);
+            this.gameObject.SetActive(false);
         }
     }
 }

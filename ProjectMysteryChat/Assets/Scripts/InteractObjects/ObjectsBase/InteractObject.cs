@@ -6,8 +6,6 @@ public class InteractObject : MonoBehaviour
 {
     [SerializeField]
     string interactionFileName;
-    [SerializeField]
-    string interactionPermanenceName;
     PlotConditioned plotCondition;
 
     protected virtual void Begin() 
@@ -17,10 +15,7 @@ public class InteractObject : MonoBehaviour
 
     protected void IShouldExist()
     {
-        if (InteractionsManager.instance.InteractionExists(interactionPermanenceName)) 
-        {
-            this.gameObject.SetActive(false);
-        }
+        this.gameObject.SetActive(IShouldBeActive());
     }
 
     public bool IShouldBeActive()
