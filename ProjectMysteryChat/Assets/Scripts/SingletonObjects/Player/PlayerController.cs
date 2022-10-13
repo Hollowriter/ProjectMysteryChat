@@ -21,6 +21,10 @@ public class PlayerController : SingletonBase<PlayerController>
         SingletonAwake();
     }
 
+    private void Start() 
+    {   
+    }
+
     protected override bool ConditionsToBeActive()
     {
         if (InputHandler.instance != null)
@@ -110,7 +114,7 @@ public class PlayerController : SingletonBase<PlayerController>
         return playerSpeed;
     }
 
-    protected override void BehaveSingleton()
+    /*protected override void BehaveSingleton()
     {
         if (ConditionsToBeActive())
         {
@@ -124,5 +128,5 @@ public class PlayerController : SingletonBase<PlayerController>
     void Update()
     {
         BehaveSingleton();
-    }
+    }*/
 }
