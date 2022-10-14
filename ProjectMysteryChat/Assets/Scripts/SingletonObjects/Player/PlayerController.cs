@@ -108,6 +108,7 @@ public class PlayerController : SingletonBase<PlayerController>
         if (Input.GetKeyUp(InputHandler.instance.interact))
         {
             interactionPressed = false;
+            Debug.Log("Falsetto");
         }
     }
 
