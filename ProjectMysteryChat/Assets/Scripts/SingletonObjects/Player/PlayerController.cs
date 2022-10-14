@@ -7,6 +7,7 @@ public class PlayerController : SingletonBase<PlayerController>
     [SerializeField]
     int playerSpeed;
     bool showInventoryProcessed;
+    bool interactionPressed;
 
     protected override void SingletonAwake()
     {
@@ -14,15 +15,12 @@ public class PlayerController : SingletonBase<PlayerController>
         DontDestroyOnLoad(gameObject);
         SetActivated(true);
         showInventoryProcessed = false;
+        interactionPressed = false;
     }
 
     private void Awake()
     {
         SingletonAwake();
-    }
-
-    private void Start() 
-    {   
     }
 
     protected override bool ConditionsToBeActive()
@@ -66,8 +64,9 @@ public class PlayerController : SingletonBase<PlayerController>
     {
         if (PlayerCollisionManager.instance.GetInteractObject() != null && !PauseManager.instance.Paused())
         {
-            if (Input.GetKey(InputHandler.instance.interact))
+            if (Input.GetKey(InputHandler.instance.interact) && !interactionPressed)
             {
+                interactionPressed = true;
                 PlayerCollisionManager.instance.GetInteractObject().BehaveInteraction();
             }
         }
@@ -104,6 +103,14 @@ public class PlayerController : SingletonBase<PlayerController>
         }
     }
 
+    public void InteractionProcessAllower()
+    {
+        if (Input.GetKeyUp(InputHandler.instance.interact))
+        {
+            interactionPressed = false;
+        }
+    }
+
     public void ChangePlayerPosition(float newPlayerPositionX, float newPlayerPositionY)
     {
         this.gameObject.transform.position = new Vector3(newPlayerPositionX, newPlayerPositionY, PlayerController.instance.gameObject.transform.position.z);
@@ -114,7 +121,7 @@ public class PlayerController : SingletonBase<PlayerController>
         return playerSpeed;
     }
 
-    /*protected override void BehaveSingleton()
+    protected override void BehaveSingleton()
     {
         if (ConditionsToBeActive())
         {
@@ -123,10 +130,11 @@ public class PlayerController : SingletonBase<PlayerController>
             ShowInventory();
         }
         ProcessAllower();
+        InteractionProcessAllower();
     }
 
     void Update()
     {
         BehaveSingleton();
-    }*/
+    }
 }
