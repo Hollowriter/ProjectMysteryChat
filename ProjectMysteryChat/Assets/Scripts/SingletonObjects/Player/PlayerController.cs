@@ -70,6 +70,10 @@ public class PlayerController : SingletonBase<PlayerController>
                 PlayerCollisionManager.instance.GetInteractObject().BehaveInteraction();
             }
         }
+        if (Input.GetKeyUp(InputHandler.instance.interact))
+        {
+            interactionPressed = false;
+        }
     }
 
     public void ShowInventory()
@@ -105,11 +109,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public void InteractionProcessAllower()
     {
-        if (Input.GetKeyUp(InputHandler.instance.interact))
-        {
-            interactionPressed = false;
-            Debug.Log("Falsetto");
-        }
+        interactionPressed = false;
     }
 
     public void ChangePlayerPosition(float newPlayerPositionX, float newPlayerPositionY)
@@ -129,6 +129,7 @@ public class PlayerController : SingletonBase<PlayerController>
             MovementKeys();
             InteractObject();
             ShowInventory();
+            return;
         }
         ProcessAllower();
         InteractionProcessAllower();
