@@ -31,9 +31,9 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
     {
         dataToSave.StageSaved = new StageSaved();
         dataToSave.StageSaved.SceneName = LevelManager.instance.GetSceneName();
-        dataToSave.StageSaved.PositionX = (PlayerController.instance.gameObject.GetComponent<Transform>().position.x).ToString();
-        dataToSave.StageSaved.PositionY = (PlayerController.instance.gameObject.GetComponent<Transform>().position.y).ToString();
-        dataToSave.StageSaved.PositionZ = (PlayerController.instance.gameObject.GetComponent<Transform>().position.z).ToString();
+        dataToSave.StageSaved.PositionX = (PlayerMovement.instance.gameObject.GetComponent<Transform>().position.x).ToString();
+        dataToSave.StageSaved.PositionY = (PlayerMovement.instance.gameObject.GetComponent<Transform>().position.y).ToString();
+        dataToSave.StageSaved.PositionZ = (PlayerMovement.instance.gameObject.GetComponent<Transform>().position.z).ToString();
         dataToSave.StageSaved.CameraX = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.x).ToString();
         dataToSave.StageSaved.CameraY = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.y).ToString();
         dataToSave.StageSaved.CameraZ = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.z).ToString();
@@ -64,7 +64,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
             using (StreamReader reader = new StreamReader(path)) 
             {
                 string json = reader.ReadToEnd();
-                PlayerController.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
+                PlayerMovement.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
                 CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraZ));
                 EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
                 InteractionsManager.instance.SetCollection(JsonUtility.FromJson<SaveData>(json).InteractionsDone);

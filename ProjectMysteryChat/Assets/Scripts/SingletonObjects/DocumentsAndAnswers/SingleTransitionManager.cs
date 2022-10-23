@@ -72,7 +72,7 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
 
     public void SendTransitionPositionToPlayer()
     {
-        PlayerController.instance.ChangePlayerPosition(float.Parse(transition.Transition[0].NewPlayerPositionX), float.Parse(transition.Transition[0].NewPlayerPositionY));
+        PlayerMovement.instance.ChangePlayerPosition(float.Parse(transition.Transition[0].NewPlayerPositionX), float.Parse(transition.Transition[0].NewPlayerPositionY));
     }
 
     public void CheckWhereToSendTransition() 

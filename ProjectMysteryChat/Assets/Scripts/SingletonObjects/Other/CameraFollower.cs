@@ -17,16 +17,16 @@ public class CameraFollower : SingletonBase<CameraFollower>
 
     public void Follow()
     {
-        float interpolation = PlayerController.instance.GetPlayerSpeed() * Time.deltaTime;
+        float interpolation = PlayerMovement.instance.GetPlayerSpeed() * Time.deltaTime;
         Vector3 position = this.transform.position;
-        position.y = Mathf.Lerp(this.transform.position.y, PlayerController.instance.transform.position.y, interpolation);
-        position.x = Mathf.Lerp(this.transform.position.x, PlayerController.instance.transform.position.x, interpolation);
+        position.y = Mathf.Lerp(this.transform.position.y, PlayerMovement.instance.transform.position.y, interpolation);
+        position.x = Mathf.Lerp(this.transform.position.x, PlayerMovement.instance.transform.position.x, interpolation);
         this.transform.position = position;
     }
 
     protected override void BehaveSingleton()
     {
-        if (PlayerController.instance.GetActivated())
+        if (PlayerMovement.instance.GetActivated())
         {
             Follow();
         }
