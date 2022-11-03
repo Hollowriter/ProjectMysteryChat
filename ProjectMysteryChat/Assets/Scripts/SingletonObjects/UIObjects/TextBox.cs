@@ -102,6 +102,10 @@ public class TextBox : SingletonBase<TextBox>
     public void SetDialog(DialogCollection dialogs)
     {
         items = dialogs;
+    }
+
+    public void ResetSpeechIndex()
+    {
         speechIndex = 0;
     }
 

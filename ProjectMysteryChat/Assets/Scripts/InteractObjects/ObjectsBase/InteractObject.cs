@@ -39,6 +39,8 @@ public class InteractObject : MonoBehaviour
     public void ShowText()
     {
         TextBox.instance.SetActivated(true);
+        TextBox.instance.ResetSpeechIndex();
+        PortraitBoxes.instance.ResetPortraitIndex();
         PortraitBoxes.instance.PutOnImage();
     }
 

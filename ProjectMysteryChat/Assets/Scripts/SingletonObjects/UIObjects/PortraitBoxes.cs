@@ -29,6 +29,10 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
     public void SetPortraitImages(PortraitCollection _portraits)
     {
         portraits = _portraits;
+    }
+
+    public void ResetPortraitIndex()
+    {
         portraitIndex = 0;
     }
 
@@ -66,6 +70,7 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
             }
         }
         WipePortraitBoxes();
+        ResetPortraitIndex();
     }
 
     public void WipePortraitBoxes()
