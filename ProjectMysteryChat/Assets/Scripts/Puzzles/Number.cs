@@ -6,6 +6,8 @@ public class Number : MonoBehaviour
 {
     int _value;
     const int LIMITVALUE = 9;
+    public delegate void NumberOnChange();
+    public NumberOnChange onChange;
 
     void Awake()
     {
@@ -27,9 +29,11 @@ public class Number : MonoBehaviour
         if (_value < LIMITVALUE)
         {
             _value++;
+            onChange.Invoke();
             return;
         }
         _value = 0;
+        onChange.Invoke();
     }
 
     public void DecreaseValue()
@@ -37,8 +41,10 @@ public class Number : MonoBehaviour
         if (_value >= 0)
         {
             _value--;
+            onChange.Invoke();
             return;
         }
         _value = LIMITVALUE;
+        onChange.Invoke();
     }
 }

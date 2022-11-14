@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OrderCodePuzzle : CodePuzzle
 {
-    public override bool CheckAnswer()
+    protected override bool CheckAnswer()
     {
         string checkNumbersInserted = null;
         for (int i = 0; i < numbers.Count; i++)

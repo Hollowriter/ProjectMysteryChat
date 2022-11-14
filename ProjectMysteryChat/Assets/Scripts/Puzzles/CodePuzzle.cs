@@ -9,8 +9,26 @@ public class CodePuzzle : MonoBehaviour
     [SerializeField]
     protected int answer;
 
-    public virtual bool CheckAnswer()
+    private void Start() 
+    {
+        for (int i = 0; i < numbers.Count; i++)
+        {
+            numbers[i].onChange += PuzzleBehave;
+        }    
+    }
+
+    protected virtual bool CheckAnswer()
     {
         return false;
+    }
+
+    void PuzzleBehave()
+    {
+        if (CheckAnswer())
+        {
+            Debug.Log("PuzzleSolved");
+            return;
+        }
+        Debug.Log("Wrong");
     }
 }
