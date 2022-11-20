@@ -9,7 +9,7 @@ public class OrderCodePuzzle : CodePuzzle
         string checkNumbersInserted = null;
         for (int i = 0; i < numbers.Count; i++)
         {
-            checkNumbersInserted += numbers[i].ToString();
+            checkNumbersInserted += numbers[i].GetValue().ToString();
         }
         int numbersConverted = int.Parse(checkNumbersInserted);
         return numbersConverted == answer;
