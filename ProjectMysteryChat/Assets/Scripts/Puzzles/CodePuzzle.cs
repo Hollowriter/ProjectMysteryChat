@@ -27,6 +27,7 @@ public class CodePuzzle : MonoBehaviour
         if (CheckAnswer())
         {
             Debug.Log("PuzzleSolved");
+            this.gameObject.SetActive(false);
             return;
         }
         Debug.Log("Wrong");
