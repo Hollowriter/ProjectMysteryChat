@@ -8,6 +8,15 @@ public class CodePuzzle : MonoBehaviour
     protected List<Number> numbers;
     [SerializeField]
     protected int answer;
+    [SerializeField]
+    private string solvedInteractionFileName;
+    [SerializeField]
+    PlotConditioned plotCondition;
+
+    private void Awake()
+    {
+        this.gameObject.SetActive(IShouldBeActive());
+    }
 
     private void Start() 
     {
@@ -22,14 +31,31 @@ public class CodePuzzle : MonoBehaviour
         return false;
     }
 
-    void PuzzleBehave()
+    private bool IShouldBeActive()
+    {
+        if (plotCondition != null)
+        {
+            if (!plotCondition.CheckCondition())
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private void PuzzleBehave()
     {
         if (CheckAnswer())
         {
-            Debug.Log("PuzzleSolved");
-            this.gameObject.SetActive(false);
+            PuzzleSolved();
             return;
         }
-        Debug.Log("Wrong");
+    }
+
+    private void PuzzleSolved()
+    {
+        Debug.Log("PuzzleSolved");
+        DocumentManager.instance.SetDocument(solvedInteractionFileName);
+        this.gameObject.SetActive(false);
     }
 }

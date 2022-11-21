@@ -2933,6 +2933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102625998}
   - component: {fileID: 1102625999}
+  - component: {fileID: 1102626000}
   m_Layer: 0
   m_Name: PuzzleTest
   m_TagString: Untagged
@@ -2974,6 +2975,23 @@ MonoBehaviour:
   - {fileID: 121232836}
   - {fileID: 1585837916}
   answer: 123
+  solvedInteractionFileName: Test/PuzzleTest.json
+  plotCondition: {fileID: 1102626000}
+--- !u!114 &1102626000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102625997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - ISolved
 --- !u!1 &1153902111
 GameObject:
   m_ObjectHideFlags: 0
