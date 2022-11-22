@@ -42,7 +42,7 @@
 	"Answers":
 	[
 		{
-			"ExpectedAnswer":"Maki's fixed authorization",
+			"ExpectedAnswer":"User Badge",
 			"CorrectDialog":"Routes/Interactions/ArtistsGuild/Chapter1/ArtReviewRoomUncloked.json",
 			"WrongDialog":"Routes/Interactions/Wrong/WrongAccess.json"
 		}

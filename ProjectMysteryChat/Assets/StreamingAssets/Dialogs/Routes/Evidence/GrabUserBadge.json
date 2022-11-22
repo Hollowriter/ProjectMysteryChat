@@ -1,0 +1,15 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"*User Badge added to Evidence Folder*"
+		}
+	],
+	"Evidence":
+	[
+		{
+			"Item":"User Badge",
+			"Description":"A badge with the name and a drawing of the avatar of the user."
+		}
+	]
+}
