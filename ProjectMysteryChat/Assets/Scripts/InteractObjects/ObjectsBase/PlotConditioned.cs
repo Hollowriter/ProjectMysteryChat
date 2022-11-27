@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlotConditioned : MonoBehaviour
+public class PlotConditioned : MonoBehaviour // This should be responsible of deactivating an object regarding plot conditions. (Hollow)
 {
     [SerializeField]
     List<string> interactionNamesToActivate;

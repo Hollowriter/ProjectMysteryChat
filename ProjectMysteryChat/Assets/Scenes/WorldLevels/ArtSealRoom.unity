@@ -722,8 +722,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 962368806}
-  - component: {fileID: 962368808}
   - component: {fileID: 962368807}
+  - component: {fileID: 962368808}
   m_Layer: 0
   m_Name: UserBadge
   m_TagString: Untagged
@@ -770,10 +770,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 962368805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8da1cc5cec281b419ba77bb54dc2af6, type: 3}
+  m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
+  plotCondition: {fileID: 962368807}
 --- !u!1 &1486942212
 GameObject:
   m_ObjectHideFlags: 0
