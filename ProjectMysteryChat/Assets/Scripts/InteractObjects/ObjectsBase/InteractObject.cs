@@ -11,7 +11,6 @@ public class InteractObject : MonoBehaviour
 
     protected virtual void Begin() 
     {
-        plotCondition = this.gameObject.GetComponent<PlotConditioned>();
     }
 
     protected void IShouldExist()
