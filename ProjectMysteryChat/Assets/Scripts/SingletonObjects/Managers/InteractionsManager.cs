@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Runtime.ExceptionServices;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class InteractionsManager : SingletonBase<InteractionsManager>
 {
-    InteractionCollection Interaction;
+    private InteractionCollection Interaction;
     [SerializeField]
-    int interactionsLimit;
-    int interactionsQuantity;
+    private int interactionsLimit;
+    private int interactionsQuantity;
+    public UnityAction onSetPermanentInteraction;
 
     protected override void SingletonAwake()
     {
@@ -66,6 +68,7 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
                 }
             }
         }
+        onSetPermanentInteraction?.Invoke();
     }
 
     public bool InteractionExists(string interactionName) 
