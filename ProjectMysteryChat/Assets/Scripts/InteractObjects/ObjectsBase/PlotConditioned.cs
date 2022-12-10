@@ -22,6 +22,8 @@ public class PlotConditioned : MonoBehaviour // This should be responsible of de
         Begin();
     }
 
+    // ADD THE INDIVIDUAL CHECKINGS AGAIN. (Hollow)
+
     private bool ConfirmActivation() 
     {
         if (interactionNamesToDeactivate.Count > 0)
@@ -31,7 +33,7 @@ public class PlotConditioned : MonoBehaviour // This should be responsible of de
                 return false;
             }
         }
-        if (interactionsToActivate == interactionNamesToActivate.Count) 
+        if (interactionsToActivate >= interactionNamesToActivate.Count) 
             return true;
         return false;
     }

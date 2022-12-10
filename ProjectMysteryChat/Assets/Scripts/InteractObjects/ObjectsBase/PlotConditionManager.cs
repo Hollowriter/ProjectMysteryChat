@@ -17,6 +17,7 @@ public class PlotConditionManager : MonoBehaviour
     {
         for (int i = 0; i < objectsConditioned.Count; i++)
         {
+            objectsConditioned[i].gameObject.SetActive(true);
             objectsConditioned[i].CheckCondition();
         }
     }

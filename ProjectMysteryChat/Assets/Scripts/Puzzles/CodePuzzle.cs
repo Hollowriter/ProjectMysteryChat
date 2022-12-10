@@ -55,6 +55,5 @@ public class CodePuzzle : MonoBehaviour
     private void PuzzleSolved()
     {
         DocumentManager.instance.SetDocument(solvedInteractionFileName);
-        this.gameObject.SetActive(false);
     }
 }
