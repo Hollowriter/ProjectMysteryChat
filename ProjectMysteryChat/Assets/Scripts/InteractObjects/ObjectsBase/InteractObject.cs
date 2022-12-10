@@ -13,20 +13,20 @@ public class InteractObject : MonoBehaviour
     {
     }
 
-    protected void IShouldExist()
+    public void IShouldExist()
     {
         this.gameObject.SetActive(IShouldBeActive());
     }
 
     public bool IShouldBeActive() // The condition deactivates the object. (Hollow)
     {
-        if (plotCondition != null)
+        /*if (plotCondition != null)
         {
             if (!plotCondition.CheckCondition())
             {
                 return false;
             }
-        }
+        }*/
         return true;
     }
 

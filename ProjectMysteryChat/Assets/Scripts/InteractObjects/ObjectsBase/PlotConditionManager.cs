@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlotConditionManager : MonoBehaviour
 {
+    [SerializeField]
     List<PlotConditioned> objectsConditioned;
 
     private void Start() 

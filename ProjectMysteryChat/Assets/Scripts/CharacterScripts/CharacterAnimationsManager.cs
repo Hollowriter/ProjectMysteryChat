@@ -16,7 +16,7 @@ public class CharacterAnimationsManager : MonoBehaviour
 
     void Start()
     {
-        this.gameObject.SetActive(CheckExistance());
+        //this.gameObject.SetActive(CheckExistance());
         characterAnimator = this.gameObject.GetComponentInChildren<Animator>();
         characterAnimator.SetTrigger(startPosition.ToString());
         currentTrigger = startPosition.ToString();
@@ -24,10 +24,10 @@ public class CharacterAnimationsManager : MonoBehaviour
 
     private bool CheckExistance()
     {
-        if (plotConditioned != null)
+        /*if (plotConditioned != null)
         {
             return plotConditioned.CheckCondition();
-        }
+        }*/
         return true;
     }
 

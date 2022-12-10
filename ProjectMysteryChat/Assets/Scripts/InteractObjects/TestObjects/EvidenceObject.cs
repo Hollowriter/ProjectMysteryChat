@@ -7,7 +7,6 @@ public class EvidenceObject : InteractObject
     protected override void Begin()
     {
         base.Begin();
-        IShouldExist();
     }
 
     private void Awake()
@@ -17,7 +16,6 @@ public class EvidenceObject : InteractObject
 
     public override void NearPlayer()
     {
-        IShouldExist();
         SetTextToBox();
     }
 

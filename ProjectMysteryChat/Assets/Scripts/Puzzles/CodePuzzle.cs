@@ -35,10 +35,10 @@ public class CodePuzzle : MonoBehaviour
     {
         if (plotCondition != null)
         {
-            if (!plotCondition.CheckCondition())
+            /*if (!plotCondition.CheckCondition())
             {
                 return false;
-            }
+            }*/
         }
         return true;
     }
@@ -54,7 +54,6 @@ public class CodePuzzle : MonoBehaviour
 
     private void PuzzleSolved()
     {
-        Debug.Log("PuzzleSolved");
         DocumentManager.instance.SetDocument(solvedInteractionFileName);
         this.gameObject.SetActive(false);
     }
