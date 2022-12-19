@@ -15,10 +15,16 @@ public class PlotConditionManager : MonoBehaviour
 
     private void CheckConditions()
     {
-        for (int i = 0; i < objectsConditioned.Count; i++)
+        if (objectsConditioned != null)
         {
-            objectsConditioned[i].gameObject.SetActive(true);
-            objectsConditioned[i].CheckCondition();
+            for (int i = 0; i < objectsConditioned.Count; i++)
+            {
+                if (objectsConditioned[i] != null)
+                {
+                    objectsConditioned[i].gameObject.SetActive(true);
+                    objectsConditioned[i].CheckCondition();
+                }
+            }
         }
     }
 }

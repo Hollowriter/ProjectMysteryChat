@@ -22,7 +22,37 @@ public class PlotConditioned : MonoBehaviour // This should be responsible of de
         Begin();
     }
 
-    // ADD THE INDIVIDUAL CHECKINGS AGAIN. (Hollow)
+    private void CheckinteractionsToActivate() 
+    {
+        interactionsToActivate = 0;
+        for (int i = 0; i < interactionNamesToActivate.Count; i++) 
+        {
+            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++) 
+            {
+                if (interactionNamesToActivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName) 
+                {
+                    interactionsToActivate++;
+                    break;
+                }
+            }
+        }
+    }
+
+    private void CheckinteractionsToDeactivate()
+    {
+        interactionsToDeactivate = 0;
+        for (int i = 0; i < interactionNamesToDeactivate.Count; i++) 
+        {
+            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++) 
+            {
+                if (interactionNamesToDeactivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName) 
+                {
+                    interactionsToDeactivate++;
+                    break;
+                }
+            }
+        }
+    }
 
     private bool ConfirmActivation() 
     {
@@ -40,6 +70,8 @@ public class PlotConditioned : MonoBehaviour // This should be responsible of de
 
     public void CheckCondition() 
     {
-        this.gameObject.SetActive(ConfirmActivation()); // Revisar como resolver la desactivacion propia. (Hollow)
+        CheckinteractionsToActivate();
+        CheckinteractionsToDeactivate();
+        this.gameObject.SetActive(ConfirmActivation());
     }
 }
