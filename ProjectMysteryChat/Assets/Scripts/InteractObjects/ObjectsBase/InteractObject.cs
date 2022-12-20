@@ -6,8 +6,6 @@ public class InteractObject : MonoBehaviour
 {
     [SerializeField]
     string interactionFileName;
-    [SerializeField]
-    PlotConditioned plotCondition; // Should stop deactivating itself (Hollow)
 
     protected virtual void Begin() 
     {
@@ -18,15 +16,8 @@ public class InteractObject : MonoBehaviour
         this.gameObject.SetActive(IShouldBeActive());
     }
 
-    public bool IShouldBeActive() // The condition deactivates the object. (Hollow)
+    public bool IShouldBeActive()
     {
-        /*if (plotCondition != null)
-        {
-            if (!plotCondition.CheckCondition())
-            {
-                return false;
-            }
-        }*/
         return true;
     }
 

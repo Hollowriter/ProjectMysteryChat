@@ -64,7 +64,6 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
                     if (collectionToCheck.Interaction[i].InteractionName != "null")
                     {
                         AddInteraction(collectionToCheck.Interaction[i].InteractionName);
-                        Debug.Log("INTERACTION " + collectionToCheck.Interaction[i].InteractionName);
                     }
                 }
             }
