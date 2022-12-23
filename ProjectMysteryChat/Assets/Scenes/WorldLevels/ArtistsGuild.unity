@@ -502,7 +502,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
-  interactionNamesToDeactivate: []
+  interactionNamesToDeactivate:
+  - ArtReviewRoomUnlocked
 --- !u!1 &452487763
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,7 +917,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
-  interactionNamesToDeactivate: []
+  interactionNamesToDeactivate:
+  - ArtReviewRoomUnlocked
 --- !u!1 &1213020659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,7 +1289,7 @@ PrefabInstance:
     - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}
       propertyPath: levelToGo
-      value: 
+      value: CollabRoom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52, type: 3}
@@ -1460,7 +1462,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
-  interactionNamesToDeactivate: []
+  interactionNamesToDeactivate:
+  - ArtReviewRoomUnlocked
 --- !u!1001 &1986721684
 PrefabInstance:
   m_ObjectHideFlags: 0
