@@ -31,5 +31,12 @@
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Evidence/GrabUserBadge.json"
+		}
 	]
 }

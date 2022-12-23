@@ -1005,8 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: 
-  plotCondition: {fileID: 962368807}
+  interactionFileName: Routes/Evidence/UserBadge.json
 --- !u!1 &975935001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1066,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
-  plotCondition: {fileID: 0}
   number: {fileID: 975935003}
 --- !u!61 &975935005
 BoxCollider2D:
@@ -1227,7 +1225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
-  plotCondition: {fileID: 0}
   number: {fileID: 1342890016}
 --- !u!61 &1342890018
 BoxCollider2D:
@@ -1567,7 +1564,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: 
-  plotCondition: {fileID: 0}
   number: {fileID: 1746949853}
 --- !u!61 &1746949855
 BoxCollider2D:

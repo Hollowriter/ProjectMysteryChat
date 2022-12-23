@@ -44,7 +44,7 @@
 		{
 			"ExpectedAnswer":"User Badge",
 			"CorrectDialog":"Routes/Interactions/ArtistsGuild/Chapter1/ArtReviewRoomUncloked.json",
-			"WrongDialog":"Routes/Interactions/Wrong/WrongAccess.json"
+			"WrongDialog":"Routes/Interactions/Wrong/ArtReviewRoomWrong.json"
 		}
 	]
 }
