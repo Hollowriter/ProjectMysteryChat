@@ -78,8 +78,7 @@ public class ElectionBox : SingletonBase<ElectionBox>
                         string candidate = elections.Elections[i].Candidate;
                         buttonScript = theButton.GetComponent<Button>();
                         buttonScript.onClick.AddListener(delegate {SendElectionToTextBox(candidate);});
-                        buttons.Add(buttonScript); // NOTE: BUG REGARDING THE DEACTIVATION OF BUTTONS. (Hollow)
-                        // TO DO: DESTROY THE BUTTONS AND DEACTIVATE THEM WHEN YOU OPEN THE EVIDENCE MENU. (Hollow)
+                        buttons.Add(buttonScript);
                     }
                 }
             }

@@ -61,6 +61,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
     {
         DocumentManager.instance.SetDocument(sentAnswer);
         TextBox.instance.SetActivated(true);
+        TextBox.instance.ResetSpeechIndex();
         EvidenceInventory.instance.SetActivatedInventoryMembers(false);
         ElectionBox.instance.SetActivated(false);
         SetActivated(false);
