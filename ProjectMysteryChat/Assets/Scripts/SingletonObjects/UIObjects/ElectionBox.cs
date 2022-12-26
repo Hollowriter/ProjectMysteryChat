@@ -50,7 +50,7 @@ public class ElectionBox : SingletonBase<ElectionBox>
         return GetActivated();
     }
 
-    public void SendElectionToTextBox(string electionSelected)
+    public void SendElectionToTextBox(string electionSelected) // Reset the speech index here. (Hollow)
     {
         elections = null;
         DocumentManager.instance.SetDocument(electionSelected);
