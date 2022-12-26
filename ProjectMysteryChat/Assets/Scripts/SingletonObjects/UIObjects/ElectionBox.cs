@@ -50,10 +50,11 @@ public class ElectionBox : SingletonBase<ElectionBox>
         return GetActivated();
     }
 
-    public void SendElectionToTextBox(string electionSelected) // Reset the speech index here. (Hollow)
+    public void SendElectionToTextBox(string electionSelected)
     {
         elections = null;
         DocumentManager.instance.SetDocument(electionSelected);
+        TextBox.instance.ResetSpeechIndex();
         TextBox.instance.SetActivated(true);
         PortraitBoxes.instance.PutOnImage();
         AnswerInspector.instance.SetActivated(false);
