@@ -54,7 +54,6 @@ public class ElectionBox : SingletonBase<ElectionBox>
     {
         elections = null;
         DocumentManager.instance.SetDocument(electionSelected);
-        TextBox.instance.ResetSpeechIndex();
         TextBox.instance.SetActivated(true);
         PortraitBoxes.instance.PutOnImage();
         AnswerInspector.instance.SetActivated(false);
