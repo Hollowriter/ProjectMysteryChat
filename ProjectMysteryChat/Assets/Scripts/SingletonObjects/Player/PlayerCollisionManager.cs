@@ -35,7 +35,7 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        if (other.tag == "Interactuable")
+        if (other.tag == "Interactuable") // The stay doesn't register while the player is not moving. (Hollow)
         {
             CollideWithObject(other.gameObject.GetComponent<InteractObject>());
         }
