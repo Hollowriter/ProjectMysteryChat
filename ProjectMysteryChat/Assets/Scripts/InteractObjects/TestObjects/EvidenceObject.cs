@@ -16,13 +16,15 @@ public class EvidenceObject : InteractObject
 
     public override void NearPlayer()
     {
-        SetTextToBox();
+        // SetTextToBox();
+        // Use this function when animations are available. (Hollow)
     }
 
     public override void BehaveInteraction()
     {
         if (IShouldBeActive())
         {
+            SetTextToBox();
             ShowText();
             this.gameObject.SetActive(false);
         }

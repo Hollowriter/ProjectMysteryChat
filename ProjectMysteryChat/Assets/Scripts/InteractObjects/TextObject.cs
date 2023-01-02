@@ -10,17 +10,18 @@ public class TextObject : InteractObject
     }
 
     public override void NearPlayer()
-    {
-        if (IShouldBeActive())
+    { // Use when animations are available. (Hollow)
+        /*if (IShouldBeActive())
         {
             SetTextToBox();
-        }
+        }*/
     }
 
     public override void BehaveInteraction()
     {
         if (IShouldBeActive())
         {
+            SetTextToBox();
             ShowText();
         }
     }

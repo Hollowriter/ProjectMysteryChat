@@ -35,6 +35,11 @@ public class InteractObject : MonoBehaviour
         PortraitBoxes.instance.PutOnImage();
     }
 
+    public string GetInteractionFile() // This is for test purposes. (Hollow)
+    {
+        return interactionFileName;
+    }
+
     public virtual void NearPlayer()
     {
     }
