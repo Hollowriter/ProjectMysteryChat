@@ -1,0 +1,110 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Oh, finally! There she is!"
+		},
+		{
+			"Text":"MsMaki95: ..."
+		},
+		{
+			"Text":"LostDecipher2: There you are, i thought you logged out for a second."
+		},
+		{
+			"Text":"LostDecipher2: Wait, no, i could've check the chat log and..."
+		},
+		{
+			"Text":"LostDecipher2: Forget it, the thing is that i found you!"
+		},
+		{
+			"Text":"MsMaki95: Were you... Looking for me?"
+		},
+		{
+			"Text":"LostDecipher2: ...? Well, yeah, what kind of question is that? You told me you were going to show me something. But you were so fast and this place is kind of confusing!"
+		},
+		{
+			"Text":"MsMaki95: Oh... Ah, yeah, sorry, emotion kinda took me and... I forgot you were new here."
+		},
+		{
+			"Text":"MsMaki95: Still, really good finding your way here on your own."
+		},
+		{
+			"Text":"LostDecipher2: What can i say? I'm good at figuring things out."
+		},
+		{
+			"Text":"MsMaki95: Oh, speaking of which, you know what this is?"
+		},
+		{
+			"Text":"TOBECONTINUED..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		}
+	]
+}
