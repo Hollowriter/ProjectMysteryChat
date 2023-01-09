@@ -20,7 +20,7 @@
 			"Text":"MsMaki95: Were you... Looking for me?"
 		},
 		{
-			"Text":"LostDecipher2: ...? Well, yeah, what kind of question is that? You told me you were going to show me something. But you were so fast and this place is kind of confusing!"
+			"Text":"LostDecipher2: ...? Well, yeah, what kind of question is that? You said you were going to show me something. But you were so fast and this place is kind of confusing!"
 		},
 		{
 			"Text":"MsMaki95: Oh... Ah, yeah, sorry, emotion kinda took me and... I forgot you were new here."
@@ -35,7 +35,28 @@
 			"Text":"MsMaki95: Oh, speaking of which, you know what this is?"
 		},
 		{
-			"Text":"TOBECONTINUED..."
+			"Text":"LostDecipher2: ...Well, no, but it seems glitched."
+		},
+		{
+			"Text":"LostDecipher2: But i can see... A name or two."
+		},
+		{
+			"Text":"MsMaki95: We are trying to fix it, i think it was supposed to be a mural, but none of the tools i used seem to work with it."
+		},
+		{
+			"Text":"LostDecipher2: So, the bugged textures can't be overwritten by new information. "
+		},
+		{
+			"Text":"MsMaki95: Maybe, but we don't want the information to be lost, so i'm not touching this much."
+		},
+		{
+			"Text":"LostDecipher2: And the archives can't be downloaded"
+		},
+		{
+			"Text":"MsMaki95: It doesn't seem like it..."
+		},
+		{
+			"Text":"TO BE CONTINUED..."
 		}
 	],
 	"Portraits":
