@@ -1299,6 +1299,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1860363217}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1860363219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2060167583296444891, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 1860363217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1860363220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860363219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate:
+  - CollabRoomUnlocked
+  interactionNamesToDeactivate: []
 --- !u!1 &1986138864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,6 +1603,7 @@ MonoBehaviour:
   - {fileID: 352607471}
   - {fileID: 1113074171}
   - {fileID: 1986138870}
+  - {fileID: 1860363220}
 --- !u!4 &2059625593
 Transform:
   m_ObjectHideFlags: 0

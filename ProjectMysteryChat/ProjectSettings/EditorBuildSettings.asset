@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldLevels/MsMakiRoom.unity
     guid: 0d892c99a2743c74da2e2359022267ef
+  - enabled: 1
+    path: Assets/Scenes/WorldLevels/ArtistsGuild.unity
+    guid: ae51baf9bc9f7624b9841f01801ab2dc
+  - enabled: 1
+    path: Assets/Scenes/WorldLevels/ArtSealRoom.unity
+    guid: 2faff00d2369e754699418277c3e305f
+  - enabled: 1
+    path: Assets/Scenes/WorldLevels/CollabRoom.unity
+    guid: e9fc46256c5754a429e9bf4a36d97b79
   m_configObjects: {}
