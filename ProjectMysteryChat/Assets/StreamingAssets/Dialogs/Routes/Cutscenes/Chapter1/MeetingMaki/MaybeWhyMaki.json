@@ -57,7 +57,7 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
@@ -84,12 +84,6 @@
 			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",

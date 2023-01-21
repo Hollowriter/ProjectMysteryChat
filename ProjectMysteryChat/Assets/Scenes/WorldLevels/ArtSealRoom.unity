@@ -188,7 +188,7 @@ MonoBehaviour:
   - {fileID: 1746949853}
   - {fileID: 1342890016}
   answer: 123
-  solvedInteractionFileName: Test/PuzzleTest.json
+  solvedInteractionFileName: Routes/Interactions/ArtistsGuild/Chapter1/FirstSealPuzzleSolved.json
   plotCondition: {fileID: 40549934}
 --- !u!1 &166855014
 GameObject:
