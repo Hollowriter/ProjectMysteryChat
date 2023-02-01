@@ -58,9 +58,7 @@ public class ElectionBox : SingletonBase<ElectionBox>
         PortraitBoxes.instance.PutOnImage();
         AnswerInspector.instance.SetActivated(false);
         PresentButton.instance.SetActivated(false);
-        DitchListeners();
         DeactivateButtons();
-        buttons.Clear();
     }
 
     public void ShowElections()
@@ -92,21 +90,15 @@ public class ElectionBox : SingletonBase<ElectionBox>
         }
     }
 
-    void DitchListeners()
-    {
-        for (int i = 0; i < buttons.Count; i++)
-        {
-            buttons[i].onClick.RemoveAllListeners();
-        }
-    }
-
     void DeactivateButtons()
     {
         for (int i = 0; i < buttons.Count; i++)
         {
+            buttons[i].onClick.RemoveAllListeners();
             buttons[i].gameObject.SetActive(false);
             buttons[i] = null;
         }
+        buttons.Clear();
     }
 
     protected override void BehaveSingleton()
