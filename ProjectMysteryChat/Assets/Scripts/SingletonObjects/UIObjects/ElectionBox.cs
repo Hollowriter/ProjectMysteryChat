@@ -90,7 +90,7 @@ public class ElectionBox : SingletonBase<ElectionBox>
         }
     }
 
-    void DeactivateButtons()
+    public void DeactivateButtons()
     {
         for (int i = 0; i < buttons.Count; i++)
         {
