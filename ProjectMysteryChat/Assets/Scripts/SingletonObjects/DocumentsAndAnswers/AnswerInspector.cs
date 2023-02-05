@@ -64,6 +64,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         EvidenceInventory.instance.SetActivatedInventoryMembers(false);
         ElectionBox.instance.DeactivateButtons();
         ElectionBox.instance.SetActivated(false);
+        PortraitBoxes.instance.PutOnImage();
         SetActivated(false);
         answers = null;
     }
