@@ -43,7 +43,7 @@
 	[
 		{
 			"ExpectedAnswer":"User Badge",
-			"CorrectDialog":"Routes/Interactions/ArtistsGuild/Chapter1/ArtReviewRoomUncloked.json",
+			"CorrectDialog":"Routes/Interactions/ArtistsGuild/Chapter1/ArtReviewRoomUnlocked.json",
 			"WrongDialog":"Routes/Interactions/Wrong/ArtReviewRoomWrong.json"
 		}
 	]
