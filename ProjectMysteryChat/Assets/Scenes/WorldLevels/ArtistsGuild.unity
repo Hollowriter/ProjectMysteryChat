@@ -1357,6 +1357,11 @@ PrefabInstance:
       propertyPath: levelToGo
       value: CollabRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: newPlayerPositionY
+      value: -13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52, type: 3}
 --- !u!4 &1860363218 stripped
