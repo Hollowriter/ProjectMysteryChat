@@ -503,7 +503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
   interactionNamesToDeactivate:
-  - CollabRoomUnlocked
+  - ArtReviewRoomUnlocked
 --- !u!1 &452487763
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
   interactionNamesToDeactivate:
-  - CollabRoomUnlocked
+  - ArtReviewRoomUnlocked
 --- !u!1 &1213020659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionNamesToActivate:
-  - CollabRoomUnlocked
+  - ArtReviewRoomUnlocked
   interactionNamesToDeactivate: []
 --- !u!1 &1986138864
 GameObject:
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
   interactionNamesToDeactivate:
-  - CollabRoomUnlocked
+  - ArtReviewRoomUnlocked
 --- !u!1001 &1986721684
 PrefabInstance:
   m_ObjectHideFlags: 0
