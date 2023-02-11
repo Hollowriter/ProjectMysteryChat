@@ -25,8 +25,11 @@ public class FollowAlgorithm : SceneAlgorithm
 
     void FollowPoint()
     {
-        float step = characterSpeed * Time.deltaTime;
-        character.transform.position = Vector3.MoveTowards(character.transform.position, followPoints[pointsFollowed].gameObject.transform.position, step);
+        if (!followPoints[pointsFollowed].dontMove)
+        {
+            float step = characterSpeed * Time.deltaTime;
+            character.transform.position = Vector3.MoveTowards(character.transform.position, followPoints[pointsFollowed].gameObject.transform.position, step);
+        }
     }
 
     void CheckPositionToChange()
@@ -36,7 +39,7 @@ public class FollowAlgorithm : SceneAlgorithm
 
     void CheckToChangePoint() 
     {
-        if ((followPoints[pointsFollowed].gameObject.transform.position - character.transform.position).magnitude < 0.25f)
+        if ((followPoints[pointsFollowed].gameObject.transform.position - character.transform.position).magnitude < 0.25f || followPoints[pointsFollowed].dontMove)
         {
             if (pointsFollowed < followPoints.Length - 1)
             {

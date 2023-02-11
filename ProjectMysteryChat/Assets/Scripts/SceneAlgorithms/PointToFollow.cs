@@ -17,4 +17,5 @@ public enum PositionToLook
 public class PointToFollow : MonoBehaviour
 {
     public PositionToLook positionToChange;
+    public bool dontMove;
 }
