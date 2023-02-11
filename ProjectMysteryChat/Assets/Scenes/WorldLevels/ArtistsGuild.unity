@@ -1355,7 +1355,7 @@ PrefabInstance:
     - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}
       propertyPath: levelToGo
-      value: CollabRoom
+      value: ArtCreditsRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}

@@ -1,0 +1,35 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Oh, finally! There she is!"
+		},
+		{
+			"Text":"MsMaki95: ..."
+		},
+		{
+			"Text":"LostDecipher2: There you are, i thought you logged out for a second."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
