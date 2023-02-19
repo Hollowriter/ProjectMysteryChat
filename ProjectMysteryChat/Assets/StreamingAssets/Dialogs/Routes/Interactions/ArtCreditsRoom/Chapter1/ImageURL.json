@@ -1,0 +1,35 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: So now we know that the image file can not be found for some reason."
+		},
+		{
+			"Text":"Thomas B: And i also know that this user is a bit intense with her... Craft."
+		},
+		{
+			"Text":"Thomas B: But now that opens up the question: Why is the image not here?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}

@@ -1,0 +1,178 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: This is strange, what's with the name of this picture?"
+		},
+		{
+			"Text":"MsMaki95: Well... It's glitched, i think."
+		},
+		{
+			"Text":"LostDecipher2: I can tell this is not glitched by the fact that this is readable."
+		},
+		{
+			"Text":"MsMaki95: Wait, it is not?"
+		},
+		{
+			"Text":"LostDecipher2: Yeah, in fact, this was quite standard in the time i used this place. When it was not abandoned."
+		},
+		{
+			"Text":"LostDecipher2: What you are seeing is the full URL of the image that the picture is trying to show. It happens when the program cannot find it."
+		},
+		{
+			"Text":"MsMaki95: I see, but even then, the name at the end is all messy!"
+		},
+		{
+			"Text":"LostDecipher2: Whoever made the image didn't seemed to think a good name for the image and so... That's the result."
+		},
+		{
+			"Text":"MsMaki95: Now i want to find whoever made this and have a little talk. Naming is not only for organizing, but show what you want to express with your art."
+		},
+		{
+			"Text":"LostDecipher2: You can do that with the naming tool of the chat, it doesn't matter what name the archive has."
+		},
+		{
+			"Text":"MsMaki95: What are you talking about? Of course it matters, it shows how much you care about the stuff you are doing!"
+		},
+		{
+			"Text":"MsMaki95: I didn't expected that you showed that lack of appreciation, mister!"
+		},
+		{
+			"Text":"LostDecipher2: Woah woah, ok, i'm sorry... It's just... Ah... I'm not and artist and i didn't knew that and..."
+		},
+		{
+			"Text":"Thomas B: Wow, how intense she turned all of a sudden! Now what do i say?"
+		},
+		{
+			"Text":"MsMaki95:...No, i'm sorry, i think i went a little far."
+		},
+		{
+			"Text":"MsMaki95: But still, it's something i think one should pay attention to. You know?"
+		},
+		{
+			"Text":"LostDecipher2: It's ok, don't worry. And i understand."
+		},
+		{
+			"Text":"Thombas B: Leaving passion and intensity aside, it seems that the image file is missing. Interesting."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		}
+
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Evidence/GrabGlitchedURL.json"
+		}
+	]
+}

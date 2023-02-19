@@ -1,0 +1,21 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"*Full image file URL added to Evidence Folder*"
+		}
+	],
+	"Evidence":
+	[
+		{
+			"Item":"Full image file URL",
+			"Description":"The URL of the glitched image. In the image showing interface this appears instead of the chosen name when the image file can not be found."
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"GlitchedURL"
+		}
+	]
+}
