@@ -1,0 +1,132 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Interesting, the visit log here is public."
+		},
+		{
+			"Text":"LostDecipher2: Did you made it public?"
+		},
+		{
+			"Text":"MsMaki95: Nope. Was like this when we came here. Like i said, we didn't touched this room much."
+		},
+		{
+			"Text":"LostDecipher2: Interesting, and for the visits log... We have really old visitors from the old days, meaning this room is not new at all."
+		},
+		{
+			"Text":"MsMaki95: I see, can you recognize someone?"
+		},
+		{
+			"Text":"LostDecipher2:..."
+		},
+		{
+			"Text":"LostDecipher2: No, a lot of people look like users i didn't even met. This chat had a lot of users in it's time."
+		},
+		{
+			"Text":"MsMaki95: I see. Interesting, we can see the history of the chat form things like this. This is exciting."
+		},
+		{
+			"Text":"LostDecipher2: Still, recent visits here were only... 5 users, counting me of course."
+		},
+		{
+			"Text":"MsMaki95: So... What does that mean."
+		},
+		{
+			"Text":"LostDecipher2: Means that, since you came here, no unknown user came to this room to do something."
+		},
+		{
+			"Text":"MsMaki95: That's good to know, we didn't wanted this place becoming too public."
+		},
+		{
+			"Text":"Thomas B: This is strange though, there is an user here that entered to this room way before this 5 users but... A year or two after this chat closed."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Evidence/GrabVisitsLog.json"
+		}
+	]
+}
