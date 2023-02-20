@@ -1,0 +1,26 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Now that i think about it, it's curious that this room has an user log public for everyone to see."
+		},
+		{
+			"Text":"Thomas B: Usually the mods are the ones who are able to see this things."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}

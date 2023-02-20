@@ -1,0 +1,44 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: What is this? Looks like a real life printer but... It's not."
+		},
+		{
+			"Text":"Thomas B: Well, to see what it does, it's a matter to test it."
+		},
+		{
+			"Text":"SEALER: ERROR: NO IMAGE OR SIGNATURE HAVE BEEN INSERTED."
+		},
+		{
+			"Text":"Thomas B: ...So it does something with images. Maybe i can test it out later."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
