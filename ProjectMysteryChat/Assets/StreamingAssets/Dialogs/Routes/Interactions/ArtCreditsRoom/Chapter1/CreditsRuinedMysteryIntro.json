@@ -229,5 +229,11 @@
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"CreditsRuinedMysteryIntro"
+		}
 	]
 }

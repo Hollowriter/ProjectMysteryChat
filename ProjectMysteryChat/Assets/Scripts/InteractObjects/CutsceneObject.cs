@@ -28,4 +28,9 @@ public class CutsceneObject : InteractObject
             CutsceneManager.instance.SetCutscenes(scenes);
         }
     }
+
+    public override void BehaveInteraction()
+    {
+        CutsceneManager.instance.SetCutscenes(scenes);
+    }
 }

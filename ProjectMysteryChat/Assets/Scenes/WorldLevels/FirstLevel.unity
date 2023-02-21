@@ -3523,6 +3523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsConditioned: []
+  objectsReactive: []
 --- !u!1 &1571423950
 GameObject:
   m_ObjectHideFlags: 0

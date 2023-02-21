@@ -6,11 +6,15 @@ public class PlotConditionManager : MonoBehaviour
 {
     [SerializeField]
     List<PlotConditioned> objectsConditioned;
+    [SerializeField]
+    List<PlotReactive> objectsReactive;
 
     private void Start() 
     {
         CheckConditions();
+        CheckReactives();
         InteractionsManager.instance.onSetPermanentInteraction += CheckConditions;
+        InteractionsManager.instance.onSetPermanentInteraction += CheckReactives;
     }
 
     private void CheckConditions()
@@ -23,6 +27,20 @@ public class PlotConditionManager : MonoBehaviour
                 {
                     objectsConditioned[i].gameObject.SetActive(true);
                     objectsConditioned[i].CheckCondition();
+                }
+            }
+        }
+    }
+
+    private void CheckReactives() 
+    {
+        if (objectsReactive != null)
+        {
+            for (int i = 0; i < objectsReactive.Count; i++)
+            {
+                if (objectsReactive[i] != null)
+                {
+                    objectsReactive[i].CheckReaction();
                 }
             }
         }
