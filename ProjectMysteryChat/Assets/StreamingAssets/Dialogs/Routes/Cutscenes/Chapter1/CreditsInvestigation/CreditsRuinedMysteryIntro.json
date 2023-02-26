@@ -1,0 +1,239 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Wait, no, i could've check the chat log and..."
+		},
+		{
+			"Text":"LostDecipher2: Forget it, the thing is that i found you!"
+		},
+		{
+			"Text":"MsMaki95: Were you... Looking for me?"
+		},
+		{
+			"Text":"LostDecipher2: ...? Well, yeah, what kind of question is that? You said you were going to show me something. But you were so fast and this place is kind of confusing!"
+		},
+		{
+			"Text":"MsMaki95: Oh... Ah, yeah, sorry, emotion kinda took me and... I forgot you were new here."
+		},
+		{
+			"Text":"MsMaki95: Still, really good finding your way here on your own."
+		},
+		{
+			"Text":"LostDecipher2: What can i say? I'm good at figuring things out."
+		},
+		{
+			"Text":"MsMaki95: Oh, speaking of which, you know what this is?"
+		},
+		{
+			"Text":"LostDecipher2: ...Well, no, but it seems glitched."
+		},
+		{
+			"Text":"LostDecipher2: But i can see... A name or two."
+		},
+		{
+			"Text":"MsMaki95: We are trying to fix it, i think it was supposed to be a mural, but none of the tools i used seem to work with it."
+		},
+		{
+			"Text":"LostDecipher2: So, the bugged textures can't be overwritten by new information."
+		},
+		{
+			"Text":"MsMaki95: Maybe, but we don't want the information to be lost, so i'm not touching that much."
+		},
+		{
+			"Text":"LostDecipher2: And the archives can't be downloaded?"
+		},
+		{
+			"Text":"MsMaki95: It doesn't seem like it..."
+		},
+		{
+			"Text":"LostDecipher2: Allright... Can i take a look at it?"
+		},
+		{
+			"Text":"MsMaki95: Ah... Are you gonna help? Awesome!"
+		},
+		{
+			"Text":"Thomas B: Why does she asks something she knows all the time?"
+		},
+		{
+			"Text":"MsMaki95: Oh! But before you do it, don't draw on the mural and be careful with what you touch. Jack is not going to like if i let somebody 'tamper' with information... Specially someone i just met."
+		},
+		{
+			"Text":"LostDecipher2: Jack?"
+		},
+		{
+			"Text":"MsMaki95: Sorry, one of the members. He is a nice guy, but is really dedicated to the group and he is going to be in a bad mood if something happens to the mural."
+		},
+		{
+			"Text":"MsMaki95: Please, be careful with what you touch. Ok?"
+		},
+		{
+			"Text":"LostDecipher2: Don't worry, i'm just going to check the area. I will be extra careful."
+		},
+		{
+			"Text":"MsMaki95: Allright, thanks."
+		},
+		{
+			"Text":"Thomas B: Now, let's begin with the investigation."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"CreditsRuinedMysteryIntro"
+		}
+	]
+}

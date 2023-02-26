@@ -301,6 +301,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 139736523}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &143051543
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 549111202}
+    m_Modifications:
+    - target: {fileID: 7819845360977225465, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: dialogForTheScene
+      value: Dialogs/Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsInspectionDone.json
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819845360977225467, guid: f7fcc8b54b28cd7488bbb6cba847b674,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogAlgorithm
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7fcc8b54b28cd7488bbb6cba847b674, type: 3}
 --- !u!1 &178874635
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +810,7 @@ MonoBehaviour:
   interactionNamesToReact:
   - GlitchedURL
   - VisitsLogArtReviewRoom
-  - SealerInformation
+  - ImageDeviceLog
   - InvisibleCard
   obj: {fileID: 549111204}
 --- !u!114 &549111206
@@ -764,7 +838,7 @@ PrefabInstance:
     - target: {fileID: 7819845360977225465, guid: f7fcc8b54b28cd7488bbb6cba847b674,
         type: 3}
       propertyPath: dialogForTheScene
-      value: Routes/Interactions/ArtCreditsRoom/Chapter1/MakiFound.json
+      value: Routes/Cutscenes/Chapter1/CreditsInvestigation/MakiFound.json
       objectReference: {fileID: 0}
     - target: {fileID: 7819845360977225465, guid: f7fcc8b54b28cd7488bbb6cba847b674,
         type: 3}
@@ -1046,7 +1120,7 @@ PrefabInstance:
     - target: {fileID: 7819845360977225465, guid: f7fcc8b54b28cd7488bbb6cba847b674,
         type: 3}
       propertyPath: dialogForTheScene
-      value: Routes/Interactions/ArtCreditsRoom/Chapter1/CreditsRuinedMysteryIntro.json
+      value: Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsRuinedMysteryIntro.json
       objectReference: {fileID: 0}
     - target: {fileID: 7819845360977225465, guid: f7fcc8b54b28cd7488bbb6cba847b674,
         type: 3}

@@ -1,0 +1,21 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"*Image Device Log added to Evidence Folder*"
+		}
+	],
+	"Evidence":
+	[
+		{
+			"Item":"Image Device Log",
+			"Description":"The log of an image device. It has the names of 'MsMaki95', 'ElChaparro05' and 'Worldo'"
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"ImageDeviceLog"
+		}
+	]
+}

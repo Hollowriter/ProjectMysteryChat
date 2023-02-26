@@ -1,0 +1,20 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"MsMaki95: So... Any ideas?"
+		},
+		{
+			"Text":"TO BE CONTINUED..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		}
+	]
+}
