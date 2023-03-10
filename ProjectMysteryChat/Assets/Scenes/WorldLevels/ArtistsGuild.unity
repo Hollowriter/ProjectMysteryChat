@@ -1675,6 +1675,7 @@ MonoBehaviour:
   - {fileID: 1113074171}
   - {fileID: 1986138870}
   - {fileID: 1860363220}
+  objectsReactive: []
 --- !u!4 &2059625593
 Transform:
   m_ObjectHideFlags: 0

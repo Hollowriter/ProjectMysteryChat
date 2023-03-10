@@ -374,6 +374,16 @@ PrefabInstance:
       propertyPath: levelToGo
       value: ArtistsGuild
       objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: newPlayerPositionX
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: newPlayerPositionY
+      value: 18.28
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52, type: 3}
 --- !u!4 &139736524 stripped
@@ -392,7 +402,7 @@ PrefabInstance:
     - target: {fileID: 7819845360977225465, guid: f7fcc8b54b28cd7488bbb6cba847b674,
         type: 3}
       propertyPath: dialogForTheScene
-      value: Dialogs/Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsInspectionDone.json
+      value: Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsInspectionDone.json
       objectReference: {fileID: 0}
     - target: {fileID: 7819845360977225466, guid: f7fcc8b54b28cd7488bbb6cba847b674,
         type: 3}
@@ -908,7 +918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
   interactionNamesToDeactivate:
-  - CreditsRuinedMysteryInvEnd
+  - CreditsRuinedMysteryEnd
 --- !u!1001 &579936498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1291,7 +1301,7 @@ GameObject:
   - component: {fileID: 774937765}
   m_Layer: 0
   m_Name: InvisibleCard
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1375,7 +1385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Dialogs/Routes/Evidence/InvisibleCard.json
+  interactionFileName: Routes/Evidence/InvisibleCard.json
 --- !u!114 &774937765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,7 +1950,7 @@ GameObject:
   - component: {fileID: 1931658116}
   m_Layer: 0
   m_Name: VisitsLog
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2024,7 +2034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Dialogs/Routes/Evidence/VisitsLog.json
+  interactionFileName: Routes/Evidence/VisitsLog.json
 --- !u!114 &1931658116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2136,7 +2146,7 @@ GameObject:
   - component: {fileID: 2030182306}
   m_Layer: 0
   m_Name: GlitchedURL
-  m_TagString: Untagged
+  m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2220,7 +2230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Dialogs/Routes/Evidence/GlitchedURL.json
+  interactionFileName: Routes/Evidence/GlitchedURL.json
 --- !u!114 &2030182306
 MonoBehaviour:
   m_ObjectHideFlags: 0

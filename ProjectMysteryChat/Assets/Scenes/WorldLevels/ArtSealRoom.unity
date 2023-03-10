@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Dialogs/Evidence/SealerLog.json
+  interactionFileName: Routes/Evidence/SealerLog.json
 --- !u!61 &595747370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Dialogs/Evidence/SealerLog.json
+  interactionFileName: Routes/Evidence/SealerLog.json
 --- !u!61 &790971845
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a85e832629b8a4b863421121867784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Dialogs/Evidence/SealerLog.json
+  interactionFileName: Routes/Evidence/SealerLog.json
 --- !u!61 &1372483789
 BoxCollider2D:
   m_ObjectHideFlags: 0
