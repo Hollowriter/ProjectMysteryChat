@@ -1,0 +1,123 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Oh, another card. This doesn't seem to be made by her though."
+		},
+		{
+			"Text":"Thomas B: And it has the number of my room..."
+		},
+		{
+			"Text":"MsMaki95: Is everything ok?"
+		},
+		{
+			"Text":"LostDecipher2: Yeah... Well, did anyone noticed this here?"
+		},
+		{
+			"Text":"MsMaki95: Notice what? Something on the wall?"
+		},
+		{
+			"Text":"LostDecipher2: No, i mean, this!"
+		},
+		{
+			"Text":">Cipher shows the card on his hand to Maki, but she doesn't seem to notice it"
+		},
+		{
+			"Text":"MsMaki95: Mmm... No, i can't see it... Are you sure you don't have a glitch on your side."
+		},
+		{
+			"Text":"LostDecipher2: ...Maybe, has it happened before?"
+		},
+		{
+			"Text":"MsMaki95: Sometimes, some items glitch only to some people at random. And it's not every time that it happens."
+		},
+		{
+			"Text":"Thomas B: But this is not what i'm seeing here. I'm looking at an item that she cannot see."
+		},
+		{
+			"Text":"Thomas B: Still... I think i should keep this information to myself for the time. Something tells me it's not entirely related to the portrait."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Evidence/GrabInvisibleCard.json"
+		}
+	]
+}
