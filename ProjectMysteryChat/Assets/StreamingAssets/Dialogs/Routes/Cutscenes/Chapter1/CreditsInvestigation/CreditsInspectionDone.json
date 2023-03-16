@@ -17,7 +17,7 @@
 			"Text":"MsMaki95: Oh! Hahaha, no silly, that's your name."
 		},
 		{
-			"Text":"LostDecipher2: Oh, right, we didn't properly introduced ourselves... How embarrassing..."
+			"Text":"LostDecipher2: Right, we didn't properly introduced ourselves... How embarrassing..."
 		},
 		{
 			"Text":"MsMaki95: Hey, don't worry... I didn't do it because... Well... I don't know how to put it..."
@@ -32,7 +32,16 @@
 			"Text":"MsMaki95:Maki... But i guess is quite easy to guess. You can also call me Pixy."
 		},
 		{
-			"Text":"TO BE CONTINUED..."
+			"Text":"LostDecipher2: Allright then, Maki. About what i saw here, i think i got an idea on how to restore the mural."
+		},
+		{
+			"Text":"MsMaki95: Really? Excellent news!"
+		},
+		{
+			"Text":"MsMaki95: But, how do we do it?"
+		},
+		{
+			"Text":"LostDecipher2: Judging on what's left, there is only one way to get this fixed..."
 		}
 	],
 	"Portraits":
@@ -96,6 +105,30 @@
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
 		}
 	]
 }
