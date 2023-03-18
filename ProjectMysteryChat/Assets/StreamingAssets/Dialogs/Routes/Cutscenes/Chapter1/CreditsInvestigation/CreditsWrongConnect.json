@@ -1,0 +1,36 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Come on, Cipher, let's think again, how can we fix the mural?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/OriginalImageIdea.json",
+			"CandidateName":"Finding the original image"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CheckServerIdea.json",
+			"CandidateName":"Check the server's data base"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Full image file URL",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/URLPresentedHint.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits.json"
+		}
+	]
+}

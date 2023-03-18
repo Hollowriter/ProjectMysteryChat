@@ -130,5 +130,24 @@
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/OriginalImageIdea.json",
+			"CandidateName":"Finding the original image"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CheckServerIdea.json",
+			"CandidateName":"Check the server's data base"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Full image file URL",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/URLPresentedHint.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits.json"
+		}
 	]
 }
