@@ -1,0 +1,27 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: I was thinking we should be checking how things are going on the server itself."
+		},
+		{
+			"Text":"TO BE CONTINUED..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsWrongConnect.json"
+		}
+	]
+}
