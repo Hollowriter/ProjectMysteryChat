@@ -146,7 +146,7 @@
 	[
 		{
 			"ExpectedAnswer":"Full image file URL",
-			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/URLPresentedHint.json",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits.json",
 			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits.json"
 		}
 	]

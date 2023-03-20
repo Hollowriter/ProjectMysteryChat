@@ -2,34 +2,31 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: I was thinking we should be checking how things are going on the server itself."
+			"Text":"LostDecipher2: I think what i found here says everything..."
 		},
 		{
-			"Text":"MsMaki95: You mean, walking around all around the server?"
+			"Text":"MsMaki95: ...What does it mean?"
 		},
 		{
-			"Text":"LostDecipher2: No, i mean checking the server status. Someone with admin powers here can do it."
+			"Text":"LostDecipher2: It's quite simple really, and it's presence in the scene can tell us a lot of what we have to do..."
 		},
 		{
-			"Text":"MsMaki95: Oh, speaking of that... We don't have an official admin currently."
+			"Text":"MsMaki95:..."
 		},
 		{
-			"Text":"LostDecipher2: What? How is that possible?"
+			"Text":"LostDecipher2: What?"
 		},
 		{
-			"Text":"MsMaki95: We found the server open, whoever opened it has been disconnected for a while..."
+			"Text":"MsMaki95:Cipher, can you explain it? i don't get it..."
 		},
 		{
-			"Text":"LostDecipher2: ...And that user has the admin powers, got it. No way on checking that."
+			"Text":"LostDecipher2: Right... Sure."
 		},
 		{
-			"Text":"MsMaki95: That means you have a B plan, right, Cipher?"
+			"Text":"Thomas B: The evidence around here is not solid enough to... Make people answer it for me."
 		},
 		{
-			"Text":"LostDecipher2: B plan?"
-		},
-		{
-			"Text":"LostDecipher2: Oh, yeah! Of course i have..."
+			"Text":"Thomas B: Allright, time to use my brain and explain it."
 		}
 	],
 	"Portraits":
@@ -48,51 +45,45 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Sad",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Sad",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Winking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
 		}
 	],
 	"Transition":
