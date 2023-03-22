@@ -1,0 +1,24 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Well... I hope this isn't dissappointing, but the only solution that comes to mind is find the original image."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsWrongConnect.json"
+		}
+	]
+}
