@@ -1,0 +1,36 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Allright, let's think again, what exactly proves that this image is not being read?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/TouchAccusation.json",
+			"CandidateName":"Someone of you touched the image"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/ImageStateAnswer.json",
+			"CandidateName":"Just look at the state of the image"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Full image file URL",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/PresentFullLink.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits2.json"
+		}
+	]
+}

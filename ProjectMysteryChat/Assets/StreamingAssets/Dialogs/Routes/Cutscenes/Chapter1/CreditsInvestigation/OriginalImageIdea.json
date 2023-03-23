@@ -2,23 +2,98 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: Well... I hope this isn't dissappointing, but the only solution that comes to mind is find the original image."
+			"Text":"LostDecipher2: The only solution that comes to mind is finding the original image."
+		},
+		{
+			"Text":"MsMaki95: What do you mean? It's here but... It's corrupted."
+		},
+		{
+			"Text":"LostDecipher2: No, the image is not even available in the first place, the program is failing to find it and that's why it looks corrupted."
+		},
+		{
+			"Text":"MsMaki95: But then, why would the image be there but corrupted and not be there in the first place?"
+		},
+		{
+			"Text":"LostDecipher2: I don't have that much knowledge on why, but i remember that when an image was suddenly removed from a showcase and you don't refresh it, this happens."
+		},
+		{
+			"Text":"MsMaki95: Sorry Cipher, you say it's like that but... If i say this to Jack, he is not going to believe me."
+		},
+		{
+			"Text":"MsMaki95: Do you have something that clearly says this?"
+		},
+		{
+			"Text":"LostDecipher2: Of course, in fact, we already saw it during the investigation. Here it is."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
 		}
 	],
-	"Transition":
+	"Elections":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsWrongConnect.json"
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/TouchAccusation.json",
+			"CandidateName":"Someone of you touched the image"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/CreditsInvestigation/ImageStateAnswer.json",
+			"CandidateName":"Just look at the state of the image"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Full image file URL",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/PresentFullLink.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits2.json"
 		}
 	]
 }
