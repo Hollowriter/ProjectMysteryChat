@@ -17,7 +17,22 @@
 			"Text":"LostDecipher2: That's not what i meant... I mean, even the most organized person can sometimes move something out of place and---"
 		},
 		{
-			"Text":"TO BE CONTINUED... MAKI IS SUPPOSED TO BE REALLY ANGRY HERE!..."
+			"Text":"MsMaki95: That's what being sloppy is, Cipher! And i'll have you know, i'm not sloppy!"
+		},
+		{
+			"Text":"LostDecipher2: Come on, that's not something so terrible..."
+		},
+		{
+			"Text":"MsMaki95: It is if you are saying it out of thing air like this! To me!"
+		},
+		{
+			"Text":"MsMaki95: I'll have you know that i classified, and checked everything i individually touched! There is no way i touched something 'by accident'!"
+		},
+		{
+			"Text":"MsMaki95: Besides, the drawing was like this since we entered, in fact, since before i got invited so... It doesn't make any sense..."
+		},
+		{
+			"Text":"Thomas B: That was sudden, but she is right... It doesn't make sense, if this was like this before any of them came, then my theory goes to the toilet."
 		}
 	],
 	"Portraits":
@@ -36,31 +51,55 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Angry",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		}
