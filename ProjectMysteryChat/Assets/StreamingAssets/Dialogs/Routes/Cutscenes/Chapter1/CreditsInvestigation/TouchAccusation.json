@@ -1,0 +1,75 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: It's quite simple really... It exists the possibility that someone touched something by pure accident."
+		},
+		{
+			"Text":"MsMaki95: Someone? But, not many people come this far and the one investigating this room is mostly me."
+		},
+		{
+			"Text":"LostDecipher2: Well, Maki, accidents happen, sometimes one can touch without realizing it and make a mistake."
+		},
+		{
+			"Text":"MsMaki95: Are you accusing me of being sloppy?"
+		},
+		{
+			"Text":"LostDecipher2: That's not what i meant... I mean, even the most organized person can sometimes move something out of place and---"
+		},
+		{
+			"Text":"TO BE CONTINUED... MAKI IS SUPPOSED TO BE REALLY ANGRY HERE!..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsWrongConnect2.json"
+		}
+	]
+}
