@@ -2,7 +2,25 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: Here, this is what proves it..."
+			"Text":"LostDecipher2: Even if i don't have access to the backend i can tell because the full URL of the image is present in the name."
+		},
+		{
+			"Text":"MsMaki95: Oh that, yeah, we just need to test it to prove it."
+		},
+		{
+			"Text":"LostDecipher2: Test it?"
+		},
+		{
+			"Text":"MsMaki95: Yeah, i mean, in order to test that's actually the case, we need to check it somewhere else. Reproduce it."
+		},
+		{
+			"Text":"LostDecipher2: Right, this guy can't just simply take my word. Is there another place you can put an image and shows it's name?"
+		},
+		{
+			"Text":"MsMaki95: Plenty, we can go to my room, the art gallery, any of those places. We can use those."
+		},
+		{
+			"Text":"TO BE CONTINUED.."
 		}
 	],
 	"Portraits":
