@@ -5,7 +5,7 @@
 			"Text":"LostDecipher2: Even if i don't have access to the backend i can tell because the full URL of the image is present in the name."
 		},
 		{
-			"Text":"MsMaki95: Oh that, yeah, we just need to test it to prove it."
+			"Text":"MsMaki95: Oh that, yeah, we just need to test it."
 		},
 		{
 			"Text":"LostDecipher2: Test it?"
@@ -26,59 +26,70 @@
 			"Text":"MsMaki95: Oh, so that's how you entered to my room. Yeah, that's the place!"
 		},
 		{
-			"Text":"MsMaki95: Allright then! To the gallery we go! (PORTRAITS LEFT)"
+			"Text":"MsMaki95: Allright then! To the gallery we go!"
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
+			"ExpressionRight":"MsMaki95-Neutral"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Angry",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
+			"ExpressionRight":"MsMaki95-Happy"
 		}
 	],
-	"Transition":
+	"Interaction":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsWrongConnect2.json"
+			"InteractionName":"CreditsInvestigationFinished"
 		}
 	]
 }

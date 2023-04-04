@@ -1,0 +1,78 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: ..."
+		},
+		{
+			"Text":"Thomas B: What am i doing? And where is the guy who contacted me here?"
+		}
+		{
+			"Text":"Thomas B: I doubt it was her, since she seemed kind of confused of me being here but, still... What's going on here?"
+		},
+		{
+			"Text":"Thomas B: This place was supposed to be completely abandoned, but still i found somebody and seems there has been people here recently."
+		},
+		{
+			"Text":"Thomas B: The fan who sent me that mail has a lot of explaining to do..."
+		},
+		{
+			"Text":"Thomas B: ..."
+		},
+		{
+			"Text":"Thomas B: Still, there isn't much i can accomplish just thinking. Let's see if helping this user can get me somewhere."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/CreditsInvestigation/CreditsInvestigationCutsceneFinished.json"
+		}
+	]
+}
