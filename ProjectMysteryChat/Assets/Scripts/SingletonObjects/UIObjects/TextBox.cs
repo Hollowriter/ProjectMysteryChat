@@ -31,7 +31,7 @@ public class TextBox : SingletonBase<TextBox>
         dialogueText.text = "";
         dialogSetted = "";
         nextButton = null;
-        if (dialogueBackground != null) // Checkear este null reference. (Hollow)
+        if (dialogueBackground != null)
             dialogueBackground.SetActive(false);
     }
 
@@ -44,7 +44,7 @@ public class TextBox : SingletonBase<TextBox>
     {
         if (items != null && GetActivated())
         {
-            if (speechIndex < items.Dialogs.Length)
+            if (speechIndex < items.Dialogs.Length) // Check this null reference (Hollow)
             {
                 return GetActivated();
             }

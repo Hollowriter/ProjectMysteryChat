@@ -32,10 +32,11 @@
 			"ExpressionRight":""
 		}
 	],
-	"Interaction":
+	"Transition":
 	[
 		{
-			"InteractionName":"MakiConversationEnd"
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/StartingExploration/MakiConversationEnd.json"
 		}
 	]
 }
