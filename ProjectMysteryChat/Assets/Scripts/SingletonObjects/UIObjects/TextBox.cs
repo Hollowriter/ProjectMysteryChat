@@ -44,9 +44,12 @@ public class TextBox : SingletonBase<TextBox>
     {
         if (items != null && GetActivated())
         {
-            if (speechIndex < items.Dialogs.Length) // Check this null reference (Hollow)
+            if (items.Dialogs != null)
             {
-                return GetActivated();
+                if (speechIndex < items.Dialogs.Length) // Check this null reference (Hollow)
+                {
+                    return GetActivated();
+                }
             }
         }
         SetActivated(false);
