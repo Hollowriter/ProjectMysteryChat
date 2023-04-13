@@ -952,13 +952,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7472519012183689699, guid: 3e59b54ddcdb5aa40b074850648882a9,
         type: 3}
+      propertyPath: m_Size.y
+      value: 20.414516
+      objectReference: {fileID: 0}
+    - target: {fileID: 7472519012183689699, guid: 3e59b54ddcdb5aa40b074850648882a9,
+        type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7472519012183689699, guid: 3e59b54ddcdb5aa40b074850648882a9,
         type: 3}
       propertyPath: m_Offset.x
       value: 0.6842232
+      objectReference: {fileID: 0}
+    - target: {fileID: 7472519012183689699, guid: 3e59b54ddcdb5aa40b074850648882a9,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 5.9235783
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e59b54ddcdb5aa40b074850648882a9, type: 3}
@@ -1016,7 +1026,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionNamesToActivate: []
+  interactionNamesToActivate:
+  - GlitchedURL
+  - VisitsLogArtReviewRoom
+  - ImageDeviceLog
+  - InvisibleCard
   interactionNamesToDeactivate:
   - CreditsInvestigationCutsceneFinished
 --- !u!1001 &579936498
@@ -1242,8 +1256,7 @@ MonoBehaviour:
   - {fileID: 1931658116}
   - {fileID: 774937765}
   - {fileID: 549111206}
-  objectsReactive:
-  - {fileID: 549111205}
+  objectsReactive: []
 --- !u!4 &642441639
 Transform:
   m_ObjectHideFlags: 0
