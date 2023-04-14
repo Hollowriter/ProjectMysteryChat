@@ -12,10 +12,11 @@
 			"Description":"A card with the number of your room. Strangely, you can only see and interact with it."
 		}
 	],
-	"Interaction":
+	"Transition":
 	[
 		{
-			"InteractionName":"InvisibleCard"
+			"Type":"Dialog",
+			"Name":"Routes/Evidence/GrabInvisibleCardInteraction.json"
 		}
 	]
 }
