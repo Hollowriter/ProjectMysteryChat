@@ -12,11 +12,10 @@
 			"Description":"The URL of the glitched image. In the image showing interface this appears instead of the chosen name when the image file can not be found."
 		}
 	],
-	"Transition":
+	"Interaction":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Evidence/GrabGlitchedURLInteraction.json"
+			"InteractionName":"GlitchedURL"
 		}
 	]
 }

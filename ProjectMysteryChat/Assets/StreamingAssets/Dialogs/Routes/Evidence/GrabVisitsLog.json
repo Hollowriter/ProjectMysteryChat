@@ -12,11 +12,10 @@
 			"Description":"The log shows the 5 users that entered when the server opened, alongside old users when the chat was active. Still, there is an user that entered before this 5 users, a little after the chat closed, one named 'Worldo'."
 		}
 	],
-	"Transition":
+	"Interaction":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Evidence/GrabVisitsLogInteraction.json"
+			"InteractionName":"VisitsLogArtReviewRoom"
 		}
 	]
 }

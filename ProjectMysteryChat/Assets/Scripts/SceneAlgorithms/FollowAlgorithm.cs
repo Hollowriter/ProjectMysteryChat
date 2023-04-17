@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class FollowAlgorithm : SceneAlgorithm
 {
-    public PointToFollow[] pointsToFollow;
-    public GameObject actCharacter;
-    CharacterAnimationsManager animationsManagerCharacter;
-    public float characterSpeed;
+    [SerializeField] private PointToFollow[] pointsToFollow;
+    [SerializeField] private GameObject actCharacter;
+    [SerializeField] private bool isPlayerActCharacter;
+    private CharacterAnimationsManager animationsManagerCharacter;
+    [SerializeField] private float characterSpeed;
     int pointsFollowed;
 
     void Begin() 
     {
         followPoints = pointsToFollow;
-        character = actCharacter;
-        animationsManagerCharacter = actCharacter.GetComponent<CharacterAnimationsManager>();
+        if (!isPlayerActCharacter)
+        {
+            character = actCharacter;
+            animationsManagerCharacter = character.GetComponent<CharacterAnimationsManager>();
+        }
+        else
+        {
+            character = PlayerMovement.instance.gameObject;
+        }
         pointsFollowed = 0;
     }
 
@@ -34,7 +42,10 @@ public class FollowAlgorithm : SceneAlgorithm
 
     void CheckPositionToChange()
     {
-        animationsManagerCharacter.ChangeCharacterPosition(followPoints[pointsFollowed].positionToChange);
+        if (!isPlayerActCharacter)
+            animationsManagerCharacter.ChangeCharacterPosition(followPoints[pointsFollowed].positionToChange);
+        /*else
+            PlayerAnimations.instance*/
     }
 
     void CheckToChangePoint() 
