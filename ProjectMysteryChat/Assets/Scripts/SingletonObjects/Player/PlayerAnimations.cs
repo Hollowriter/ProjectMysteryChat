@@ -63,6 +63,8 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
         }
     }
 
+    public void ChangePlayerDirection()
+
     protected override void BehaveSingleton()
     {
         if (PauseManager.instance != null)
