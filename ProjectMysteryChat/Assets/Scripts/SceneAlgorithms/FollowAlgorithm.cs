@@ -44,8 +44,8 @@ public class FollowAlgorithm : SceneAlgorithm
     {
         if (!isPlayerActCharacter)
             animationsManagerCharacter.ChangeCharacterPosition(followPoints[pointsFollowed].positionToChange);
-        /*else
-            PlayerAnimations.instance*/
+        else
+            PlayerAnimations.instance.ChangePlayerDirection(followPoints[pointsFollowed].positionToChange);
     }
 
     void CheckToChangePoint() 

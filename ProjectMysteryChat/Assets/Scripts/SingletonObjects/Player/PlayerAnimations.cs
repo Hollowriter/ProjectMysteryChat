@@ -63,7 +63,44 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
         }
     }
 
-    public void ChangePlayerDirection()
+    public void ChangePlayerDirection(PositionToLook positionToLook) 
+    {
+        switch (positionToLook) 
+        {
+            case PositionToLook.Down:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Down);
+                playerAnimator.SetBool("Moving", false);
+                break;
+            case PositionToLook.DownMoving:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Down);
+                playerAnimator.SetBool("Moving", true);
+                break;
+            case PositionToLook.Up:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Up);
+                playerAnimator.SetBool("Moving", false);
+                break;
+            case PositionToLook.UpMoving:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Up);
+                playerAnimator.SetBool("Moving", true);
+                break;
+            case PositionToLook.Left:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Left);
+                playerAnimator.SetBool("Moving", false);
+                break;
+            case PositionToLook.LeftMoving:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Left);
+                playerAnimator.SetBool("Moving", true);
+                break;
+            case PositionToLook.Right:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Right);
+                playerAnimator.SetBool("Moving", false);
+                break;
+            case PositionToLook.RightMoving:
+                playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Right);
+                playerAnimator.SetBool("Moving", true);
+                break;
+        }
+    }
 
     protected override void BehaveSingleton()
     {

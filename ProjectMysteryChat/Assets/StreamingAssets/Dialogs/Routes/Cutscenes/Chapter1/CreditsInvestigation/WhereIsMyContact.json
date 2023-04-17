@@ -18,9 +18,6 @@
 		},
 		{
 			"Text":"Thomas B: ..."
-		},
-		{
-			"Text":"Thomas B: Still, there isn't much i can accomplish just thinking. Let's see if helping this user can get me somewhere."
 		}
 	],
 	"Portraits":
@@ -58,12 +55,6 @@
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Angry",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
