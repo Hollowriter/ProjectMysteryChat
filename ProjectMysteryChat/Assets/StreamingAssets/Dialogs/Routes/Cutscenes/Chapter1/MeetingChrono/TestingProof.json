@@ -1,0 +1,159 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"MsMaki95: Allright, i just put this image here... And... How did the steps where?"
+		},
+		{
+			"Text":"LostDecipher2: Put the image, make the object read it, and then suddenly delete the image."
+		},
+		{
+			"Text":"MsMaki95: Got it!"
+		},
+		{
+			"Text":">Maki performs the steps for the test."
+		},
+		{
+			"Text":">Then she removes the image, making the screen show a full URL of the location of the image."
+		},
+		{
+			"Text":"MsMaki95: It worked! Nice thinking, Cipher!"
+		},
+		{
+			"Text":"LostDecipher2: Told you! Memory never fails me when it comes to this place."
+		},
+		{
+			"Text":"MsMaki95: Still, now we know the image isn't there in the first place but... How are we going to find it?"
+		},
+		{
+			"Text":"LostDecipher2: Oh, right... Nobody has admin access so, we can't see the full logs of this place..."
+		},
+		{
+			"Text":"MsMaki95: Does that mean we are stuck?"
+		},
+		{
+			"Text":"LostDecipher2:...Sorry, Maki."
+		},
+		{
+			"Text":"MsMaki95: Hey, don't apologize, you were still a big help, now i know more about this than i did before."
+		},
+		{
+			"Text":"MsMaki95: Finally i have something to ask Jack about, he will be happy that some lead at least."
+		},
+		{
+			"Text":"LostDecipher2: Well, i'm glad i could be of help. Maybe i could talk to that Jack later..."
+		},
+		{
+			"Text":">Suddenly, the log sound is heard, indicating other user entered the room."
+		},
+		{
+			"Text":"ChronoWriter1885: Hey Pixy! I need some help with something! (Dialog Portraits pendant)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/MeetingMaki/WhereMaki.json"
+		}
+	]
+}
