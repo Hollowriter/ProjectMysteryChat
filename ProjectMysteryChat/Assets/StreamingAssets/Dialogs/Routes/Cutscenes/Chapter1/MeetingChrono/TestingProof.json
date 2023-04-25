@@ -47,28 +47,22 @@
 			"Text":">Suddenly, the log sound is heard, indicating other user entered the room."
 		},
 		{
-			"Text":"ChronoWriter1885: Hey Pixy! I need some help with something! (Dialog Portraits pendant)"
+			"Text":"ChronoWriter1885: Hey Pixy! I need some help with something!"
 		}
 	],
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
@@ -78,82 +72,81 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Winking",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Winking",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Surprised"
-		}
-	],
-	"Transition":
-	[
-		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/MeetingMaki/WhereMaki.json"
 		}
 	]
 }
