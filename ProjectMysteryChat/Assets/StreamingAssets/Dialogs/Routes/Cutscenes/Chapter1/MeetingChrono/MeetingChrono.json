@@ -26,7 +26,7 @@
 			"Text":"MsMaki95: Oh, sorry Chrono. This is Cipher, he was an old user of this place... Before it was abandoned."
 		},
 		{
-			"Text":"ChronoWriter1885: Like Foxy? Interesting, another oldie... But he is not from the forum?"
+			"Text":"ChronoWriter1885: Like Foxy? Interesting, another oldie... But is he not from the forum?"
 		},
 		{
 			"Text":"Thomas B: Wait... Foxy? Is he...?"
@@ -35,22 +35,64 @@
 			"Text":"MsMaki95: Mmm... No... At least i don't think he is..."
 		},
 		{
-			"Text":"LostDecipher2: You can ask me, i don't bite. No, i'm not form the forum."
+			"Text":"LostDecipher2: You can ask me, i don't bite. No, i'm not form the 'forum'."
 		},
 		{
-			"Text":"ChronoWriter1885: Strange, so how did you entered here?"
+			"Text":"ChronoWriter1885: I see, could you tell me how did you entered here?"
 		},
 		{
 			"Text":"MsMaki95: He found one of my cards in one of the rooms."
 		},
 		{
-			"Text":"ChronoWriter1885: Not that, Pixy, with 'here' i mean this server."
+			"Text":"ChronoWriter1885: That's not what i meant, Pixy, with 'here' i mean this server."
 		},
 		{
-			"Text":"LostDecipher2: Well... Someone gave me an invitation. An anonymous user."
+			"Text":"LostDecipher2: Someone gave me an invitation. An anonymous user."
 		},
 		{
-			"Text":"ChronoWriter1885: I see... (TO BE CONTINUED)"
+			"Text":"ChronoWriter1885: I see..."
+		},
+		{
+			"Text":"ChronoWriter1885: A pleasure to meet you, Cipher."
+		},
+		{
+			"Text":"LostDecipher2: L... Likewise..."
+		},
+		{
+			"Text":"Thomas B: What's with this guy?"
+		},
+		{
+			"Text":"MsMaki95: Oh Chrono, i almost forgot! Cipher here helped me investigating the mural! And now i got some juicy new info for Jack!"
+		},
+		{
+			"Text":"ChronoWriter1885: Oh really?"
+		},
+		{
+			"Text":"LostDecipher2: Sure did, man."
+		},
+		{
+			"Text":"ChronoWriter1885: That means, you fixed the mural?"
+		},
+		{
+			"Text":"LostDecipher2: No... But now we know the reason why the image is corrupt."
+		},
+		{
+			"Text":"MsMaki95: Yeah, basically, the image was deleted while it was being displayed."
+		},
+		{
+			"Text":"ChronoWriter1885: So what you mean is... That the image is not there in the first place?"
+		},
+		{
+			"Text":"MsMaki95: Yep!"
+		},
+		{
+			"Text":"ChronoWriter1885:...Can i see the mural, Pixy? I need to check something."
+		},
+		{
+			"Text":"MsMaki95: Oh... Sure!"
+		},
+		{
+			"Text":"ChronoWriter1885: Cool, would you be so kind to follow me, then? (Pending Portraits)"
 		}
 	],
 	"Portraits":
