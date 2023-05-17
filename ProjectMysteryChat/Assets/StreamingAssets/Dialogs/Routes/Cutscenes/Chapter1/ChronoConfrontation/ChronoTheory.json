@@ -74,46 +74,46 @@
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
 		},
 		{
 			"CharacterLeft":"MsMaki95",
 			"ExpressionLeft":"MsMaki95-Neutral",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Sad",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Sad",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Neutral"
 		},
 		{
 			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Neutral",
+			"ExpressionLeft":"MsMaki95-Surprised",
 			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Happy",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Happy",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+			"ExpressionRight":"ChronoWriter1885-Neutral"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+			"ExpressionRight":"ChronoWriter1885-Neutral"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
+			"ExpressionRight":"ChronoWriter1885-Writing (CONTINUE FROM HERE)"
 		},
 		{
 			"CharacterLeft":"MsMaki95",
