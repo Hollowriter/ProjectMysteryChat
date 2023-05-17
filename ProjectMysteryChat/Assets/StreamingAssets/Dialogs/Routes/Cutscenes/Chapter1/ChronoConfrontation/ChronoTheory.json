@@ -113,11 +113,11 @@
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing (CONTINUE FROM HERE)"
+			"ExpressionRight":"ChronoWriter1885-Writing"
 		},
 		{
 			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Neutral",
+			"ExpressionLeft":"MsMaki95-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Writing"
 		},
@@ -125,7 +125,7 @@
 			"CharacterLeft":"MsMaki95",
 			"ExpressionLeft":"MsMaki95-Neutral",
 			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
+			"ExpressionRight":"ChronoWriter1885-Writing (Continue from here)"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
