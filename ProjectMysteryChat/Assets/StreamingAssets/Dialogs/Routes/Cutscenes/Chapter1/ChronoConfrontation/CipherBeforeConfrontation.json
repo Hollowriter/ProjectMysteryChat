@@ -1,0 +1,44 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Allright, what i need to know is who exactly visited this room first..."
+		},
+		{
+			"Text":"Thomas B: Or well... First when their group visited the server for the first time."
+		},
+		{
+			"Text":"Thomas B: With that i can either know what happened with this image or... Have at least a clue on who else is here."
+		},
+		{
+			"Text":"Thomas B: Allright, let's get to it."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
