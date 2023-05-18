@@ -68,7 +68,7 @@
 			"Text":"ChronoWriter1885: Oh, sure! What do you need?"
 		},
 		{
-			"Text":"Thomas B: Now i just need to ask him to tell me more about when they were here. (Portraits left)"
+			"Text":"Thomas B: Now i just need to ask him to tell me more about when they were here."
 		}
 	],
 	"Portraits":
@@ -122,68 +122,86 @@
 			"ExpressionRight":"ChronoWriter1885-Writing"
 		},
 		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing (Continue from here)"
-		},
-		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Writing"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Neutral"
 		},
 		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Neutral"
 		},
 		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Unimpressed"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Unimpressed"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Happy"
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Happy"
 		},
@@ -192,72 +210,6 @@
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Happy"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Happy",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Happy"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Happy",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
 		}
 	]
 }
