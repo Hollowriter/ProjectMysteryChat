@@ -40,5 +40,12 @@
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoConfrontation.json",
+			"CandidateName":"When you entered the art room"
+		}
 	]
 }
