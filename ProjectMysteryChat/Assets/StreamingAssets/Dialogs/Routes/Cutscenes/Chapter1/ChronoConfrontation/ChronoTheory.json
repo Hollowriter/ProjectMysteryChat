@@ -211,5 +211,12 @@
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Happy"
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/CipherBeforeConfrontation.json"
+		}
 	]
 }
