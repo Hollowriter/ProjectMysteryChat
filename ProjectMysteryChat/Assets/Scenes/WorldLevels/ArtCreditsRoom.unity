@@ -1451,6 +1451,8 @@ MonoBehaviour:
   - {fileID: 766948903}
   - {fileID: 1424939329}
   - {fileID: 2015899661}
+  - {fileID: 1953911531}
+  - {fileID: 1578061124}
   objectsReactive:
   - {fileID: 549111205}
 --- !u!4 &642441639
@@ -2479,7 +2481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
   interactionNamesToDeactivate:
-  - CreditsInspectionDone
+  - CreditsInvestigationFinished
 --- !u!61 &1578061125
 BoxCollider2D:
   m_ObjectHideFlags: 0
