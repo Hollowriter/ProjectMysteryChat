@@ -40,10 +40,6 @@ public class PlotConditioned : MonoBehaviour // This should be responsible of de
 
     private void CheckinteractionsToDeactivate()
     {
-        if (this.gameObject.name == "CutsceneInvestigationFinished")
-        {
-            Debug.Log("Here");
-        }
         interactionsToDeactivate = 0;
         for (int i = 0; i < interactionNamesToDeactivate.Count; i++) 
         {
