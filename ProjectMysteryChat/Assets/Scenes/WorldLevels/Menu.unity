@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc438a5a29125e141871695835b28b39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionsLimit: 30
+  interactionsLimit: 3000
 --- !u!4 &339076138
 Transform:
   m_ObjectHideFlags: 0

@@ -40,7 +40,8 @@ public class PlotConditionManager : MonoBehaviour
             {
                 if (objectsReactive[i] != null)
                 {
-                    objectsReactive[i].CheckReaction();
+                    if (objectsReactive[i].gameObject.activeInHierarchy)
+                        objectsReactive[i].CheckReaction();
                 }
             }
         }
