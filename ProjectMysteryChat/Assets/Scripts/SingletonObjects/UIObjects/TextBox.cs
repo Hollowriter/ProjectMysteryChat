@@ -20,6 +20,7 @@ public class TextBox : SingletonBase<TextBox>
     DialogCollection items;
     string dialogSetted;
     GameObject nextButton;
+    // Implement either an interrogatory option here or an special textbox for interrgations. (Hollow)
 
     protected override void SingletonAwake()
     {
@@ -46,7 +47,7 @@ public class TextBox : SingletonBase<TextBox>
         {
             if (items.Dialogs != null)
             {
-                if (speechIndex < items.Dialogs.Length) // Check this null reference (Hollow)
+                if (speechIndex < items.Dialogs.Length)
                 {
                     return GetActivated();
                 }
