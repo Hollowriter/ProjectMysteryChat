@@ -20,7 +20,13 @@ public class TextBox : SingletonBase<TextBox>
     DialogCollection items;
     string dialogSetted;
     GameObject nextButton;
-    // Implement either an interrogatory option here or an special textbox for interrgations. (Hollow)
+    GameObject nextDebateButton;
+    GameObject previousDebateButton;
+    [SerializeField]
+    Transform nextDebateButtonLocation;
+    [SerializeField]
+    Transform prevDebateButtonLocation;
+    bool debateMode; // Pending to fully implement. (Hollow)
 
     protected override void SingletonAwake()
     {
@@ -34,6 +40,7 @@ public class TextBox : SingletonBase<TextBox>
         nextButton = null;
         if (dialogueBackground != null)
             dialogueBackground.SetActive(false);
+        debateMode = false;
     }
 
     private void Awake()
@@ -103,6 +110,33 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
+    void DebateButtonsAppear() 
+    {
+        if (textWritten == true && EvidenceInventory.instance.GetActivated() == false)
+        {
+            if (nextDebateButton == null && this.speechIndex < items.Dialogs.Length - 1)
+            {
+                nextDebateButton = ButtonCreator.instance.CreateButton(">", nextDebateButtonLocation.position.x, nextDebateButtonLocation.position.y);
+                nextDebateButton.GetComponent<Button>().onClick.AddListener(NextDebateButtonPressed);
+                nextDebateButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PutOnImage);
+            }
+            else if (this.speechIndex < items.Dialogs.Length - 1)
+            {
+                nextDebateButton.SetActive(true);
+            }
+            if (previousDebateButton == null && this.speechIndex > 0)
+            {
+                previousDebateButton = ButtonCreator.instance.CreateButton("<", nextDebateButtonLocation.position.x, nextDebateButtonLocation.position.y);
+                previousDebateButton.GetComponent<Button>().onClick.AddListener(PreviousDebateButtonPressed);
+                previousDebateButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PutOnImage);
+            }
+            else if (this.speechIndex > 0)
+            {
+                previousDebateButton.SetActive(true);
+            }
+        }
+    }
+
     public void SetDialog(DialogCollection dialogs)
     {
         items = dialogs;
@@ -149,6 +183,36 @@ public class TextBox : SingletonBase<TextBox>
         WipeTextBox();
         nextButton.SetActive(false);
         CheckOnDocumentManager();
+    }
+
+    void NextDebateButtonPressed() 
+    {
+        this.speechIndex++;
+        if (this.speechIndex < items.Dialogs.Length)
+        {
+            WipeTextBox();
+            nextDebateButton.SetActive(false);
+            previousDebateButton.SetActive(false);
+        }
+        else 
+        {
+            this.speechIndex = items.Dialogs.Length - 1;
+        }
+    }
+
+    void PreviousDebateButtonPressed()
+    {
+        this.speechIndex--;
+        if (this.speechIndex >= 0)
+        {
+            WipeTextBox();
+            nextDebateButton.SetActive(false);
+            previousDebateButton.SetActive(false);
+        }
+        else
+        {
+            this.speechIndex = 0;
+        }
     }
 
     IEnumerator DialogTyping(string _word)
