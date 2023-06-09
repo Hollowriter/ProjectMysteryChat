@@ -26,7 +26,6 @@ public class TextBox : SingletonBase<TextBox>
     Transform nextDebateButtonLocation;
     [SerializeField]
     Transform prevDebateButtonLocation;
-    bool debateMode; // Pending to fully implement. (Hollow)
 
     protected override void SingletonAwake()
     {
@@ -40,7 +39,6 @@ public class TextBox : SingletonBase<TextBox>
         nextButton = null;
         if (dialogueBackground != null)
             dialogueBackground.SetActive(false);
-        debateMode = false;
     }
 
     private void Awake()
@@ -168,7 +166,14 @@ public class TextBox : SingletonBase<TextBox>
         if (ConditionsToBeActive())
         {
             WriteText();
-            NextButtonAppear();
+            if (items.IsDebate)
+            {
+                DebateButtonsAppear();
+            }
+            else
+            {
+                NextButtonAppear();
+            }
         }
     }
 

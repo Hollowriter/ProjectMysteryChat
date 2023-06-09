@@ -10,4 +10,5 @@ public class Dialogs
 public class DialogCollection
 {
     public Dialogs[] Dialogs;
+    public bool IsDebate;
 }

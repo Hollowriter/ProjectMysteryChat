@@ -36,7 +36,7 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
         portraitIndex = 0;
     }
 
-    public void PutOnImage()
+    public void PutOnImage() // Adapt this to be able to be used in interrogations. (Hollow)
     {
         if (portraits != null)
         {
