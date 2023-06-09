@@ -36,6 +36,39 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
         portraitIndex = 0;
     }
 
+    public void NextImage() 
+    {
+        portraitIndex++;
+        if (portraitIndex >= portraits.Portraits.Length) 
+        {
+            portraitIndex = portraits.Portraits.Length - 1;
+        }
+        PutOnImage();
+    }
+
+    public void ContinuousNextImage() 
+    {
+        portraitIndex++;
+        if (portraitIndex >= portraits.Portraits.Length)
+        {
+            WipePortraitBoxes();
+            ResetPortraitIndex();
+            return;
+        }
+        PutOnImage();
+
+    }
+
+    public void PreviousImage() 
+    {
+        portraitIndex--;
+        if (portraitIndex < 0)
+        {
+            portraitIndex = 0;
+        }
+        PutOnImage();
+    }
+
     public void PutOnImage() // Adapt this to be able to be used in interrogations. (Hollow)
     {
         if (portraits != null)
@@ -64,16 +97,16 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
                     {
                         portraitRight.gameObject.SetActive(false);
                     }
-                    portraitIndex++;
+                    // portraitIndex++;
                     return;
                 }
             }
         }
-        WipePortraitBoxes();
-        ResetPortraitIndex();
+        /*WipePortraitBoxes();
+        ResetPortraitIndex();*/
     }
 
-    public void WipePortraitBoxes()
+    private void WipePortraitBoxes()
     {
         portraitLeft.gameObject.SetActive(false);
         portraitRight.gameObject.SetActive(false);

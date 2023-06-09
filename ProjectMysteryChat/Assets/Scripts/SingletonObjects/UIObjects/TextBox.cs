@@ -90,7 +90,7 @@ public class TextBox : SingletonBase<TextBox>
             {
                 nextButton = ButtonCreator.instance.CreateButton("Next", this.gameObject.transform.position.x, this.gameObject.transform.position.y);
                 nextButton.GetComponent<Button>().onClick.AddListener(NextPressed);
-                nextButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PutOnImage);
+                nextButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.ContinuousNextImage);
             }
             else
             {
@@ -116,7 +116,7 @@ public class TextBox : SingletonBase<TextBox>
             {
                 nextDebateButton = ButtonCreator.instance.CreateButton(">", nextDebateButtonLocation.position.x, nextDebateButtonLocation.position.y);
                 nextDebateButton.GetComponent<Button>().onClick.AddListener(NextDebateButtonPressed);
-                nextDebateButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PutOnImage);
+                nextDebateButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.NextImage);
             }
             else if (this.speechIndex < items.Dialogs.Length - 1)
             {
@@ -126,7 +126,7 @@ public class TextBox : SingletonBase<TextBox>
             {
                 previousDebateButton = ButtonCreator.instance.CreateButton("<", nextDebateButtonLocation.position.x, nextDebateButtonLocation.position.y);
                 previousDebateButton.GetComponent<Button>().onClick.AddListener(PreviousDebateButtonPressed);
-                previousDebateButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PutOnImage);
+                previousDebateButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PreviousImage);
             }
             else if (this.speechIndex > 0)
             {
