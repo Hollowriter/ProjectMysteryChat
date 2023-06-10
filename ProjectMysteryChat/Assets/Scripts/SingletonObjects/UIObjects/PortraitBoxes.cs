@@ -49,6 +49,24 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
     public void ContinuousNextImage() 
     {
         portraitIndex++;
+        if (portraits == null)
+        {
+            WipePortraitBoxes();
+            ResetPortraitIndex();
+            return;
+        }
+        if (portraits.Portraits == null) 
+        {
+            WipePortraitBoxes();
+            ResetPortraitIndex();
+            return;
+        }
+        if (portraits.Portraits.Length == 0) 
+        {
+            WipePortraitBoxes();
+            ResetPortraitIndex();
+            return;
+        }
         if (portraitIndex >= portraits.Portraits.Length)
         {
             WipePortraitBoxes();
@@ -97,13 +115,10 @@ public class PortraitBoxes : SingletonBase<PortraitBoxes>
                     {
                         portraitRight.gameObject.SetActive(false);
                     }
-                    // portraitIndex++;
                     return;
                 }
             }
         }
-        /*WipePortraitBoxes();
-        ResetPortraitIndex();*/
     }
 
     private void WipePortraitBoxes()

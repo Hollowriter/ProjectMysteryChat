@@ -196,8 +196,10 @@ public class TextBox : SingletonBase<TextBox>
         if (this.speechIndex < items.Dialogs.Length)
         {
             WipeTextBox();
-            nextDebateButton.SetActive(false);
-            previousDebateButton.SetActive(false);
+            if (nextDebateButton != null)
+                nextDebateButton.SetActive(false);
+            if (previousDebateButton != null)
+                previousDebateButton.SetActive(false);
         }
         else 
         {
@@ -211,8 +213,10 @@ public class TextBox : SingletonBase<TextBox>
         if (this.speechIndex >= 0)
         {
             WipeTextBox();
-            nextDebateButton.SetActive(false);
-            previousDebateButton.SetActive(false);
+            if (nextDebateButton != null)
+                nextDebateButton.SetActive(false);
+            if (previousDebateButton != null)
+                previousDebateButton.SetActive(false);
         }
         else
         {
