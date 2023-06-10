@@ -5,7 +5,7 @@
 			"Text":"Thomas B: It's locked, it says i need permission to open it."
 		},
 		{
-			"Text":"Thomas B: That's strange, this is my intial room in the chat, only visitors should have this restricted."
+			"Text":"Thomas B: That's strange, this is my intial room in the chat, only visitors should have this restricted. (I'm testing, i will delete this later)"
 		}
 	],
 	"IsDebate":true,
@@ -22,6 +22,14 @@
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Full image file URL",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/PresentFullLink.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits2.json"
 		}
 	]
 }
