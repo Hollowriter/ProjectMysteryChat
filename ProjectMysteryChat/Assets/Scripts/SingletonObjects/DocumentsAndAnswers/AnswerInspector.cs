@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnswerInspector : SingletonBase<AnswerInspector>
 {
     AnswerCollection answers;
+    AnswerDebateCollection answersDebate;
     string evidenceName;
 
     protected override void SingletonAwake()
@@ -31,6 +32,16 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
                 }
             }
         }
+        if (answersDebate != null) 
+        {
+            if (answersDebate.AnswersDebate != null) 
+            {
+                if (answersDebate.AnswersDebate.Length > 0) 
+                {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
@@ -52,9 +63,29 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         answers = _answers;
     }
 
+    public void SetDebateAnswers(AnswerDebateCollection _answers) 
+    {
+        answersDebate = _answers;
+    }
+
     public void SetEvidenceToCheck(string _evidenceName)
     {
         evidenceName = _evidenceName;
+    }
+
+    public bool IsDebateInspection() 
+    {
+        if (answersDebate != null)
+        {
+            if (answersDebate.AnswersDebate != null)
+            {
+                if (answersDebate.AnswersDebate.Length > 0)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     void SendAnswerToTextBox(string sentAnswer)
@@ -71,7 +102,7 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
 
     public void CheckAnswer()
     {
-        if (ConditionsToBeActive())
+        if (answers != null)
         {
             for (int i = 0; i < answers.Answers.Length; i++)
             {
@@ -82,6 +113,22 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
                 }
             }
             SendAnswerToTextBox(answers.Answers[0].WrongDialog);
+        }
+    }
+
+    public void CheckDebateAnswer() 
+    {
+        if (answersDebate != null) 
+        {
+            for (int i = 0; i < answersDebate.AnswersDebate.Length; i++)
+            {
+                if (evidenceName == answersDebate.AnswersDebate[i].ExpectedAnswer && TextBox.instance.GetSpeechIndex() == answersDebate.AnswersDebate[i].ExpectedIndex)
+                {
+                    SendAnswerToTextBox(answersDebate.AnswersDebate[i].CorrectDialog);
+                    return;
+                }
+            }
+            SendAnswerToTextBox(answersDebate.AnswersDebate[0].WrongDialog);
         }
     }
 

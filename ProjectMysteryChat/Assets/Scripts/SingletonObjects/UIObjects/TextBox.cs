@@ -132,6 +132,7 @@ public class TextBox : SingletonBase<TextBox>
             {
                 previousDebateButton.SetActive(true);
             }
+            DocumentManager.instance.CheckElectionsAndInspector();
         }
     }
 
@@ -142,12 +143,18 @@ public class TextBox : SingletonBase<TextBox>
 
     public void ResetSpeechIndex()
     {
+        WipeTextBox();
         speechIndex = 0;
     }
 
     public string GetDialogSetted()
     {
         return dialogSetted;
+    }
+
+    public int GetSpeechIndex() 
+    {
+        return speechIndex;
     }
 
     public void SetNextButtonActive(bool activate)

@@ -32,7 +32,14 @@ public class PresentButton : SingletonBase<PresentButton>
     {
         if (ConditionsToBeActive())
         {
-            AnswerInspector.instance.CheckAnswer();
+            if (AnswerInspector.instance.IsDebateInspection())
+            {
+                AnswerInspector.instance.CheckDebateAnswer();
+            }
+            else
+            {
+                AnswerInspector.instance.CheckAnswer();
+            }
         }
     }
 

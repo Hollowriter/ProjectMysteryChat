@@ -29,9 +29,11 @@ public class DocumentManager : SingletonBase<DocumentManager>
             TextBox.instance.SetDialog(JsonUtility.FromJson<DialogCollection>(json));
             TextBox.instance.ResetSpeechIndex();
             PortraitBoxes.instance.SetPortraitImages(JsonUtility.FromJson<PortraitCollection>(json));
+            PortraitBoxes.instance.ResetPortraitIndex();
             ElectionBox.instance.SetElections(JsonUtility.FromJson<ElectionCollection>(json));
             ElectionBox.instance.SetActivated(false);
             AnswerInspector.instance.SetAnswers(JsonUtility.FromJson<AnswerCollection>(json));
+            AnswerInspector.instance.SetDebateAnswers(JsonUtility.FromJson<AnswerDebateCollection>(json));
             AnswerInspector.instance.SetActivated(false);
             SingleTransitionManager.instance.SetTransition(JsonUtility.FromJson<LoneTransition>(json));
             SingleTransitionManager.instance.SetActivated(false);
