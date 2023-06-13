@@ -23,12 +23,16 @@ public class PlayerInventory : SingletonBase<PlayerInventory>
                 EvidenceInventory.instance.SetActivatedInventoryMembers(false);
                 ElectionBox.instance.SetButtonsActive(true);
                 TextBox.instance.SetNextButtonActive(true);
+                TextBox.instance.SetNextDebateButtonActive(true);
+                TextBox.instance.SetPreviousDebateButtonActive(true);
             }
             else
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(true);
                 ElectionBox.instance.SetButtonsActive(false);
                 TextBox.instance.SetNextButtonActive(false);
+                TextBox.instance.SetNextDebateButtonActive(false);
+                TextBox.instance.SetPreviousDebateButtonActive(false);
             }
             showInventoryProcessed = true;
         }

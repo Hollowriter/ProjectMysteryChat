@@ -168,6 +168,28 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
+    public void SetNextDebateButtonActive(bool activate)
+    {
+        if (nextDebateButton != null)
+        {
+            if (dialogueText.text != "" && dialogueText.text != null)
+                nextDebateButton.SetActive(activate);
+            else
+                nextDebateButton.SetActive(false);
+        }
+    }
+
+    public void SetPreviousDebateButtonActive(bool activate)
+    {
+        if (previousDebateButton != null)
+        {
+            if (dialogueText.text != "" && dialogueText.text != null)
+                previousDebateButton.SetActive(activate);
+            else
+                previousDebateButton.SetActive(false);
+        }
+    }
+
     protected override void BehaveSingleton()
     {
         if (ConditionsToBeActive())
