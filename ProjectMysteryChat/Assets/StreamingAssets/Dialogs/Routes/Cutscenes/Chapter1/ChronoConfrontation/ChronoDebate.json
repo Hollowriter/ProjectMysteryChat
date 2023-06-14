@@ -5,6 +5,7 @@
 			"Text":"ChronoWriter1885: I see, so this effect is caused when you remove the image, correct? (Modify this to be a debate)"
 		}
 	],
+	"IsDebate":true,
 	"Portraits":
 	[
 		{
@@ -30,127 +31,15 @@
 			"ExpressionLeft":"MsMaki95-Sad",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Surprised",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Happy"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Sad",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Sad",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Sad",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Unimpressed"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Surprised"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Surprised"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Happy"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Happy"
 		}
 	],
-	"Transition":
+	"Answers":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/CipherBeforeConfrontation.json"
+			"ExpectedAnswer":"MsMaki95 Artist Card",
+			"ExpectedIndex":2,
+			"CorrectDialog":"Routes/Transport/TransportToRoom/ToMakiRoom.json",
+			"WrongDialog":"Routes/Transport/PrologueInteractions/TransportInvalid.json"
 		}
 	]
 }
