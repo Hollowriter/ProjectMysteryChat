@@ -11,7 +11,7 @@
 			"Text":"LostDecipher2: I mean in this room, when you discovered the chat."
 		},
 		{
-			"Text":"ChronoWriter1885: Oh, right, we discovered this room when we first discovered the server."
+			"Text":"ChronoWriter1885: Oh, right, we discovered this room when we first entered the server."
 		},
 		{
 			"Text":"ChronoWriter1885: It was me, Pixy, Jack and... I think Dolly was here too."
@@ -147,6 +147,13 @@
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Neutral"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoDebate.json"
 		}
 	]
 }

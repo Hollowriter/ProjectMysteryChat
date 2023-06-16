@@ -2,35 +2,62 @@
 	"Dialogs":
 	[
 		{
-			"Text":"ChronoWriter1885: I see, so this effect is caused when you remove the image, correct? (Modify this to be a debate)"
+			"Text":"ChronoWriter1885: Oh, right, we discovered this room when we first entered the server."
+		},
+		{
+			"Text":"ChronoWriter1885: It was me, Pixy, Jack and... I think Dolly was here too."
+		},
+		{
+			"Text":"ChronoWriter1885: Dolly was the one who saw it first and told me to call Pixy so she can come."
+		},
+		{
+			"Text":"ChronoWriter1885: She then came with Jack, who was kind of worried in the state the mural image was in. And so he told us to not touch it."
+		},
+		{
+			"Text":"ChronoWriter1885: After that, we left this area mostly in charge of Pixy. Besides her, and us when we first came, nobody else who came here seemed to mess around with the things here."
+		},
+		{
+			"Text":"ChronoWriter1885: Besides the drawing tools in Pixy's room of course."
 		}
 	],
 	"IsDebate":true,
 	"Portraits":
 	[
 		{
-			"CharacterLeft":"",
-			"ExpressionLeft":"",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Writing"
 		},
 		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Neutral",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Writing"
 		},
 		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Sad",
-			"CharacterRight":"ChronoWriter1885",
-			"ExpressionRight":"ChronoWriter1885-Writing"
-		},
-		{
-			"CharacterLeft":"MsMaki95",
-			"ExpressionLeft":"MsMaki95-Sad",
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
 		}
 	],
 	"Answers":
