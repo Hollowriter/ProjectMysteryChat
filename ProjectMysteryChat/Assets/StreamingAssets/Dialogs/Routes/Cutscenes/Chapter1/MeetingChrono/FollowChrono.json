@@ -1,0 +1,17 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Allright, let's get to it."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
