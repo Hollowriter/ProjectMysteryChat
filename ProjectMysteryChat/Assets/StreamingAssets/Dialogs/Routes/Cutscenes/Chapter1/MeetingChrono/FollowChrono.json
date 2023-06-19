@@ -13,5 +13,11 @@
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"FollowingChrono"
+		}
 	]
 }
