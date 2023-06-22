@@ -30,6 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/WorldLevels/ArtSealRoom.unity
     guid: 2faff00d2369e754699418277c3e305f
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/CollabRoom.unity
+    path: Assets/Scenes/WorldLevels/ArtCreditsRoom.unity
     guid: e9fc46256c5754a429e9bf4a36d97b79
   m_configObjects: {}
