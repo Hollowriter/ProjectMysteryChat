@@ -124,7 +124,7 @@ public class TextBox : SingletonBase<TextBox>
             }
             if (previousDebateButton == null && this.speechIndex > 0)
             {
-                previousDebateButton = ButtonCreator.instance.CreateButton("<", nextDebateButtonLocation.position.x, nextDebateButtonLocation.position.y);
+                previousDebateButton = ButtonCreator.instance.CreateButton("<", prevDebateButtonLocation.position.x, prevDebateButtonLocation.position.y);
                 previousDebateButton.GetComponent<Button>().onClick.AddListener(PreviousDebateButtonPressed);
                 previousDebateButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.PreviousImage);
             }
