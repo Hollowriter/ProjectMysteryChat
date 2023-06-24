@@ -63,8 +63,8 @@
 	"AnswersDebate":
 	[
 		{
-			"ExpectedAnswer":"MsMaki95 Artist Card",
-			"ExpectedIndex":2,
+			"ExpectedAnswer":"Image Device Log",
+			"ExpectedIndex":4,
 			"CorrectDialog":"Routes/Transport/TransportToRoom/ToMakiRoom.json",
 			"WrongDialog":"Routes/Transport/PrologueInteractions/TransportInvalid.json"
 		}
