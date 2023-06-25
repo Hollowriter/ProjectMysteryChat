@@ -65,8 +65,8 @@
 		{
 			"ExpectedAnswer":"Image Device Log",
 			"ExpectedIndex":4,
-			"CorrectDialog":"Routes/Transport/TransportToRoom/ToMakiRoom.json",
-			"WrongDialog":"Routes/Transport/PrologueInteractions/TransportInvalid.json"
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/LogShowsChaparro.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono.json"
 		}
 	]
 }

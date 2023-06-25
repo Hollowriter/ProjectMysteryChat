@@ -1,0 +1,123 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Mmmm, what you said doesn't sound right..."
+		},
+		{
+			"Text":"ChronoWriter1885: Oh? Why exactly?"
+		},
+		{
+			"Text":"LostDecipher2: Because of what i found here, it doesn't kind of go along with what you are telling me."
+		},
+		{
+			"Text":"ChronoWriter1885: ...No offense but, seems that goes along quite well for me."
+		},
+		{
+			"Text":"LostDecipher2: Ah... Now that you say it..."
+		},
+		{
+			"Text":"ChronoWriter1885: Just as i thought, i got a bit jumpy for a second that i was getting myself confused."
+		},
+		{
+			"Text":"ChronoWriter1885: But seems it's the other way around."
+		},
+		{
+			"Text":"LostDecipher2: Well... Ah, yeah sorry, i was meant to show you something different."
+		},
+		{
+			"Text":"MsMaki95: Sorry, Chrono, he tends to confuse himself sometimes."
+		},
+		{
+			"Text":"ChronoWriter1885: Don't worry, Pixy, it happens. I just hope this doesn't devolve in weird conspiracy theories about me."
+		},
+		{
+			"Text":"Thomas B: Great job, Cipher, looking like a dumbass to not one, but two people now."
+		},
+		{
+			"Text":"Thomas B: That means i just have to concentrate more on what he is telling to me."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Writing"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Sad",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+		},
+		{
+			"CharacterLeft":"MsMaki95",
+			"ExpressionLeft":"MsMaki95-Sad",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoDebate.json"
+		}
+	]
+}
