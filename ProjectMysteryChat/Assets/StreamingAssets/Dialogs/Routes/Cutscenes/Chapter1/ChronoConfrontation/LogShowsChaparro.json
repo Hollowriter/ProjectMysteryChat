@@ -2,10 +2,46 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: Well... Somebody actually messed around this place besides the people you mention."
+			"Text":"LostDecipher2: Actually... Somebody messed around this place besides the people you mention."
 		},
 		{
-			"Text":"ChronoWriter1885: Huh? What are you talking about? (To be continued)"
+			"Text":"ChronoWriter1885: When exactly are you talking about?"
+		},
+		{
+			"Text":"LostDecipher2: Check this log, it was just near the sealing machine."
+		},
+		{
+			"Text":"ChronoWriter1885: Well... If you talk about the old users, obviously that they came here before us."
+		},
+		{
+			"Text":"MsMaki95: No, Chrono, look at this!"
+		},
+		{
+			"Text":"MsMaki95: Seems we didn't check the fully the log of the sealing machine at the time."
+		},
+		{
+			"Text":"ChronoWriter1885: Wait, what? Chaparro was here!?"
+		},
+		{
+			"Text":"LostDecipher2: You know them?"
+		},
+		{
+			"Text":"ChronoWriter1885: We do... He is kinda..."
+		},
+		{
+			"Text":"MsMaki95: He is not with us, but asked us to join after we discovered this place. He does videos about this things."
+		},
+		{
+			"Text":"ChronoWriter1885: Yes, we let him in since he helped us before with a case."
+		},
+		{
+			"Text":"ChronoWriter1885: But i didn't knew he entered this room before, and worse, didn't told us anything about it."
+		},
+		{
+			"Text":"LostDecipher2: And from what you are saying, there is something else that doesn't make sense."
+		},
+		{
+			"Text":"ChronoWriter1885: What? Something else? (Portraits pending)"
 		}
 	],
 	"Portraits":
@@ -83,11 +119,23 @@
 			"ExpressionRight":"ChronoWriter1885-Unimpressed"
 		}
 	],
-	"Transition":
+	"Elections":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoDebate.json"
+			"Candidate":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChaparroWasBeforeYou.json",
+			"CandidateName":"Was he here when you first discovered this place?"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/ChronoConfrontation/SecretNonsense.json",
+			"CandidateName":"Didn't you want to keep this place a secret?"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Full image file URL",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono2.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono2.json"
 		}
 	]
 }
