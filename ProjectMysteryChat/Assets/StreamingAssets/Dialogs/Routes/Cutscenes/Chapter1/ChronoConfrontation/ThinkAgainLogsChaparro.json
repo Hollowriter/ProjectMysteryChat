@@ -1,0 +1,36 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Now, think again..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ChronoWriter1885",
+			"ExpressionRight":"ChronoWriter1885-Unimpressed"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChaparroWasBeforeYou.json",
+			"CandidateName":"Was he here when you first discovered this place?"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/ChronoConfrontation/SecretNonsense.json",
+			"CandidateName":"Didn't you want to keep this place a secret?"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Full image file URL",
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono2.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono2.json"
+		}
+	]
+}
