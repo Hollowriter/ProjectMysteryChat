@@ -1,0 +1,30 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":">ChronoWriter1885 has logged off"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"ChronoConfrontationDone"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoConfrontationEnd.json"
+		}
+	]
+}
