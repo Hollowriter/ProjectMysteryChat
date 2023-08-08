@@ -1822,7 +1822,7 @@ MonoBehaviour:
   interactionNamesToActivate:
   - FollowingChrono
   interactionNamesToDeactivate:
-  - ChronoConfrontationDone
+  - MakiLogsOffChapter1
 --- !u!1 &774937760
 GameObject:
   m_ObjectHideFlags: 0
