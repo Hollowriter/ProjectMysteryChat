@@ -39,7 +39,7 @@
 		{
 			"ExpectedAnswer":"Invisible Card",
 			"CorrectDialog":"Routes/Interactions/MyRoom/Chapter1/UnlockingTheDoor.json",
-			"WrongDialog":"Routes//Interactions/MyRoom/Chapter1/StillLocked.json"
+			"WrongDialog":"Routes//Interactions/Wrong/WrongMyRoomLockedDoor.json"
 		}
 	]
 }
