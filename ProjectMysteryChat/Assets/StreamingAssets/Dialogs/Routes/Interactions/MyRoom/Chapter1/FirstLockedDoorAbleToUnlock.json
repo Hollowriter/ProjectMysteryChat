@@ -1,0 +1,45 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: It was always weird that this door was locked."
+		},
+		{
+			"Text":"Thomas B: Now... Could it make sense?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Interactions/MyRoom/Chapter1/WhyLocked.json",
+			"CandidateName":"Why is it still locked?"	
+		},
+		{
+			"Candidate":"Routes/Interactions/MyRoom/Chapter1/WhoLocked.json",
+			"CandidateName":"Who could've locked it"
+		}
+	],
+	"Answers":
+	[
+		{
+			"ExpectedAnswer":"Invisible Card",
+			"CorrectDialog":"Routes/Interactions/MyRoom/Chapter1/UnlockingTheDoor.json",
+			"WrongDialog":"Routes//Interactions/MyRoom/Chapter1/StillLocked.json"
+		}
+	]
+}
