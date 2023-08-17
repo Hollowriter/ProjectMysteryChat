@@ -11870,8 +11870,8 @@ GameObject:
   - component: {fileID: 2093961789}
   - component: {fileID: 2093961793}
   - component: {fileID: 2093961792}
-  - component: {fileID: 2093961791}
   - component: {fileID: 2093961790}
+  - component: {fileID: 2093961791}
   m_Layer: 0
   m_Name: UnlockedDoor
   m_TagString: Interactuable
@@ -11918,10 +11918,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093961788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bf5d26292a116f478e071ed8edee21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Interactions/MyRoom/Chapter1/FirstLockedDoor.json
+  interactionFileName: 
+  levelToGo: ModRoom
+  newPlayerPositionX: 0
+  newPlayerPositionY: 0
 --- !u!61 &2093961792
 BoxCollider2D:
   m_ObjectHideFlags: 0
