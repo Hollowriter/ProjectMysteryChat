@@ -1,0 +1,35 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: That's it, this was intended for my room and my room only."
+		},
+		{
+			"Text":"Thomas B: Whoever locked it, thought of only spawning the object to my client."
+		},
+		{
+			"Text":"Thomas B: ...Just who is this guy?"
+		},
+		{
+			"Text":"Thomas B: ..."
+		},
+		{
+			"Text":"Thomas B: Well... Just standing here doing nothing is not going to make me get the answers i want. Time to see what's behind this door. (Portraits and interactions pending)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}

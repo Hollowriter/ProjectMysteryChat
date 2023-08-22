@@ -1,0 +1,26 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: The owner of the room is the only one who can make changes... Or someone with mod powers."
+		},
+		{
+			"Text":"Thomas B: If that's the case, who is the one with mod powers? Can it be who called me here or someone else that i didn't met yet?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
