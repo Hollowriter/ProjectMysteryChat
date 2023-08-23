@@ -14,7 +14,7 @@
 			"Text":"Thomas B: ..."
 		},
 		{
-			"Text":"Thomas B: Well... Just standing here doing nothing is not going to make me get the answers i want. Time to see what's behind this door. (Portraits and interactions pending)"
+			"Text":"Thomas B: Well... Just standing here doing nothing is not going to make me get the answers i want. Time to see what's behind this door."
 		}
 	],
 	"Portraits":
@@ -27,9 +27,33 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"UnlockedMyRoomDoor"
 		}
 	]
 }

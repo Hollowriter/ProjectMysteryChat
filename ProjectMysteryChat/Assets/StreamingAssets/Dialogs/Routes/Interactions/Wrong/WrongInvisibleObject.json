@@ -1,0 +1,17 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: This object doesn't seem to react to it."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}

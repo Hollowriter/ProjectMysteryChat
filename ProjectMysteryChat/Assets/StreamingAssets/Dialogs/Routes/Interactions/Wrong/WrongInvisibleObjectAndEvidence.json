@@ -1,0 +1,17 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: No, Cipher, think, it has to be somethin only you can see."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
