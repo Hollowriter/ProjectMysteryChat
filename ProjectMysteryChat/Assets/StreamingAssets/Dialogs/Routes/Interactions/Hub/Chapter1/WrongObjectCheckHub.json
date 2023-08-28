@@ -5,7 +5,7 @@
 			"Text":"Thomas B: Is it one of the objects here in the hub...?"
 		},
 		{
-			"Text":"Thomas B: Maybe i can try with this one! (Pending realize, and two wrongs)"
+			"Text":"Thomas B: Maybe i can try with this one!"
 		}
 	],
 	"Portraits":
@@ -26,7 +26,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealiceItsWrongHub.json",
+			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongHub.json",
 			"CandidateName":"Not this object"	
 		}
 	],

@@ -1,0 +1,26 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Crapbaskets! No reaction!"
+		},
+		{
+			"Text":"Thomas B: This means this is not the place were i should use it."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}
