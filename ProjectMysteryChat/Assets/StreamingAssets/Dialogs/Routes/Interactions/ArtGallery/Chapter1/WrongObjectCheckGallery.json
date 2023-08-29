@@ -2,23 +2,23 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Is it one of the objects here in the hub...?"
+			"Text":"Thomas B: Maybe it's one of this pictures."
 		},
 		{
-			"Text":"Thomas B: Maybe i can try with this one!"
+			"Text":"Thomas B: Could be that someone has some significance to who summoned me here?."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
@@ -26,7 +26,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongHub.json",
+			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongGallery.json",
 			"CandidateName":"Not this object"	
 		}
 	],

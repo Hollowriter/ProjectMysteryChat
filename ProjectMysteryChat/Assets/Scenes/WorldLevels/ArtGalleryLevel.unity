@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Interactions/ArtGallery/Chapter1/PictureCult.json
+  interactionFileName: Routes/Interactions/ArtGallery/Chapter1/WrongObjectCheckGallery.json
 --- !u!61 &129581087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Interactions/ArtGallery/Chapter1/PictureLostMedia.json
+  interactionFileName: Routes/Interactions/ArtGallery/Chapter1/WrongObjectCheckGallery.json
 --- !u!61 &1406749247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2592,7 +2592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Interactions/ArtGallery/Chapter1/PictureLoners.json
+  interactionFileName: Routes/Interactions/ArtGallery/Chapter1/WrongObjectCheckGallery.json
 --- !u!61 &1675341127
 BoxCollider2D:
   m_ObjectHideFlags: 0
