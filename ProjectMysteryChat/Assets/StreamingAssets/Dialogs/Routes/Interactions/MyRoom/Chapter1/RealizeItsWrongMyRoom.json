@@ -2,23 +2,23 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Crapbaskets! No reaction!"
+			"Text":"Thomas B: Still, if it's glitched, can even a mod make it work?"
 		},
 		{
-			"Text":"Thomas B: This means this is not the place were i should use it."
+			"Text":"Thomas B: That makes it a bit difficult."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Angry",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}

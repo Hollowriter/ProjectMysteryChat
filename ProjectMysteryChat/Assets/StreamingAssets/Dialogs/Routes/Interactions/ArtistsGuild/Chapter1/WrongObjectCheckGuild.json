@@ -2,20 +2,11 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Maybe it's one of this pictures."
-		},
-		{
-			"Text":"Thomas B: Could be that someone has some significance to who summoned me here?"
+			"Text":"Thomas B: Could this door be unlocked somehow right now with what i discovered?"
 		}
 	],
 	"Portraits":
 	[
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
@@ -26,7 +17,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongGallery.json",
+			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongGuild.json",
 			"CandidateName":"Not this object"	
 		}
 	],

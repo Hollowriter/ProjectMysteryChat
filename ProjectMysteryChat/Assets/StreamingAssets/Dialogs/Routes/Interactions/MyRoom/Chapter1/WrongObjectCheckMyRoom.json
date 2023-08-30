@@ -2,10 +2,10 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Maybe it's one of this pictures."
+			"Text":"Thomas B: This door is glitched..."
 		},
 		{
-			"Text":"Thomas B: Could be that someone has some significance to who summoned me here?"
+			"Text":"Thomas B: But Maybe..."
 		}
 	],
 	"Portraits":
@@ -26,7 +26,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongGallery.json",
+			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongMyRoom.json",
 			"CandidateName":"Not this object"	
 		}
 	],

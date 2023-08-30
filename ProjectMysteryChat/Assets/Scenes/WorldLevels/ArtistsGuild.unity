@@ -1324,7 +1324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8da1cc5cec281b419ba77bb54dc2af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Interactions/ArtistsGuild/Chapter1/DoorLocked.json
+  interactionFileName: Routes/Interactions/ArtistsGuild/Chapter1/WrongObjectCheckGuild.json
 --- !u!114 &1452167334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1754,6 +1754,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomDoor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060167583296444891, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2060167583296444893, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}

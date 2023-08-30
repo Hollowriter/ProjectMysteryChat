@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Interactions/MyRoom/Chapter1/FirstGlitchedDoor.json
+  interactionFileName: Routes/Interactions/MyRoom/Chapter1/WrongObjectCheckMyRoom.json
 --- !u!61 &187008049
 BoxCollider2D:
   m_ObjectHideFlags: 0
