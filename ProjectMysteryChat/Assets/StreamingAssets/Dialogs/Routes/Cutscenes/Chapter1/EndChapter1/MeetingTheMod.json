@@ -1,0 +1,38 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Modder: Finally, Cipher, you've arrived!"
+		},
+		{
+			"Text":"Thomas B: Huh!? Where?..."
+		},
+		{
+			"Text":"Modder: Don't attempt to look where am i, my avatar is not visible."
+		},
+		{
+			"Text":"Modder: It's a small bug... But you know, hehe, this chat is really old."
+		},
+		{
+			"Text":"LostDecipher2:..."
+		},
+		{
+			"Text":"LostDecipher2: Who are you?"
+		},
+		{
+			"Text":"Modder: You know who i am... But can you guess?"
+		},
+		{
+			"Text":"Thomas B: Another funny guy, but since i'm herem i think i know who they are... (Portraits an decisions pending)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}

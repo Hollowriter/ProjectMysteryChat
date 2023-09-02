@@ -12076,7 +12076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionFileName: 
   levelToGo: ModRoom
-  newPlayerPositionX: 0
+  newPlayerPositionX: 3
   newPlayerPositionY: 0
 --- !u!61 &2093961792
 BoxCollider2D:
