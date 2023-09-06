@@ -26,16 +26,79 @@
 			"Text":"Modder: You know who i am... But can you guess?"
 		},
 		{
-			"Text":"Thomas B: Another funny guy, but since i'm herem i think i know who they are... (Portraits an decisions pending)"
+			"Text":"Thomas B: Another funny guy, but since i'm herem i think i know who they are..."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/YouAreMyContact.json",
+			"CandidateName":"My contact"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WrongLostMedia.json",
+			"CandidateName":"Somebody of the 'Lost Media Archive'"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WrongSunCult.json",
+			"CandidateName":"Somebody of the 'Sun cult'"
 		}
 	]
 }
