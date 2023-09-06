@@ -1,0 +1,32 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: They are right, though. Who could they be?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/YouAreMyContact.json",
+			"CandidateName":"My contact"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WrongLostMedia.json",
+			"CandidateName":"Somebody of the 'Lost Media Archive'"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WrongSunCult.json",
+			"CandidateName":"Somebody of the 'Sun cult'"
+		}
+	]
+}
