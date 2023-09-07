@@ -5,44 +5,47 @@
 			"Text":"LostDecipher2: You are a member of that 'Sun Cult' i keep hearing, of course!"
 		},
 		{
-			"Text":"Modder: What!? (Unfinished)"
+			"Text":"Modder: What!?"
+		},
+		{
+			"Text":"LostDecipher2: I mean, i heard they were somewhere in this chat and i have yet to meet one."
+		},
+		{
+			"Text":"Modder: And just because you didn't meet one yet that means i have to be one of them?"
+		},
+		{
+			"Text":"Modder: You know we are not in a novel, right?"
+		},
+		{
+			"Text":"LostDecipher2: I mean, cult members present themselves in this weird cryptic manner, right?"
+		},
+		{
+			"Text":"Modder:..."
+		},
+		{
+			"Text":"Modder: I'm starting to doubt contacting was a good idea."
+		},
+		{
+			"Text":"Thomas B: It wasn't my best guess, i suppose..."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Happy",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -61,6 +64,24 @@
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
