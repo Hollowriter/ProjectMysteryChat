@@ -1,0 +1,103 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Well, with the infomation i have available, i assume you are the one who send me the message."
+		},
+		{
+			"Text":"Modder: 'With the information i have available', fancy, speaking like a detective now?"
+		},
+		{
+			"Text":"Modder: I guess that comes with the change of content you do, right?"
+		},
+		{
+			"Text":"LostDecipher2:..."
+		},
+		{
+			"Text":"Modder: Indeed, i'm the one, you took your sweet time finding your way here."
+		},
+		{
+			"Text":"Thomas B: This guy... They know me from somewhere..."
+		},
+		{
+			"Text":"LostDecipher2: Well, i didn't expected to find anyone in here. And they didn't seem to expect me either."
+		},
+		{
+			"Text":"Modder: Oh, that, i didn't expected it either. I thought nobody would connect this time but, well, you can't fully predict people."
+		},
+		{
+			"Text":"Modder: That's something you and i have experience with, right?"
+		},
+		{
+			"Text":"LostDecipher2: ... (Pending elections and portraits)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WhoAreYouModder.json",
+			"CandidateName":"Who are you?"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WhyCallMeModder.json",
+			"CandidateName":"Why did you call me here?"
+		}
+	]
+}
