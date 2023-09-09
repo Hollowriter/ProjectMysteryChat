@@ -2,20 +2,71 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: Well, with the infomation i have available, i assume you are the one who send me the message. (Dialogs pending)"
+			"Text":"LostDecipher2: Just... Who are you? We know from somewhere?"
+		},
+		{
+			"Text":"Modder: I'm just a big follower of your channel, you know, fans know a lot more than you think."
+		},
+		{
+			"Text":"LostDecipher2: ...I have a lot of big followers, you know?"
+		},
+		{
+			"Text":"Modder: And?"
+		},
+		{
+			"Text":"LostDecipher2: It makes it hard to narrow it down."
+		},
+		{
+			"Text":"Modder: Do you think i called you here to disscuss who am i?"
+		},
+		{
+			"Text":"LostDecipher2: ..."
+		},
+		{
+			"Text":"Modder: I came here to talk with you about an important subject, and that subject isn't me."
+		},
+		{
+			"Text":"Thomas B: At least we are not dealing with an unchecked ego here."
+		},
+		{
+			"Text":"LostDecipher2: Allright then, why did you call me here for?"
+		},
+		{
+			"Text":"Modder: Now that's a better question! I knew you were smarter, Cipher."
+		},
+		{
+			"Text":"LostDecipher2: ..."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -45,13 +96,7 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -60,17 +105,19 @@
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
-		}
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
 	],
-	"Elections":
+	"Transition":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WhoAreYouModder.json",
-			"CandidateName":"Who are you?"	
-		},
-		{
-			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WhyCallMeModder.json",
-			"CandidateName":"Why did you call me here?"
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/EndChapter1/ReasonAndBlackmail.json"
 		}
 	]
 }
