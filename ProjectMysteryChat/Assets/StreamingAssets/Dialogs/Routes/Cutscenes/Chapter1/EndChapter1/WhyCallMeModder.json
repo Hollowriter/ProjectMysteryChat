@@ -2,20 +2,35 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: Well, with the infomation i have available, i assume you are the one who send me the message. (Dialogs pending)"
+			"Text":"LostDecipher2: Why did you call me here?"
+		},
+		{
+			"Text":"LostDecipher2: You weren't very specific in the message you sent me."
+		},
+		{
+			"Text":"Modder: Ah, straight to the important questions, i like it."
+		},
+		{
+			"Text":"Modder: Sorry for not being completely straight with you. This is something quite sensitive and i don't want just anyone poking their nose around it, you know?"
+		},
+		{
+			"Text":"LostDecipher2: I see, a pretty sensitive matter, why did you decided that a Vlogger was the perfect candidate for helping you in this?"
+		},
+		{
+			"Text":"Modder: Because i know you are going to help me, and i made sure that was the case."
+		},
+		{
+			"Text":"LostDecipher2: What do you mean?"
+		},
+		{
+			"Text":"Modder: Hehe, let me explain..."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -45,32 +60,28 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
 	],
-	"Elections":
+	"Transition":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WhoAreYouModder.json",
-			"CandidateName":"Who are you?"	
-		},
-		{
-			"Candidate":"Routes/Cutscenes/Chapter1/EndChapter1/WhyCallMeModder.json",
-			"CandidateName":"Why did you call me here?"
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/EndChapter1/ReasonAndBlackmail.json"
 		}
 	]
 }
