@@ -1,0 +1,141 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Modder: You see, there was a legend you touched on your channel a couple of months ago, one pertaining to this chat."
+		},
+		{
+			"Text":"LostDecipher2: A legend... Oh, you mean 'The machine of sever 3'?"
+		},
+		{
+			"Text":"Modder: Precisely, and you are going to help me find it."
+		},
+		{
+			"Text":"LostDecipher2: Dude, it's just a legend. It's true that you could do a lot of things with the tools of the chat but..."
+		},
+		{
+			"Text":"LostDecipher2: An algorithm that does art by itself? With this?"
+		},
+		{
+			"Text":"Modder: It's not just a legend, and you know that."
+		},
+		{
+			"Text":"LostDecipher2: I know? What do you mean?"
+		},
+		{
+			"Text":"Modder: I'm going to give you what my investigation entailed in a folder. But long story short..."
+		},
+		{
+			"Text":"Modder: You were here when the rumor started."
+		},
+		{
+			"Text":"LostDecipher2: ..."
+		},
+		{
+			"Text":"LostDecipher2: ...Who are you?"
+		},
+		{
+			"Text":"Modder: Now you know, hehe, don't bother, you are not going to guess. It's been years since that."
+		},
+		{
+			"Text":"Modder: What's important is that you are going to help me find it, i have someone interested in the story."
+		},
+		{
+			"Text":"Modder: I can give you a cut of that and also, the prime information for a video. You will be the first confirming it's true."
+		},
+		{
+			"Text":"Modder: Come on, it's a win win!"
+		},
+		{
+			"Text":"LostDecipher2: Sounds good. But you know, i'm also interested in the person who i'm working with. What if i don't want to work with you?"
+		},
+		{
+			"Text":"Modder: Oh, so now you are interested in checking backgrounds."
+		},
+		{
+			"Text":"Modder: Too late for that. If you are not interested, want to see what happens if people knew who you were? (To be continued...)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Winking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/EndChapter1/ReasonAndBlackmail.json"
+		}
+	]
+}
