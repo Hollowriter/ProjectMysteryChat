@@ -53,7 +53,55 @@
 			"Text":"Modder: Oh, so now you are interested in checking backgrounds."
 		},
 		{
-			"Text":"Modder: Too late for that. If you are not interested, want to see what happens if people knew who you were? (To be continued...)"
+			"Text":"Modder: Too late for that. If you are not interested, want to see what happens if people knew who you were?"
+		},
+		{
+			"Text":"LostDecipher2: You are bluffing!"
+		},
+		{
+			"Text":"Modder: Do people know about your old channel?"
+		},
+		{
+			"Text":"LostDecipher2: ...They... They don't subscribe for drama, you know?"
+		},
+		{
+			"Text":"Modder: Then, you can keep it that way if you help me with this."
+		},
+		{
+			"Text":"LostDecipher2: Like i have a choice."
+		},
+		{
+			"Text":"Modder: Look at the bright side, at least you are going to get something out of it! Isn't that why you always did things?"
+		},
+		{
+			"Text":"LostDecipher2: Screw you!"
+		},
+		{
+			"Text":"Modder: Allright, i think it's time to stop the teasing. I will pass you the document tomorrow detailing everything."
+		},
+		{
+			"Text":"Modder: I better see you connected tomorrow! And you better not tell anyone about this, this is between you and i..."
+		},
+		{
+			"Text":"Modder: Good night!"
+		},
+		{
+			"Text":"LostDecipher2: Wait!"
+		},
+		{
+			"Text":">Modder has logged off"
+		},
+		{
+			"Text":"Thomas B: Dammit, he left!"
+		},
+		{
+			"Text":"Thomas B: Does he really know me that much?"
+		},
+		{
+			"Text":"Thomas B: ...Ah, no much i can do right now, i'm tied to this now."
+		},
+		{
+			"Text":"Thomas B: I... Need to disconnect a little and put my thoughts in order... (Portraits pending)"
 		}
 	],
 	"Portraits":
