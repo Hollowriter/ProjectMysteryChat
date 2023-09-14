@@ -101,13 +101,37 @@
 			"Text":"Thomas B: ...Ah, no much i can do right now, i'm tied to this now."
 		},
 		{
-			"Text":"Thomas B: I... Need to disconnect a little and put my thoughts in order... (Portraits pending)"
+			"Text":"Thomas B: I... Need to disconnect a little and put my thoughts in order..."
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
@@ -120,13 +144,43 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Winking",
+			"ExpressionLeft":"LostDecipher2-Surprised",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Winking",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -156,34 +210,111 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"ExpressionLeft":"LostDecipher2-Angry",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"ExpressionLeft":"LostDecipher2-Angry",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 	],
-	"Transition":
+	"Interaction":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/EndChapter1/ReasonAndBlackmail.json"
+			"InteractionName":"LastConvoChapter1"
 		}
 	]
 }
