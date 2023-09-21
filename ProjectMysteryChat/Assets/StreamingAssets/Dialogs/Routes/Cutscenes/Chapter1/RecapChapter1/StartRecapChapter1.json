@@ -2,7 +2,16 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: Is this art yours?"
+			"Text":"Thomas B: It's time to calm down for a bit. Yes, this is not a good situation, but this isn't the first time a freak tries to use my information against me."
+		},
+		{
+			"Text":"Thomas B: Freaking out is not going to solve anything."
+		},
+		{
+			"Text":"Thomas B: Ok, so, if i recap what happened today, i can fully assess the situation i'm in right now."
+		},
+		{
+			"Text":"Thomas B: Who knows, a solution might came out of it, or at least a plan of what to do tomorrow... (To be continued)"
 		}
 	],
 	"Portraits":
