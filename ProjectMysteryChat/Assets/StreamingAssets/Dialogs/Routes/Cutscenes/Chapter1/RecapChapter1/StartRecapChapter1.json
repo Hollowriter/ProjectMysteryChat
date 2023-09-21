@@ -11,7 +11,25 @@
 			"Text":"Thomas B: Ok, so, if i recap what happened today, i can fully assess the situation i'm in right now."
 		},
 		{
-			"Text":"Thomas B: Who knows, a solution might came out of it, or at least a plan of what to do tomorrow... (To be continued)"
+			"Text":"Thomas B: Who knows, a solution might came out of it, or at least a plan of what to do tomorrow..."
+		},
+		{
+			"Text":"Thomas B: Let's start form the beggining, someone anonymous claiming to be a fan send me a message."
+		},
+		{
+			"Text":"Thomas B: In it, they say to have found an abandoned, but still functioning, private server of 'Roomates.com'. And along with it, a private link to enter."
+		},
+		{
+			"Text":"Thomas B: They also said i should found them in some part of the chat to discuss a request he wanted to gave me."
+		},
+		{
+			"Text":"Thomas B: Entering the link, indeed it gave me access to the long shut down 'Roomates.com', just as the message said."
+		},
+		{
+			"Text":"Thomas B: But upon further inspection of the chat, i stumble upon something that i wasn't made aware on the message."
+		},
+		{
+			"Text":"Thomas B: What was this exactly?"
 		}
 	],
 	"Portraits":
@@ -19,98 +37,62 @@
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Happy"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
+			"CharacterRight":"",
+			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Happy"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Surprised"
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	],
 	"Transition":
