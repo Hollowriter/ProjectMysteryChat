@@ -95,11 +95,15 @@
 			"ExpressionRight":""
 		}
 	],
-	"Transition":
+	"Elections":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/MeetingMaki/WhereMaki.json"
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/DidNotTellMe.json",
+			"CandidateName":"The chat wasn't completely abandoned"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecap1.json",
+			"CandidateName":"The chat was malfunctioning"
 		}
 	]
 }
