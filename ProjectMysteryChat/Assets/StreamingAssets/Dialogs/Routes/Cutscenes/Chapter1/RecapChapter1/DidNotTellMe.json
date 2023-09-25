@@ -1,0 +1,60 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: In the message they told me the server was abandoned. So i expected that it would be just me and, probably, them."
+		},
+		{
+			"Text":"Thomas B: But after some exploring, i found two users online. And from what they told me, there is more people active here."
+		},
+		{
+			"Text":"Thomas B: Weird it wasn't clarified in the message, specially since this user appearently wants to be discreet about this."
+		},
+		{
+			"Text":"Thomas B: This caught me completely unaware, i could've confused any of this users for my contact if i wasn't careful enough."
+		},
+		{
+			"Text":"Thomas B: Still, mistakes happen, but there are still thing to go on about before pondering over just this."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/RecapChapter1/MeetingMakiRecap.json"
+		}
+	]
+}

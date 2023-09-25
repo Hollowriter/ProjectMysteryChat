@@ -1,0 +1,37 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: No, that's not it, it's something more clear."
+		},
+		{
+			"Text":"Thomas B: Come on, what is it?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/DidNotTellMe.json",
+			"CandidateName":"The chat wasn't completely abandoned"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecap1.json",
+			"CandidateName":"The chat was malfunctioning"
+		}
+	]
+}
