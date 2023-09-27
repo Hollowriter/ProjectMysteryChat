@@ -1,0 +1,41 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Today i'm not concentrated, aren't I?"
+		},
+		{
+			"Text":"Thomas B: Come on, think harder!"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecap2.json",
+			"CandidateName":"Finding some cult members"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecap2.json",
+			"CandidateName":"Making the server his official group chat"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/FixingTheChatAnswer.json",
+			"CandidateName":"Restoring the chat's functions"
+		}
+	]
+}

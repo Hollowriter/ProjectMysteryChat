@@ -1,0 +1,60 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Maki asked me to help with fixing a broken image in the chat."
+		},
+		{
+			"Text":"Thomas B: Not only that, she was doing so on behalf of the group. I haven't met them yet, but that tells me that they aren't just exploring..."
+		},
+		{
+			"Text":"Thomas B: They are looking to restore what they can of this place... Which means, they are quite protective of this place."
+		},
+		{
+			"Text":"Thomas B: I need to be ready for any questions they are going to lay on me when i meet them."
+		},
+		{
+			"Text":"Thomas B: Speaking of protective..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/RecapChapter1/MeetingChronoRecap.json"
+		}
+	]
+}
