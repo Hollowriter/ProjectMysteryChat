@@ -2,7 +2,25 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Maki asked me to help with fixing a broken image in the chat. (Pending to make)"
+			"Text":"Thomas B: After we investigated the image with Maki, we reached the conclusion that the archive of the image didn't existed."
+		},
+		{
+			"Text":"Thomas B: Probably to being deleted or removed from the server a short while, due to how the chat works."
+		},
+		{
+			"Text":"Thomas B: Anyways, after reaching that conclusion, i met Chrono, another member of Maki's group and a friend of hers."
+		},
+		{
+			"Text":"Thomas B: He showed clear distrust towards me, evidenced in the amount of questions and inquisition towards the investigation carried."
+		},
+		{
+			"Text":"Thomas B: Like Maki, he bring up Jack a couple of time, another member of the organization i didn't met yet."
+		},
+		{
+			"Text":"Thomas B: After presenting ourselves and discussing the investigation, we confirmed something interesting..."
+		},
+		{
+			"Text":"Thomas B: Something regarding some members if the chat that is interesting to take into account..."
 		}
 	],
 	"Portraits":
@@ -21,7 +39,13 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -36,13 +60,27 @@
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	],
-	"Transition":
+	"Elections":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter1/RecapChapter1/MeetingChronoRecap.json"
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecapReasonable.json",
+			"CandidateName":"Jack is really strict"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/PeopleRecountConfusion.json",
+			"CandidateName":"They seem to not have been the first people to discover this server"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecapPersonal.json",
+			"CandidateName":"A member had a suspiciously familiar sounding name"
 		}
 	]
 }
