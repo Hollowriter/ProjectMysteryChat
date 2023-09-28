@@ -2,25 +2,22 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: After we investigated the image with Maki, we reached the conclusion that the archive of the image didn't existed."
+			"Text":"Thomas B: ..."
 		},
 		{
-			"Text":"Thomas B: Probably to being deleted or removed from the server a short while, due to how the chat works."
+			"Text":"Thomas B: I think... That might be too personal to take into account..."
 		},
 		{
-			"Text":"Thomas B: Anyways, after reaching that conclusion, i met Chrono, another member of Maki's group and a friend of hers."
+			"Text":"Thomas B: Many users could be called like that... Even at the time... Hell, specially at that time..."
 		},
 		{
-			"Text":"Thomas B: He showed clear distrust towards me, evidenced in the amount of questions and inquisition towards the investigation we carried."
+			"Text":"Thomas B: ..."
 		},
 		{
-			"Text":"Thomas B: Like Maki, he brought up Jack a couple of times, another member of the organization i didn't met yet."
+			"Text":"Thomas B: Even if that were the case, it will still not be relevant to the point i'm thinking."
 		},
 		{
-			"Text":"Thomas B: After presenting ourselves and discussing the investigation, we confirmed something interesting..."
-		},
-		{
-			"Text":"Thomas B: Something regarding some members of the chat that is interesting to take into account..."
+			"Text":"Thomas B: There is something else that stood out the most regarding the members of this server."
 		}
 	],
 	"Portraits":
@@ -33,31 +30,25 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},

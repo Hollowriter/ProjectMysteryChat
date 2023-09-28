@@ -1,0 +1,50 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Well, that Jack seems really strict, and that's something to take into account but... That's not what's relevant here."
+		},
+		{
+			"Text":"Thomas B: It is something to have a note on, yes, but there was something else that stood out the most."
+		},
+		{
+			"Text":"Thomas B: And in fact, reveals that despite being strict, there are things that escape his grasp..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecapReasonable.json",
+			"CandidateName":"Jack is really strict"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/PeopleRecountConfusion.json",
+			"CandidateName":"They seem to not have been the first people to discover this server"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecapPersonal.json",
+			"CandidateName":"A member had a suspiciously familiar sounding name"
+		}
+	]
+}

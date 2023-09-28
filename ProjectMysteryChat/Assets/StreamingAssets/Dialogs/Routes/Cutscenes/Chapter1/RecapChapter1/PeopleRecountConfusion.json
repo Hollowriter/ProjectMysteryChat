@@ -1,0 +1,87 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: They thought they were the first ones to discover this server..."
+		},
+		{
+			"Text":"Thomas B: But there is evidence in the chat that there was somebody else here before them."
+		},
+		{
+			"Text":"Thomas B: Probably the person who either truly discovered this server first or the one who opened it."
+		},
+		{
+			"Text":"Thomas B: And there is also the issue of them trying to keep track which group of them entered first in a room."
+		},
+		{
+			"Text":"Thomas B: Evidence suggests that there is at least one member that enter a room first, but didn't inform the rest..."
+		},
+		{
+			"Text":"Thomas B: Meaning, there is people among them that are not as strict or organized."
+		},
+		{
+			"Text":"Thomas B: And also, there is the possibility that they are not keeping track of what the other group is doing or..."
+		},
+		{
+			"Text":"Thomas B: That they could be people that are not part of either group."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""			
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/RecapChapter1/MeetingModderRecap.json"
+		}
+	]
+}
