@@ -1,0 +1,109 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: And speaking of people not being part of either group..."
+		},
+		{
+			"Text":"Thomas B: During the investigation i found a way to finally make contact with the fan who send me the message."
+		},
+		{
+			"Text":"Thomas B: Well, sort of... But i finally managed to speak with them."
+		},
+		{
+			"Text":"Thomas B: And here is where the problem actually begins."
+		},
+		{
+			"Text":"Thomas B: They wanted me to help them find something in the chat, something that was rumored to exist."
+		},
+		{
+			"Text":"Thomas B: 'The Machine Of Server 3', a supposed algorithm done by an user with the tools that the chat offers."
+		}
+		{
+			"Text":"Thomas B: In exchange, they would pay me and also give me the opportunity to cover the subject of the discovery on my channel."
+		},
+		{
+			"Text":"Thomas B: But... There is also something else to make sure their offer was not rejected..."
+		},
+		{
+			"Text":"Thomas B: If i rejected the offer, people would get to know... Really personal information about me..."
+		},
+		{
+			"Text":"Thomas B: That only means one thing..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""			
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""			
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/ModderKnowsMe.json",
+			"CandidateName":"He knows me from way back"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectLast.json",
+			"CandidateName":"It's a member inside this chat"
+		}
+	]
+}
