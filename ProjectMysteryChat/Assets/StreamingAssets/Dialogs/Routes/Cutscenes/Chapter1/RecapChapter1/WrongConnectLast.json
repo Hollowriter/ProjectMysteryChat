@@ -1,0 +1,73 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: ...I don't know anyone here, it's still to early to say that..."
+		},
+		{
+			"Text":"Thomas B: I mean, they are definetly here, but i don't even know the rest of the users to arrive at a conclusion like that."
+		},
+		{
+			"Text":"Thomas B: The thought crossed my mind because of many novels, i read a lot. But throwing a something like that in reality..."
+		},
+		{
+			"Text":"Thomas B: Well, that would just make me a conspiracy theorist."
+		},
+		{
+			"Text":"Thomas B: I learned my lesson before."
+		},
+		{
+			"Text":"Thomas B: Anyway... The only thing reasonable i can think of is..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/ModderKnowsMe.json",
+			"CandidateName":"He knows me from way back"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectLast.json",
+			"CandidateName":"It's a member inside this chat"
+		}
+	]
+}
