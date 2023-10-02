@@ -1,0 +1,115 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: I don't know how much time this guy has been a follower... Or from where they know me..."
+		},
+		{
+			"Text":"Thomas B: But one thing is certain, they know me since i had... My previous channel."
+		},
+		{
+			"Text":"Thomas B: Also, i'm not sure on how much information has, but what they know is probably enough to make an scandal on social media."
+		},
+		{
+			"Text":"Thomas B: So... In simple terms, i'm stuck here until i figure a way out."
+		},
+		{
+			"Text":"Thomas B: That could be if either the legend is real and can actually find the damn thing."
+		},
+		{
+			"Text":"Thomas B: Or if i can prove or convince this dude the thing he is looking for doesn't actually exists."
+		},
+		{
+			"Text":"Thomas B: Either way, tomorrow seems that i have to connect again and actually explore this place again..."
+		},
+		{
+			"Text":"Thomas B: ...The fact that i used this place before doesn't make it any easier, but better that the past stays here than it gets out."
+		},
+		{
+			"Text":"Thomas B: ..."
+		},
+		{
+			"Text":"Thomas B: Okay then... Now that i have everything in order for tomorrow... It's time to disconnect."
+		},
+		{
+			"Text":"Thomas B: Just staying up and further pondering on this is not going to make things go faster."
+		},
+		{
+			"Text":">LostDecipher2 has logged off (Portraits pending)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""			
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Angry",
+			"CharacterRight":"",
+			"ExpressionRight":""			
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/ModderKnowsMe.json",
+			"CandidateName":"He knows me from way back"	
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectLast.json",
+			"CandidateName":"It's a member inside this chat"
+		}
+	]
+}
