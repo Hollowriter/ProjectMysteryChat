@@ -104,7 +104,7 @@ public class TextBox : SingletonBase<TextBox>
         if (speechIndex >= items.Dialogs.Length)
         {
             DocumentManager.instance.CheckElectionsAndInspector();
-            dialogueBackground.SetActive(false); // Check to improve this. (Hollow)
+            dialogueBackground.SetActive(false);
         }
     }
 
