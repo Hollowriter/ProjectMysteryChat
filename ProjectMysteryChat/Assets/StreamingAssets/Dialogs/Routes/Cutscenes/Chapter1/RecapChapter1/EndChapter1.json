@@ -1,0 +1,23 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":">Demo has finished. Thanks for testing. (Hollow)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"EndChapter1"
+		}
+	]
+}

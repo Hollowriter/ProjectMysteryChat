@@ -20,7 +20,7 @@
 			"Text":"Thomas B: Or if i can prove or convince this dude the thing he is looking for doesn't actually exists."
 		},
 		{
-			"Text":"Thomas B: Either way, tomorrow seems that i have to connect again and actually explore this place again..."
+			"Text":"Thomas B: Either way, tomorrow seems that i have to connect here and actually explore this place again..."
 		},
 		{
 			"Text":"Thomas B: ...The fact that i used this place before doesn't make it any easier, but better that the past stays here than it gets out."
@@ -35,20 +35,20 @@
 			"Text":"Thomas B: Just staying up and further pondering on this is not going to make things go faster."
 		},
 		{
-			"Text":">LostDecipher2 has logged off (Portraits pending)"
+			"Text":">LostDecipher2 has logged off"
 		}
 	],
 	"Portraits":
 	[
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Angry",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Angry",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -60,13 +60,13 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Angry",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
@@ -90,26 +90,34 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Angry",
+			"ExpressionLeft":"LostDecipher2-Sad",
 			"CharacterRight":"",
 			"ExpressionRight":""
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Angry",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"",
 			"ExpressionRight":""			
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
 		}
 	],
-	"Elections":
+	"Transition":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/ModderKnowsMe.json",
-			"CandidateName":"He knows me from way back"	
-		},
-		{
-			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectLast.json",
-			"CandidateName":"It's a member inside this chat"
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/RecapChapter1/EndChapter1.json"
 		}
 	]
 }
