@@ -2383,7 +2383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81402bd79d4a4bf49a105032c9212780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFileName: Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoConfrontationEnd.json
+  interactionFileName: Routes/Cutscenes/Chapter1/ChronoConfrontation/ChaparroWasBeforeYou.json
 --- !u!61 &799810333
 BoxCollider2D:
   m_ObjectHideFlags: 0
