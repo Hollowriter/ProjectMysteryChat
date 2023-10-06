@@ -62,7 +62,6 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
         TextBox.instance.SetActivated(true);
         TextBox.instance.ResetSpeechIndex();
         PortraitBoxes.instance.PutOnImage();
-        transition = null;
     }
 
     public void SendTransitionToLevelManager() 
