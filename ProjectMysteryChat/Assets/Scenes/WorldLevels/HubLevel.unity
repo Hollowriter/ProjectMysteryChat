@@ -420,7 +420,7 @@ Transform:
   m_GameObject: {fileID: 182986570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 64.41, y: 23.86, z: 0}
-  m_LocalScale: {x: 4.0446, y: 3.7545, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 437720185}
   m_Father: {fileID: 1558657966}
@@ -519,6 +519,7 @@ GameObject:
   - component: {fileID: 213170561}
   - component: {fileID: 213170560}
   - component: {fileID: 213170559}
+  - component: {fileID: 213170562}
   m_Layer: 0
   m_Name: WelcomePost
   m_TagString: Interactuable
@@ -606,6 +607,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6237373, y: 2.5253296}
   m_EdgeRadius: 0
+--- !u!114 &213170562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213170557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &250149811
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,7 +903,7 @@ Transform:
   m_GameObject: {fileID: 380853725}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 93.42, y: 38.22, z: 0}
-  m_LocalScale: {x: 4.698, y: 4.1756997, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 1627413726}
   m_Father: {fileID: 1558657966}
@@ -1834,7 +1850,7 @@ PrefabInstance:
     - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
         type: 3}
       propertyPath: objectsConditioned.Array.size
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
         type: 3}
@@ -1856,6 +1872,26 @@ PrefabInstance:
       propertyPath: objectsConditioned.Array.data[3]
       value: 
       objectReference: {fileID: 380853730}
+    - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
+        type: 3}
+      propertyPath: objectsConditioned.Array.data[4]
+      value: 
+      objectReference: {fileID: 213170562}
+    - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
+        type: 3}
+      propertyPath: objectsConditioned.Array.data[5]
+      value: 
+      objectReference: {fileID: 1581960581}
+    - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
+        type: 3}
+      propertyPath: objectsConditioned.Array.data[6]
+      value: 
+      objectReference: {fileID: 1680393461}
+    - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
+        type: 3}
+      propertyPath: objectsConditioned.Array.data[7]
+      value: 
+      objectReference: {fileID: 1677621011}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13b16f387a50de646804a59ebaab8e34, type: 3}
 --- !u!1 &1143248667
@@ -2502,7 +2538,7 @@ Transform:
   m_GameObject: {fileID: 1528888773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.4, y: 32.4, z: 0}
-  m_LocalScale: {x: 4.7249703, y: 1.17117, z: 1}
+  m_LocalScale: {x: 4.35, y: 0.975, z: 1}
   m_Children:
   - {fileID: 250149812}
   m_Father: {fileID: 1558657966}
@@ -2618,7 +2654,7 @@ Transform:
   m_GameObject: {fileID: 1547523164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.7, y: 18.3, z: 0}
-  m_LocalScale: {x: 3.7584, y: 3.8037, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 181045903}
   m_Father: {fileID: 1558657966}
@@ -2774,6 +2810,7 @@ GameObject:
   - component: {fileID: 1581960580}
   - component: {fileID: 1581960579}
   - component: {fileID: 1581960578}
+  - component: {fileID: 1581960581}
   m_Layer: 0
   m_Name: IndicationsSign
   m_TagString: Interactuable
@@ -2861,6 +2898,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6237373, y: 2.5253296}
   m_EdgeRadius: 0
+--- !u!114 &1581960581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581960576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &1618014769
 GameObject:
   m_ObjectHideFlags: 0
@@ -3105,6 +3157,7 @@ GameObject:
   - component: {fileID: 1677621010}
   - component: {fileID: 1677621009}
   - component: {fileID: 1677621008}
+  - component: {fileID: 1677621011}
   m_Layer: 0
   m_Name: Statue
   m_TagString: Interactuable
@@ -3192,6 +3245,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6237373, y: 2.5253296}
   m_EdgeRadius: 0
+--- !u!114 &1677621011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677621006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &1680393456
 GameObject:
   m_ObjectHideFlags: 0
@@ -3204,6 +3272,7 @@ GameObject:
   - component: {fileID: 1680393460}
   - component: {fileID: 1680393459}
   - component: {fileID: 1680393458}
+  - component: {fileID: 1680393461}
   m_Layer: 0
   m_Name: Campfire
   m_TagString: Interactuable
@@ -3291,6 +3360,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6237373, y: 2.5253296}
   m_EdgeRadius: 0
+--- !u!114 &1680393461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680393456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &1680720692
 GameObject:
   m_ObjectHideFlags: 0

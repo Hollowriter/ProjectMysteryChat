@@ -3072,6 +3072,7 @@ GameObject:
   - component: {fileID: 1153902115}
   - component: {fileID: 1153902114}
   - component: {fileID: 1153902113}
+  - component: {fileID: 1153902116}
   m_Layer: 0
   m_Name: GlitchedDoor
   m_TagString: Interactuable
@@ -3159,6 +3160,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5987852, y: 2.558815}
   m_EdgeRadius: 0
+--- !u!114 &1153902116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153902111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &1216915372
 GameObject:
   m_ObjectHideFlags: 0
@@ -12278,7 +12294,7 @@ PrefabInstance:
     - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
         type: 3}
       propertyPath: objectsConditioned.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
         type: 3}
@@ -12300,5 +12316,10 @@ PrefabInstance:
       propertyPath: objectsConditioned.Array.data[3]
       value: 
       objectReference: {fileID: 187008051}
+    - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
+        type: 3}
+      propertyPath: objectsConditioned.Array.data[4]
+      value: 
+      objectReference: {fileID: 1153902116}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13b16f387a50de646804a59ebaab8e34, type: 3}

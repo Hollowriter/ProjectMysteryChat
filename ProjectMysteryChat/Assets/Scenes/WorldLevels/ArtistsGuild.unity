@@ -231,6 +231,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionFileName: Routes/Interactions/ArtistsGuild/Chapter1/DoorLocked.json
+--- !u!114 &155848969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155848967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &194926792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,12 +1245,12 @@ PrefabInstance:
     - target: {fileID: 2060167583296444890, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6236
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2060167583296444890, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5.937
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2060167583296444890, guid: 5d2cd0661f1a6eb4898c27e9db3b8a52,
         type: 3}
@@ -1808,6 +1823,7 @@ MonoBehaviour:
   - {fileID: 1986138870}
   - {fileID: 1860363220}
   - {fileID: 1452167334}
+  - {fileID: 155848969}
   objectsReactive: []
 --- !u!4 &2059625593
 Transform:

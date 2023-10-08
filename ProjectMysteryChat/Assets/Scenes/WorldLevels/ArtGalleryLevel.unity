@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 48148251}
   - component: {fileID: 48148250}
   - component: {fileID: 48148249}
+  - component: {fileID: 48148252}
   m_Layer: 0
   m_Name: PictureLoners
   m_TagString: Interactuable
@@ -220,6 +221,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5654764, y: 2.5343704}
   m_EdgeRadius: 0
+--- !u!114 &48148252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48148247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &50424435
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +448,7 @@ Transform:
   m_GameObject: {fileID: 129581084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11, y: 27.26, z: 0}
-  m_LocalScale: {x: 2.4875, y: 2.1094, z: 1}
+  m_LocalScale: {x: 2.4875, y: 1, z: 1}
   m_Children:
   - {fileID: 50424436}
   m_Father: {fileID: 294843376}
@@ -1186,6 +1202,7 @@ GameObject:
   - component: {fileID: 904841702}
   - component: {fileID: 904841701}
   - component: {fileID: 904841700}
+  - component: {fileID: 904841703}
   m_Layer: 0
   m_Name: PictureLostMedia
   m_TagString: Interactuable
@@ -1273,6 +1290,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5654764, y: 2.5343704}
   m_EdgeRadius: 0
+--- !u!114 &904841703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904841698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &929842198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,7 +2105,7 @@ Transform:
   m_GameObject: {fileID: 1406749244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.24, y: 27.26, z: 0}
-  m_LocalScale: {x: 2.4875, y: 2.0377, z: 1}
+  m_LocalScale: {x: 2.4875, y: 1, z: 1}
   m_Children:
   - {fileID: 1140058570}
   m_Father: {fileID: 294843376}
@@ -2574,7 +2606,7 @@ Transform:
   m_GameObject: {fileID: 1675341124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11, y: 27.26, z: 0}
-  m_LocalScale: {x: 2.4875, y: 2.0363, z: 1}
+  m_LocalScale: {x: 2.4875, y: 1, z: 1}
   m_Children:
   - {fileID: 236017397}
   m_Father: {fileID: 294843376}
@@ -3078,6 +3110,7 @@ GameObject:
   - component: {fileID: 1873788861}
   - component: {fileID: 1873788860}
   - component: {fileID: 1873788859}
+  - component: {fileID: 1873788862}
   m_Layer: 0
   m_Name: PictureCult
   m_TagString: Interactuable
@@ -3165,6 +3198,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5654764, y: 2.5343704}
   m_EdgeRadius: 0
+--- !u!114 &1873788862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873788857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionNamesToActivate: []
+  interactionNamesToDeactivate:
+  - MakiLogsOffChapter1
 --- !u!1 &1902147287
 GameObject:
   m_ObjectHideFlags: 0
@@ -3201,6 +3249,9 @@ MonoBehaviour:
   - {fileID: 1675341129}
   - {fileID: 1406749249}
   - {fileID: 129581089}
+  - {fileID: 48148252}
+  - {fileID: 904841703}
+  - {fileID: 1873788862}
   objectsReactive: []
 --- !u!4 &1902147289
 Transform:
