@@ -17,7 +17,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongSealer.json",
+			"Candidate":"Routes/Interactions/ArtSealRoom/Chapter1/RealizeItsWrongSealer.json",
 			"CandidateName":"Not this object"	
 		}
 	],
@@ -25,8 +25,8 @@
 	[
 		{
 			"ExpectedAnswer":"Invisible Card",
-			"CorrectDialog":"Routes/Interactions/Hub/Chapter1/WrongInvisibleObject.json",
-			"WrongDialog":"Routes//Interactions/Wrong/WrongInvisibleObjectAndEvidence.json"
+			"CorrectDialog":"Routes/Interactions/Wrong/WrongInvisibleObject.json",
+			"WrongDialog":"Routes/Interactions/Wrong/WrongInvisibleObjectAndEvidence.json"
 		}
 	]
 }

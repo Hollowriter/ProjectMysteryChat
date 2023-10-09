@@ -26,7 +26,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Interactions/MyRoom/Chapter1/RealizeItsWrongHub.json",
+			"Candidate":"Routes/Interactions/Hub/Chapter1/RealizeItsWrongHub.json",
 			"CandidateName":"Not this object"	
 		}
 	],
@@ -34,7 +34,7 @@
 	[
 		{
 			"ExpectedAnswer":"Invisible Card",
-			"CorrectDialog":"Routes/Interactions/Hub/Chapter1/WrongInvisibleObject.json",
+			"CorrectDialog":"Routes/Interactions/Wrong/WrongInvisibleObject.json",
 			"WrongDialog":"Routes//Interactions/Wrong/WrongInvisibleObjectAndEvidence.json"
 		}
 	]
