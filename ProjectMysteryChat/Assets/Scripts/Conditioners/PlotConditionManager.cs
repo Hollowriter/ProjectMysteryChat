@@ -13,8 +13,7 @@ public class PlotConditionManager : MonoBehaviour
     {
         CheckConditions();
         CheckReactives();
-        InteractionsManager.instance.onSetPermanentInteraction += CheckConditions;
-        InteractionsManager.instance.onSetPermanentInteraction += CheckReactives;
+        InteractionsManager.instance.onSetPermanentInteraction += CheckConditionsAndReactives;
     }
 
     private void CheckConditions()
@@ -45,5 +44,11 @@ public class PlotConditionManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void CheckConditionsAndReactives() 
+    {
+        CheckConditions();
+        CheckReactives();
     }
 }
