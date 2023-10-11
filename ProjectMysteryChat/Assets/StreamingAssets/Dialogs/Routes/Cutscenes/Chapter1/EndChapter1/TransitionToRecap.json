@@ -1,0 +1,25 @@
+{	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: ..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Scene",
+			"Name":"RecapScene",
+			"NewPlayerPositionX":"200",
+			"NewPlayerPositionY":"200"
+		}
+	]
+}

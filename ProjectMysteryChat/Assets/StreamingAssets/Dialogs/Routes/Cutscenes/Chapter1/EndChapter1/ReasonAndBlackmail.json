@@ -309,12 +309,13 @@
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"",
 			"ExpressionRight":""
-		},
+		}
 	],
-	"Interaction":
+	"Transition":
 	[
 		{
-			"InteractionName":"LastConvoChapter1"
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter1/EndChapter1/TransitionToRecap.json"
 		}
 	]
 }
