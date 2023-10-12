@@ -71,7 +71,7 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecapReasonable.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectReasonable.json",
 			"CandidateName":"Jack is really strict"	
 		},
 		{
@@ -79,7 +79,7 @@
 			"CandidateName":"They seem to not have been the first people to discover this server"
 		},
 		{
-			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecapPersonal.json",
+			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectPersonal.json",
 			"CandidateName":"A member had a suspiciously familiar sounding name"
 		}
 	]

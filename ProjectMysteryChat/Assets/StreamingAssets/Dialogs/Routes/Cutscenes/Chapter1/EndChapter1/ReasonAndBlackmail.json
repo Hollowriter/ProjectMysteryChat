@@ -317,5 +317,11 @@
 			"Type":"Dialog",
 			"Name":"Routes/Cutscenes/Chapter1/EndChapter1/TransitionToRecap.json"
 		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"RecappingChapter1"
+		}
 	]
 }
