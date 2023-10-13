@@ -4028,12 +4028,12 @@ GameObject:
   - component: {fileID: 1613462410}
   - component: {fileID: 1613462409}
   m_Layer: 0
-  m_Name: LockedDoor (1)
+  m_Name: TESTDOOR
   m_TagString: Interactuable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1613462408
 Transform:
   m_ObjectHideFlags: 0
