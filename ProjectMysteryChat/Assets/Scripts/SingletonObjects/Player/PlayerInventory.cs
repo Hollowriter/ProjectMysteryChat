@@ -16,7 +16,7 @@ public class PlayerInventory : SingletonBase<PlayerInventory>
 
     private void ShowInventory()
     {
-        if (Input.GetKey(InputHandler.instance.showInventory) && !showInventoryProcessed)
+        if (Input.GetKey(InputHandler.instance.showInventory) && !showInventoryProcessed && LevelManager.instance.GetSceneName() != "Menu")
         {
             if (EvidenceInventory.instance.GetActivated())
             {
