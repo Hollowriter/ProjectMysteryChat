@@ -40,6 +40,15 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
         }
     }
 
+    public void ClearInteractions() 
+    {
+        for (int i = 0; i < Interaction.Interaction.Length; i++)
+        {
+            Interaction.Interaction[i].InteractionName = "null";
+        }
+        interactionsQuantity = 0;
+    }
+
     public void SetCollection(InteractionCollection newCollection) 
     {
         Interaction = newCollection;

@@ -14,6 +14,7 @@ public class StartButton : SingletonBase<StartButton>
 
     public void PressingStart() 
     {
+        InteractionsManager.instance.ClearInteractions(); // Pending to make a menu for this (Hollow)
         LevelManager.instance.ChangeScene(startScene);
     }
 }
