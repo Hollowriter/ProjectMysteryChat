@@ -161,7 +161,7 @@ public class TextBox : SingletonBase<TextBox>
     {
         if (nextButton != null)
         {
-            if (dialogueText.text != "" && dialogueText.text != null)
+            if (dialogueText.text != "" && dialogueText.text != null && textWritten)
                 nextButton.SetActive(activate);
             else
                 nextButton.SetActive(false);
@@ -172,7 +172,7 @@ public class TextBox : SingletonBase<TextBox>
     {
         if (nextDebateButton != null)
         {
-            if (dialogueText.text != "" && dialogueText.text != null)
+            if (dialogueText.text != "" && dialogueText.text != null && textWritten)
                 nextDebateButton.SetActive(activate);
             else
                 nextDebateButton.SetActive(false);
@@ -183,7 +183,7 @@ public class TextBox : SingletonBase<TextBox>
     {
         if (previousDebateButton != null)
         {
-            if (dialogueText.text != "" && dialogueText.text != null)
+            if (dialogueText.text != "" && dialogueText.text != null && textWritten)
                 previousDebateButton.SetActive(activate);
             else
                 previousDebateButton.SetActive(false);
