@@ -3117,7 +3117,7 @@ PrefabInstance:
     - target: {fileID: 2261376454638560274, guid: 3e59b54ddcdb5aa40b074850648882a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2261376454638560274, guid: 3e59b54ddcdb5aa40b074850648882a9,
         type: 3}
@@ -3235,11 +3235,11 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6216203833034432126}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6161708085858701115
+--- !u!114 &6161708085858701115 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6161708085858701115, guid: c4594c2078781da498c53a757263531b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6216203833034432126}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6161708085858701114}
   m_Enabled: 1
@@ -3247,10 +3247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionNamesToActivate:
-  - CreditsInvestigationCutsceneFinished
-  interactionNamesToDeactivate:
-  - FollowingChrono
 --- !u!1001 &6161708086752108533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3318,11 +3314,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9213160112660533865, guid: 93897519c884f124b99e241d346a8aa5,
-        type: 3}
-      propertyPath: startPosition
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93897519c884f124b99e241d346a8aa5, type: 3}
 --- !u!1 &6161708086752108534 stripped
@@ -3331,11 +3322,11 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6161708086752108533}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6161708086752108535
+--- !u!114 &6161708086752108535 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6161708086752108535, guid: 93897519c884f124b99e241d346a8aa5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6161708086752108533}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6161708086752108534}
   m_Enabled: 1
@@ -3343,9 +3334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8ac8d6acec78342a0c20805d83611d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionNamesToActivate: []
-  interactionNamesToDeactivate:
-  - MakiConversationEnd
 --- !u!1001 &6216203833034432126
 PrefabInstance:
   m_ObjectHideFlags: 0
