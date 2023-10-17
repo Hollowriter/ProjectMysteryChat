@@ -21,6 +21,6 @@ public class PauseManager : SingletonBase<PauseManager>
         return !(TextBox.instance.GetActivated() == false &&
                 EvidenceInventory.instance.GetActivated() == false &&
                 ElectionBox.instance.GetActivated() == false &&
-                CutsceneManager.instance.GetActivated() == false);
+                CutsceneManager.instance.GetActivated() == false); // Add gameplay menu activated (Hollow)
     }
 }
