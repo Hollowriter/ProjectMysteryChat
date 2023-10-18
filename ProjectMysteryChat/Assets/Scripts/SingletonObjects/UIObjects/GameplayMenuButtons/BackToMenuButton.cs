@@ -12,9 +12,10 @@ public class BackToMenuButton : SingletonBase<BackToMenuButton>
         SingletonAwake();
     }
 
-    public void PressingStart()
+    public void PressingBackToMenu()
     {
         InteractionsManager.instance.ClearInteractions(); // Pending to make a menu for this (Hollow)
+        GameplayMenu.instance.DeactivateGameplayMenuOutside();
         LevelManager.instance.ChangeScene(menuScene);
     }
 }

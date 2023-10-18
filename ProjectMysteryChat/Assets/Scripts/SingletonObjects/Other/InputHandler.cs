@@ -10,6 +10,7 @@ public class InputHandler : SingletonBase<InputHandler>
     public KeyCode walkRight { get; set; }
     public KeyCode interact { get; set; }
     public KeyCode showInventory { get; set; }
+    public KeyCode showGameplayMenu { get; set; }
 
    public bool inputDetected()
    {
@@ -28,6 +29,7 @@ public class InputHandler : SingletonBase<InputHandler>
         walkRight = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
         interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "Space"));
         showInventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("inventoryKey", "I"));
+        showGameplayMenu = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("gameplayMenuKey", "Escape"));
     }
 
     void Awake()

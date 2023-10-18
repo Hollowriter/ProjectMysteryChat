@@ -21,23 +21,26 @@ public class PlayerMovement : SingletonBase<PlayerMovement>
 
     public void MovementKeys()
     {
-        if (!PauseManager.instance.Paused())
+        if (LevelManager.instance.GetSceneName() != "Menu")
         {
-            if (Input.GetKey(InputHandler.instance.walkUp))
+            if (!PauseManager.instance.Paused())
             {
-                transform.position += (Vector3.up) * playerSpeed * Time.deltaTime;
-            }
-            if (Input.GetKey(InputHandler.instance.walkDown))
-            {
-                transform.position += (Vector3.down) * playerSpeed * Time.deltaTime;
-            }
-            if (Input.GetKey(InputHandler.instance.walkLeft))
-            {
-                transform.position += (Vector3.left) * playerSpeed * Time.deltaTime;
-            }
-            if (Input.GetKey(InputHandler.instance.walkRight))
-            {
-                transform.position += (Vector3.right) * playerSpeed * Time.deltaTime;
+                if (Input.GetKey(InputHandler.instance.walkUp))
+                {
+                    transform.position += (Vector3.up) * playerSpeed * Time.deltaTime;
+                }
+                if (Input.GetKey(InputHandler.instance.walkDown))
+                {
+                    transform.position += (Vector3.down) * playerSpeed * Time.deltaTime;
+                }
+                if (Input.GetKey(InputHandler.instance.walkLeft))
+                {
+                    transform.position += (Vector3.left) * playerSpeed * Time.deltaTime;
+                }
+                if (Input.GetKey(InputHandler.instance.walkRight))
+                {
+                    transform.position += (Vector3.right) * playerSpeed * Time.deltaTime;
+                }
             }
         }
     }

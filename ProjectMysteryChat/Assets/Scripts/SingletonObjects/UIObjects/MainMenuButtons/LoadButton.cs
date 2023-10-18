@@ -3,15 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoadButton : SingletonBase<LoadButton>
+public class LoadButton : MonoBehaviour
 {
-    private void Awake()
-    {
-        SingletonAwake();
-    }
-
     public void PressingLoad() 
     {
+        GameplayMenu.instance.DeactivateGameplayMenuOutside();
         SaveDataDocument.instance.Load();
     }
 }

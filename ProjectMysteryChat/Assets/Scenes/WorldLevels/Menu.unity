@@ -1222,6 +1222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startScene: FirstLevel
+  startPositionX: 0
+  startPositionY: 0
 --- !u!1 &390539228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,9 +1273,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 390539228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f1ab73bac5994a499c58a23864f4dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 28d5cd68ef36cfa4a80c509051d6a123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuScene: Menu
 --- !u!114 &390539231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1318,7 +1321,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 390539230}
-        m_MethodName: PressingQuit
+        m_MethodName: PressingBackToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2939,6 +2942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 990188801}
+  - component: {fileID: 990188802}
   m_Layer: 5
   m_Name: GameplayMenu
   m_TagString: Untagged
@@ -2968,6 +2972,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &990188802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990188800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b7e1cb4e8d0654e83eb9ce65c2f147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resumeButton: {fileID: 1298649333}
+  loadButton: {fileID: 1307549835}
+  backToMenuButton: {fileID: 390539228}
 --- !u!1 &999267086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3237,7 +3256,7 @@ GameObject:
   - component: {fileID: 1298649336}
   - component: {fileID: 1298649335}
   m_Layer: 5
-  m_Name: ContinueButton
+  m_Name: ResumeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3272,10 +3291,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1298649333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71052cb69400a2e4286b59331924228e, type: 3}
+  m_Script: {fileID: 11500000, guid: a6c0a05134f19ef4b96c4b4c262c4184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startScene: FirstLevel
 --- !u!114 &1298649336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3320,7 +3338,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1298649335}
-        m_MethodName: PressingStart
+        m_MethodName: PressingResume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4549,7 +4567,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Resume
 --- !u!222 &1588613677
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5624,7 +5642,7 @@ PrefabInstance:
     - target: {fileID: 7677905663739329523, guid: f53d1af15470e6147987d3f899fa8688,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7677905663739329523, guid: f53d1af15470e6147987d3f899fa8688,
         type: 3}
