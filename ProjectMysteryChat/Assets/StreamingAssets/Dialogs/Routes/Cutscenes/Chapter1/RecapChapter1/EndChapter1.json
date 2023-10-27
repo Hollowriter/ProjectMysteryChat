@@ -19,5 +19,14 @@
 		{
 			"InteractionName":"EndChapter1"
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Scene",
+			"Name":"Menu",
+			"NewPlayerPositionX":"0",
+			"NewPlayerPositionY":"0"
+		}
 	]
 }
