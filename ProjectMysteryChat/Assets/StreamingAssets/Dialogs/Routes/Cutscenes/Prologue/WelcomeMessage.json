@@ -1,0 +1,116 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":">You received a message"
+		},
+		{
+			"Text":">Opening up the contents"
+		},
+		{
+			"Text":"Message: Hello Cipher: I'm a longtime follower of yours and never had the opportunity to send you something before."
+		},
+		{
+			"Text":"Message: I found your last video to be one of your best works yet, so i'm excited to see what you can do with this information."
+		},
+		{
+			"Text":"Message: You see, remember 3 years ago? Your video about the history and closure 'RoomsChat.com'?"
+		},
+		{
+			"Text":"Message: I recently discovered an active abandoned server of the chat, and since you were really interested in the subject, i wanted to give you the link to the place so you can cover it for a video!"
+		},
+		{
+			"Text":"Message: It's rare to see a followup of such an old video, but i think this time is worth it! Also, i will be somewhere in the chat if you need a guide to the place."
+		},
+		{
+			"Text":"Message: I can show you the most interesting places to cover, and since the place is a bit glitchy, it would also be a good idea for you to find me."
+		},
+		{
+			"Text":"Message: Attached to this message is the link to the server. See you there!"
+		},
+		{
+			"Text":"Message: --Yours truly: An anonymous fan."
+		},
+		{
+			"Text":">Cipher decides to click the link to the server"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Scene",
+			"Name":"FirstLevel",
+			"NewPlayerPositionX":"0",
+			"NewPlayerPositionY":"0"
+		}
+	]
+}
