@@ -33,7 +33,7 @@ public class MusicPlayer : SingletonBase<MusicPlayer>
     }
 
     private void PlayMusic() 
-    { 
+    {
     }
 
     public void SetMusicState(MusicState newMusicState) 
