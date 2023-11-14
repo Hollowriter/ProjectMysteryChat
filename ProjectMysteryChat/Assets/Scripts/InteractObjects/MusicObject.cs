@@ -8,7 +8,7 @@ public class MusicObject : InteractObject
 
     private void SetStateToMusicPlayer() 
     {
-        if (this.gameObject.activeInHierarchy) 
+        if (this.gameObject.activeInHierarchy)
         {
             MusicPlayer.instance.SetMusicState(musicToPlay);
         }

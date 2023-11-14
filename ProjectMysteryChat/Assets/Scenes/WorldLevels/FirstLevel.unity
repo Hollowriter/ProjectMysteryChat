@@ -66215,6 +66215,11 @@ PrefabInstance:
       objectReference: {fileID: 1058180703}
     - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
         type: 3}
+      propertyPath: objectsReactive.Array.data[1]
+      value: 
+      objectReference: {fileID: 1058180703}
+    - target: {fileID: 2104453783458550983, guid: 13b16f387a50de646804a59ebaab8e34,
+        type: 3}
       propertyPath: objectsConditioned.Array.data[0]
       value: 
       objectReference: {fileID: 354194962}
