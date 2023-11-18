@@ -41,9 +41,15 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
 
     public void ClearInteractions() 
     {
-        for (int i = 0; i < Interaction.Interaction.Length; i++)
+        if (Interaction != null)
         {
-            Interaction.Interaction[i].InteractionName = "null";
+            if (Interaction.Interaction != null)
+            {
+                for (int i = 0; i < Interaction.Interaction.Length; i++)
+                {
+                    Interaction.Interaction[i].InteractionName = "null";
+                }
+            }
         }
         interactionsQuantity = 0;
     }
@@ -52,11 +58,14 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
     {
         Interaction = newCollection;
         interactionsQuantity = 0;
-        for (int i = 0; i < Interaction.Interaction.Length; i++) 
-        { 
-            if (Interaction.Interaction[i].InteractionName != "null") 
+        if (Interaction.Interaction != null)
+        {
+            for (int i = 0; i < Interaction.Interaction.Length; i++)
             {
-                interactionsQuantity++;
+                if (Interaction.Interaction[i].InteractionName != "null")
+                {
+                    interactionsQuantity++;
+                }
             }
         }
     }

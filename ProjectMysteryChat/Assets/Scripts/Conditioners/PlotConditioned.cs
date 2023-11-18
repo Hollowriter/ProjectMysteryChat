@@ -25,14 +25,26 @@ public class PlotConditioned : MonoBehaviour // This should be responsible of de
     private void CheckinteractionsToActivate() 
     {
         interactionsToActivate = 0;
-        for (int i = 0; i < interactionNamesToActivate.Count; i++) 
+        if (interactionNamesToActivate != null)
         {
-            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++) 
+            for (int i = 0; i < interactionNamesToActivate.Count; i++)
             {
-                if (interactionNamesToActivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName) 
+                if (InteractionsManager._instance != null)
                 {
-                    interactionsToActivate++;
-                    break;
+                    if (InteractionsManager._instance.GetCollection() != null)
+                    {
+                        if (InteractionsManager._instance.GetCollection().Interaction != null)
+                        {
+                            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++)
+                            {
+                                if (interactionNamesToActivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName)
+                                {
+                                    interactionsToActivate++;
+                                    break;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -41,14 +53,26 @@ public class PlotConditioned : MonoBehaviour // This should be responsible of de
     private void CheckinteractionsToDeactivate()
     {
         interactionsToDeactivate = 0;
-        for (int i = 0; i < interactionNamesToDeactivate.Count; i++) 
+        if (interactionNamesToDeactivate != null)
         {
-            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++) 
+            for (int i = 0; i < interactionNamesToDeactivate.Count; i++)
             {
-                if (interactionNamesToDeactivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName) 
+                if (InteractionsManager._instance != null)
                 {
-                    interactionsToDeactivate++;
-                    break;
+                    if (InteractionsManager._instance.GetCollection() != null)
+                    {
+                        if (InteractionsManager._instance.GetCollection().Interaction != null)
+                        {
+                            for (int r = 0; r < InteractionsManager._instance.GetCollection().Interaction.Length; r++)
+                            {
+                                if (interactionNamesToDeactivate[i] == InteractionsManager._instance.GetCollection().Interaction[r].InteractionName)
+                                {
+                                    interactionsToDeactivate++;
+                                    break;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
