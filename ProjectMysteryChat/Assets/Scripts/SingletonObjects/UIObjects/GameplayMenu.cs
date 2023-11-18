@@ -34,6 +34,7 @@ public class GameplayMenu : SingletonBase<GameplayMenu>
                 gameplayMenuActivated = true;
                 resumeButton.SetActive(true);
                 loadButton.SetActive(true);
+                loadButton.GetComponent<LoadButton>().ActivateLoadButton();
                 backToMenuButton.SetActive(true);
             }
             else

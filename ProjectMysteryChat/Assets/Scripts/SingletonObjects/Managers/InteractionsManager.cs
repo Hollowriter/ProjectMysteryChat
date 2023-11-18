@@ -7,8 +7,7 @@ using UnityEngine.Events;
 public class InteractionsManager : SingletonBase<InteractionsManager>
 {
     private InteractionCollection Interaction;
-    [SerializeField]
-    private int interactionsLimit;
+    [SerializeField] private int interactionsLimit;
     private int interactionsQuantity;
     public UnityAction onSetPermanentInteraction;
 
@@ -90,6 +89,11 @@ public class InteractionsManager : SingletonBase<InteractionsManager>
             }
         }
         return false;
+    }
+
+    public int GetInteractionsQuantity() 
+    {
+        return interactionsQuantity;
     }
 
     public InteractionCollection GetCollection() 
