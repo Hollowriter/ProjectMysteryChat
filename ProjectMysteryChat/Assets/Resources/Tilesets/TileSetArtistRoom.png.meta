@@ -1,0 +1,3428 @@
+fileFormatVersion: 2
+guid: c5b5d1c9906a56f42a427322174b8b0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2316358006836797184
+    second: TileSetArtistRoom_0
+  - first:
+      213: -50652126296802023
+    second: TileSetArtistRoom_1
+  - first:
+      213: -1558270319293445484
+    second: TileSetArtistRoom_2
+  - first:
+      213: -1784555838003492851
+    second: TileSetArtistRoom_3
+  - first:
+      213: 7445352938644578882
+    second: TileSetArtistRoom_4
+  - first:
+      213: -6782227242533088408
+    second: TileSetArtistRoom_5
+  - first:
+      213: 7653851430785401431
+    second: TileSetArtistRoom_6
+  - first:
+      213: 1448902934296357559
+    second: TileSetArtistRoom_7
+  - first:
+      213: 6836612580259425846
+    second: TileSetArtistRoom_8
+  - first:
+      213: 5718514925620028389
+    second: TileSetArtistRoom_9
+  - first:
+      213: 5145859818020184539
+    second: TileSetArtistRoom_10
+  - first:
+      213: -2934336536397431629
+    second: TileSetArtistRoom_11
+  - first:
+      213: 5399943355849818103
+    second: TileSetArtistRoom_12
+  - first:
+      213: 6301984408918640876
+    second: TileSetArtistRoom_13
+  - first:
+      213: 1487385273040298971
+    second: TileSetArtistRoom_14
+  - first:
+      213: 1837920526601606360
+    second: TileSetArtistRoom_15
+  - first:
+      213: 1455652188438808659
+    second: TileSetArtistRoom_16
+  - first:
+      213: 4779537903016285411
+    second: TileSetArtistRoom_17
+  - first:
+      213: -4042701946253381104
+    second: TileSetArtistRoom_18
+  - first:
+      213: 8873159236831853400
+    second: TileSetArtistRoom_19
+  - first:
+      213: -3061970493758257420
+    second: TileSetArtistRoom_20
+  - first:
+      213: 7606923612927614602
+    second: TileSetArtistRoom_21
+  - first:
+      213: -7685389258453790300
+    second: TileSetArtistRoom_22
+  - first:
+      213: -5611644458646805814
+    second: TileSetArtistRoom_23
+  - first:
+      213: 1089916401081268466
+    second: TileSetArtistRoom_24
+  - first:
+      213: -3905036054897089755
+    second: TileSetArtistRoom_25
+  - first:
+      213: 3879774443954071242
+    second: TileSetArtistRoom_26
+  - first:
+      213: 7112352010163975353
+    second: TileSetArtistRoom_27
+  - first:
+      213: 7131465679105047359
+    second: TileSetArtistRoom_28
+  - first:
+      213: -3639011832303943935
+    second: TileSetArtistRoom_29
+  - first:
+      213: 4834089755030336766
+    second: TileSetArtistRoom_30
+  - first:
+      213: 7252667150936886217
+    second: TileSetArtistRoom_31
+  - first:
+      213: -6414961695459429468
+    second: TileSetArtistRoom_32
+  - first:
+      213: 2021260538754179692
+    second: TileSetArtistRoom_33
+  - first:
+      213: 4486737230407201057
+    second: TileSetArtistRoom_34
+  - first:
+      213: -668288384054117134
+    second: TileSetArtistRoom_35
+  - first:
+      213: 1006150930189934030
+    second: TileSetArtistRoom_36
+  - first:
+      213: 1007127582957938452
+    second: TileSetArtistRoom_37
+  - first:
+      213: -7086654683185454353
+    second: TileSetArtistRoom_38
+  - first:
+      213: 487303702548953985
+    second: TileSetArtistRoom_39
+  - first:
+      213: -9090910898493287337
+    second: TileSetArtistRoom_40
+  - first:
+      213: -366116877950997230
+    second: TileSetArtistRoom_41
+  - first:
+      213: -4962566113801717836
+    second: TileSetArtistRoom_42
+  - first:
+      213: 1023172410239401948
+    second: TileSetArtistRoom_43
+  - first:
+      213: -1369813035030098477
+    second: TileSetArtistRoom_45
+  - first:
+      213: -4721580585684297206
+    second: TileSetArtistRoom_46
+  - first:
+      213: -7082063040515464348
+    second: TileSetArtistRoom_47
+  - first:
+      213: -1752136501692759232
+    second: TileSetArtistRoom_48
+  - first:
+      213: -7415497774676876130
+    second: TileSetArtistRoom_49
+  - first:
+      213: -5742119249031196586
+    second: TileSetArtistRoom_50
+  - first:
+      213: 7777379263428393184
+    second: TileSetArtistRoom_51
+  - first:
+      213: -8950463126444799070
+    second: TileSetArtistRoom_52
+  - first:
+      213: 7807534853401927557
+    second: TileSetArtistRoom_53
+  - first:
+      213: 2574469338542044890
+    second: TileSetArtistRoom_54
+  - first:
+      213: -6861147673566546749
+    second: TileSetArtistRoom_55
+  - first:
+      213: 7223202863078250771
+    second: TileSetArtistRoom_56
+  - first:
+      213: 1827448809573193881
+    second: TileSetArtistRoom_57
+  - first:
+      213: 6900523820621665115
+    second: TileSetArtistRoom_58
+  - first:
+      213: 377482270651962187
+    second: TileSetArtistRoom_59
+  - first:
+      213: 4312942679318298207
+    second: TileSetArtistRoom_60
+  - first:
+      213: -1906584468829218186
+    second: TileSetArtistRoom_61
+  - first:
+      213: -4371325949735200971
+    second: TileSetArtistRoom_62
+  - first:
+      213: 1431931495983249171
+    second: TileSetArtistRoom_63
+  - first:
+      213: 9185496575995123763
+    second: TileSetArtistRoom_64
+  - first:
+      213: 8468016392395787232
+    second: TileSetArtistRoom_65
+  - first:
+      213: 1268635963578862214
+    second: TileSetArtistRoom_66
+  - first:
+      213: -1961737328127441890
+    second: TileSetArtistRoom_67
+  - first:
+      213: -4741987450730507675
+    second: TileSetArtistRoom_68
+  - first:
+      213: -60721901309424359
+    second: TileSetArtistRoom_69
+  - first:
+      213: -2848366995817114004
+    second: TileSetArtistRoom_70
+  - first:
+      213: 8292465528609996762
+    second: TileSetArtistRoom_71
+  - first:
+      213: -8969947332714190584
+    second: TileSetArtistRoom_72
+  - first:
+      213: 2795888556836851133
+    second: TileSetArtistRoom_73
+  - first:
+      213: 7428585470852033668
+    second: TileSetArtistRoom_74
+  - first:
+      213: -8523052669024256557
+    second: TileSetArtistRoom_75
+  - first:
+      213: -3430048151406656210
+    second: TileSetArtistRoom_76
+  - first:
+      213: -5807203813257521640
+    second: TileSetArtistRoom_77
+  - first:
+      213: -5508298081252207324
+    second: TileSetArtistRoom_78
+  - first:
+      213: 3461574610911628854
+    second: TileSetArtistRoom_79
+  - first:
+      213: -4210328230557165729
+    second: TileSetArtistRoom_80
+  - first:
+      213: 3915324404543839229
+    second: TileSetArtistRoom_82
+  - first:
+      213: -4145097087618897754
+    second: TileSetArtistRoom_83
+  - first:
+      213: -535656008345678827
+    second: TileSetArtistRoom_84
+  - first:
+      213: -3033251327516224672
+    second: TileSetArtistRoom_85
+  - first:
+      213: 1169656034375120297
+    second: TileSetArtistRoom_86
+  - first:
+      213: -4897248718274208000
+    second: TileSetArtistRoom_87
+  - first:
+      213: 3635865355171973277
+    second: TileSetArtistRoom_88
+  - first:
+      213: -1464054085465859745
+    second: TileSetArtistRoom_89
+  - first:
+      213: -2678734412850693115
+    second: TileSetArtistRoom_90
+  - first:
+      213: 1643324005412828731
+    second: TileSetArtistRoom_91
+  - first:
+      213: -1426733931179980781
+    second: TileSetArtistRoom_92
+  - first:
+      213: -1067301263691450886
+    second: TileSetArtistRoom_93
+  - first:
+      213: -2998956172404480640
+    second: TileSetArtistRoom_94
+  - first:
+      213: 1790496254841990787
+    second: TileSetArtistRoom_95
+  - first:
+      213: -5861398941195828273
+    second: TileSetArtistRoom_96
+  - first:
+      213: 2635227861690885123
+    second: TileSetArtistRoom_97
+  - first:
+      213: 4002833648036291234
+    second: TileSetArtistRoom_98
+  - first:
+      213: 1672974958052039448
+    second: TileSetArtistRoom_99
+  - first:
+      213: 5380859594580819239
+    second: TileSetArtistRoom_100
+  - first:
+      213: 8819925791212278994
+    second: TileSetArtistRoom_101
+  - first:
+      213: 7187538939438401403
+    second: TileSetArtistRoom_102
+  - first:
+      213: -403693073444573751
+    second: TileSetArtistRoom_103
+  - first:
+      213: -1338719232911994142
+    second: TileSetArtistRoom_104
+  - first:
+      213: 5252425063546394332
+    second: TileSetArtistRoom_105
+  - first:
+      213: -3974514752061654621
+    second: TileSetArtistRoom_106
+  - first:
+      213: 1842637930009909011
+    second: TileSetArtistRoom_107
+  - first:
+      213: -7674037185068636553
+    second: TileSetArtistRoom_108
+  - first:
+      213: -8263062876169696743
+    second: TileSetArtistRoom_109
+  - first:
+      213: -7083155294051130740
+    second: TileSetArtistRoom_110
+  - first:
+      213: -7199845550418316062
+    second: TileSetArtistRoom_111
+  - first:
+      213: -7262274499937558703
+    second: TileSetArtistRoom_112
+  - first:
+      213: 5912466287912120360
+    second: TileSetArtistRoom_113
+  - first:
+      213: 6632767108962521630
+    second: TileSetArtistRoom_114
+  - first:
+      213: 7791491435584707155
+    second: TileSetArtistRoom_115
+  - first:
+      213: 9071640406035449448
+    second: TileSetArtistRoom_116
+  - first:
+      213: -289122746233474372
+    second: TileSetArtistRoom_117
+  - first:
+      213: -9133567959477378058
+    second: TileSetArtistRoom_118
+  - first:
+      213: 4793668357670310266
+    second: TileSetArtistRoom_119
+  - first:
+      213: -5498505601154010952
+    second: TileSetArtistRoom_120
+  - first:
+      213: 4990114946430144540
+    second: TileSetArtistRoom_121
+  - first:
+      213: 529367234213542628
+    second: TileSetArtistRoom_123
+  - first:
+      213: -4690089069910449757
+    second: TileSetArtistRoom_124
+  - first:
+      213: -7582923381116247811
+    second: TileSetArtistRoom_125
+  - first:
+      213: -5862830480902657683
+    second: TileSetArtistRoom_126
+  - first:
+      213: 5006342291216295788
+    second: TileSetArtistRoom_127
+  - first:
+      213: 8616357342682325323
+    second: TileSetArtistRoom_128
+  - first:
+      213: 8389634147275028952
+    second: TileSetArtistRoom_129
+  - first:
+      213: -8551332240159777102
+    second: TileSetArtistRoom_130
+  - first:
+      213: -7516968713061698190
+    second: TileSetArtistRoom_131
+  - first:
+      213: -8135661422822135363
+    second: TileSetArtistRoom_132
+  - first:
+      213: 5371101798193002043
+    second: TileSetArtistRoom_133
+  - first:
+      213: -5652786539385987511
+    second: TileSetArtistRoom_134
+  - first:
+      213: 4353133380403052198
+    second: TileSetArtistRoom_135
+  - first:
+      213: 3464245160893106787
+    second: TileSetArtistRoom_136
+  - first:
+      213: 1401529483063019258
+    second: TileSetArtistRoom_137
+  - first:
+      213: -7689340432873695362
+    second: TileSetArtistRoom_138
+  - first:
+      213: 4368258376727582502
+    second: TileSetArtistRoom_139
+  - first:
+      213: -4683842626433315146
+    second: TileSetArtistRoom_140
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileSetArtistRoom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f932aa55b552020800000000000000
+      internalID: 2316358006836797184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91df5f4d82c0c4ff0800000000000000
+      internalID: -50652126296802023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aca729669ef5ae0800000000000000
+      internalID: -1558270319293445484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08c3f99bebfb37e0800000000000000
+      internalID: -1784555838003492851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 816
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242225fec05335760800000000000000
+      internalID: 7445352938644578882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 816
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86396d6b140b0e1a0800000000000000
+      internalID: -6782227242533088408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 816
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752449f0351f73a60800000000000000
+      internalID: 7653851430785401431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 816
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba61c8ca898b1410800000000000000
+      internalID: 1448902934296357559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e64597be680ee50800000000000000
+      internalID: 6836612580259425846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3e950e60f3c5f40800000000000000
+      internalID: 5718514925620028389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1ac059d34c96740800000000000000
+      internalID: 5145859818020184539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 784
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcb49887742747d0800000000000000
+      internalID: -2934336536397431629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffb8ac3fd370fa40800000000000000
+      internalID: 5399943355849818103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce845a93e65257750800000000000000
+      internalID: 6301984408918640876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3e6bb760144a410800000000000000
+      internalID: 1487385273040298971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4dc713bfa918910800000000000000
+      internalID: 1837920526601606360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3584a68f3f3833410800000000000000
+      internalID: 1455652188438808659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e41dc35664545240800000000000000
+      internalID: 4779537903016285411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01279c0cfff65e7c0800000000000000
+      internalID: -4042701946253381104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb6da505bc32b70800000000000000
+      internalID: 8873159236831853400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6cfc61f02b185d0800000000000000
+      internalID: -3061970493758257420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ed41609b8319960800000000000000
+      internalID: 7606923612927614602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a152493033085590800000000000000
+      internalID: -7685389258453790300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2619cb81f6f12b0800000000000000
+      internalID: -5611644458646805814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f832513139202f00800000000000000
+      internalID: 1089916401081268466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_25
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52324c8d5668ec9c0800000000000000
+      internalID: -3905036054897089755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_26
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac665840d4ab7d530800000000000000
+      internalID: 3879774443954071242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_27
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4fb5b687624b260800000000000000
+      internalID: 7112352010163975353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b32f2404e08f260800000000000000
+      internalID: 7131465679105047359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f7412d402af7dc0800000000000000
+      internalID: -3639011832303943935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef430f42503261340800000000000000
+      internalID: 4834089755030336766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbccb5f856a6a460800000000000000
+      internalID: 7252667150936886217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3376e635a79f6a0800000000000000
+      internalID: -6414961695459429468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6225fa30c5fc0c10800000000000000
+      internalID: 2021260538754179692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121f0f24db7144e30800000000000000
+      internalID: 4486737230407201057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc3fe46143c9b6f0800000000000000
+      internalID: -668288384054117134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd5660b0f096fd00800000000000000
+      internalID: 1006150930189934030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417a4b163390afd00800000000000000
+      internalID: 1007127582957938452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe26fd2cc1527ad90800000000000000
+      internalID: -7086654683185454353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_39
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bb928b22043c600800000000000000
+      internalID: 487303702548953985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754949a14b896d180800000000000000
+      internalID: -9090910898493287337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_41
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21da477a3aa4beaf0800000000000000
+      internalID: -366116877950997230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7357c896c612bb0800000000000000
+      internalID: -4962566113801717836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_43
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfbc48d2e9033e00800000000000000
+      internalID: 1023172410239401948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddc45e5d427dfce0800000000000000
+      internalID: -1369813035030098477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a18eb2973997eb0800000000000000
+      internalID: -4721580585684297206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4632721ef2577bd90800000000000000
+      internalID: -7082063040515464348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0438b9a82292fa7e0800000000000000
+      internalID: -1752136501692759232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e946fab101cd61990800000000000000
+      internalID: -7415497774676876130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650109f47f4ef40b0800000000000000
+      internalID: -5742119249031196586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87328db3dceeb60800000000000000
+      internalID: 7777379263428393184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab8605453199c380800000000000000
+      internalID: -8950463126444799070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd084459fe95c60800000000000000
+      internalID: 7807534853401927557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_54
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6fee8293a5ab320800000000000000
+      internalID: 2574469338542044890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c47195fa8e48c0a0800000000000000
+      internalID: -6861147673566546749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_56
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3191d5adbb8fd3460800000000000000
+      internalID: 7223202863078250771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99812d392076c5910800000000000000
+      internalID: 1827448809573193881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_58
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b539644bad593cf50800000000000000
+      internalID: 6900523820621665115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_59
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43d73b00261d3500800000000000000
+      internalID: 377482270651962187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 624
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e73611486aadb30800000000000000
+      internalID: 4312942679318298207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a5821f6837a85e0800000000000000
+      internalID: -1906584468829218186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5371690853ee553c0800000000000000
+      internalID: -4371325949735200971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31776c0eb1e3fd310800000000000000
+      internalID: 1431931495983249171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33891c11870797f70800000000000000
+      internalID: 9185496575995123763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb8fec1b00748570800000000000000
+      internalID: 8468016392395787232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a4766ffa91b9110800000000000000
+      internalID: 1268635963578862214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_67
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1407563b4286c4e0800000000000000
+      internalID: -1961737328127441890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56219d5a983113eb0800000000000000
+      internalID: -4741987450730507675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_69
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d8d52a0c5482ff0800000000000000
+      internalID: -60721901309424359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66df500f419878d0800000000000000
+      internalID: -2848366995817114004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf78f08671c41370800000000000000
+      internalID: 8292465528609996762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809ab9bfc68548380800000000000000
+      internalID: -8969947332714190584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd07d544ddfcc620800000000000000
+      internalID: 2795888556836851133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c63cd9023a71760800000000000000
+      internalID: 7428585470852033668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_75
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd3ddc21c808b980800000000000000
+      internalID: -8523052669024256557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25cbe421650660d0800000000000000
+      internalID: -3430048151406656210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_77
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816dd7456eaa86fa0800000000000000
+      internalID: -5807203813257521640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_78
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4251ffd44189e83b0800000000000000
+      internalID: -5508298081252207324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_79
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e06e6b4cbf90030800000000000000
+      internalID: 3461574610911628854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_80
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5757d518c8e195c0800000000000000
+      internalID: -4210328230557165729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd0493dc6065630800000000000000
+      internalID: 3915324404543839229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a828f41928a976c0800000000000000
+      internalID: -4145097087618897754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c80ccc2b7f098f0800000000000000
+      internalID: -535656008345678827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063d9ec0df9b7e5d0800000000000000
+      internalID: -3033251327516224672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_86
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5325657f37b3010800000000000000
+      internalID: 1169656034375120297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f578acc3a790cb0800000000000000
+      internalID: -4897248718274208000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_88
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98cc22e640357230800000000000000
+      internalID: 3635865355171973277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5919dfe092aeabe0800000000000000
+      internalID: -1464054085465859745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_90
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c7b6a7e3933dad0800000000000000
+      internalID: -2678734412850693115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_91
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36f089e9724ec610800000000000000
+      internalID: 1643324005412828731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318450b7c09333ce0800000000000000
+      internalID: -1426733931179980781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5785dc72f2031f0800000000000000
+      internalID: -1067301263691450886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085add610419166d0800000000000000
+      internalID: -2998956172404480640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e26897bde19d810800000000000000
+      internalID: 1790496254841990787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_96
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc30c2fc7b028aea0800000000000000
+      internalID: -5861398941195828273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_97
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3042c4637c5329420800000000000000
+      internalID: 2635227861690885123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a22f26befbec8730800000000000000
+      internalID: 4002833648036291234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bd0dc4cd9973710800000000000000
+      internalID: 1672974958052039448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dfd31da47acaa40800000000000000
+      internalID: 5380859594580819239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_101
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d49382f6cba66a70800000000000000
+      internalID: 8819925791212278994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77838e85944fb360800000000000000
+      internalID: 7187538939438401403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_103
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdec0fd94bc56af0800000000000000
+      internalID: -403693073444573751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_104
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e21c4453f9eb6de0800000000000000
+      internalID: -1338719232911994142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_105
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd69a0a44cc54e840800000000000000
+      internalID: 5252425063546394332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9b0d014efa7d8c0800000000000000
+      internalID: -3974514752061654621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_107
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317d6e34f6d529910800000000000000
+      internalID: 1842637930009909011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77668d6c6d7508590800000000000000
+      internalID: -7674037185068636553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a003df714b35d80800000000000000
+      internalID: -8263062876169696743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82a729c9c393bd90800000000000000
+      internalID: -7083155294051130740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_111
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4b3a94e92051c90800000000000000
+      internalID: -7199845550418316062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_112
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f18d9c1d7373b90800000000000000
+      internalID: -7262274499937558703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_113
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820797563cc4d0250800000000000000
+      internalID: 5912466287912120360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e121b9f2b825c0c50800000000000000
+      internalID: 6632767108962521630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a5688fd20f02c60800000000000000
+      internalID: 7791491435584707155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_116
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866c2dbb2e0f4ed70800000000000000
+      internalID: 9071640406035449448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_117
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2b446e464dcfbf0800000000000000
+      internalID: -289122746233474372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f32673255c0f3180800000000000000
+      internalID: -9133567959477378058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_119
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7118fd29f7868240800000000000000
+      internalID: 4793668357670310266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_120
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b038bfb94261b3b0800000000000000
+      internalID: -5498505601154010952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_121
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101652ea13704540800000000000000
+      internalID: 4990114946430144540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea770fd1b0b85700800000000000000
+      internalID: 529367234213542628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_124
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1ab0f07d479eeb0800000000000000
+      internalID: -4690089069910449757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0ef856c5b04c690800000000000000
+      internalID: -7582923381116247811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_126
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69e67f7dba03aea0800000000000000
+      internalID: -5862830480902657683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_127
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6766f30ac91a7540800000000000000
+      internalID: 5006342291216295788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41a86c0a53739770800000000000000
+      internalID: 8616357342682325323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_129
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9b0d78ec7fd6470800000000000000
+      internalID: 8389634147275028952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be5eec62a0935980800000000000000
+      internalID: -8551332240159777102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_131
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2757b3638cc5ea790800000000000000
+      internalID: -7516968713061698190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_132
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db966df5a03581f80800000000000000
+      internalID: -8135661422822135363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3671cdc0acf98a40800000000000000
+      internalID: 5371101798193002043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_134
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ed9c897944d81b0800000000000000
+      internalID: -5652786539385987511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_135
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeb1dedebf696c30800000000000000
+      internalID: 4353133380403052198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_136
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a46e59e98731030800000000000000
+      internalID: 3464245160893106787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_137
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af64534a3ab337310800000000000000
+      internalID: 1401529483063019258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77d38dbd99f94590800000000000000
+      internalID: -7689340432873695362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627d8ff79db2f9c30800000000000000
+      internalID: 4368258376727582502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetArtistRoom_140
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be0c9382f5affeb0800000000000000
+      internalID: -4683842626433315146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 882108af6031531468a05322cc241ae2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
