@@ -82,5 +82,11 @@
 			"Candidate":"Routes/Cutscenes/Chapter1/MeetingMaki/MaybeWhyMaki.json",
 			"CandidateName":"Maybe, why?"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"MsMaki95"
+		}
 	]
 }

@@ -40,5 +40,11 @@
 			"CharacterRight":"MsMaki95",
 			"ExpressionRight":"MsMaki95-Happy"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"None"
+		}
 	]
 }

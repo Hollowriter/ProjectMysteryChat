@@ -20,7 +20,7 @@ public class MusicPlayer : SingletonBase<MusicPlayer>
 
     public void PlayMusic(string currentMusic)
     {
-        if (currentMusic != null && currentMusic != "")
+        if (currentMusic != null && currentMusic != "" && currentMusic != "None")
             musicSource.clip = Resources.Load<AudioClip>(path + currentMusic);
         if (currentMusic == "None")
         {
@@ -36,9 +36,15 @@ public class MusicPlayer : SingletonBase<MusicPlayer>
     {
         if (music != null) 
         {
-            if (music.Music[0].MusicName != null) 
+            if (music.Music != null)
             {
-                PlayMusic(music.Music[0].MusicName);
+                if (music.Music[0] != null)
+                {
+                    if (music.Music[0].MusicName != null)
+                    {
+                        PlayMusic(music.Music[0].MusicName);
+                    }
+                }
             }
         }
     }
