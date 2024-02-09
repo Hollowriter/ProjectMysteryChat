@@ -112,5 +112,11 @@
 			"NewPlayerPositionX":"0",
 			"NewPlayerPositionY":"0"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"CuadroDeDialogo"
+		}
 	]
 }

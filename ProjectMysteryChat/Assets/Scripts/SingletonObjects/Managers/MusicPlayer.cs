@@ -2,69 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum MusicState
-{
-    NONE,
-    MAINTHEME,
-    INTRO,
-    INVESTIGATION,
-    QUESTIONING,
-    CONFRONTATION,
-    MSMAKI95,
-    CHRONOWRITER1885,
-    EXPLANATION,
-    TENSION
-}
-
 public class MusicPlayer : SingletonBase<MusicPlayer>
 {
-    private MusicState currentMusicState;
     const string path = "Audio/Music/";
     [SerializeField] private AudioSource musicSource;
 
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
-        currentMusicState = MusicState.NONE;
         DontDestroyOnLoad(this.gameObject);
     }
 
     private void Awake() 
     {
         SingletonAwake();
-        PlayMusic();
     }
 
-    private void PlayMusic()
+    public void PlayMusic(string currentMusic)
     {
-        switch (currentMusicState) 
-        {
-            case MusicState.INTRO:
-                musicSource.clip = Resources.Load<AudioClip>(path + "Cuadro de dialogo");
-                break;
-            case MusicState.INVESTIGATION:
-                musicSource.clip = Resources.Load<AudioClip>(path + "Investigacion");
-                break;
-            case MusicState.TENSION:
-                musicSource.clip = Resources.Load<AudioClip>(path + "Tension");
-                break;
-            case MusicState.MAINTHEME:
-                musicSource.clip = Resources.Load<AudioClip>(path + "Inicio");
-                break;
-            case MusicState.QUESTIONING:
-                musicSource.clip = Resources.Load<AudioClip>(path + "Interrogatorio");
-                break;
-            case MusicState.EXPLANATION:
-                musicSource.clip = Resources.Load<AudioClip>(path + "Explicacion");
-                break;
-            case MusicState.MSMAKI95:
-                musicSource.clip = Resources.Load<AudioClip>(path + "MsMaki95");
-                break;
-            case MusicState.CHRONOWRITER1885:
-                musicSource.clip = Resources.Load<AudioClip>(path + "ChronoWriter1885");
-                break;
-        }
-        if (currentMusicState == MusicState.NONE)
+        if (currentMusic != null && currentMusic != "")
+            musicSource.clip = Resources.Load<AudioClip>(path + currentMusic);
+        if (currentMusic == "None")
         {
             musicSource.Stop();
         }
@@ -74,9 +32,14 @@ public class MusicPlayer : SingletonBase<MusicPlayer>
         }
     }
 
-    public void SetMusicState(MusicState newMusicState) 
+    public void SetMusicStateFromDialog(LoneTrack music) 
     {
-        currentMusicState = newMusicState;
-        PlayMusic();
+        if (music != null) 
+        {
+            if (music.Music[0].MusicName != null) 
+            {
+                PlayMusic(music.Music[0].MusicName);
+            }
+        }
     }
 }

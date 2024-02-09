@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class MusicObject : InteractObject
 {
-    [SerializeField] private MusicState musicToPlay;
+    [SerializeField] private string musicToPlay;
 
     private void SetStateToMusicPlayer() 
     {
         if (this.gameObject.activeInHierarchy)
         {
-            MusicPlayer.instance.SetMusicState(musicToPlay);
+            MusicPlayer.instance.PlayMusic(musicToPlay);
         }
     }
 

@@ -39,6 +39,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
             SingleTransitionManager.instance.SetActivated(false);
             PlotPointManager.instance.CheckPlotPointCollection(JsonUtility.FromJson<PlotPointCollection>(json));
             InteractionsManager.instance.SetPermanentInteraction(JsonUtility.FromJson<InteractionCollection>(json));
+            MusicPlayer.instance.SetMusicStateFromDialog(JsonUtility.FromJson<LoneTrack>(json));
             EvidenceInventory.instance.AddEvidence(_fileName);
         }
     }
