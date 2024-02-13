@@ -105,5 +105,11 @@
 			"Candidate":"Routes/Cutscenes/Chapter1/RecapChapter1/WrongConnectRecap1.json",
 			"CandidateName":"The chat was malfunctioning"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"Explicacion"
+		}
 	]
 }

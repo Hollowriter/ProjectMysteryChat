@@ -91,5 +91,11 @@
 		{
 			"InteractionName":"CreditsInvestigationFinished"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"None"
+		}
 	]
 }

@@ -95,5 +95,11 @@
 			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/PresentFullLink.json",
 			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits2.json"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"Explicacion"
+		}
 	]
 }

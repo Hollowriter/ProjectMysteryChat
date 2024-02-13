@@ -200,5 +200,11 @@
 			"Type":"Dialog",
 			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoConfrontationEnd.json"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"None"
+		}
 	]
 }

@@ -149,5 +149,11 @@
 			"CorrectDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits.json",
 			"WrongDialog":"Routes/Cutscenes/Chapter1/CreditsInvestigation/WrongEvidenceCredits.json"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"None"
+		}
 	]
 }

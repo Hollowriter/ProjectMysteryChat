@@ -19,5 +19,11 @@
 		{
 			"InteractionName":"FollowingChrono"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"None"
+		}
 	]
 }

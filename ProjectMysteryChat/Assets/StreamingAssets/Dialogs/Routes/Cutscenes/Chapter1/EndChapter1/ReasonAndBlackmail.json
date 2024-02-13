@@ -323,5 +323,11 @@
 		{
 			"InteractionName":"RecappingChapter1"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"Tension"
+		}
 	]
 }

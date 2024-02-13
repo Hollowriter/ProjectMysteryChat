@@ -149,5 +149,11 @@
 			"CorrectDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono2.json",
 			"WrongDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono2.json"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"Explicacion"
+		}
 	]
 }

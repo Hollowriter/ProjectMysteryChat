@@ -283,5 +283,11 @@
 			"CharacterRight":"ChronoWriter1885",
 			"ExpressionRight":"ChronoWriter1885-Neutral"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"ChronoWriter1885"
+		}
 	]
 }

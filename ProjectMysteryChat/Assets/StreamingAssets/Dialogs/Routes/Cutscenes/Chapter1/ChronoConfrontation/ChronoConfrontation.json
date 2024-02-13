@@ -155,5 +155,11 @@
 			"Type":"Dialog",
 			"Name":"Routes/Cutscenes/Chapter1/ChronoConfrontation/ChronoDebate.json"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"Interrogatorio"
+		}
 	]
 }
