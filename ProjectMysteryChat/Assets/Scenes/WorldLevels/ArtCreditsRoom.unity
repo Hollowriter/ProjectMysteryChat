@@ -668,6 +668,18 @@ MonoBehaviour:
   interactionNamesToActivate:
   - CreditsInvestigationFinished
   interactionNamesToDeactivate: []
+--- !u!114 &153298278 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6405669918115234818, guid: 187c42fd9afb8574a8d7b62628e76e65,
+    type: 3}
+  m_PrefabInstance: {fileID: 153298274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153298276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62be28d67c6b0f8458141ba18e13b4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &178874635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1534,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &642441637
 GameObject:
@@ -1564,8 +1576,12 @@ MonoBehaviour:
   - {fileID: 2015899661}
   - {fileID: 1953911531}
   - {fileID: 1578061124}
+  - {fileID: 153298277}
+  - {fileID: 1997380947}
   objectsReactive:
   - {fileID: 549111205}
+  - {fileID: 153298278}
+  - {fileID: 1997380948}
 --- !u!4 &642441639
 Transform:
   m_ObjectHideFlags: 0
@@ -1578,7 +1594,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &688590251
 PrefabInstance:
@@ -129853,14 +129869,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897630403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 807204813}
   - {fileID: 1787953253}
   - {fileID: 841606384}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904509728
 GameObject:
@@ -134713,7 +134729,7 @@ Transform:
   - {fileID: 153298275}
   - {fileID: 1997380945}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1923283535
 PrefabInstance:
@@ -135153,6 +135169,18 @@ MonoBehaviour:
   interactionNamesToActivate: []
   interactionNamesToDeactivate:
   - CreditsInvestigationFinished
+--- !u!114 &1997380948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6405669918115234818, guid: 187c42fd9afb8574a8d7b62628e76e65,
+    type: 3}
+  m_PrefabInstance: {fileID: 1997380944}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997380946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62be28d67c6b0f8458141ba18e13b4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2015899658
 PrefabInstance:
   m_ObjectHideFlags: 0
