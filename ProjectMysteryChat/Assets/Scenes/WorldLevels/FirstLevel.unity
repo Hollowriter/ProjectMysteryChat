@@ -1615,7 +1615,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 991513c3bff4cdd43acb4b7c0aac5b28, type: 3}
   m_Color: {r: 0.9245283, g: 0, b: 0.74385893, a: 1}
   m_FlipX: 0
@@ -1930,7 +1930,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717355657}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1541902324}
@@ -3105,7 +3105,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 991513c3bff4cdd43acb4b7c0aac5b28, type: 3}
   m_Color: {r: 0, g: 0.3138324, b: 0.7924528, a: 1}
   m_FlipX: 0
@@ -3586,7 +3586,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 991513c3bff4cdd43acb4b7c0aac5b28, type: 3}
   m_Color: {r: 0.8901961, g: 0, b: 0.22745098, a: 1}
   m_FlipX: 0
@@ -4210,7 +4210,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: fca43e652867e9248a309421e07857ac, type: 3}
   m_Color: {r: 0.21932998, g: 0.6415094, b: 0.11801354, a: 1}
   m_FlipX: 0
@@ -4291,7 +4291,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 991513c3bff4cdd43acb4b7c0aac5b28, type: 3}
   m_Color: {r: 0, g: 0.3138324, b: 0.7924528, a: 1}
   m_FlipX: 0
@@ -65542,7 +65542,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 991513c3bff4cdd43acb4b7c0aac5b28, type: 3}
   m_Color: {r: 0, g: 0.3138324, b: 0.7924528, a: 1}
   m_FlipX: 0
@@ -65923,7 +65923,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 991513c3bff4cdd43acb4b7c0aac5b28, type: 3}
   m_Color: {r: 0.7921569, g: 0, b: 0.33394945, a: 1}
   m_FlipX: 0
