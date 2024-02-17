@@ -577,7 +577,7 @@ PrefabInstance:
     - target: {fileID: 6405669918115234818, guid: 187c42fd9afb8574a8d7b62628e76e65,
         type: 3}
       propertyPath: interactionNamesToReact.Array.data[0]
-      value: CreditsInvestigationFinished
+      value: CreditsInvestigationCutsceneFinished
       objectReference: {fileID: 0}
     - target: {fileID: 6405669918115234819, guid: 187c42fd9afb8574a8d7b62628e76e65,
         type: 3}
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionNamesToActivate:
-  - CreditsInvestigationFinished
+  - CreditsInvestigationCutsceneFinished
   interactionNamesToDeactivate: []
 --- !u!114 &153298278 stripped
 MonoBehaviour:
@@ -1581,12 +1581,12 @@ MonoBehaviour:
   - {fileID: 2015899661}
   - {fileID: 1953911531}
   - {fileID: 1578061124}
-  - {fileID: 153298277}
   - {fileID: 1997380947}
+  - {fileID: 153298277}
   objectsReactive:
   - {fileID: 549111205}
-  - {fileID: 153298278}
   - {fileID: 1997380948}
+  - {fileID: 153298278}
 --- !u!4 &642441639
 Transform:
   m_ObjectHideFlags: 0
@@ -135088,7 +135088,7 @@ PrefabInstance:
     - target: {fileID: 6405669918115234818, guid: 187c42fd9afb8574a8d7b62628e76e65,
         type: 3}
       propertyPath: interactionNamesToReact.Array.data[0]
-      value: CreditsInvestigationCutsceneFinished
+      value: CreditsRuinedMysteryIntro
       objectReference: {fileID: 0}
     - target: {fileID: 6405669918115234819, guid: 187c42fd9afb8574a8d7b62628e76e65,
         type: 3}
@@ -135188,7 +135188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionNamesToActivate: []
   interactionNamesToDeactivate:
-  - CreditsInvestigationFinished
+  - CreditsInvestigationCutsceneFinished
 --- !u!114 &1997380948 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6405669918115234818, guid: 187c42fd9afb8574a8d7b62628e76e65,
