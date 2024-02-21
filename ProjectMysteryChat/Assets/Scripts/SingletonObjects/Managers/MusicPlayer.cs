@@ -5,6 +5,7 @@ using UnityEngine;
 public class MusicPlayer : SingletonBase<MusicPlayer>
 {
     const string path = "Audio/Music/";
+    string _currentMusic;
     [SerializeField] private AudioSource musicSource;
 
     protected override void SingletonAwake()
@@ -26,10 +27,11 @@ public class MusicPlayer : SingletonBase<MusicPlayer>
         {
             musicSource.Stop();
         }
-        else
+        else if (currentMusic != _currentMusic && currentMusic != "")
         {
             musicSource.Play();
         }
+        _currentMusic = currentMusic;
     }
 
     public void SetMusicStateFromDialog(LoneTrack music) 
