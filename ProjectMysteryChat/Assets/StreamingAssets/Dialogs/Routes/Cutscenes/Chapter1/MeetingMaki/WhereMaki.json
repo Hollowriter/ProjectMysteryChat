@@ -87,11 +87,5 @@
 			"Candidate":"Routes/Cutscenes/Chapter1/MeetingMaki/OthersQuestionMaki.json",
 			"CandidateName":"There are other people here?"
 		}
-	],
-	"Music":
-	[
-		{
-			"MusicName":"Explicacion"
-		}
 	]
 }
