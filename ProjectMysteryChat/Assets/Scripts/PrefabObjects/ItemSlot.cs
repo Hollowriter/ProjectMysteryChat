@@ -9,6 +9,13 @@ public class ItemSlot : MonoBehaviour
     Image icon;
     string itemName;
     string itemDescription;
+    const string path = "Sprites/FinalSprites/FinalObjectSprites/";
+
+    public void SetIconImage(string _iconImageName) 
+    {
+        if (_iconImageName != null && _iconImageName != "")
+            icon.sprite = Resources.Load<Sprite>(path + _iconImageName);
+    }
 
     public void SetItemName(string _itemName)
     {
