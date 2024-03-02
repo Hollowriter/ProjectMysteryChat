@@ -8,6 +8,7 @@
 	"Evidence":
 	[
 		{
+			"Icon":"Inventory_GoldenIcon",
 			"Item":"User Badge",
 			"Description":"A badge with the name and a drawing of the avatar of the user."
 		}

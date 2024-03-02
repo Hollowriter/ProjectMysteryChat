@@ -8,6 +8,7 @@
 	"Evidence":
 	[
 		{
+			"Icon":"Inventory_ChatLogsRed",
 			"Item":"Image Device Log",
 			"Description":"The log of an image device. It has the names of 'MsMaki95', 'ElChaparro05' and 'Worldo'"
 		}

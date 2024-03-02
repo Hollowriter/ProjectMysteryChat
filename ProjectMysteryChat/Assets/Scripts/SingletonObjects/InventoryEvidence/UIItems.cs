@@ -24,6 +24,7 @@ public class UIItems : SingletonBase<UIItems>
             if (EvidenceInventory.instance.GetEvidence(i).Item != null && 
                 EvidenceInventory.instance.GetEvidence(i).Item != "nullified")
             {
+                itemSlots[i].SetIconImage(EvidenceInventory.instance.GetEvidence(i).Icon);
                 itemSlots[i].SetItemName(EvidenceInventory.instance.GetEvidence(i).Item);
                 itemSlots[i].SetItemDescription(EvidenceInventory.instance.GetEvidence(i).Description);
                 itemSlots[i].EnableImage(true);

@@ -3,6 +3,7 @@
 [System.Serializable]
 public class Evidence
 {
+    public string Icon;
     public string Item;
     public string Description;
 }
