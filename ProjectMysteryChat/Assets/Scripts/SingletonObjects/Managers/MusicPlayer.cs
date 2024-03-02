@@ -27,7 +27,7 @@ public class MusicPlayer : SingletonBase<MusicPlayer>
         {
             musicSource.Stop();
         }
-        else if (currentMusic != _currentMusic && currentMusic != "")
+        else if (currentMusic != _currentMusic && currentMusic != "" && currentMusic != null)
         {
             musicSource.Play();
         }
