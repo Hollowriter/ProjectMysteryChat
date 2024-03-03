@@ -5082,7 +5082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonToCreate: {fileID: 1579539065737680448, guid: 4d0936f82c3a64641854e9833d14e468,
     type: 3}
-  sizeButtonX: 200
+  sizeButtonX: 350
   sizeButtonY: 50
 --- !u!4 &1555435660
 Transform:
