@@ -68,5 +68,11 @@
 			"CorrectDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/LogShowsChaparro.json",
 			"WrongDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono.json"
 		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"Interrogatorio"
+		}
 	]
 }

@@ -72,7 +72,13 @@
 	[
 		{
 			"Candidate":"Routes/Cutscenes/Chapter1/MeetingMaki/OthersAfterTimeQuestionMaki.json",
-			"CandidateName":"There are other people here?"
+			"CandidateName":"Are there other people here?"
+		}
+	],
+	"Music":
+	[
+		{
+			"MusicName":"Interrogatorio"
 		}
 	]
 }
