@@ -44,6 +44,19 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
         }
     }
 
+    public void ClearInventory() 
+    {
+        evidenceQuantity = 0;
+        evidence = null;
+        evidence = new EvidenceCollection();
+        evidence.Evidence = new Evidence[maxEvidenceQuantity];
+        for (int i = 0; i < maxEvidenceQuantity; i++) 
+        {
+            evidence.Evidence[i] = GetNullEvidence();
+        }
+        SetActivatedInventoryMembers(false);
+    }
+
     EvidenceCollection ProcessEvidenceDocument(string documentName)
     {
         EvidenceCollection evidenceProcessed;

@@ -14,7 +14,8 @@ public class BackToMenuButton : SingletonBase<BackToMenuButton>
 
     public void PressingBackToMenu()
     {
-        InteractionsManager.instance.ClearInteractions(); // Pending to make a menu for this (Hollow)
+        InteractionsManager.instance.ClearInteractions();
+        EvidenceInventory.instance.ClearInventory();
         GameplayMenu.instance.DeactivateGameplayMenuOutside();
         LevelManager.instance.ChangeScene(menuScene);
     }
