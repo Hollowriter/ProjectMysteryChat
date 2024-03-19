@@ -30,6 +30,7 @@ public class Door : InteractObject
 
     public override void BehaveInteraction()
     {
+        base.BehaveInteraction();
         if (IShouldBeActive())
         {
             PassLevel();

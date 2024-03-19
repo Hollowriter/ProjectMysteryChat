@@ -19,6 +19,7 @@ public class TextObject : InteractObject
 
     public override void BehaveInteraction()
     {
+        base.BehaveInteraction();
         if (IShouldBeActive())
         {
             SetTextToBox();

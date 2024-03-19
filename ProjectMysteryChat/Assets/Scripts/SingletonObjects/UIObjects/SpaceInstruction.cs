@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PressSpace : SingletonBase<PressSpace>
+public class SpaceInstruction : SingletonBase<SpaceInstruction>
 {
     [SerializeField] private List<GameObject> elements;
     public Action activateElements;
@@ -12,8 +12,11 @@ public class PressSpace : SingletonBase<PressSpace>
     protected override void SingletonAwake()
     {
         base.SingletonAwake();
+        activateElements -= ActivateElements;
         activateElements += ActivateElements;
+        deactivateElements -= DeactivateElements;
         deactivateElements += DeactivateElements;
+        DeactivateElements();
     }
 
     private void Awake() 

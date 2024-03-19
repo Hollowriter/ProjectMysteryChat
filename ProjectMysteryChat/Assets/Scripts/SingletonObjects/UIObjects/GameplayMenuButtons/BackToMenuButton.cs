@@ -17,6 +17,7 @@ public class BackToMenuButton : SingletonBase<BackToMenuButton>
         InteractionsManager.instance.ClearInteractions();
         EvidenceInventory.instance.ClearInventory();
         GameplayMenu.instance.DeactivateGameplayMenuOutside();
+        SpaceInstruction.instance.deactivateElements?.Invoke();
         LevelManager.instance.ChangeScene(menuScene);
     }
 }

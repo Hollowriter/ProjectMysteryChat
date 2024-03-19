@@ -46,5 +46,6 @@ public class InteractObject : MonoBehaviour
 
     public virtual void BehaveInteraction()
     {
+        SpaceInstruction.instance.deactivateElements?.Invoke();
     }
 }

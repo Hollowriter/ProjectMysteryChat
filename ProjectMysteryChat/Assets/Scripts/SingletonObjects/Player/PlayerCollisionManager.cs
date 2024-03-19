@@ -33,6 +33,14 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         return objectToInteract;
     }
 
+    public void OnTriggerEnter2D(Collider2D other) 
+    {
+        if (other.tag == "Interactuable") 
+        {
+            SpaceInstruction.instance.activateElements?.Invoke();
+        }
+    }
+
     public void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Interactuable") // The stay doesn't register while the player is not moving. (Hollow)
@@ -51,5 +59,6 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         {
             StopCollideWithObject();
         }
+        SpaceInstruction.instance.deactivateElements?.Invoke();
     }
 }
