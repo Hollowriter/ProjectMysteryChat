@@ -59,6 +59,7 @@ public class ElectionBox : SingletonBase<ElectionBox>
         AnswerInspector.instance.SetActivated(false);
         PresentButton.instance.SetActivated(false);
         DeactivateButtons();
+        InventoryInstruction.instance.deactivateNotedElement?.Invoke(); // Optimize this later. (Hollow)
     }
 
     public void ShowElections()
