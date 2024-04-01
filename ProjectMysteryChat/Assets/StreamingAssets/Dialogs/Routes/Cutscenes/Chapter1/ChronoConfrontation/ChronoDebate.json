@@ -67,6 +67,12 @@
 			"ExpectedIndex":4,
 			"CorrectDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/LogShowsChaparro.json",
 			"WrongDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono.json"
+		},
+		{
+			"ExpectedAnswer":"Vists Log Art Review Room",
+			"ExpectedIndex":4,
+			"CorrectDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/LogShowsChaparro.json",
+			"WrongDialog":"Routes/Cutscenes/Chapter1/ChronoConfrontation/WrongWithChrono.json"
 		}
 	],
 	"Music":

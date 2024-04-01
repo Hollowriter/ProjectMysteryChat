@@ -2,10 +2,10 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: Oh, another card. This doesn't seem to be made by her though."
+			"Text":"Thomas B: (Oh, another card. This doesn't seem to be made by her though.)"
 		},
 		{
-			"Text":"Thomas B: And it has the number of my room..."
+			"Text":"Thomas B: (And it has the number of my room...)"
 		},
 		{
 			"Text":"MsMaki95: Is everything ok?"
@@ -32,10 +32,10 @@
 			"Text":"MsMaki95: Sometimes, some items glitch only to some people at random. And it's not every time that it happens."
 		},
 		{
-			"Text":"Thomas B: But this is not what i'm seeing here. I'm looking at an item that she cannot see."
+			"Text":"Thomas B: (But this is not what i'm seeing here. I'm looking at an item that she cannot see.)"
 		},
 		{
-			"Text":"Thomas B: Still... I think i should keep this information to myself for the time. Something tells me it's not entirely related to the portrait."
+			"Text":"Thomas B: (Still... I think i should keep this information to myself for the time. Something tells me it's not entirely related to the portrait.)"
 		}
 	],
 	"Portraits":

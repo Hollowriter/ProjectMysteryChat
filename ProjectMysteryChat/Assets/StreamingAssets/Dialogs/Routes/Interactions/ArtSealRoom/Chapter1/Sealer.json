@@ -2,19 +2,19 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: What is this? Looks like a real life printer but... It's not."
+			"Text":"Thomas B: (What is this? Looks like a real life printer but... It's not.)"
 		},
 		{
-			"Text":"Thomas B: Well, to see what it does, it's a matter to test it."
+			"Text":"Thomas B: (Well, to see what it does, it's a matter to test it.)"
 		},
 		{
 			"Text":"SEALER: ERROR: NO IMAGE OR SIGNATURE HAVE BEEN INSERTED."
 		},
 		{
-			"Text":"Thomas B: ...So it does something with images. Maybe i can test it out later."
+			"Text":"Thomas B: (...So it does something with images. Maybe i can test it out later.)"
 		},
 		{
-			"Text":"Thomas B: Also, it doesn't seem is the first time is used, it has a log of users that used it before. Interesting."
+			"Text":"Thomas B: (Also, it doesn't seem is the first time is used, it has a log of users that used it before. Interesting.)"
 		}
 	],
 	"Portraits":

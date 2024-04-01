@@ -2,7 +2,7 @@
 	"Dialogs":
 	[
 		{
-			"Text":"Thomas B: That is...?"
+			"Text":"Thomas B: (That is...?)"
 		},
 		{
 			"Text":"CHAT: NEW CONVERSATION REQUEST."
@@ -17,10 +17,10 @@
 			"Text":"MsMaki95: Are you new around here by any chance? ^-^"
 		},
 		{
-			"Text":"Thomas B: So there is people here already."
+			"Text":"Thomas B: (So there is people here already.)"
 		},
 		{
-			"Text":"Thomas B: Are they the ones who contacted me? I guess there is one way to find out."
+			"Text":"Thomas B: (Are they the ones who contacted me? I guess there is one way to find out.)"
 		}
 	],
 	"Portraits":
