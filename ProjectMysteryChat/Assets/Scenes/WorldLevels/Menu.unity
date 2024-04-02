@@ -1077,7 +1077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e69b2d6ffad9e94f95d228b323957e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  separationOfButtons: 70
+  separationOfButtons: 120
 --- !u!114 &326758150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5590,7 +5590,7 @@ MonoBehaviour:
   buttonToCreate: {fileID: 1579539065737680448, guid: 4d0936f82c3a64641854e9833d14e468,
     type: 3}
   sizeButtonX: 350
-  sizeButtonY: 50
+  sizeButtonY: 100
 --- !u!4 &1555435660
 Transform:
   m_ObjectHideFlags: 0
