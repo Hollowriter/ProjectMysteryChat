@@ -204,7 +204,7 @@ TextureImporter:
       213: -8069788276020069143
     second: TileSetHubModified_66
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -221,9 +221,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -232,12 +235,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -255,10 +258,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -270,6 +278,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -282,6 +291,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -294,6 +304,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1716,9 +1727,76 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      TileSetHubModified_0: -1938121988474118136
+      TileSetHubModified_1: -5340873281343111729
+      TileSetHubModified_10: -5748268964541311049
+      TileSetHubModified_11: -5371449950978882528
+      TileSetHubModified_12: -6300870766495043668
+      TileSetHubModified_13: -1383635894603629624
+      TileSetHubModified_14: -866236393201102433
+      TileSetHubModified_15: 3525242511331831670
+      TileSetHubModified_16: 7558904723941763549
+      TileSetHubModified_17: -5268364280080112172
+      TileSetHubModified_18: 419650793190963579
+      TileSetHubModified_19: 5226857569820518520
+      TileSetHubModified_2: -389730035765716064
+      TileSetHubModified_20: 3944873647434805571
+      TileSetHubModified_21: -9093645805236449531
+      TileSetHubModified_22: -7099978268821410469
+      TileSetHubModified_23: -7322819549105531542
+      TileSetHubModified_24: -8532499428986578389
+      TileSetHubModified_25: -2949276510001782511
+      TileSetHubModified_26: -590172838553233536
+      TileSetHubModified_27: -7957993017115644184
+      TileSetHubModified_28: 25719905524893846
+      TileSetHubModified_29: -7941171100489263206
+      TileSetHubModified_3: -5374424154051211765
+      TileSetHubModified_30: 8602166154310518334
+      TileSetHubModified_31: 5420505242753145611
+      TileSetHubModified_32: -6641523425039323123
+      TileSetHubModified_33: -2345834658743517419
+      TileSetHubModified_34: -9219439570941515395
+      TileSetHubModified_35: 4601413036519844252
+      TileSetHubModified_36: 2058498587534671617
+      TileSetHubModified_37: 3647053747772509789
+      TileSetHubModified_38: -9204809875032789754
+      TileSetHubModified_39: 6936150000946809745
+      TileSetHubModified_4: -8255692746547388096
+      TileSetHubModified_40: 6129841232126931666
+      TileSetHubModified_41: 3492756904852682090
+      TileSetHubModified_42: 862734621318520821
+      TileSetHubModified_43: -279220337473085102
+      TileSetHubModified_44: -6493938659228031826
+      TileSetHubModified_45: -327681216259460929
+      TileSetHubModified_46: -3748378304219802432
+      TileSetHubModified_47: -366996020200787234
+      TileSetHubModified_48: -4456239173761467176
+      TileSetHubModified_49: 4375169558024594733
+      TileSetHubModified_5: -935903243324590470
+      TileSetHubModified_50: -2669676276260656008
+      TileSetHubModified_51: -7373734774526798800
+      TileSetHubModified_52: 3997217208730979703
+      TileSetHubModified_53: 2722837319059129269
+      TileSetHubModified_54: -2724264450250228264
+      TileSetHubModified_55: -636261128774650962
+      TileSetHubModified_56: -2371342805431134564
+      TileSetHubModified_57: -2840112332327598169
+      TileSetHubModified_58: 280141296667167380
+      TileSetHubModified_59: 594790258370379649
+      TileSetHubModified_6: -1965521541204019640
+      TileSetHubModified_60: 7169388691981627256
+      TileSetHubModified_61: -2404419991389460268
+      TileSetHubModified_62: -5542839305702483258
+      TileSetHubModified_63: 2852869897553326499
+      TileSetHubModified_64: -8000365679891891702
+      TileSetHubModified_65: -2055992250806308810
+      TileSetHubModified_66: -8069788276020069143
+      TileSetHubModified_7: -6739126188870736448
+      TileSetHubModified_8: 510897353610078580
+      TileSetHubModified_9: -2854447518926055770
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

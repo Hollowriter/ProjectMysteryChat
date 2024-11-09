@@ -9,6 +9,6 @@ public class Dialogs
 [System.Serializable]
 public class DialogCollection
 {
-    public Dialogs[] Dialogs;
+    public Dialogs[] Dialogs; // convertir en un scriptable object. (Hollow)
     public bool IsDebate;
 }

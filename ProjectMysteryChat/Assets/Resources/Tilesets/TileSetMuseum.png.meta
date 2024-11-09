@@ -522,7 +522,7 @@ TextureImporter:
       213: 9066316363206757807
     second: TileSetMuseum_172
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -539,9 +539,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -550,12 +553,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -573,10 +576,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -588,6 +596,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -600,6 +609,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -612,6 +622,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4260,9 +4271,182 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      TileSetMuseum_0: 4900172567391898043
+      TileSetMuseum_1: 2942110986369934650
+      TileSetMuseum_10: -6075012037421619983
+      TileSetMuseum_100: 2469098146391351338
+      TileSetMuseum_101: -5372225522226798089
+      TileSetMuseum_102: -3087552426004606488
+      TileSetMuseum_103: 329051960677791508
+      TileSetMuseum_104: 456540630417403821
+      TileSetMuseum_105: 4793069962120473376
+      TileSetMuseum_106: 8318444317451634996
+      TileSetMuseum_107: 9166957942335227660
+      TileSetMuseum_108: 1140709170943468805
+      TileSetMuseum_109: 8427507993985105641
+      TileSetMuseum_11: 7243545078930354495
+      TileSetMuseum_110: 1527941341443503145
+      TileSetMuseum_111: -8231314537703827138
+      TileSetMuseum_112: 1629740719823701493
+      TileSetMuseum_113: 8418355288859588862
+      TileSetMuseum_114: 5312533761182226527
+      TileSetMuseum_115: -5000807866087598670
+      TileSetMuseum_116: 4678407531908234048
+      TileSetMuseum_117: -659342211924471440
+      TileSetMuseum_118: -4090874606935028494
+      TileSetMuseum_119: -4814605346883813450
+      TileSetMuseum_12: -2649960485350924019
+      TileSetMuseum_120: -605408569087933000
+      TileSetMuseum_121: -3092233100256404874
+      TileSetMuseum_122: 7164966921682645800
+      TileSetMuseum_123: 7335171223268401966
+      TileSetMuseum_124: 1437903983105622302
+      TileSetMuseum_125: 7051986919497286118
+      TileSetMuseum_126: 6416618627165109041
+      TileSetMuseum_127: 8139225536060522297
+      TileSetMuseum_128: -1224146161802699901
+      TileSetMuseum_129: -6152598250632200724
+      TileSetMuseum_13: 892023675120139088
+      TileSetMuseum_130: 8826985182210889532
+      TileSetMuseum_131: -4303364153611457675
+      TileSetMuseum_132: 8263337742393362290
+      TileSetMuseum_133: 8853463798249725698
+      TileSetMuseum_134: 5348403901243738050
+      TileSetMuseum_135: -8973651653445787900
+      TileSetMuseum_136: -5146812311042690129
+      TileSetMuseum_137: 8324874224537879741
+      TileSetMuseum_138: -2825964654198498422
+      TileSetMuseum_139: -9174276800271986084
+      TileSetMuseum_14: 6384492062169294904
+      TileSetMuseum_140: -602718906078494926
+      TileSetMuseum_141: 1283524396787845233
+      TileSetMuseum_142: -7643140019994705626
+      TileSetMuseum_143: -5001464833468286371
+      TileSetMuseum_144: -1051454270238204021
+      TileSetMuseum_145: -4208171447583998086
+      TileSetMuseum_146: 2249165622753280878
+      TileSetMuseum_147: -3793596944280508380
+      TileSetMuseum_148: -8686367598194360557
+      TileSetMuseum_149: 5407275458017463227
+      TileSetMuseum_15: 4744733618159854827
+      TileSetMuseum_150: 944782351985392769
+      TileSetMuseum_151: -344645826057063270
+      TileSetMuseum_152: 1260253619652462222
+      TileSetMuseum_153: 1398844481709036429
+      TileSetMuseum_154: -9205235206458450595
+      TileSetMuseum_155: 3668381809547526070
+      TileSetMuseum_156: -2169061838194119426
+      TileSetMuseum_157: -3399828405314633443
+      TileSetMuseum_158: 2950010954873707823
+      TileSetMuseum_159: -6960149619795481836
+      TileSetMuseum_16: 7696084356639106465
+      TileSetMuseum_160: 4145065716948219979
+      TileSetMuseum_161: 348672158455825193
+      TileSetMuseum_162: -9185054535212233935
+      TileSetMuseum_163: -2563107025131788170
+      TileSetMuseum_164: -1323204212072921911
+      TileSetMuseum_165: 7422667589071764311
+      TileSetMuseum_166: -5053938969563308107
+      TileSetMuseum_167: -1496860923922673853
+      TileSetMuseum_168: -8883382089625243190
+      TileSetMuseum_169: -1676437233885675801
+      TileSetMuseum_17: -1125528678774192128
+      TileSetMuseum_170: -6030184220236483240
+      TileSetMuseum_171: 1422496738588247578
+      TileSetMuseum_172: 9066316363206757807
+      TileSetMuseum_18: -8615315807943303550
+      TileSetMuseum_19: -5054310151253373069
+      TileSetMuseum_2: -572729452286666095
+      TileSetMuseum_20: -739483326908771746
+      TileSetMuseum_21: 589134643163070949
+      TileSetMuseum_22: 208880430417526181
+      TileSetMuseum_23: -3877333265503533577
+      TileSetMuseum_24: -8554436266917312259
+      TileSetMuseum_25: 6158815601003140279
+      TileSetMuseum_26: -2985730006773122149
+      TileSetMuseum_27: 6717115189580888079
+      TileSetMuseum_28: 8341680962215260600
+      TileSetMuseum_29: 4039863813484491365
+      TileSetMuseum_3: -3634436044751858589
+      TileSetMuseum_30: -6290484988901164336
+      TileSetMuseum_31: 7756450005098186445
+      TileSetMuseum_32: 484149391597710243
+      TileSetMuseum_33: 4967489732403869459
+      TileSetMuseum_34: -2321658236543453077
+      TileSetMuseum_35: 2279341950990383338
+      TileSetMuseum_36: -6971194451622867127
+      TileSetMuseum_37: 2284242199104794390
+      TileSetMuseum_38: -1231353614348312962
+      TileSetMuseum_39: -398103152507659456
+      TileSetMuseum_4: 1304071063493013481
+      TileSetMuseum_40: -7935604295724364562
+      TileSetMuseum_41: 9120478431079274929
+      TileSetMuseum_42: 3196542615765482445
+      TileSetMuseum_43: 5424173263547358645
+      TileSetMuseum_44: 7393711985000355002
+      TileSetMuseum_45: -4087338761720189043
+      TileSetMuseum_46: -8815416113514811728
+      TileSetMuseum_47: 34973934534853360
+      TileSetMuseum_48: -3840634198751004268
+      TileSetMuseum_49: 7752935580028251709
+      TileSetMuseum_5: -5308337796249559177
+      TileSetMuseum_50: 315751844233270576
+      TileSetMuseum_51: 8879418582041020092
+      TileSetMuseum_52: 7415326159055025092
+      TileSetMuseum_53: -6985769947975966360
+      TileSetMuseum_54: -5973285140576632288
+      TileSetMuseum_55: -8638278188520727262
+      TileSetMuseum_56: 8554566907972575333
+      TileSetMuseum_57: -3113748654016802637
+      TileSetMuseum_58: 1186749165843958127
+      TileSetMuseum_59: 2741766750281556278
+      TileSetMuseum_6: 1359015408529130593
+      TileSetMuseum_60: 7826598149910124736
+      TileSetMuseum_61: -3645357759386402356
+      TileSetMuseum_62: -9212979632030829819
+      TileSetMuseum_63: -2976154125450398638
+      TileSetMuseum_64: 315110132930055585
+      TileSetMuseum_65: -6200392021442985317
+      TileSetMuseum_66: 3752911684485548342
+      TileSetMuseum_67: -8515216467179994222
+      TileSetMuseum_68: 6402528821918932497
+      TileSetMuseum_69: 5322791476547782851
+      TileSetMuseum_7: 1105221052582081758
+      TileSetMuseum_70: 5212434377588461200
+      TileSetMuseum_71: -2751460436894896193
+      TileSetMuseum_72: -7497644326888905742
+      TileSetMuseum_73: -494116019440899379
+      TileSetMuseum_74: -6034745339479560653
+      TileSetMuseum_75: 6140416001370131874
+      TileSetMuseum_76: -5991380061843097615
+      TileSetMuseum_77: -9053164020940389172
+      TileSetMuseum_78: 7741170856822524043
+      TileSetMuseum_79: -886906364591386962
+      TileSetMuseum_8: -1626689483866680470
+      TileSetMuseum_80: -3161538906928660259
+      TileSetMuseum_81: -9172831074686069957
+      TileSetMuseum_82: -746881688314639384
+      TileSetMuseum_83: -6278690820672553016
+      TileSetMuseum_84: 7058841660146195921
+      TileSetMuseum_85: -5775033272136996928
+      TileSetMuseum_86: 6040168702729340415
+      TileSetMuseum_87: -5990687299302579868
+      TileSetMuseum_88: -4554413867138645768
+      TileSetMuseum_89: -3101496875068880561
+      TileSetMuseum_9: 4557138966702925948
+      TileSetMuseum_90: 7463607449130050507
+      TileSetMuseum_91: 7668994723189546410
+      TileSetMuseum_92: -8031613617992737395
+      TileSetMuseum_93: 5153292898627367219
+      TileSetMuseum_94: 2075779218972687348
+      TileSetMuseum_95: -3841921001883158031
+      TileSetMuseum_96: 5848930158872728146
+      TileSetMuseum_97: -2637778957544234313
+      TileSetMuseum_98: -5318088170577065739
+      TileSetMuseum_99: 2898784446936600469
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

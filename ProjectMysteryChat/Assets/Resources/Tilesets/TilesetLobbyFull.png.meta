@@ -66,7 +66,7 @@ TextureImporter:
       213: -1254880474166306089
     second: TilesetLobbyFull_20
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,9 +83,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -94,12 +97,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -117,10 +120,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -132,6 +140,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -144,6 +153,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -156,6 +166,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -612,9 +623,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      TilesetLobbyFull_0: 2505613830000773949
+      TilesetLobbyFull_1: 4232690430932946283
+      TilesetLobbyFull_10: 4659702531873488806
+      TilesetLobbyFull_11: 5147857975810135038
+      TilesetLobbyFull_12: 3843579323508195407
+      TilesetLobbyFull_13: -1831858648206732845
+      TilesetLobbyFull_14: 4778339335149068206
+      TilesetLobbyFull_15: 8400408668469073884
+      TilesetLobbyFull_16: 3113898605252792308
+      TilesetLobbyFull_17: 7515193627576920442
+      TilesetLobbyFull_18: 1402883314235946123
+      TilesetLobbyFull_19: 65856287794358468
+      TilesetLobbyFull_2: -7206450981724180698
+      TilesetLobbyFull_20: -1254880474166306089
+      TilesetLobbyFull_3: 7663828453813010024
+      TilesetLobbyFull_4: 4698271627095269577
+      TilesetLobbyFull_5: 446790097795973153
+      TilesetLobbyFull_6: -2989912620604424393
+      TilesetLobbyFull_7: 4580044576404461066
+      TilesetLobbyFull_8: 9148183009797229599
+      TilesetLobbyFull_9: -1549780486358119216
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

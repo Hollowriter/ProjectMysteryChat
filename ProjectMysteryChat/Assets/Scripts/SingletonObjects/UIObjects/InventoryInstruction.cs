@@ -29,7 +29,6 @@ public class InventoryInstruction : SingletonBase<InventoryInstruction>
 
     private void ActivateDeactivateAll(Scene previousScene, Scene nextScene)
     {
-        Debug.Log("ChangeScene");
         if (nextScene.name != "Menu" && nextScene.name != "Prologue")
         {
             for (int i = 0; i < elements.Count; i++)

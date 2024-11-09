@@ -417,7 +417,7 @@ TextureImporter:
       213: -4683842626433315146
     second: TileSetArtistRoom_140
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -434,9 +434,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -445,12 +448,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -468,10 +471,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -483,6 +491,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -495,6 +504,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -507,6 +517,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3420,9 +3431,147 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      TileSetArtistRoom_0: 2316358006836797184
+      TileSetArtistRoom_1: -50652126296802023
+      TileSetArtistRoom_10: 5145859818020184539
+      TileSetArtistRoom_100: 5380859594580819239
+      TileSetArtistRoom_101: 8819925791212278994
+      TileSetArtistRoom_102: 7187538939438401403
+      TileSetArtistRoom_103: -403693073444573751
+      TileSetArtistRoom_104: -1338719232911994142
+      TileSetArtistRoom_105: 5252425063546394332
+      TileSetArtistRoom_106: -3974514752061654621
+      TileSetArtistRoom_107: 1842637930009909011
+      TileSetArtistRoom_108: -7674037185068636553
+      TileSetArtistRoom_109: -8263062876169696743
+      TileSetArtistRoom_11: -2934336536397431629
+      TileSetArtistRoom_110: -7083155294051130740
+      TileSetArtistRoom_111: -7199845550418316062
+      TileSetArtistRoom_112: -7262274499937558703
+      TileSetArtistRoom_113: 5912466287912120360
+      TileSetArtistRoom_114: 6632767108962521630
+      TileSetArtistRoom_115: 7791491435584707155
+      TileSetArtistRoom_116: 9071640406035449448
+      TileSetArtistRoom_117: -289122746233474372
+      TileSetArtistRoom_118: -9133567959477378058
+      TileSetArtistRoom_119: 4793668357670310266
+      TileSetArtistRoom_12: 5399943355849818103
+      TileSetArtistRoom_120: -5498505601154010952
+      TileSetArtistRoom_121: 4990114946430144540
+      TileSetArtistRoom_123: 529367234213542628
+      TileSetArtistRoom_124: -4690089069910449757
+      TileSetArtistRoom_125: -7582923381116247811
+      TileSetArtistRoom_126: -5862830480902657683
+      TileSetArtistRoom_127: 5006342291216295788
+      TileSetArtistRoom_128: 8616357342682325323
+      TileSetArtistRoom_129: 8389634147275028952
+      TileSetArtistRoom_13: 6301984408918640876
+      TileSetArtistRoom_130: -8551332240159777102
+      TileSetArtistRoom_131: -7516968713061698190
+      TileSetArtistRoom_132: -8135661422822135363
+      TileSetArtistRoom_133: 5371101798193002043
+      TileSetArtistRoom_134: -5652786539385987511
+      TileSetArtistRoom_135: 4353133380403052198
+      TileSetArtistRoom_136: 3464245160893106787
+      TileSetArtistRoom_137: 1401529483063019258
+      TileSetArtistRoom_138: -7689340432873695362
+      TileSetArtistRoom_139: 4368258376727582502
+      TileSetArtistRoom_14: 1487385273040298971
+      TileSetArtistRoom_140: -4683842626433315146
+      TileSetArtistRoom_15: 1837920526601606360
+      TileSetArtistRoom_16: 1455652188438808659
+      TileSetArtistRoom_17: 4779537903016285411
+      TileSetArtistRoom_18: -4042701946253381104
+      TileSetArtistRoom_19: 8873159236831853400
+      TileSetArtistRoom_2: -1558270319293445484
+      TileSetArtistRoom_20: -3061970493758257420
+      TileSetArtistRoom_21: 7606923612927614602
+      TileSetArtistRoom_22: -7685389258453790300
+      TileSetArtistRoom_23: -5611644458646805814
+      TileSetArtistRoom_24: 1089916401081268466
+      TileSetArtistRoom_25: -3905036054897089755
+      TileSetArtistRoom_26: 3879774443954071242
+      TileSetArtistRoom_27: 7112352010163975353
+      TileSetArtistRoom_28: 7131465679105047359
+      TileSetArtistRoom_29: -3639011832303943935
+      TileSetArtistRoom_3: -1784555838003492851
+      TileSetArtistRoom_30: 4834089755030336766
+      TileSetArtistRoom_31: 7252667150936886217
+      TileSetArtistRoom_32: -6414961695459429468
+      TileSetArtistRoom_33: 2021260538754179692
+      TileSetArtistRoom_34: 4486737230407201057
+      TileSetArtistRoom_35: -668288384054117134
+      TileSetArtistRoom_36: 1006150930189934030
+      TileSetArtistRoom_37: 1007127582957938452
+      TileSetArtistRoom_38: -7086654683185454353
+      TileSetArtistRoom_39: 487303702548953985
+      TileSetArtistRoom_4: 7445352938644578882
+      TileSetArtistRoom_40: -9090910898493287337
+      TileSetArtistRoom_41: -366116877950997230
+      TileSetArtistRoom_42: -4962566113801717836
+      TileSetArtistRoom_43: 1023172410239401948
+      TileSetArtistRoom_45: -1369813035030098477
+      TileSetArtistRoom_46: -4721580585684297206
+      TileSetArtistRoom_47: -7082063040515464348
+      TileSetArtistRoom_48: -1752136501692759232
+      TileSetArtistRoom_49: -7415497774676876130
+      TileSetArtistRoom_5: -6782227242533088408
+      TileSetArtistRoom_50: -5742119249031196586
+      TileSetArtistRoom_51: 7777379263428393184
+      TileSetArtistRoom_52: -8950463126444799070
+      TileSetArtistRoom_53: 7807534853401927557
+      TileSetArtistRoom_54: 2574469338542044890
+      TileSetArtistRoom_55: -6861147673566546749
+      TileSetArtistRoom_56: 7223202863078250771
+      TileSetArtistRoom_57: 1827448809573193881
+      TileSetArtistRoom_58: 6900523820621665115
+      TileSetArtistRoom_59: 377482270651962187
+      TileSetArtistRoom_6: 7653851430785401431
+      TileSetArtistRoom_60: 4312942679318298207
+      TileSetArtistRoom_61: -1906584468829218186
+      TileSetArtistRoom_62: -4371325949735200971
+      TileSetArtistRoom_63: 1431931495983249171
+      TileSetArtistRoom_64: 9185496575995123763
+      TileSetArtistRoom_65: 8468016392395787232
+      TileSetArtistRoom_66: 1268635963578862214
+      TileSetArtistRoom_67: -1961737328127441890
+      TileSetArtistRoom_68: -4741987450730507675
+      TileSetArtistRoom_69: -60721901309424359
+      TileSetArtistRoom_7: 1448902934296357559
+      TileSetArtistRoom_70: -2848366995817114004
+      TileSetArtistRoom_71: 8292465528609996762
+      TileSetArtistRoom_72: -8969947332714190584
+      TileSetArtistRoom_73: 2795888556836851133
+      TileSetArtistRoom_74: 7428585470852033668
+      TileSetArtistRoom_75: -8523052669024256557
+      TileSetArtistRoom_76: -3430048151406656210
+      TileSetArtistRoom_77: -5807203813257521640
+      TileSetArtistRoom_78: -5508298081252207324
+      TileSetArtistRoom_79: 3461574610911628854
+      TileSetArtistRoom_8: 6836612580259425846
+      TileSetArtistRoom_80: -4210328230557165729
+      TileSetArtistRoom_82: 3915324404543839229
+      TileSetArtistRoom_83: -4145097087618897754
+      TileSetArtistRoom_84: -535656008345678827
+      TileSetArtistRoom_85: -3033251327516224672
+      TileSetArtistRoom_86: 1169656034375120297
+      TileSetArtistRoom_87: -4897248718274208000
+      TileSetArtistRoom_88: 3635865355171973277
+      TileSetArtistRoom_89: -1464054085465859745
+      TileSetArtistRoom_9: 5718514925620028389
+      TileSetArtistRoom_90: -2678734412850693115
+      TileSetArtistRoom_91: 1643324005412828731
+      TileSetArtistRoom_92: -1426733931179980781
+      TileSetArtistRoom_93: -1067301263691450886
+      TileSetArtistRoom_94: -2998956172404480640
+      TileSetArtistRoom_95: 1790496254841990787
+      TileSetArtistRoom_96: -5861398941195828273
+      TileSetArtistRoom_97: 2635227861690885123
+      TileSetArtistRoom_98: 4002833648036291234
+      TileSetArtistRoom_99: 1672974958052039448
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
