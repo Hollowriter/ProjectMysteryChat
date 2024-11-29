@@ -9,33 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/WorldLevels/Menu.unity
     guid: 994bf89deba530a4cb5f72df6548353b
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/Prologue.unity
+    path: Assets/Scenes/WorldLevels/CutsceneScenes/Prologue.unity
     guid: 7bcf5866bbd6fe642914bd8188b88fee
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/FirstLevel.unity
+    path: Assets/Scenes/WorldLevels/GeneralRooms/FirstLevel.unity
     guid: 8d0bd7c0e48725f41858a6dd77d22767
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/HubLevel.unity
+    path: Assets/Scenes/WorldLevels/GeneralRooms/HubLevel.unity
     guid: 2369db48a5eb5b54c8c5fad541d9fc57
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/ArtGalleryLevel.unity
+    path: Assets/Scenes/WorldLevels/GeneralRooms/ArtGalleryLevel.unity
     guid: bf67b64bf74192e4e949ad3ed63204c3
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/MsMakiRoom.unity
+    path: Assets/Scenes/WorldLevels/MsMakiSection/MsMakiRoom.unity
     guid: 0d892c99a2743c74da2e2359022267ef
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/ArtistsGuild.unity
+    path: Assets/Scenes/WorldLevels/MsMakiSection/ArtistsGuild.unity
     guid: ae51baf9bc9f7624b9841f01801ab2dc
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/ArtSealRoom.unity
+    path: Assets/Scenes/WorldLevels/MsMakiSection/ArtSealRoom.unity
     guid: 2faff00d2369e754699418277c3e305f
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/ArtCreditsRoom.unity
+    path: Assets/Scenes/WorldLevels/MsMakiSection/ArtCreditsRoom.unity
     guid: e9fc46256c5754a429e9bf4a36d97b79
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/ModRoom.unity
+    path: Assets/Scenes/WorldLevels/GeneralRooms/ModRoom.unity
     guid: 95904712830fe2046a391c838ae32c8e
   - enabled: 1
-    path: Assets/Scenes/WorldLevels/RecapScene.unity
+    path: Assets/Scenes/WorldLevels/CutsceneScenes/RecapScene.unity
     guid: e412ace124f9fd444a868c9fa6c126f3
   m_configObjects: {}

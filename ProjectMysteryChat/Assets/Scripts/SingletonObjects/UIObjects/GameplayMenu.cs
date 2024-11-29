@@ -36,6 +36,10 @@ public class GameplayMenu : SingletonBase<GameplayMenu>
                 loadButton.SetActive(true);
                 loadButton.GetComponent<LoadButton>().ActivateLoadButton();
                 backToMenuButton.SetActive(true);
+                ElectionBox.instance.SetButtonsActive(false);
+                TextBox.instance.SetNextButtonActive(false);
+                TextBox.instance.SetNextDebateButtonActive(false);
+                TextBox.instance.SetPreviousDebateButtonActive(false);
             }
             else
             {
@@ -43,6 +47,10 @@ public class GameplayMenu : SingletonBase<GameplayMenu>
                 resumeButton.SetActive(false);
                 loadButton.SetActive(false);
                 backToMenuButton.SetActive(false);
+                ElectionBox.instance.SetButtonsActive(true);
+                TextBox.instance.SetNextButtonActive(true);
+                TextBox.instance.SetNextDebateButtonActive(true);
+                TextBox.instance.SetPreviousDebateButtonActive(true);
             }
             showGameplayMenuProcessed = true;
         }
@@ -67,6 +75,10 @@ public class GameplayMenu : SingletonBase<GameplayMenu>
             resumeButton.SetActive(false);
             loadButton.SetActive(false);
             backToMenuButton.SetActive(false);
+            ElectionBox.instance.SetButtonsActive(true);
+            TextBox.instance.SetNextButtonActive(true);
+            TextBox.instance.SetNextDebateButtonActive(true);
+            TextBox.instance.SetPreviousDebateButtonActive(true);
         }
     }
 
