@@ -1,0 +1,47 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":">'Log Squabble' Upload: March 9th 2009"
+		},
+		{
+			"Text":"Philler: Hey hey people, today we are going to cover a small squabble between two of your favourite Vloggers."
+		},
+		{
+			"Text":"Philler: So, according to Feat43, LoneFox33 is using bots to inflate his subscriber count."
+		},
+		{
+			"Text":"Philler: Foxy has been previously known for his disdain of cheaters in gaming circles."
+		},
+		{
+			"Text":"Philler: Quite ironic considered what Feat has discovered."
+		},
+		{
+			"Text":"Philler: According to him, Foxy's videos have an impossible amount of views for his channel's size."
+		},
+		{
+			"Text":"Philler: New videos of his just suddenly spiked from 1000 to 50000 views in a manner of days. Weird, considering his 1400 subscriber count."
+		},
+		{
+			"Text":"Philler: Also, some of the comments in his videos are extremely suspicious, like they weren't written by people."
+		},
+		{
+			"Text":"Philler: It seems that this cheater exposer have some explanations to give to his audience."
+		},
+		{
+			"Text":"Philler: But that's not everything that we have to talk today, oh no, we are going to dig deeper into this bot farming bussiness."
+		},
+		{
+			"Text":"Philler: We have plenty of stuff to get into, so let's get to it!"
+		}
+	]
+	"Transition":
+	[
+		{
+			"Type":"Scene",
+			"Name":"Chapter2Logo",
+			"NewPlayerPositionX":"0",
+			"NewPlayerPositionY":"0"
+		}
+	]
+}
