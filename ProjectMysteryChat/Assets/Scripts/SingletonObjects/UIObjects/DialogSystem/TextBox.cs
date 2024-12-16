@@ -11,6 +11,7 @@ public class TextBox : SingletonBase<TextBox>
     int speechIndex;
     bool textWriting;
     bool textWritten;
+    bool skipText;
     [SerializeField]
     Text dialogueText;
     [SerializeField]
@@ -34,6 +35,7 @@ public class TextBox : SingletonBase<TextBox>
         speechIndex = 0;
         textWriting = false;
         textWritten = false;
+        skipText = false;
         dialogueText.text = "";
         dialogSetted = "";
         nextButton = null;
@@ -92,7 +94,6 @@ public class TextBox : SingletonBase<TextBox>
                 nextButton.gameObject.transform.localScale = new Vector3(100, 100, 100);
                 nextButton.gameObject.GetComponent<Image>().enabled = false;
                 nextButton.GetComponent<Button>().onClick.AddListener(NextPressed);
-                nextButton.GetComponent<Button>().onClick.AddListener(PortraitBoxes.instance.ContinuousNextImage);
             }
             else
             {
@@ -215,10 +216,17 @@ public class TextBox : SingletonBase<TextBox>
 
     void NextPressed()
     {
-        this.speechIndex++;
-        WipeTextBox();
-        nextButton.SetActive(false);
-        CheckOnDocumentManager();
+        if (textWritten)
+        {
+            this.speechIndex++;
+            WipeTextBox();
+            CheckOnDocumentManager();
+            PortraitBoxes.instance.ContinuousNextImage();
+        }
+        else
+        {
+            skipText = true;
+        }
     }
 
     void NextDebateButtonPressed() 
@@ -264,13 +272,16 @@ public class TextBox : SingletonBase<TextBox>
         foreach (char letter in _word.ToCharArray())
         {
             dialogueText.text += letter;
-            Thread.Sleep(textSlowDown);
+            if (!skipText)
+                Thread.Sleep(textSlowDown);
             typingIndex++;
             if (typingIndex >= _word.ToCharArray().Length)
             {
                 textWritten = true;
+                skipText = false;
             }
-            yield return null;
+            if (!skipText)
+                yield return null;
         }
     }
 }
