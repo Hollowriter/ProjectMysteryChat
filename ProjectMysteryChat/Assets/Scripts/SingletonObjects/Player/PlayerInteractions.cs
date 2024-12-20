@@ -20,10 +20,14 @@ public class PlayerInteractions : SingletonBase<PlayerInteractions>
         {
             if (Input.GetKey(InputHandler.instance.interact) && !interactionPressed)
             {
-                interactionPressed = true;
                 PlayerCollisionManager.instance.GetInteractObject().BehaveInteraction();
             }
         }
+        else if (Input.GetKey(InputHandler.instance.interact) && !interactionPressed)
+        {
+            interactionPressed = true;
+        }
+
         if (Input.GetKeyUp(InputHandler.instance.interact))
         {
             interactionPressed = false;
