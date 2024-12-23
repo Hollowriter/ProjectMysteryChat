@@ -1,0 +1,47 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":">LostDecipher2 is online"
+		},
+		{
+			"Text":"Thomas B: (Right, so... First order of bussiness is...)"
+		},
+		{
+			"Text":"Thomas B: (...)"
+		},
+		{
+			"Text":"Thomas B: (That's a good question, i'm trying to find a legend in this bugged as hell place.)"
+		},
+		{
+			"Text":"Thomas B: (And that's because someone blackmailed me.)"
+		},
+		{
+			"Text":"Thomas B: (...)"
+		},
+		{
+			"Text":"Thomas B: (Allright, calm down. If i think this carefully, maybe there is a way out of this.)"
+		},
+		{
+			"Text":"Thomas B: (Currenlty, i'm limited on the places i can go. The rest of the chat seems to be restricted by invitations...)"
+		},
+		{
+			"Text":"Thomas B: (So, in order to further investigate this place and find clues, i need to find a way to access the rest of the rooms.)"
+		},
+		{
+			"Text":"Thomas B: (And for that, i could use some help. Those Lost Media guys should be around, so maybe following them could prove useful.)"
+		},
+		{
+			"Text":"Thomas B: (Time to check if there is anybody else online.) (ADD THE REST OF THE PORTRAITS.)"
+		}
+	]
+	"Transition":
+	[
+		{
+			"Type":"Scene",
+			"Name":"Chapter2Logo",
+			"NewPlayerPositionX":"0",
+			"NewPlayerPositionY":"0"
+		}
+	]
+}
