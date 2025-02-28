@@ -8,7 +8,7 @@ public class LoadButton : MonoBehaviour
 
     public void ActivateLoadButton() 
     {
-        if (InteractionsManager.instance.GetInteractionsQuantity() <= 0)
+        if (!SaveDataDocument.instance.IsSomethingSaved())
             this.gameObject.SetActive(false);
     }
 

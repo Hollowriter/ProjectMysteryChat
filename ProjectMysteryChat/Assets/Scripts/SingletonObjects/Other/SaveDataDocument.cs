@@ -73,4 +73,20 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
             }
         }
     }
+
+    public bool IsSomethingSaved() 
+    {
+        if (System.IO.File.Exists(path)) 
+        {
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string json = reader.ReadToEnd();
+                if (JsonUtility.FromJson<SaveData>(json).InteractionsDone != null) {
+                    if (JsonUtility.FromJson<SaveData>(json).InteractionsDone.Interaction != null)
+                        return JsonUtility.FromJson<SaveData>(json).InteractionsDone.Interaction.Length > 0;
+                }
+            }
+        }
+        return false;
+    }
 }
