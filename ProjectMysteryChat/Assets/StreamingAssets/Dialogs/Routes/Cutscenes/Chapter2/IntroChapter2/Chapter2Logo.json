@@ -1,0 +1,26 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":">CHAPTER2: THE PORTRAIT"
+		},
+		{
+			"Text":">22th July, 2015 17:00"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Scene",
+			"Name":"FirstLevel",
+			"NewPlayerPositionX":"0",
+			"NewPlayerPositionY":"0"
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"Chapter2Starts"
+		}
+	]
+}
