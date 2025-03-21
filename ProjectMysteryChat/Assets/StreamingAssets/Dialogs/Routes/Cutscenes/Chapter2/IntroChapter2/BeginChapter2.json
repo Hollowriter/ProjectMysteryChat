@@ -103,14 +103,5 @@
 			"CharacterRight":"",
 			"ExpressionRight":""
 		}
-	],
-	"Transition":
-	[
-		{
-			"Type":"Scene",
-			"Name":"Chapter2Logo",
-			"NewPlayerPositionX":"0",
-			"NewPlayerPositionY":"0"
-		}
 	]
 }

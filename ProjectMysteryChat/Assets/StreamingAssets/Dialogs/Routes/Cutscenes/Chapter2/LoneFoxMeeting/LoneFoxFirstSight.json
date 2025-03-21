@@ -1,0 +1,113 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LoneFox33:..."
+		},
+		{
+			"Text":"Thomas B: (Great, somoeone else is online)"
+		},
+		{
+			"Text":"LostDecipher2: Hello there... Are you with the Lost Media Archive too?"
+		},
+		{
+			"Text":"LoneFox33:..."
+		},
+		{
+			"Text":"Thomas B: (Seems they aren't very talkative... Wait...)"
+		},
+		{
+			"Text":"LoneFox33:..."
+		},
+		{
+			"Text":">Both of them look at their usernames"
+		},
+		{
+			"Text":"Thomas B: (It can't be... Foxy?)"
+		},
+		{
+			"Text":"LoneFox33: Hello. No, i'm not with them."
+		},
+		{
+			"Text":"LoneFox33: You just caught me exiting, things are happening back IRL..."
+		},
+		{
+			"Text":"LostDecipher2: Wait..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Neutral"
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LoneFox33-Surprised",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LoneFox33-Surprised",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LoneFox33-Surprised",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Calm"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"LoneFox33",
+			"ExpressionRight":"LoneFox33-Calm"
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"LoneFoxFirstSight"
+		}
+	]
+}

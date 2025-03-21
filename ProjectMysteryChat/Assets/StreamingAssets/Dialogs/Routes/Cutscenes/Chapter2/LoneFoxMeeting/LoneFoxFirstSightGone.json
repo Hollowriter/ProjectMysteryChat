@@ -1,0 +1,54 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":">LoneFox33 has logged off"
+		},
+		{
+			"Text":"Thomas B: (Was that... Him?)"
+		},
+		{
+			"Text":"Thomas B: (Years and not changing his username...)"
+		},
+		{
+			"Text":"Thomas B: (...)"
+		},
+		{
+			"Text":"Thomas B: (It's something i can think on later, right now, i have to find someone from the Archive.)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+		
+	]
+}
