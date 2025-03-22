@@ -1,0 +1,32 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"ElChaparro05: Interesting, interesting..."
+		},
+		{
+			"Text":"LostDecipher2:..."
+		},
+		{
+			"Text":"ElChaparro05: Oh, hey there! Didn't saw you entering... I was just looking around the place, nothing else."
+		},
+		{
+			"Text":"LostDecipher2: ...Ok."
+		},
+		{
+			"Text":"ElChaparro05: Wait... I never saw you around here... Are you with the Lost Media Archive?"
+		},
+		{
+			"Text":"LostDecipher2: No. Curious though, I was just going to ask you the same question."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	]
+}

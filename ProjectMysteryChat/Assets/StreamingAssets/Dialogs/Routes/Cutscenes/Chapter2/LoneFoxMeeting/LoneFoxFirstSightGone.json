@@ -50,5 +50,11 @@
 			"ExpressionRight":""
 		}
 		
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"LoneFoxFirstSightGone"
+		}
 	]
 }
