@@ -8,7 +8,7 @@
 			"Text":"LostDecipher2:..."
 		},
 		{
-			"Text":"ElChaparro05: Oh, hey there! Didn't saw you entering... I was just looking around the place, nothing else."
+			"Text":"ElChaparro05: Oh, hey there! Didn't saw you entering... I was just... Looking around the place, nothing else."
 		},
 		{
 			"Text":"LostDecipher2: ...Ok."
@@ -17,7 +17,34 @@
 			"Text":"ElChaparro05: Wait... I never saw you around here... Are you with the Lost Media Archive?"
 		},
 		{
-			"Text":"LostDecipher2: No. Curious though, I was just going to ask you the same question."
+			"Text":"LostDecipher2: No. Curious though, I was just going to ask you the same thing."
+		},
+		{
+			"Text":"ElChaparro05: I see, so you are new here, welcome welcome!"
+		},
+		{
+			"Text":"LostDecipher2: Your username seems famliar, have i seen you somewhere before?"
+		},
+		{
+			"Text":"ElChaparro05: I see my fame is now going places. I'm El Chaparro, you go to Vlogger for juicy drama."
+		},
+		{
+			"Text":"LostDecipher2: Oh, now i remember."
+		},
+		{
+			"Text":"ElChaparro05: That means you aren't subscribed yet?"
+		},
+		{
+			"Text":"LostDecipher2: Sorry, i'm not into that type of content."
+		},
+		{
+			"Text":"Thomas B: Not anymore, at least..."
+		},
+		{
+			"Text":"ElChaparro05: A shame, because i'm currently working on a video about this place. About things that happened here."
+		},
+		{
+			"Text":"Thomas B: Things that happened here? Does that mean...?"
 		}
 	],
 	"Portraits":
@@ -25,8 +52,99 @@
 		{
 			"CharacterLeft":"",
 			"ExpressionLeft":"",
-			"CharacterRight":"",
-			"ExpressionRight":""
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Sad",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/WhatVideo.json",
+			"CandidateName":"What video?"
 		}
 	]
 }
