@@ -1,0 +1,64 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: What 'things' happened here?"
+		},
+		{
+			"Text":"ElChaparro05: If you want to know, you better stay tuned in my channel for more information!"
+		},
+		{
+			"Text":"LostDecipher2: Really? Not even a clue?"
+		},
+		{
+			"Text":"ElChaparro05: I don't want to ruin the scoop, you know?"
+		},
+		{
+			"Text":"LostDecipher2: Come on..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/IsItSerius.json",
+			"CandidateName":"At least is something really big?"
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/IsLostMediaInvolved.json",
+			"CandidateName":"Is the Lost Media Archive involved?"
+		}
+	]
+}
