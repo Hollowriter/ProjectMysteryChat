@@ -1,0 +1,114 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Did you also received an anonymous invitation?"
+		},
+		{
+			"Text":"ElChaparro05: Oh, you too! Seems i'm not alone in that one now. All the people here either 'discovered' this place or they had an old account."
+		},
+		{
+			"Text":"LostDecipher2: I see, so everybody here had a way to access this place."
+		},
+		{
+			"Text":"LostDecipher2: What did the invitation looked like?"
+		},
+		{
+			"Text":"ElChaparro05: Looked like? You know it isn't a post card, right?"
+		},
+		{
+			"Text":"LostDecipher2: I mean, it was just a link or there was a message?"
+		},
+		{
+			"Text":"ElChaparro05: Oh that. It was a private message on my bussiness email, saying it was somebody that wanted to talk something important with me."
+		},
+		{
+			"Text":"ElChaparro05: And saying they wanted to talk here for privacy. Making themselves mysterious."
+		},
+		{
+			"Text":"LostDecipher2: So... Some random user sends you a message to talk about 'something important' with a random link and you just... Accepted it?"
+		},
+		{
+			"Text":"ElChaparro05: The link didn't look malicious... And besides, what did i had to lose? It could've been a scoop! Or a great story for the channel!"
+		},
+		{
+			"Text":"Thomas B: (How did this guy didn't got his account hacked already?)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/LostMediaLeaderFromAnonymousInvitation.json",
+			"CandidateName":"PENDING TRANSITION"
+		}
+	]
+}

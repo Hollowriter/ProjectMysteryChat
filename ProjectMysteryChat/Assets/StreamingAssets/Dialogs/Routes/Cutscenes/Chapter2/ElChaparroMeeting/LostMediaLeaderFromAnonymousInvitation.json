@@ -77,11 +77,11 @@
 			"ExpressionRight":"ElChaparro05-Thinking"
 		}
 	],
-	"Elections":
+	"Transition":
 	[
 		{
 			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/AnonymousInvitationFromLostMediaLeader.json",
-			"CandidateName":"About the anonymous invitation."
+			"CandidateName":"PendingTransition."
 		}
 	]
 }
