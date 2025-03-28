@@ -1,0 +1,109 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: i'm guessing you've uncovered something big."
+		},
+		{
+			"Text":"ElChaparro05: Oh, that it is! Honestly i can't believe this place was hiding something so worth talking."
+		},
+		{
+			"Text":"ElChaparro05: You can always find drama if you know were to look."
+		},
+		{
+			"Text":"LostDecipher2: You don't say."
+		},
+		{
+			"Text":"ElChaparro05: I should've guessed by how protective this guy was of this place."
+		},
+		{
+			"Text":"LostDecipher2: What guy?"
+		},
+		{
+			"Text":"ElChaparro05: The one leading those Lost Media guys investigating this place."
+		},
+		{
+			"Text":"ElChaparro05: He doesn't like drama vloggers that much."
+		},
+		{
+			"Text":"LostDecipher2: That means he didn't invited you in, correct?"
+		},
+		{
+			"Text":"ElChaparro05: Yeah, he didn't. I received an anonymous invitation and well, here i am."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/LostMediaLeader.json",
+			"CandidateName":"More about the leader of the Lost Media Archive."
+		},
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/AnonymousInvitation.json",
+			"CandidateName":"About the anonymous invitation."
+		}
+	]
+}

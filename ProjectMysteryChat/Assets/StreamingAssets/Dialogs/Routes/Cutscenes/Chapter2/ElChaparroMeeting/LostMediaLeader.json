@@ -1,0 +1,87 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: So, the leader of this group doesn't like drama vloggers."
+		},
+		{
+			"Text":"ElChaparro05: He says we always look for trouble and spread lies and all that."
+		},
+		{
+			"Text":"ElChaparro05: I look for trouble, yeah, but i don't lie. I always present information truthfully."
+		},
+		{
+			
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/AnonymousInvitationFromLostMediaLeader.json",
+			"CandidateName":"About the anonymous invitation."
+		}
+	]
+}

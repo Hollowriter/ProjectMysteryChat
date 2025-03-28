@@ -2,19 +2,22 @@
 	"Dialogs":
 	[
 		{
-			"Text":"LostDecipher2: What 'things' happened here?"
+			"Text":"LostDecipher2: Is the Lost Media Archive involved in this story of yours?"
 		},
 		{
-			"Text":"ElChaparro05: If you want to know, you better stay tuned in my channel for more information!"
+			"Text":"ElChaparro05: Well, like i said, you will have to find out when the video is out, hehe."
 		},
 		{
-			"Text":"LostDecipher2: Really? Not even a clue?"
+			"Text":"LostDecipher2: ..."
 		},
 		{
-			"Text":"ElChaparro05: I don't want to ruin the scoop, you know?"
+			"Text":"ElChaparro05: If i answer that question, i will be spoiling a lot of the video."
 		},
 		{
-			"Text":"LostDecipher2: Come on..."
+			"Text":"Thomas B: (Which means 'yes they are'.)"
+		},
+		{
+			"Text":"Thomas B: (Still, if i want more answers, i guess i should try asking a different question.)"
 		}
 	],
 	"Portraits":
@@ -45,6 +48,12 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"ElChaparro05",
 			"ExpressionRight":"ElChaparro05-Neutral"
@@ -55,10 +64,6 @@
 		{
 			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/IsItSerious.json",
 			"CandidateName":"At least is something big?"
-		},
-		{
-			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/IsLostMediaInvolved.json",
-			"CandidateName":"Is the Lost Media Archive involved?"
 		}
 	]
 }
