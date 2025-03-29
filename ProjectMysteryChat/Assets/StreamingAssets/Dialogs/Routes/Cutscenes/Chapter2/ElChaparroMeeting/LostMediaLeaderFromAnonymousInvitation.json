@@ -80,8 +80,8 @@
 	"Transition":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/AnonymousInvitationFromLostMediaLeader.json",
-			"CandidateName":"PendingTransition."
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/ChaparroEndConversation.json"
 		}
 	]
 }

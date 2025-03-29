@@ -1,0 +1,168 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"ElChaparro05: Mmm... I knew that I heard that name before!"
+		},
+		{
+			"Text":"LostDecipher2: What?"
+		},
+		{
+			"Text":"ElChaparro05: Cipher, the mystery vlogger! Right?"
+		},
+		{
+			"Text":"LostDecipher2: Oh, so you know my channel."
+		},
+		{
+			"Text":"ElChaparro05: Of course, in my line of work I make sure to check channels of various topics."
+		},
+		{
+			"Text":"ElChaparro05: Still, you made quite a name for yourself in the mystery sphere."
+		},
+		{
+			"Text":"LostDecipher2: What can I say? It was a lot of work until I found success."
+		},
+		{
+			"Text":"ElChaparro05: Really? Your channel exploded in popularity quite early."
+		},
+		{
+			"Text":"ElChaparro05: Too fast one must say. In my eyes that's no accident."
+		},
+		{
+			"Text":"LostDecipher2: What do you mean?"
+		},
+		{
+			"Text":"ElChaparro05: It's a wild guess, but sounds like you had expierience as a vlogger already when you start the channel."
+		},
+		{
+			"Text":"LostDecipher2: That's..."
+		},
+		{
+			"Text":"LostDecipher2: No, it's just... I already watched a lot of content and picked up the tricks of the trade."
+		},
+		{
+			"Text":"LostDecipher2: It was that and luck with the algorithm. It's always a good idea to inspire yourself in already successful people."
+		},
+		{
+			"Text":"ElChaparro05: Really?"
+		},
+		{
+			"Text":"LostDecipher2: ..."
+		},
+		{
+			"Text":"ElChaparro05: ..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+				{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"ElChaparro05",
+			"ExpressionRight":"ElChaparro05-Neutral"
+		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/MakiInterrupts.json"
+		}
+	]
+}

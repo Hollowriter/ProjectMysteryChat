@@ -20,7 +20,7 @@
 			"Text":"LostDecipher2: I mean, it was just a link or there was a message?"
 		},
 		{
-			"Text":"ElChaparro05: Oh that. It was a private message on my bussiness email, saying it was somebody that wanted to talk something important with me."
+			"Text":"ElChaparro05: Oh that! It was a private message on my bussiness email, saying it was somebody that wanted to talk something important with me."
 		},
 		{
 			"Text":"ElChaparro05: And saying they wanted to talk here for privacy. Making themselves mysterious."
@@ -107,8 +107,8 @@
 	"Transition":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/LostMediaLeaderFromAnonymousInvitation.json",
-			"CandidateName":"PENDING TRANSITION"
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/ChaparroEndConversation.json"
 		}
 	]
 }
