@@ -1,0 +1,143 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"MsMaki95: Hey Chap! Just who I wanted to see! ^o^"
+		},
+		{
+			"Text":"ElChaparro05: Oh... Hey! How's it going?"
+		},
+		{
+			"Text":"MsMaki95: Everything's going just fine! I was just passing by and looking for you on the side. n-n"
+		},
+		{
+			"Text":"MsMaki95: Jack wants to see you. o-o"
+		},
+		{
+			"Text":"ElChaparro05: Jack? What happened?"
+		},
+		{
+			"Text":"MsMaki95: I don't know much, he just told me..."
+		},
+		{
+			"Text":"MsMaki95: 'If you find Chaparro, tell him to see me, now!'"
+		},
+		{
+			"Text":"ElChaparro05: Damn, you are good at voice acting..."
+		},
+		{
+			"Text":"MsMaki95: Thank you! >-<"
+		},
+		{
+			"Text":"LostDecipher2: Yeah, real talent over there."
+		},
+		{
+			"Text":"MsMaki95: Oh Cipher! I also wanted to see you, have to show you something later! >-o"
+		},
+		{
+			"Text":"LostDecipher2: Sure."
+		},
+		{
+			"Text":"ElChaparro05: Allright then... I will go to see Jack..."
+		},
+		{
+			"Text":"MsMaki95: I'll come with you, since he is with the corrupt picture near my room. n-n"
+		},
+		{
+			"Text":"ElChaparro05: Ah... Of course... Lead the way..."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		}
+	]
+}

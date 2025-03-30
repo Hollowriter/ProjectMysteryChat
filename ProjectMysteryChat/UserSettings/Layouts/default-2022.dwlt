@@ -471,7 +471,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter2/ElChaparroMeeting
+    - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter1/MeetingMaki
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -479,15 +479,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter2/ElChaparroMeeting
+  - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter1/MeetingMaki
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rodri\OneDrive\Escritorio\Projects\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 351}
-    m_SelectedIDs: 1e480000
-    m_LastClickedID: 18462
+    scrollPos: {x: 0, y: 291}
+    m_SelectedIDs: 02480000
+    m_LastClickedID: 18434
     m_ExpandedIDs: 00000000fa400000a6410000264200005e44000012460000364700009a47000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b07d0000
+      m_SelectedIDs: 867d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: be41ffff
+      m_ExpandedIDs: b241ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

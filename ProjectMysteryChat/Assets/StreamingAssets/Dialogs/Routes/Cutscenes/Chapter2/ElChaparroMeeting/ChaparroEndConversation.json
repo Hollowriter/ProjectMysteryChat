@@ -158,11 +158,10 @@
 			"ExpressionRight":"ElChaparro05-Neutral"
 		}
 	],
-	"Transition":
+	"Interaction":
 	[
 		{
-			"Type":"Dialog",
-			"Name":"Routes/Cutscenes/Chapter2/ElChaparroMeeting/MakiInterrupts.json"
+			"InteractionName":"ChaparroEndConversation"
 		}
 	]
 }
