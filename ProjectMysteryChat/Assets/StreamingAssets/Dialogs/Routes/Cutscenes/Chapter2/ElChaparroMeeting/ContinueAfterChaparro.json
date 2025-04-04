@@ -1,0 +1,32 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"Thomas B: Seems the showrunner is just up ahead..."
+		},
+		{
+			"Text":"Thomas B: With a little bit of luck i can get something interesting out."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"ChaparroAndMakiGo"
+		}
+	]
+}

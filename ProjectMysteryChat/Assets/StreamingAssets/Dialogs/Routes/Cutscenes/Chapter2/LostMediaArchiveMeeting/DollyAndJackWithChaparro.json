@@ -1,0 +1,48 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"RedJack44: Let me get this straight..."
+		},
+		{
+			"Text":"RedJack44: You had the logs of this ugly argument, and instead of coming to me with them..."
+		},
+		{
+			"Text":"RedJack44: Instead decide it's a better idea to use it in the script of your next video, putting a what should be private issue in the eyes of the public."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		}
+		
+	]
+}
