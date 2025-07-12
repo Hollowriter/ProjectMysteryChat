@@ -8,7 +8,49 @@
 			"Text":"RedJack44: You had the logs of this ugly argument, and instead of coming to me with them..."
 		},
 		{
-			"Text":"RedJack44: Instead decide it's a better idea to use it in the script of your next video, putting a what should be private issue in the eyes of the public."
+			"Text":"RedJack44: You decide it's a better idea to use it in the script of your next video, putting a what should be a server issue in the eyes of the public."
+		},
+		{
+			"Text":"ElChaparro05: Well, the conversation was turning quite racist and nobody was there to stop it..."
+		},
+		{
+			"Text":"ElChaparro05: Besides, that user already has a history of doing things like this, so I thought it was good to expose him!"
+		},
+		{
+			"Text":"RedJack44: I don't care, that's something you have to report to a mod, or me, and we take care of it."
+		},
+		{
+			"Text":"ElChaparro05: But you are shortstaffed, I think it was the perfect time for me to do what I do best."
+		},
+		{
+			"Text":"AuDol65: Dude, I understand you tried to help, but if the situation became public before the mods could do anything it would look like we don't care of what happens in the server."
+		},
+		{
+			"Text":"AuDol65: Could you please be more careful next time you cover a subject?"
+		},
+		{
+			"Text":"ElChaparro05: I understand, Dolly, but..."
+		},
+		{
+			"Text":"ElChaparro05: Ah... Why did you had to show the draft to them, Maki?"
+		},
+		{
+			"Text":"MsMaki95: You said I should check the draft with trustworthy people."
+		},
+		{
+			"Text":"AuDol65: Hehe, thanks Maki. You did well."
+		},
+		{
+			"Text":"RedJack44: I think trust is something we should talk later. Anyway, you are going to have to add clarifications before uploading the video."
+		},
+		{
+			"Text":"RedJack44: This is not the first time you do something like this. I don't forget when you reported on completely false information about nonexistent footage because it sounded cool for a video."
+		},
+		{
+			"Text":"RedJack44: So next time something like this happens, I'm going to kick you from the investigation channels, you understand?"
+		},
+		{
+			"Text":"ElChaparro05: I... I understand, sir. I think i'm gonna go to add those clarifications to the draft."
 		}
 	],
 	"Portraits":
@@ -16,33 +58,104 @@
 		{
 			"CharacterLeft":"",
 			"ExpressionLeft":"",
-			"CharacterRight":"",
-			"ExpressionRight":""
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
 		},
 		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
 		},
 		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"",
-			"ExpressionRight":""
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
 		},
 		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Thinking",
-			"CharacterRight":"",
-			"ExpressionRight":""
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
 		},
 		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"",
-			"ExpressionRight":""
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Happy"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
 		}
-		
 	]
 }
