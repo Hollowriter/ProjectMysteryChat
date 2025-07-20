@@ -1,0 +1,200 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Sorry, am i interrupting something?"
+		},
+		{
+			"Text":"AuDol65: Eh, hello?"
+		},
+		{
+			"Text":"RedJack44: Who are you, sir i assume?"
+		},
+		{
+			"Text":"MsMaki95: Hey Cipher, how you doing?"
+		},
+		{
+			"Text":"RedJack44: You know him, Pixy?"
+		},
+		{
+			"Text":"MsMaki95: Yeah, he joined yesterday! Got a private invitation or something like that."
+		},
+		{
+			"Text":"RedJack44: Private? I see, seems we have to prioritize checking if there is a leak or something else is happening."
+		},
+		{
+			"Text":"AuDol65: Still, who gave you the invitation? A friend?"
+		},
+		{
+			"Text":"LostDecipher2: An anonymous fan of mine."
+		},
+		{
+			"Text":"AuDol65: Oh, a fan? Are you a content creator?"
+		},
+		{
+			"Text":"LostDecipher2: Yes."
+		},
+		{
+			"Text":"RedJack44: Oh god, no this again..."
+		},
+		{
+			"Text":"MsMaki95: Guys, aren't you going to present yourselves?"
+		},
+		{
+			"Text":"RedJack44: Right, pardon my manners. I'm RedJack44, they call me Jack, i'm part of the Lost Media Archive and i lead the investigation of this place."
+		},
+		{
+			"Text":"AuDol65: And i'm AuDol65, but you can call me Dolly. I'm more focused in lost wave and lost music, but i help in the Lost Media Archive server in general."
+		},
+		{
+			"Text":"AuDol65: I'm also a content creator tho."
+		},
+		{
+			"Text":"LostDecipher2: Oh cool, i assume you talk about music."
+		},
+		{
+			"Text":"AuDol65: You got it. Not only lost wave, but also the history of bands, music theory, the music industry."
+		},
+		{
+			"Text":"LostDecipher2: Interesting."
+		},
+		{
+			"Text":"AuDol65: How about you? What's your shtick?"
+		},
+		{
+			"Text":"LostDecipher2: Good segway to say: I'm Cipher."
+		},
+		{
+			"Text":"LostDecipher2: I'm a mystery and curiosity Vlogger. You know, random facts, mysteries, the random horror story here and there."
+		},
+		{
+			"Text":"AuDol65: There is competition in that field."
+		},
+		{
+			"Text":"LostDecipher2: I know but, who dares wins, right? I managed to get a following."
+		},
+		{
+			"Text":"AuDol65: Hehe, nice."
+		},
+		{
+			"Text":"MsMaki95: I knew you two would get along!"
+		},
+		{
+			"Text":"RedJack44: Sorry to cut the pleasant conversation, but i think we need to chat."
+		},
+		{
+			"Text":"RedJack44: We need to make sure of something now that you are here, is that ok?"
+		},
+		{
+			"Text":"LostDecipher2: Sure, we can talk."
+		},
+		{
+			"Text":"Thomas B: I'm also looking for something either way. (Portraits pendant)"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"",
+			"ExpressionLeft":"",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Happy"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"ElChaparro05",
+			"ExpressionLeft":"ElChaparro05-Scared",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		}
+	]
+}
