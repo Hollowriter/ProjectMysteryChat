@@ -1,0 +1,107 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Since you are part of the Archive, why didn't you posted anything about this yet?"
+		},
+		{
+			"Text":"RedJack44: I'm sorry, but we are doing the questions first..."
+		},
+		{
+			"Text":"AuDol65: Because we are unsure of the authenticity of this place."
+		},
+		{
+			"Text":"RedJack44: Dolly!"
+		},
+		{
+			"Text":"AuDol65: What? It's okay for him to know that. If he plans to make a video and cares, we make sure he doesn't spread misinformation."
+		},
+		{
+			"Text":"LostDecipher2: I see... So, you think this place is a recreation or something along those lines."
+		},
+		{
+			"Text":"RedJack44: We are currently trying to locate the data to verify it."
+		},
+		{
+			"Text":"RedJack44: It wouldn't be the first time someone tries to trick us, so better make sure the discoveries we make are actually what we think it is."
+		},
+		{
+			"Text":"AuDol65: It happens from time to time, but hey, that keeps the search interesting."
+		},
+		{
+			"Text":"MsMaki95: Hehe, sometimes they make interesting stories."
+		},
+		{
+			"Text":"RedJack44: It sure isn't fun for me."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Sad"
+		}
+	]
+}
