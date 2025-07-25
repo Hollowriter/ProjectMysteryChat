@@ -471,7 +471,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Sprites/Portraits/AuDol65
+    - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -479,15 +479,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Sprites/Portraits/AuDol65
+  - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rodri\OneDrive\Escritorio\Projects\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 287.80005}
-    m_SelectedIDs: 86450000
-    m_LastClickedID: 17798
+    scrollPos: {x: 0, y: 527.80005}
+    m_SelectedIDs: 02480000
+    m_LastClickedID: 18434
     m_ExpandedIDs: 00000000fa400000a6410000d641000026420000464200005e440000d2440000124600009a47000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 007c0000
+      m_SelectedIDs: ac7d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3a41ffff
+      m_ExpandedIDs: 2e41ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
