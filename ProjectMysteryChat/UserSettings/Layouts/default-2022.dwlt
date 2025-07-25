@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 99
+  controlID: 100
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 311.19995
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -471,7 +471,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Sprites/Portraits/RedJack44
+    - Assets/Resources/Sprites/Portraits/AuDol65
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -479,15 +479,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Sprites/Portraits/RedJack44
+  - Assets/Resources/Sprites/Portraits/AuDol65
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rodri\OneDrive\Escritorio\Projects\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 287.80005}
-    m_SelectedIDs: 7a460000
-    m_LastClickedID: 18042
+    m_SelectedIDs: 86450000
+    m_LastClickedID: 17798
     m_ExpandedIDs: 00000000fa400000a6410000d641000026420000464200005e440000d2440000124600009a47000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c87b0000
+      m_SelectedIDs: 007c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 4641ffff
+      m_ExpandedIDs: 3a41ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

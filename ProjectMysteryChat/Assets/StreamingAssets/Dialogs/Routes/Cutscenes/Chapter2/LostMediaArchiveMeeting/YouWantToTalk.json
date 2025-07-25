@@ -1,0 +1,197 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"LostDecipher2: Ask away, what do you want to talk about?"
+		},
+		{
+			"Text":"RedJack44: How did you received the invitation?"
+		},
+		{
+			"Text":"LostDecipher2: On my DMs, someone claiming to be a fan of mine gave it to me."
+		},
+		{
+			"Text":"RedJack44: Where?"
+		},
+		{
+			"Text":"LostDecipher2: Sorry?"
+		},
+		{
+			"Text":"AuDol65: Your DMs of what? Talkshoot, FreeTV, BMessages?"
+		},
+		{
+			"Text":"LostDecipher2: Oh, on Talkshoot."
+		},
+		{
+			"Text":"RedJack44: Do you have the username?"
+		},
+		{
+			"Text":"LostDecipher2: No, it was a throw account. Immedieatly after i received the message, they deleted the account."
+		},
+		{
+			"Text":"AuDol65: Same story than Chaparro and Foxy..."
+		},
+		{
+			"Text":"RedJack44: We still need to determine how those larpers got into the chat though."
+		},
+		{
+			"Text":"LostDecipher2: You mean the cult, right?"
+		},
+		{
+			"Text":"RedJack44: How do you know about that?"
+		},
+		{
+			"Text":"LostDecipher2: I have my sources."
+		},
+		{
+			"Text":"MsMaki95: We talked a lot when we met."
+		},
+		{
+			"Text":"RedJack44: How much did you tell him?"
+		},
+		{
+			"Text":"MsMaki95: Oh... I mean, I don't know... We just talked... Am I in trouble?"
+		},
+		{
+			"Text":"AuDol65: Come on, Jack! We are not secret agents, cut her some slack."
+		},
+		{
+			"Text":"RedJack44: But... Ah... You are right, sorry Pixy..."
+		},
+		{
+			"Text":"MsMaki95: It's okay, if you don't want me to tell something, just say it. I'm here to help like the rest of the server."
+		},
+		{
+			"Text":"RedJack44: Just... What is producing this leaks?"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Sad"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Thinking"
+		}
+	]
+}
