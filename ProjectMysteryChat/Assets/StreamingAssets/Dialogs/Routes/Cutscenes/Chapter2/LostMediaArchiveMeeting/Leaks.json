@@ -41,7 +41,7 @@
 			"Text":"LostDecipher2: You... Can't?"
 		},
 		{
-			"Text":"RedJack44: No, our accounts don't have administrative powers. (Portraits pendant)"
+			"Text":"RedJack44: No, our accounts don't have administrative powers."
 		}
 	],
 	"Portraits":
@@ -54,63 +54,15 @@
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"",
+			"ExpressionRight":""
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"RedJack44",
 			"ExpressionRight":"RedJack44-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Thinking"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Thinking"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Surprised",
-			"CharacterRight":"AuDol65",
-			"ExpressionRight":"AuDol65-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"AuDol65",
-			"ExpressionRight":"AuDol65-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"AuDol65",
-			"ExpressionRight":"AuDol65-Surprised"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Neutral",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
@@ -122,55 +74,61 @@
 			"CharacterLeft":"LostDecipher2",
 			"ExpressionLeft":"LostDecipher2-Thinking",
 			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Neutral"
+			"ExpressionRight":"RedJack44-Thinking"
 		},
 		{
 			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Annoyed"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"AuDol65",
-			"ExpressionRight":"AuDol65-Angry"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"RedJack44",
-			"ExpressionRight":"RedJack44-Sad"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
-			"CharacterRight":"MsMaki95",
-			"ExpressionRight":"MsMaki95-Neutral"
-		},
-		{
-			"CharacterLeft":"LostDecipher2",
-			"ExpressionLeft":"LostDecipher2-Happy",
+			"ExpressionLeft":"LostDecipher2-Neutral",
 			"CharacterRight":"RedJack44",
 			"ExpressionRight":"RedJack44-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Surprised",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
 		}
 	]
 }
