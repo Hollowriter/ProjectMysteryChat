@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 39
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 447}
+    scrollPos: {x: 0, y: 327}
     m_SelectedIDs: ae590000
     m_LastClickedID: 22958
     m_ExpandedIDs: 00000000d85100008c590000b0590000b2590000b4590000b659000000ca9a3bffffff7f
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d6590000
+      m_SelectedIDs: d4590000
       m_LastClickedID: 0
       m_ExpandedIDs: 24fbffff
       m_RenameOverlay:
