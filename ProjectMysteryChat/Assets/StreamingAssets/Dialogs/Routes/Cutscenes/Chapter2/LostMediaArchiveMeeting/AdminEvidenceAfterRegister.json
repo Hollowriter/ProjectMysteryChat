@@ -1,0 +1,16 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"*'Admin Rights' added to evidence*"
+		}
+	],
+	"Evidence":
+	[
+		{
+			"Icon":"Admin_Rights",
+			"Item":"Admin rights",
+			"Description":"The admin of this place is currently unknown."
+		}
+	]
+}

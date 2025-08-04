@@ -197,12 +197,8 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/Leaks.json",
+			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/LeaksAfterRegister.json",
 			"CandidateName":"What Leaks?"
-		},
-		{
-			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/WhyDidntYouRegisterAfterTalk.json",
-			"CandidateName":"Why didn't you publish anything about this place?"
 		}
 	]
 }

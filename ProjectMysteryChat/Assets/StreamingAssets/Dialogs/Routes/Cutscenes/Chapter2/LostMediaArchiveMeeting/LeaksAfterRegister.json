@@ -134,12 +134,8 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/AdministrativePowers.json",
+			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/AdministrativePowersAfterRegister.json",
 			"CandidateName":"Who is the admin?"
-		},
-		{
-			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/WhyDidntYouRegisterAfterLeaks.json",
-			"CandidateName":"Why didn't you publish anything about this place?"
 		}
 	]
 }

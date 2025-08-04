@@ -1,0 +1,23 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"*'Admin Rights' added to evidence*"
+		}
+	],
+	"Evidence":
+	[
+		{
+			"Icon":"Admin_Rights",
+			"Item":"Admin rights",
+			"Description":"The admin of this place is currently unknown."
+		}
+	],
+	"Elections":
+	[
+		{
+			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/WhyDidntYouRegisterAfterAll.json",
+			"CandidateName":"Why didn't you publish anything about this place?"
+		}
+	]
+}

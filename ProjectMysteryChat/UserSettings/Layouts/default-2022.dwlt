@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 107
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -471,7 +471,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter1/MeetingMaki
+    - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -479,30 +479,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter1/MeetingMaki
+  - Assets/StreamingAssets/Dialogs/Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rodri\OneDrive\Escritorio\Projects\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 267}
-    m_SelectedIDs: 0a480000
-    m_LastClickedID: 18442
-    m_ExpandedIDs: 00000000fa400000a6410000264200005e44000012460000364700009a47000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 747}
+    m_SelectedIDs: 02480000
+    m_LastClickedID: 18434
+    m_ExpandedIDs: 00000000fa400000a6410000d641000026420000464200005e440000d24400001246000032460000364700009a470000e247000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ChronoConfrontation
+      m_OriginalName: ChronoConfrontation
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 18446
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba7d0000
+      m_SelectedIDs: 307e0000
       m_LastClickedID: 0
       m_ExpandedIDs: 1641ffff
       m_RenameOverlay:

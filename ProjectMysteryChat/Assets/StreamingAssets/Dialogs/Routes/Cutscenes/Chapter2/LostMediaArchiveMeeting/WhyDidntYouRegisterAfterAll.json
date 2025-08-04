@@ -103,12 +103,5 @@
 			"CharacterRight":"RedJack44",
 			"ExpressionRight":"RedJack44-Sad"
 		}
-	],
-	"Elections":
-	[
-		{
-			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/YouWantToTalkAfterRegister.json",
-			"CandidateName":"What do you want to talk about?"	
-		}
 	]
 }

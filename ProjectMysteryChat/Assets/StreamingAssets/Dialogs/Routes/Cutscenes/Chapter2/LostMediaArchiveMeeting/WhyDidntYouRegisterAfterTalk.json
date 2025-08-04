@@ -107,8 +107,8 @@
 	"Elections":
 	[
 		{
-			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/YouWantToTalkAfterRegister.json",
-			"CandidateName":"What do you want to talk about?"	
+			"Candidate":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/LeaksAfterRegister.json",
+			"CandidateName":"What Leaks?"
 		}
 	]
 }
