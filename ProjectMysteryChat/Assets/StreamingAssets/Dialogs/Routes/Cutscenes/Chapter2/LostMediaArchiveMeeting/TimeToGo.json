@@ -1,0 +1,77 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"AuDol65: Hehe, she is such a go getter..."
+		},
+		{
+			"Text":"Thomas B: (Helping is always a good opportunity to explore this place with some guidance.)"
+		},
+		{
+			"Text":"Thomas B; (At first seems like I'm going to waste time, but it isn't.)"
+		},
+		{
+			"Text":"RedJack44: We are going to split too, to cover more of this place."
+		},
+		{
+			"Text":"RedJack44: Also, we go and check what that troublesome vlogger is doing."
+		},
+		{
+			"Text":"AuDol65: Allright, time to move. Nice to meet you, Cipher!"
+		},
+		{
+			"Text":"RedJack44: Oh, yeah, a pleasure."
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Calm"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Annoyed"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Winking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Thinking",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		}
+	],
+	"Interaction":
+	[
+		{
+			"InteractionName":"DollyAndJackMet"
+		}
+	]
+}

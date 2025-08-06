@@ -103,5 +103,12 @@
 			"CharacterRight":"RedJack44",
 			"ExpressionRight":"RedJack44-Sad"
 		}
+	],
+	"Transition":
+	[
+		{
+			"Type":"Dialog",
+			"Name":"Routes/Cutscenes/Chapter2/LostMediaArchiveMeeting/TimeToHelp.json"
+		}
 	]
 }

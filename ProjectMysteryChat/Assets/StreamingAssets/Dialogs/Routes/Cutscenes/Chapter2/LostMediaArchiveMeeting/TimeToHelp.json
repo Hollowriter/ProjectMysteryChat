@@ -1,0 +1,152 @@
+{
+	"Dialogs":
+	[
+		{
+			"Text":"RedJack44: Mmm..."
+		},
+		{
+			"Text":"MsMaki95: Sooooooo...? o-o"
+		},
+		{
+			"Text":"RedJack44: Is this the guy you were talking about, Pixy?"
+		},
+		{
+			"Text":"MsMaki95: Yeah, but, do you trust him or not? >->"
+		},
+		{
+			"Text":"RedJack44: I don't know what to think of him, but he certainly knows how to ask questions."
+		},
+		{
+			"Text":"AuDol65: Come on, Jack, he helped Pixy with this whole broken image issue."
+		},
+		{
+			"Text":"AuDol65: We can give him a chance. And also, we can't kick him, remember?"
+		},
+		{
+			"Text":"RedJack44: Ah, good point..."
+		},
+		{
+			"Text":"MsMaki95: Welcome to the team, Cipher!"
+		},
+		{
+			"Text":"LostDecipher2: Heh, thanks! That means..."
+		},
+		{
+			"Text":"AuDol65: ...You are going to give us a hand. Right?"
+		},
+		{
+			"Text":"Thomas B: (Of course... Yes... That's what i wanted to ask.)"
+		},
+		{
+			"Text":"RedJack44: Can you continue to help us with the fixing of this image?"
+		},
+		{
+			"Text":"LostDecipher2: But... The reference of the image is gone, and without the logs i'm kind of stuck..."
+		},
+		{
+			"Text":"RedJack44: You are a mystery vlogger, i'm sure you are going to figure something out if you look around the chat."
+		},
+		{
+			"Text":"MsMaki95: Yeah, i can also help! I'm going to look around too, two heads are better than one!"
+		}
+	],
+	"Portraits":
+	[
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Thinking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Angry"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Surprised"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Winking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Happy",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Winking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"AuDol65",
+			"ExpressionRight":"AuDol65-Winking"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Neutral"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"RedJack44",
+			"ExpressionRight":"RedJack44-Calm"
+		},
+		{
+			"CharacterLeft":"LostDecipher2",
+			"ExpressionLeft":"LostDecipher2-Neutral",
+			"CharacterRight":"MsMaki95",
+			"ExpressionRight":"MsMaki95-Happy"
+		}
+	]
+}
