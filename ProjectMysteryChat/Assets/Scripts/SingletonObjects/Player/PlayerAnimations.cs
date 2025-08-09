@@ -31,19 +31,19 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
     {
         if (!PauseManager.instance.Paused())
         {
-            if (Input.GetKey(InputHandler.instance.walkUp))
+            if (Input.GetKey(InputHandler.instance.walkUp) || Input.GetKey(InputHandler.instance.walkUpArrow))
             {
                 playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Up);
             }
-            if (Input.GetKey(InputHandler.instance.walkDown))
+            if (Input.GetKey(InputHandler.instance.walkDown) || Input.GetKey(InputHandler.instance.walkDownArrow))
             {
                 playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Down);
             }
-            if (Input.GetKey(InputHandler.instance.walkLeft))
+            if (Input.GetKey(InputHandler.instance.walkLeft) || Input.GetKey(InputHandler.instance.walkLeftArrow))
             {
                 playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Left);
             }
-            if (Input.GetKey(InputHandler.instance.walkRight))
+            if (Input.GetKey(InputHandler.instance.walkRight) || Input.GetKey(InputHandler.instance.walkRightArrow))
             {
                 playerAnimator.SetInteger("Position", (int)PlayerPositionToLook.Right);
             }
@@ -53,7 +53,9 @@ public class PlayerAnimations : SingletonBase<PlayerAnimations>
     void MovingAnimation() 
     {
         if ((Input.GetKey(InputHandler.instance.walkUp) || Input.GetKey(InputHandler.instance.walkDown)
-            || Input.GetKey(InputHandler.instance.walkLeft) || Input.GetKey(InputHandler.instance.walkRight)) && !PauseManager.instance.Paused())
+            || Input.GetKey(InputHandler.instance.walkUpArrow) || Input.GetKey(InputHandler.instance.walkDownArrow) ||
+            Input.GetKey(InputHandler.instance.walkLeft) || Input.GetKey(InputHandler.instance.walkRight) ||
+            Input.GetKey(InputHandler.instance.walkLeftArrow) || Input.GetKey(InputHandler.instance.walkRightArrow)) && !PauseManager.instance.Paused())
         {
             playerAnimator.SetBool("Moving", true);
         }

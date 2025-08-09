@@ -25,19 +25,19 @@ public class PlayerMovement : SingletonBase<PlayerMovement>
         {
             if (!PauseManager.instance.Paused())
             {
-                if (Input.GetKey(InputHandler.instance.walkUp))
+                if (Input.GetKey(InputHandler.instance.walkUp) || Input.GetKey(InputHandler.instance.walkUpArrow))
                 {
                     transform.position += (Vector3.up) * playerSpeed * Time.deltaTime;
                 }
-                if (Input.GetKey(InputHandler.instance.walkDown))
+                if (Input.GetKey(InputHandler.instance.walkDown) || Input.GetKey(InputHandler.instance.walkDownArrow))
                 {
                     transform.position += (Vector3.down) * playerSpeed * Time.deltaTime;
                 }
-                if (Input.GetKey(InputHandler.instance.walkLeft))
+                if (Input.GetKey(InputHandler.instance.walkLeft) || Input.GetKey(InputHandler.instance.walkLeftArrow))
                 {
                     transform.position += (Vector3.left) * playerSpeed * Time.deltaTime;
                 }
-                if (Input.GetKey(InputHandler.instance.walkRight))
+                if (Input.GetKey(InputHandler.instance.walkRight) || Input.GetKey(InputHandler.instance.walkRightArrow))
                 {
                     transform.position += (Vector3.right) * playerSpeed * Time.deltaTime;
                 }
