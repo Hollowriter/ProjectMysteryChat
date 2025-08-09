@@ -20,9 +20,12 @@ public class PresentButton : SingletonBase<PresentButton>
 
     protected override bool ConditionsToBeActive()
     {
-        if (GetActivated() && AnswerInspector.instance.GetActivated())
+        if (AnswerInspector.instance != null)
         {
-            return GetActivated();
+            if (GetActivated() && AnswerInspector.instance.GetActivated())
+            {
+                return GetActivated();
+            }
         }
         SetActivated(false);
         return GetActivated();

@@ -66,7 +66,9 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
                 string json = reader.ReadToEnd();
                 PlayerMovement.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
                 CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraZ));
+                EvidenceInventory.instance.ClearInventory();
                 EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
+                InteractionsManager.instance.ClearInteractions();
                 InteractionsManager.instance.SetCollection(JsonUtility.FromJson<SaveData>(json).InteractionsDone);
                 PlotPointManager.instance.CheckPlotPointCollection(JsonUtility.FromJson<SaveData>(json).plotPointsPassed);
                 LevelManager.instance.ChangeScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
