@@ -21,6 +21,7 @@ public class PlayerInteractions : SingletonBase<PlayerInteractions>
             if (Input.GetKey(InputHandler.instance.interact) && !interactionPressed)
             {
                 PlayerCollisionManager.instance.GetInteractObject().BehaveInteraction();
+                interactionPressed = true;
             }
         }
         else if (Input.GetKey(InputHandler.instance.interact) && !interactionPressed)
