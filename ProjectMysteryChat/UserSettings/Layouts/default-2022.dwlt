@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 113
+  controlID: 112
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -471,7 +471,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Tilesets
+    - Assets/Scenes/WorldLevels/GeneralRooms
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -479,16 +479,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Tilesets
+  - Assets/Scenes/WorldLevels/GeneralRooms
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rodri\OneDrive\Escritorio\Projects\ProjectMysteryChat\ProjectMysteryChat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 213.40002}
-    m_SelectedIDs: 6e420000
-    m_LastClickedID: 17006
-    m_ExpandedIDs: 00000000fa40000022410000d64100006e4200008e42000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 449.40002}
+    m_SelectedIDs: 72430000
+    m_LastClickedID: 17266
+    m_ExpandedIDs: 00000000fa40000022410000d6410000464200008e4200005a430000a245000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e870000
-      m_LastClickedID: 34718
-      m_ExpandedIDs: f82affff6e30ffff
+      m_SelectedIDs: ca8b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1aaffeffe8b2feffb8f9feff2cfafeff0efdfeff6829ffff468c0000348f0000f88f0000129000005a90000070900000ac900000ee900000209100007c91000080970000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1021,7 +1021,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1093,9 +1093,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 113.32788, y: 56.72239, z: 0.07113981}
+    m_Target: {x: -1.1999829, y: 64.839806, z: 0.065476656}
     speed: 2
-    m_Value: {x: 113.32788, y: 56.72239, z: 0.07113981}
+    m_Value: {x: -1.3398106, y: 64.69189, z: 0.07044575}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1143,11 +1143,12 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.000000010096803, y: 0.000000054292375, z: -0.0000000135979565,
+      w: -1.0000001}
   m_Size:
-    m_Target: 4.3134174
+    m_Target: 11.539331
     speed: 2
-    m_Value: 4.3134174
+    m_Value: 11.042422
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1165,7 +1166,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.14483733, y: 0.77881706, z: -0.19506091, w: -0.57828987}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
