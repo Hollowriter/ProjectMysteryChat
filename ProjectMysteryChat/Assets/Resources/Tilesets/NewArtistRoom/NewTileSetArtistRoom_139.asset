@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: NewTilesetArtistRoom_139
+  m_Name: NewTileSetArtistRoom_139
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -557237433, guid: 071fd6367a5c0044386a0eb35c121cb5, type: 3}
+  m_Sprite: {fileID: 2036194724, guid: 071fd6367a5c0044386a0eb35c121cb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

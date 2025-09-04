@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_0
+      name: NewTileSetArtistRoom_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b64ef0c2d8f9ec40a48d87279145368
-      internalID: 1674964538
+      spriteID: 6dc758d5fad6c09488c9a6c486289511
+      internalID: 348189657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_1
+      name: NewTileSetArtistRoom_1
       rect:
         serializedVersion: 2
         x: 48
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84bad964318e7ca46a89c3e66f4f57f5
-      internalID: 2003243507
+      spriteID: d78b31d642c76ef4f89dfee292fb8312
+      internalID: -855653129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_2
+      name: NewTileSetArtistRoom_2
       rect:
         serializedVersion: 2
         x: 96
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5448fdf907bf7fd4399f02d5fc1c5ba5
-      internalID: -1046495719
+      spriteID: 71b5d1b30678c5a46b5776522703855c
+      internalID: -824245801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_3
+      name: NewTileSetArtistRoom_3
       rect:
         serializedVersion: 2
         x: 0
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de13fc2603429e24e950111fcb4969c9
-      internalID: 120959235
+      spriteID: be4b4aff3117d334e9833bfae338c64a
+      internalID: -1838033516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_4
+      name: NewTileSetArtistRoom_4
       rect:
         serializedVersion: 2
         x: 48
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dc4806309cf93d49a7d12d7b3dd30b9
-      internalID: 1352352785
+      spriteID: 4e4d265f5b2aeb141bf909d780496cd3
+      internalID: 1314183908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_5
+      name: NewTileSetArtistRoom_5
       rect:
         serializedVersion: 2
         x: 96
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e078131e6b776a49862f2d44b9d04c8
-      internalID: 1425021899
+      spriteID: c9d6ff144358e4f47a718cc5ab7d3b9e
+      internalID: 1307453161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_6
+      name: NewTileSetArtistRoom_6
       rect:
         serializedVersion: 2
         x: 144
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fce47f4d44a66745819bbe21b5448d6
-      internalID: 518575901
+      spriteID: 1a87fbf20e6ae1f499a03360bd1100ce
+      internalID: -2073817621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_7
+      name: NewTileSetArtistRoom_7
       rect:
         serializedVersion: 2
         x: 192
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63271184ccd07f64f979218d9c10b770
-      internalID: 605761304
+      spriteID: ddfd4ce4dcf61804d8ab1704f375477a
+      internalID: -224676118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_8
+      name: NewTileSetArtistRoom_8
       rect:
         serializedVersion: 2
         x: 240
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a8a17c65f2dbb14eafb50cbafe5524c
-      internalID: -1934912220
+      spriteID: dcde11fd588ba3d4d96805118c9085c2
+      internalID: -835460571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_9
+      name: NewTileSetArtistRoom_9
       rect:
         serializedVersion: 2
         x: 288
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeee5edb82672e948bacd55c3f2e0000
-      internalID: 1114750529
+      spriteID: 5bb7bb61f14f3844b92796565da0a709
+      internalID: -1168478276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_10
+      name: NewTileSetArtistRoom_10
       rect:
         serializedVersion: 2
         x: 336
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 520007aa78ff7804385a4179b586e71c
-      internalID: -1673340782
+      spriteID: 22db227e5d9694545ad2fa1b3ea30ac2
+      internalID: 1746018861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_11
+      name: NewTileSetArtistRoom_11
       rect:
         serializedVersion: 2
         x: 384
@@ -368,35 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ee2a7cee61493040aacab49455f0833
-      internalID: -1873222400
+      spriteID: dc0117d15fe71fd4ba24bdf9a6821c31
+      internalID: 27843825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_12
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 816
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d5e96e6bb1c6e744b7e914bb61b3510
-      internalID: -1891464198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewTilesetArtistRoom_13
+      name: NewTileSetArtistRoom_12
       rect:
         serializedVersion: 2
         x: 0
@@ -410,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aaa6d482f522b849ae16266a8025e69
-      internalID: 1020125734
+      spriteID: 0fb3a708b867513488b2f6ace5bb5c7f
+      internalID: 704337621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_14
+      name: NewTileSetArtistRoom_13
       rect:
         serializedVersion: 2
         x: 48
@@ -431,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e0e6bebb5975654f9599dd8a431eb40
-      internalID: -1378042649
+      spriteID: 007b179ece8045a4a9e919809ed7eeb7
+      internalID: -370467385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_15
+      name: NewTileSetArtistRoom_14
       rect:
         serializedVersion: 2
         x: 96
@@ -452,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6c4200c714ec894ba92bac9eac5ba14
-      internalID: 1288159962
+      spriteID: 87e3b24afd623b04fbb87b449a875ee3
+      internalID: -1238920067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_16
+      name: NewTileSetArtistRoom_15
       rect:
         serializedVersion: 2
         x: 144
@@ -473,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da5bbb7e7987db418fa5329f9c9a60a
-      internalID: 606672156
+      spriteID: f5cae2b4690a39f47bd1cf53156e5532
+      internalID: 1146154735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_17
+      name: NewTileSetArtistRoom_16
       rect:
         serializedVersion: 2
         x: 240
@@ -494,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1466e2d7bc09b154884c556e488371fc
-      internalID: -1540794742
+      spriteID: 7fd2a3ace1d3fe546b9562a3a7d860f4
+      internalID: -941496063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_18
+      name: NewTileSetArtistRoom_17
       rect:
         serializedVersion: 2
         x: 288
@@ -515,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee65ad5491d26da449ccefc5ec5d27d8
-      internalID: 37835685
+      spriteID: aa8bf6774b6bc7547934031937553a3e
+      internalID: 913845510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_19
+      name: NewTileSetArtistRoom_18
       rect:
         serializedVersion: 2
         x: 336
@@ -536,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 557f5c6698edc474ba2ba70648c1ea39
-      internalID: -78481997
+      spriteID: ca126bbabd1b6994ca5d1cf1122b2249
+      internalID: 1306315146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_20
+      name: NewTileSetArtistRoom_19
       rect:
         serializedVersion: 2
         x: 384
@@ -557,35 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bce3eb94189b346bedb38b0e94a7bd
-      internalID: -1021726052
+      spriteID: 04eb65a5cfad86849a2b0eab7cd3e17f
+      internalID: -931447642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_21
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 768
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba8e19c06e5a3474f9020a7a32abf5cc
-      internalID: -377652735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewTilesetArtistRoom_22
+      name: NewTileSetArtistRoom_20
       rect:
         serializedVersion: 2
         x: 0
@@ -599,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: babc16a1666ce44498b9479743c1832e
-      internalID: 721978296
+      spriteID: 8ffd4c65e2d7c684ca1731a072456e74
+      internalID: -687326387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_23
+      name: NewTileSetArtistRoom_21
       rect:
         serializedVersion: 2
         x: 48
@@ -620,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d3a9905f59819d4ba955a25f79a78e0
-      internalID: 338742844
+      spriteID: 398f193d7d8bb8b479d85b7dd22d854b
+      internalID: -952486810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_24
+      name: NewTileSetArtistRoom_22
       rect:
         serializedVersion: 2
         x: 96
@@ -641,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f4a5dd8ffca2a4ea10bf3b49d43b08
-      internalID: -321430055
+      spriteID: af407da3b3b7d3648a78610f25558cdf
+      internalID: 557020395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_25
+      name: NewTileSetArtistRoom_23
       rect:
         serializedVersion: 2
         x: 144
@@ -662,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b5cc8c1af573648a1679392fd9e77d
-      internalID: 830807085
+      spriteID: a955c08beef804d48a33b61b1ba53d95
+      internalID: -1450918171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_26
+      name: NewTileSetArtistRoom_24
       rect:
         serializedVersion: 2
         x: 192
@@ -683,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 410450445a78b074d8a6ee763519dca8
-      internalID: -1496251917
+      spriteID: d728a54096409744abcbe68e36ac0bd4
+      internalID: -16150623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_27
+      name: NewTileSetArtistRoom_25
       rect:
         serializedVersion: 2
         x: 240
@@ -704,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6b436c145211e419af9eb0056f5a3f
-      internalID: 1573334273
+      spriteID: 7e93ac8616281284695f4d6cb7040510
+      internalID: -842172593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_28
+      name: NewTileSetArtistRoom_26
       rect:
         serializedVersion: 2
         x: 288
@@ -725,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a5e9d51925abcc4f850a659c80f3286
-      internalID: 418309547
+      spriteID: ac239410c183ea342b335aa150702500
+      internalID: -1617052191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_29
+      name: NewTileSetArtistRoom_27
       rect:
         serializedVersion: 2
         x: 336
@@ -746,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09a92d2e332b711478a94b8204b3c2f5
-      internalID: 1933125952
+      spriteID: 0cf0857f424c7b143a2e8da917d09807
+      internalID: 285239610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_30
+      name: NewTileSetArtistRoom_28
       rect:
         serializedVersion: 2
         x: 384
@@ -767,14 +725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b990973af72fd724db318eece1a71d87
-      internalID: -709929497
+      spriteID: 670466cb23e1adf4d93a79b4bd8cfe9b
+      internalID: 990441110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_31
+      name: NewTileSetArtistRoom_29
       rect:
         serializedVersion: 2
         x: 432
@@ -788,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f20c7d487ec3403439f306641e582707
-      internalID: 807638554
+      spriteID: 6c5807baf7999184baea38787f4e1da6
+      internalID: 305357417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_32
+      name: NewTileSetArtistRoom_30
       rect:
         serializedVersion: 2
         x: 480
@@ -809,14 +767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f30cb8ff0f54ab947bec77d54b9287cb
-      internalID: 288490660
+      spriteID: dd5367fa9da099642b6c959cd932ed2c
+      internalID: 1841929655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_33
+      name: NewTileSetArtistRoom_31
       rect:
         serializedVersion: 2
         x: 528
@@ -830,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e526ede11a3c13f41a2d725a5d9b058b
-      internalID: -86278009
+      spriteID: 83fc457dd91979b4191f7719a4ce1307
+      internalID: -625855206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_34
+      name: NewTileSetArtistRoom_32
       rect:
         serializedVersion: 2
         x: 576
@@ -851,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d65a160c19c3a4441a5252082a3e1c4c
-      internalID: 2103976295
+      spriteID: 5a5c44f571ff4b74288a48c7e730cfda
+      internalID: -167215694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_35
+      name: NewTileSetArtistRoom_33
       rect:
         serializedVersion: 2
         x: 624
@@ -872,14 +830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6fc6f7e996e53442853aef3a781dc60
-      internalID: -996083145
+      spriteID: 5f2c51e49e5096d43bb333e673bec2d7
+      internalID: -272144712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_36
+      name: NewTileSetArtistRoom_34
       rect:
         serializedVersion: 2
         x: 672
@@ -893,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14c14101e0e19e54a92b46cea7f67d75
-      internalID: 1687341347
+      spriteID: bbd73675dee48ef4da61c5e048359c7f
+      internalID: -2110697313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_37
+      name: NewTileSetArtistRoom_35
       rect:
         serializedVersion: 2
         x: 720
@@ -914,14 +872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52940357b4e2cc94aa227b3954351844
-      internalID: -589444435
+      spriteID: 1b1369f08bf592742a1e54a82560c8e6
+      internalID: 225333269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_38
+      name: NewTileSetArtistRoom_36
       rect:
         serializedVersion: 2
         x: 0
@@ -935,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75935567df7ccb447b536d96245e371a
-      internalID: 381554775
+      spriteID: 842bdca37d9eb5545970c491ba800cd8
+      internalID: -386392699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_39
+      name: NewTileSetArtistRoom_37
       rect:
         serializedVersion: 2
         x: 48
@@ -956,14 +914,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c564f176f82c0c849bab6203e1a8a136
-      internalID: 1707089400
+      spriteID: a6135c665e5bf6c49980d01befc60d33
+      internalID: -649361116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_40
+      name: NewTileSetArtistRoom_38
       rect:
         serializedVersion: 2
         x: 96
@@ -977,14 +935,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a1525b796dfeb64db04e45c5aded829
-      internalID: 1821863448
+      spriteID: c04d09c41b4f64044ac71a49ecba0017
+      internalID: 896170951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_41
+      name: NewTileSetArtistRoom_39
       rect:
         serializedVersion: 2
         x: 144
@@ -998,14 +956,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cedd14f38421be943a97bd35b888885a
-      internalID: 1024533456
+      spriteID: a954553c75bc5e44fa40130ac8bd542d
+      internalID: -2091187046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_42
+      name: NewTileSetArtistRoom_40
       rect:
         serializedVersion: 2
         x: 192
@@ -1019,14 +977,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efff806708ae04044bd31ed31af20d66
-      internalID: 1142150259
+      spriteID: 8ee3b1daa4627d44f8c994495e1849f2
+      internalID: -740248204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_43
+      name: NewTileSetArtistRoom_41
       rect:
         serializedVersion: 2
         x: 240
@@ -1040,14 +998,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11aaabce4846faa468e1ed21e81d4c7d
-      internalID: 1097970473
+      spriteID: 08e5e5e0f9916994a854f20647cca311
+      internalID: -387191503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_44
+      name: NewTileSetArtistRoom_42
       rect:
         serializedVersion: 2
         x: 288
@@ -1061,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da825622973618a409d474a098dfd7fa
-      internalID: 580579049
+      spriteID: bed9f058f868e3c43a602375113c8ec3
+      internalID: 1922236790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_45
+      name: NewTileSetArtistRoom_43
       rect:
         serializedVersion: 2
         x: 336
@@ -1082,14 +1040,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ae9be173b815b747ab9f8eaf3e3b7c0
-      internalID: -51242797
+      spriteID: 2a3b4f911b010d74695701c568c5d139
+      internalID: 1615791683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_46
+      name: NewTileSetArtistRoom_44
       rect:
         serializedVersion: 2
         x: 384
@@ -1103,14 +1061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 244eebcb27a97e142bb38297de5d4243
-      internalID: -1277733729
+      spriteID: a25fc1f6348c6fc478f6779fc04d9f02
+      internalID: 955199982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_47
+      name: NewTileSetArtistRoom_45
       rect:
         serializedVersion: 2
         x: 432
@@ -1124,14 +1082,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f8a52cc9d936cf4ba021453f6caf24e
-      internalID: -1908267172
+      spriteID: de589df26dcaed944bda3a6a3ab6ba1d
+      internalID: 1964952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_48
+      name: NewTileSetArtistRoom_46
       rect:
         serializedVersion: 2
         x: 480
@@ -1145,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 005959010a493ac4c9b6bc7685f8793d
-      internalID: -1149844780
+      spriteID: 0deb660a1ee6ddd42933b1d6096df9d2
+      internalID: -2132880397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_49
+      name: NewTileSetArtistRoom_47
       rect:
         serializedVersion: 2
         x: 528
@@ -1166,14 +1124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69f2a66e6e19342449aae05831021059
-      internalID: 821470991
+      spriteID: 8187b3c4b51dc7a418c7089b39d4dc2d
+      internalID: -440331299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_50
+      name: NewTileSetArtistRoom_48
       rect:
         serializedVersion: 2
         x: 576
@@ -1187,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 114074fa386d0834b822b36e3ab71a5d
-      internalID: 1180351562
+      spriteID: cfc6008214c47254f866ecf25a841e87
+      internalID: -2124009397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_51
+      name: NewTileSetArtistRoom_49
       rect:
         serializedVersion: 2
         x: 624
@@ -1208,14 +1166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efc3e789e9a97e14dbd3205264ef9ef1
-      internalID: -1489026649
+      spriteID: 851a080982d7dc84d9d4967b045cad9a
+      internalID: -568890647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_52
+      name: NewTileSetArtistRoom_50
       rect:
         serializedVersion: 2
         x: 672
@@ -1229,14 +1187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f948e41e9ffaf0142ac8ae187fb2deaa
-      internalID: 827151671
+      spriteID: df21e3347b36e0744b4d8a5588594d88
+      internalID: 1991366834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_53
+      name: NewTileSetArtistRoom_51
       rect:
         serializedVersion: 2
         x: 720
@@ -1250,14 +1208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6c625c9f0d0eda45b3b89611b747cfc
-      internalID: -861794175
+      spriteID: 3ec4f8ea9cda4ee46b30bae0a29e71ba
+      internalID: 659543530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_54
+      name: NewTileSetArtistRoom_52
       rect:
         serializedVersion: 2
         x: 0
@@ -1271,14 +1229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17dc53cd68365240a557cd085409ba5
-      internalID: 134551899
+      spriteID: 1ac537fd29a1c0f49928a9a292dda540
+      internalID: -1758952949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_55
+      name: NewTileSetArtistRoom_53
       rect:
         serializedVersion: 2
         x: 48
@@ -1292,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d49a7279ed9a0c24a917337206b9d33f
-      internalID: -2088419843
+      spriteID: 820687cf66039da48aaeae3bad36e238
+      internalID: 2018976252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_56
+      name: NewTileSetArtistRoom_54
       rect:
         serializedVersion: 2
         x: 96
@@ -1313,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a34c1f5835ef4b5469c7b56ba4f30650
-      internalID: -288462795
+      spriteID: 8bd4ff323a81c5b479e91d586b29e521
+      internalID: -1095825602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_57
+      name: NewTileSetArtistRoom_55
       rect:
         serializedVersion: 2
         x: 144
@@ -1334,14 +1292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb42b8bd37d1007429aa8c4e7b52edcf
-      internalID: 1374081626
+      spriteID: d3b39ec4f354df5478121583dffaf802
+      internalID: 1739493032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_58
+      name: NewTileSetArtistRoom_56
       rect:
         serializedVersion: 2
         x: 192
@@ -1355,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899b7a83e4d1a574285ddbbdf9924b35
-      internalID: 910505043
+      spriteID: a6a90f8034b9372458ce7291f16b2bf8
+      internalID: 2037097111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_59
+      name: NewTileSetArtistRoom_57
       rect:
         serializedVersion: 2
         x: 240
@@ -1376,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b383ff45e3475b47ab732eabc08e2b1
-      internalID: -127929325
+      spriteID: dab8397078dcfbb4b819010b5690e8e2
+      internalID: 1535913276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_60
+      name: NewTileSetArtistRoom_58
       rect:
         serializedVersion: 2
         x: 288
@@ -1397,14 +1355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc8d382a5d805e742b93ddb4063e60e4
-      internalID: 1997997852
+      spriteID: 943c1590fcae107488cc6df697c1995a
+      internalID: -589317493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_61
+      name: NewTileSetArtistRoom_59
       rect:
         serializedVersion: 2
         x: 336
@@ -1418,14 +1376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7a7e456fac763441a1ed1c977e89bd3
-      internalID: 1985205135
+      spriteID: 01df0b9491f0c8e4ea51105267cc5b8a
+      internalID: -1176642135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_62
+      name: NewTileSetArtistRoom_60
       rect:
         serializedVersion: 2
         x: 384
@@ -1439,14 +1397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6571ce528d1333c4fb86ac084bdbe1b6
-      internalID: 1660350089
+      spriteID: ac780e42dea53264ca20eed56dc35add
+      internalID: -91447083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_63
+      name: NewTileSetArtistRoom_61
       rect:
         serializedVersion: 2
         x: 432
@@ -1460,14 +1418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb9f9acaaf0de44a9031c82c75b73c2
-      internalID: -231511202
+      spriteID: 771a508d9aef65c499d6375b58bacab5
+      internalID: 1839249346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_64
+      name: NewTileSetArtistRoom_62
       rect:
         serializedVersion: 2
         x: 480
@@ -1481,14 +1439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f327f393ba34d4fa765269a55d5de5
-      internalID: 1848223295
+      spriteID: be5c03312d05518498e77d89a5fb06ad
+      internalID: -751656950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_65
+      name: NewTileSetArtistRoom_63
       rect:
         serializedVersion: 2
         x: 528
@@ -1502,14 +1460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3774743c4c582af49afba91a25c6459f
-      internalID: 197548436
+      spriteID: 9d0ae989220635c49a77e0b1a0adf175
+      internalID: 125876768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_66
+      name: NewTileSetArtistRoom_64
       rect:
         serializedVersion: 2
         x: 576
@@ -1523,14 +1481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce95b7ff08485674a9d3e221260072ab
-      internalID: 900723388
+      spriteID: 9e21f8b96b1a19d469ae4ecf0238ac55
+      internalID: -1899256835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_67
+      name: NewTileSetArtistRoom_65
       rect:
         serializedVersion: 2
         x: 624
@@ -1544,14 +1502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bdaf221c273a4e48aa76c91c302b00d
-      internalID: 1676982240
+      spriteID: e2acfc76167a5ff4dbcda781e8c2c608
+      internalID: 1441015024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_68
+      name: NewTileSetArtistRoom_66
       rect:
         serializedVersion: 2
         x: 672
@@ -1565,14 +1523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3556c94fe0d104441a1f9153d6d880cf
-      internalID: 1205765401
+      spriteID: 35e1cb79dce4bff438b651a77c720e24
+      internalID: 1125642170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_69
+      name: NewTileSetArtistRoom_67
       rect:
         serializedVersion: 2
         x: 720
@@ -1586,14 +1544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4c93021f4d0e734cbd70057118ed1c9
-      internalID: -1813515136
+      spriteID: 0fad56ceca688db4aba18e0f04f423dd
+      internalID: 218282782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_70
+      name: NewTileSetArtistRoom_68
       rect:
         serializedVersion: 2
         x: 0
@@ -1607,14 +1565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d60eb18bf58083c43a9d0e822adae9b6
-      internalID: 1055914747
+      spriteID: ed742b299718cfb419d0d7f73f6d10b9
+      internalID: -1098681271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_71
+      name: NewTileSetArtistRoom_69
       rect:
         serializedVersion: 2
         x: 48
@@ -1628,14 +1586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52f64d22574b79047b2aacfffb16223a
-      internalID: -1114212568
+      spriteID: ba193f8abd2bd7d47bce1937a0b3cc29
+      internalID: 1381845565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_72
+      name: NewTileSetArtistRoom_70
       rect:
         serializedVersion: 2
         x: 96
@@ -1649,14 +1607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 596841a9f7cdc3442a25b2c52ccd84f5
-      internalID: 1003406694
+      spriteID: 6b7152aabdf3d3d43a3c5a246e411704
+      internalID: -518671492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_73
+      name: NewTileSetArtistRoom_71
       rect:
         serializedVersion: 2
         x: 288
@@ -1670,14 +1628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf72bd927b1e0ef44877713fb2c1ed72
-      internalID: 1405299796
+      spriteID: 9114a9f4868c5d14f8c67e78e3541aa9
+      internalID: 1689922352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_74
+      name: NewTileSetArtistRoom_72
       rect:
         serializedVersion: 2
         x: 336
@@ -1691,14 +1649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7db016d3819cb7e48819680fd3ed83c1
-      internalID: -1144955410
+      spriteID: 6f7b510e54dd12d4ca876ce38dd3dc7c
+      internalID: 475100911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_75
+      name: NewTileSetArtistRoom_73
       rect:
         serializedVersion: 2
         x: 384
@@ -1712,14 +1670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c09c39f7f957234d8e917928bb4f3ac
-      internalID: 1678561406
+      spriteID: 8f39b69c1d871bf4298418c44990c109
+      internalID: -974076049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_76
+      name: NewTileSetArtistRoom_74
       rect:
         serializedVersion: 2
         x: 432
@@ -1733,14 +1691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104ce16e3b39ba2429e0547bc89379ce
-      internalID: -459034968
+      spriteID: f77f25f2fa47e7c40979cc553f8f2597
+      internalID: 27744255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_77
+      name: NewTileSetArtistRoom_75
       rect:
         serializedVersion: 2
         x: 480
@@ -1754,14 +1712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a0505a7f5b51e498b009e1f00adde2
-      internalID: -2007842216
+      spriteID: 78db68ea93d8d6f4985b5a6694f9fd56
+      internalID: 668103198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_78
+      name: NewTileSetArtistRoom_76
       rect:
         serializedVersion: 2
         x: 672
@@ -1775,14 +1733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44816099089ce39469cdf3de7899148b
-      internalID: 1318216909
+      spriteID: b307a99cd8d370e4a8639fdb20dd2bd1
+      internalID: 981994946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_79
+      name: NewTileSetArtistRoom_77
       rect:
         serializedVersion: 2
         x: 720
@@ -1796,14 +1754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411c6c02aee98d14392f365fe7713e47
-      internalID: -1356655553
+      spriteID: 2fa4bd2154cb5bf4ba09025781a73276
+      internalID: -1988037168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_80
+      name: NewTileSetArtistRoom_78
       rect:
         serializedVersion: 2
         x: 0
@@ -1817,14 +1775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b22cf89d0f7ecd49b6624965ab20950
-      internalID: 752398175
+      spriteID: 01baac8677474164c85372ad33b70511
+      internalID: 346591160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_81
+      name: NewTileSetArtistRoom_79
       rect:
         serializedVersion: 2
         x: 48
@@ -1838,14 +1796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e56e23a9964b50c4b8d72c2abe1fe6e0
-      internalID: -1307074781
+      spriteID: de7377da42e320a419590a214ecfc6ed
+      internalID: 319152924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_82
+      name: NewTileSetArtistRoom_80
       rect:
         serializedVersion: 2
         x: 96
@@ -1859,14 +1817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39795645b9f141e40abca256cefc7c41
-      internalID: 648058816
+      spriteID: b95bb6894e82db94681660f5d858432e
+      internalID: -305446104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_83
+      name: NewTileSetArtistRoom_81
       rect:
         serializedVersion: 2
         x: 288
@@ -1880,14 +1838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 134c54e012088084f8bdb8ef08372fec
-      internalID: -944717753
+      spriteID: 670a752a1b918194c8a236d2991eeb47
+      internalID: 858842074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_84
+      name: NewTileSetArtistRoom_82
       rect:
         serializedVersion: 2
         x: 336
@@ -1901,14 +1859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 177d6789699893445bb8959555830f8a
-      internalID: 401294727
+      spriteID: 4156a2d8bfc40154ab82a9cefa60352d
+      internalID: 1767111706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_85
+      name: NewTileSetArtistRoom_83
       rect:
         serializedVersion: 2
         x: 384
@@ -1922,14 +1880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cb0f81182bf61b4ebf2d90c55abb93e
-      internalID: 33891264
+      spriteID: 3b37ba1fc60604642843f2c1c43eeef5
+      internalID: 241194325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_86
+      name: NewTileSetArtistRoom_84
       rect:
         serializedVersion: 2
         x: 432
@@ -1943,14 +1901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60ce2ef46c779a24ab810e8fbbaf6a04
-      internalID: -1904883311
+      spriteID: b1aabb069e5e19c409b3861feda29325
+      internalID: 1192074120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_87
+      name: NewTileSetArtistRoom_85
       rect:
         serializedVersion: 2
         x: 480
@@ -1964,14 +1922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d1d1ece8944fd94da516b92aad1f8dc
-      internalID: -570373593
+      spriteID: ab240605770f0f140a4cf666f0daa5c0
+      internalID: 317641314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_88
+      name: NewTileSetArtistRoom_86
       rect:
         serializedVersion: 2
         x: 672
@@ -1985,14 +1943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d0f0d9e12590f044996b19cd09805c5
-      internalID: -702609610
+      spriteID: e4f729f3f03962345ba23f1bb69f47fa
+      internalID: 1183561275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_89
+      name: NewTileSetArtistRoom_87
       rect:
         serializedVersion: 2
         x: 720
@@ -2006,14 +1964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed746d3e0bcac404aa12e65dc88ae159
-      internalID: 425733448
+      spriteID: d576bebf2f234eb4c839c410088d513d
+      internalID: 1713675111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_90
+      name: NewTileSetArtistRoom_88
       rect:
         serializedVersion: 2
         x: 0
@@ -2027,14 +1985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfe245708de01794da8af6c7ff5871b0
-      internalID: 943978218
+      spriteID: e62fedaf24765f347b6ec02c1770ec10
+      internalID: -628084698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_91
+      name: NewTileSetArtistRoom_89
       rect:
         serializedVersion: 2
         x: 48
@@ -2048,14 +2006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 663e50cf692c36d42a71350ddbb21265
-      internalID: 729197839
+      spriteID: 5249ed7aacc014643ad72dc3bfad1614
+      internalID: -622804249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_92
+      name: NewTileSetArtistRoom_90
       rect:
         serializedVersion: 2
         x: 96
@@ -2069,14 +2027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e7f193992bd15043b46f04bf564e742
-      internalID: 438503236
+      spriteID: 18c90371084810f469cedba3fe9dc16e
+      internalID: -952625572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_93
+      name: NewTileSetArtistRoom_91
       rect:
         serializedVersion: 2
         x: 288
@@ -2090,14 +2048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e56ad494ce5d5b4aa423c542dcc8aa4
-      internalID: 1159360672
+      spriteID: c40e75661fda38e4ea2cb2607b83772f
+      internalID: -2018506228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_94
+      name: NewTileSetArtistRoom_92
       rect:
         serializedVersion: 2
         x: 336
@@ -2111,14 +2069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a30511fbda98c10418318bb49cc6d1cf
-      internalID: -1871853213
+      spriteID: f47daaef694fdf04880b4966d52da8e4
+      internalID: 704961944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_95
+      name: NewTileSetArtistRoom_93
       rect:
         serializedVersion: 2
         x: 384
@@ -2132,14 +2090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3ed08996bdfa649a3dee7adf85e728
-      internalID: 1765002613
+      spriteID: 26f84ba9fd386854e86f78609ffa1ad1
+      internalID: 188331354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_96
+      name: NewTileSetArtistRoom_94
       rect:
         serializedVersion: 2
         x: 432
@@ -2153,14 +2111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2ecc3c76bed26647bc08f88788566bb
-      internalID: -910476308
+      spriteID: 07fa42f703fb6c947998a3a1a496a047
+      internalID: -769512735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_97
+      name: NewTileSetArtistRoom_95
       rect:
         serializedVersion: 2
         x: 480
@@ -2174,14 +2132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9340d2f1fc882694d9267c23fa811b13
-      internalID: 939818524
+      spriteID: de7fe212ded9a2e44bc4eba611429679
+      internalID: 1952640561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_98
+      name: NewTileSetArtistRoom_96
       rect:
         serializedVersion: 2
         x: 672
@@ -2195,14 +2153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5840214cbc5c8a84396c6e5c0467dcb2
-      internalID: -158999139
+      spriteID: 43b0e1423de2a5e4889220c556d8d8ba
+      internalID: -710230590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_99
+      name: NewTileSetArtistRoom_97
       rect:
         serializedVersion: 2
         x: 720
@@ -2216,14 +2174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 978afdcd091553a4e853b48af3d90122
-      internalID: -634028020
+      spriteID: 825f81f60ea9a5f42bbc213137d19e43
+      internalID: 1508436289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_100
+      name: NewTileSetArtistRoom_98
       rect:
         serializedVersion: 2
         x: 0
@@ -2237,14 +2195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3769188514d501646bd37ff2bdc5a92d
-      internalID: 426991187
+      spriteID: 4f99bec489c58e64b83bfa6fd2d37436
+      internalID: 926853430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_101
+      name: NewTileSetArtistRoom_99
       rect:
         serializedVersion: 2
         x: 48
@@ -2258,14 +2216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7ba1937d533c7b4ea4ecb9a8ec36bdd
-      internalID: -583420884
+      spriteID: aca6342b71146594699e5ddbfc487a86
+      internalID: 1587166932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_102
+      name: NewTileSetArtistRoom_100
       rect:
         serializedVersion: 2
         x: 96
@@ -2279,14 +2237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dce48ae32af447b47aa725035647e871
-      internalID: 2106830253
+      spriteID: 26f86dbf65bf7e24ca27b1475c6b57cb
+      internalID: -214028523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_103
+      name: NewTileSetArtistRoom_101
       rect:
         serializedVersion: 2
         x: 384
@@ -2300,14 +2258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29f8e8de18c96ec4894a90805a44d429
-      internalID: 1997911214
+      spriteID: d9a8af247c351cf4aa35201a53db6e72
+      internalID: 1317212329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_104
+      name: NewTileSetArtistRoom_102
       rect:
         serializedVersion: 2
         x: 432
@@ -2321,14 +2279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cfd1e7ecded8c647a10206a90f5e29d
-      internalID: -1639893821
+      spriteID: 333774486ae55dc4798083c803bc9b1f
+      internalID: -927961134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_105
+      name: NewTileSetArtistRoom_103
       rect:
         serializedVersion: 2
         x: 480
@@ -2342,14 +2300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31f2635cd007bbc4086183ebf071601a
-      internalID: -807418875
+      spriteID: 1fef55b047a22b840adbb55b2b102633
+      internalID: -808266717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_106
+      name: NewTileSetArtistRoom_104
       rect:
         serializedVersion: 2
         x: 0
@@ -2363,14 +2321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 708bc5c48f4cea54b808855d2b256466
-      internalID: -829734162
+      spriteID: 24113143c8dea204a9803171a96368d5
+      internalID: 114051310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_107
+      name: NewTileSetArtistRoom_105
       rect:
         serializedVersion: 2
         x: 48
@@ -2384,14 +2342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f910af275448f384083939635e8309fe
-      internalID: 202471971
+      spriteID: 60bd455764f786246889a961cd12b56e
+      internalID: 1599944138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_108
+      name: NewTileSetArtistRoom_106
       rect:
         serializedVersion: 2
         x: 96
@@ -2405,14 +2363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8791baa546a085f4b8227414e34ceaf7
-      internalID: -563908699
+      spriteID: a5ce8c1c17d7b434cb235b4fa98ff08d
+      internalID: 1791900005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_109
+      name: NewTileSetArtistRoom_107
       rect:
         serializedVersion: 2
         x: 144
@@ -2426,14 +2384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf7398a1dbe16641b12c2e2c12f971a
-      internalID: -747482315
+      spriteID: fc149d9d6a4b7584c8e36e22104627d1
+      internalID: -1162328056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_110
+      name: NewTileSetArtistRoom_108
       rect:
         serializedVersion: 2
         x: 192
@@ -2447,14 +2405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bb057a1d6ba275488f1c8ce8fb5de0d
-      internalID: -839222965
+      spriteID: f82da3c8ba264354eb4aa9e6cdaa741b
+      internalID: -989396574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_111
+      name: NewTileSetArtistRoom_109
       rect:
         serializedVersion: 2
         x: 240
@@ -2468,14 +2426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b89d97f3c800a064083c1721897c2387
-      internalID: -2125245213
+      spriteID: 22d9357cd8744ff488cff93d3d72f510
+      internalID: 1431231156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_112
+      name: NewTileSetArtistRoom_110
       rect:
         serializedVersion: 2
         x: 288
@@ -2489,14 +2447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fc1f869dce9c8444ba13ed61797da05
-      internalID: -1446985981
+      spriteID: b7f9f16a445b46741af1ef801bb0503d
+      internalID: -354400073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_113
+      name: NewTileSetArtistRoom_111
       rect:
         serializedVersion: 2
         x: 336
@@ -2510,14 +2468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f94dc093a47dfa84a8d204216024731e
-      internalID: -522667707
+      spriteID: 49e010809f6cc934594359b64c7ca01d
+      internalID: 555166744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_114
+      name: NewTileSetArtistRoom_112
       rect:
         serializedVersion: 2
         x: 0
@@ -2531,14 +2489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b5398a967059a946a4acb368e30886f
-      internalID: 858039413
+      spriteID: 3aa56de5778d66649973e13f93ff6979
+      internalID: 637556972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_115
+      name: NewTileSetArtistRoom_113
       rect:
         serializedVersion: 2
         x: 48
@@ -2552,14 +2510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f1909dca9f4ec44bbbc5a4869805136
-      internalID: -159322309
+      spriteID: bbf2add0c27cdc84d859a0be62b829e5
+      internalID: -1388833708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_116
+      name: NewTileSetArtistRoom_114
       rect:
         serializedVersion: 2
         x: 96
@@ -2573,14 +2531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e376dd81c3493498f41dcf284880b3
-      internalID: -70491764
+      spriteID: c1d1a179ac0b53f4999be1f05f37b343
+      internalID: -1633158914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_117
+      name: NewTileSetArtistRoom_115
       rect:
         serializedVersion: 2
         x: 144
@@ -2594,14 +2552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f30779908d1dcb04298a1cd1e6f16708
-      internalID: 1505146295
+      spriteID: faec0680bc75a4d4cb534abcd05a1320
+      internalID: 482151081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_118
+      name: NewTileSetArtistRoom_116
       rect:
         serializedVersion: 2
         x: 192
@@ -2615,14 +2573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da1f4fea2cbf7014399ac954735c80c6
-      internalID: -2019715493
+      spriteID: 54bbd1f429133fd4ca34cbf31defe983
+      internalID: 1121559758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_119
+      name: NewTileSetArtistRoom_117
       rect:
         serializedVersion: 2
         x: 240
@@ -2636,14 +2594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17fafcb201d36fe47aa93fec186c14f1
-      internalID: 2031645207
+      spriteID: 291874f186b6f5842928b93af6110b8b
+      internalID: -670428537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_120
+      name: NewTileSetArtistRoom_118
       rect:
         serializedVersion: 2
         x: 288
@@ -2657,14 +2615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f08fd6ad4c4f70949b2c6efd1f4a2421
-      internalID: 837635211
+      spriteID: 5914bb5124d0ce5448d65bce8072e970
+      internalID: -1115123681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_121
+      name: NewTileSetArtistRoom_119
       rect:
         serializedVersion: 2
         x: 336
@@ -2678,14 +2636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6908d95691e84d41a0963333fec1006
-      internalID: -1785715001
+      spriteID: 84660754ea909114f880afd5cd8ca4f5
+      internalID: 1589355665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_122
+      name: NewTileSetArtistRoom_120
       rect:
         serializedVersion: 2
         x: 0
@@ -2699,14 +2657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45ffa897721ab5942bc27ac80190959e
-      internalID: 440927777
+      spriteID: 040e6aee1660fc74ca3e8a00aa43fdd0
+      internalID: -1959950425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_123
+      name: NewTileSetArtistRoom_121
       rect:
         serializedVersion: 2
         x: 48
@@ -2720,14 +2678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b6352dd497b40d4c8f14ca97057dd9d
-      internalID: 1152716113
+      spriteID: c8f1fafec99879043b3a76ad2dfce579
+      internalID: -1976529723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_124
+      name: NewTileSetArtistRoom_122
       rect:
         serializedVersion: 2
         x: 96
@@ -2741,14 +2699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65e81c55a484e8141a055e295d6890ee
-      internalID: -307631308
+      spriteID: 7527cc462518b13419fc3d24c4ae066f
+      internalID: 1661730216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_125
+      name: NewTileSetArtistRoom_123
       rect:
         serializedVersion: 2
         x: 144
@@ -2762,14 +2720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a34965cf64a40a40992ece3943dd882
-      internalID: -2036659891
+      spriteID: 1b8cb7bc6c4edae42b60a76983e625fa
+      internalID: 1424132689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_126
+      name: NewTileSetArtistRoom_124
       rect:
         serializedVersion: 2
         x: 192
@@ -2783,14 +2741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 289a5d853112a3b4d982d8767d10ae7e
-      internalID: -250639585
+      spriteID: 5eaf1db0e622ce547acc784ad4477216
+      internalID: 1733122201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_127
+      name: NewTileSetArtistRoom_125
       rect:
         serializedVersion: 2
         x: 240
@@ -2804,14 +2762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adbe7c38708436c499090186ab390a72
-      internalID: 295591634
+      spriteID: d6b4ad0df941dfb48b77c14cb80e7226
+      internalID: -876162715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_128
+      name: NewTileSetArtistRoom_126
       rect:
         serializedVersion: 2
         x: 288
@@ -2825,14 +2783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b73430cfb75282c44b87d7555f003b02
-      internalID: 1253297845
+      spriteID: 7d1bbed5997f5204b83741cdd93dccdc
+      internalID: 1238458832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_129
+      name: NewTileSetArtistRoom_127
       rect:
         serializedVersion: 2
         x: 336
@@ -2846,14 +2804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8037d0e31c807cc43bcbd6c0197f6f8c
-      internalID: 2073281023
+      spriteID: 58ea30a2c41e6e6439b503a3d0f87b01
+      internalID: -254568065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_130
+      name: NewTileSetArtistRoom_128
       rect:
         serializedVersion: 2
         x: 0
@@ -2867,14 +2825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b834100758444454a90788e775fde634
-      internalID: 1653898607
+      spriteID: e91cffc36409aa54dbf928d0b6392036
+      internalID: 1792434482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_131
+      name: NewTileSetArtistRoom_129
       rect:
         serializedVersion: 2
         x: 48
@@ -2888,14 +2846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0639549f76ab0e14ebb5094087fbdf2d
-      internalID: -207828135
+      spriteID: 2b53760e08299b14c845b7ea8560fbf5
+      internalID: 1403284334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_132
+      name: NewTileSetArtistRoom_130
       rect:
         serializedVersion: 2
         x: 96
@@ -2909,14 +2867,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d7c740c86656a147a1476097c935022
-      internalID: -588485004
+      spriteID: b9602d6796430f94ab7a7a6292c5a4ac
+      internalID: -338785251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_133
+      name: NewTileSetArtistRoom_131
       rect:
         serializedVersion: 2
         x: 288
@@ -2930,14 +2888,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9ad1ab921f0e464f8553264c9fca2f8
-      internalID: -2026333646
+      spriteID: 73c08762082525246a568e272edd533b
+      internalID: -1632343241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_134
+      name: NewTileSetArtistRoom_132
       rect:
         serializedVersion: 2
         x: 336
@@ -2951,14 +2909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a931028ead194db40876086d6db05fc0
-      internalID: 1059330334
+      spriteID: f8ea3673c4edb6843bd2b403a6e44045
+      internalID: 1814770394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_135
+      name: NewTileSetArtistRoom_133
       rect:
         serializedVersion: 2
         x: 0
@@ -2972,14 +2930,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bf621e206a5bf48ad7830ca83ad92b
-      internalID: 1990873395
+      spriteID: c682cdf21e98583448ac2b010fc7e5a7
+      internalID: -1365357655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_136
+      name: NewTileSetArtistRoom_134
       rect:
         serializedVersion: 2
         x: 48
@@ -2993,14 +2951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11c2b812bd53d2a45ac2b104c736d4ce
-      internalID: 1565635731
+      spriteID: 8f95a54decd6a6f46b3eee59269bdac3
+      internalID: 262505642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_137
+      name: NewTileSetArtistRoom_135
       rect:
         serializedVersion: 2
         x: 96
@@ -3014,14 +2972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f8e2bc07a7ea37478dc6bf13b21b5e2
-      internalID: -1102740276
+      spriteID: 5a3795cc0b7be134ab86a545319a2ccb
+      internalID: 388169576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_138
+      name: NewTileSetArtistRoom_136
       rect:
         serializedVersion: 2
         x: 288
@@ -3035,14 +2993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a485adb77a6324542ae22b4d7382e74c
-      internalID: 145332880
+      spriteID: 919cb7aa09288c54cb1f59d0e6fa8e47
+      internalID: -336207513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_139
+      name: NewTileSetArtistRoom_137
       rect:
         serializedVersion: 2
         x: 336
@@ -3056,14 +3014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f415bdf0a6042c4292ba000d9c0a746
-      internalID: -557237433
+      spriteID: 60280649fcec1a9438b25937e205421d
+      internalID: -1256399336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_140
+      name: NewTileSetArtistRoom_138
       rect:
         serializedVersion: 2
         x: 0
@@ -3077,14 +3035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dbed192fa004c74ba475a2661ea74de
-      internalID: -115644114
+      spriteID: 2dca1490171f5d84ab3926382640002d
+      internalID: 1500515587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_141
+      name: NewTileSetArtistRoom_139
       rect:
         serializedVersion: 2
         x: 48
@@ -3098,14 +3056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55f8d8fe88852444f8fad27a6e31eb7c
-      internalID: 1864112868
+      spriteID: ebea92a0219a81d45840c6259082c464
+      internalID: 2036194724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_142
+      name: NewTileSetArtistRoom_140
       rect:
         serializedVersion: 2
         x: 96
@@ -3119,14 +3077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b6bb002f45f7a848bd7561e7130f9b6
-      internalID: -1442447221
+      spriteID: 001828bc77e471f4181d709fa6c602da
+      internalID: 396323304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_143
+      name: NewTileSetArtistRoom_141
       rect:
         serializedVersion: 2
         x: 288
@@ -3140,14 +3098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56cc422f4f4700c42b94d06ab7ad0996
-      internalID: 405843452
+      spriteID: 223cecc0f4cf54149bdc181d9c2738fe
+      internalID: 474733665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_144
+      name: NewTileSetArtistRoom_142
       rect:
         serializedVersion: 2
         x: 336
@@ -3161,14 +3119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e28e030b11e928a45839dcfa39f03119
-      internalID: -991501675
+      spriteID: 2bd87936718d5b14a9941457eac386a5
+      internalID: 1946120489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_145
+      name: NewTileSetArtistRoom_143
       rect:
         serializedVersion: 2
         x: 0
@@ -3182,14 +3140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a6e8578d454d264e9191750d3ff9b88
-      internalID: 1889678621
+      spriteID: 9c034922e83c8074587bba0ce14db1d5
+      internalID: 550678444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_146
+      name: NewTileSetArtistRoom_144
       rect:
         serializedVersion: 2
         x: 48
@@ -3203,14 +3161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37a703eeac1b7fe4dbf744f7a924d5da
-      internalID: -1517261714
+      spriteID: 857cb9f47df08794f9a73dc227144bcc
+      internalID: 1560527550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewTilesetArtistRoom_147
+      name: NewTileSetArtistRoom_145
       rect:
         serializedVersion: 2
         x: 96
@@ -3224,8 +3182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2596d3bb662a6c4b8f0d455846317cd
-      internalID: -1412495192
+      spriteID: 76b672d852a0a10428b336f680909bf5
+      internalID: 1971273660
       vertices: []
       indices: 
       edges: []
@@ -3233,7 +3191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0065b87fe048aff448e72a1270061361
+    spriteID: 5e415c5eeb3457245aef3f2b3b095582
     internalID: 0
     vertices: []
     indices: 
@@ -3241,154 +3199,152 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NewTilesetArtistRoom_0: 1674964538
-      NewTilesetArtistRoom_1: 2003243507
-      NewTilesetArtistRoom_10: -1673340782
-      NewTilesetArtistRoom_100: 426991187
-      NewTilesetArtistRoom_101: -583420884
-      NewTilesetArtistRoom_102: 2106830253
-      NewTilesetArtistRoom_103: 1997911214
-      NewTilesetArtistRoom_104: -1639893821
-      NewTilesetArtistRoom_105: -807418875
-      NewTilesetArtistRoom_106: -829734162
-      NewTilesetArtistRoom_107: 202471971
-      NewTilesetArtistRoom_108: -563908699
-      NewTilesetArtistRoom_109: -747482315
-      NewTilesetArtistRoom_11: -1873222400
-      NewTilesetArtistRoom_110: -839222965
-      NewTilesetArtistRoom_111: -2125245213
-      NewTilesetArtistRoom_112: -1446985981
-      NewTilesetArtistRoom_113: -522667707
-      NewTilesetArtistRoom_114: 858039413
-      NewTilesetArtistRoom_115: -159322309
-      NewTilesetArtistRoom_116: -70491764
-      NewTilesetArtistRoom_117: 1505146295
-      NewTilesetArtistRoom_118: -2019715493
-      NewTilesetArtistRoom_119: 2031645207
-      NewTilesetArtistRoom_12: -1891464198
-      NewTilesetArtistRoom_120: 837635211
-      NewTilesetArtistRoom_121: -1785715001
-      NewTilesetArtistRoom_122: 440927777
-      NewTilesetArtistRoom_123: 1152716113
-      NewTilesetArtistRoom_124: -307631308
-      NewTilesetArtistRoom_125: -2036659891
-      NewTilesetArtistRoom_126: -250639585
-      NewTilesetArtistRoom_127: 295591634
-      NewTilesetArtistRoom_128: 1253297845
-      NewTilesetArtistRoom_129: 2073281023
-      NewTilesetArtistRoom_13: 1020125734
-      NewTilesetArtistRoom_130: 1653898607
-      NewTilesetArtistRoom_131: -207828135
-      NewTilesetArtistRoom_132: -588485004
-      NewTilesetArtistRoom_133: -2026333646
-      NewTilesetArtistRoom_134: 1059330334
-      NewTilesetArtistRoom_135: 1990873395
-      NewTilesetArtistRoom_136: 1565635731
-      NewTilesetArtistRoom_137: -1102740276
-      NewTilesetArtistRoom_138: 145332880
-      NewTilesetArtistRoom_139: -557237433
-      NewTilesetArtistRoom_14: -1378042649
-      NewTilesetArtistRoom_140: -115644114
-      NewTilesetArtistRoom_141: 1864112868
-      NewTilesetArtistRoom_142: -1442447221
-      NewTilesetArtistRoom_143: 405843452
-      NewTilesetArtistRoom_144: -991501675
-      NewTilesetArtistRoom_145: 1889678621
-      NewTilesetArtistRoom_146: -1517261714
-      NewTilesetArtistRoom_147: -1412495192
-      NewTilesetArtistRoom_15: 1288159962
-      NewTilesetArtistRoom_16: 606672156
-      NewTilesetArtistRoom_17: -1540794742
-      NewTilesetArtistRoom_18: 37835685
-      NewTilesetArtistRoom_19: -78481997
-      NewTilesetArtistRoom_2: -1046495719
-      NewTilesetArtistRoom_20: -1021726052
-      NewTilesetArtistRoom_21: -377652735
-      NewTilesetArtistRoom_22: 721978296
-      NewTilesetArtistRoom_23: 338742844
-      NewTilesetArtistRoom_24: -321430055
-      NewTilesetArtistRoom_25: 830807085
-      NewTilesetArtistRoom_26: -1496251917
-      NewTilesetArtistRoom_27: 1573334273
-      NewTilesetArtistRoom_28: 418309547
-      NewTilesetArtistRoom_29: 1933125952
-      NewTilesetArtistRoom_3: 120959235
-      NewTilesetArtistRoom_30: -709929497
-      NewTilesetArtistRoom_31: 807638554
-      NewTilesetArtistRoom_32: 288490660
-      NewTilesetArtistRoom_33: -86278009
-      NewTilesetArtistRoom_34: 2103976295
-      NewTilesetArtistRoom_35: -996083145
-      NewTilesetArtistRoom_36: 1687341347
-      NewTilesetArtistRoom_37: -589444435
-      NewTilesetArtistRoom_38: 381554775
-      NewTilesetArtistRoom_39: 1707089400
-      NewTilesetArtistRoom_4: 1352352785
-      NewTilesetArtistRoom_40: 1821863448
-      NewTilesetArtistRoom_41: 1024533456
-      NewTilesetArtistRoom_42: 1142150259
-      NewTilesetArtistRoom_43: 1097970473
-      NewTilesetArtistRoom_44: 580579049
-      NewTilesetArtistRoom_45: -51242797
-      NewTilesetArtistRoom_46: -1277733729
-      NewTilesetArtistRoom_47: -1908267172
-      NewTilesetArtistRoom_48: -1149844780
-      NewTilesetArtistRoom_49: 821470991
-      NewTilesetArtistRoom_5: 1425021899
-      NewTilesetArtistRoom_50: 1180351562
-      NewTilesetArtistRoom_51: -1489026649
-      NewTilesetArtistRoom_52: 827151671
-      NewTilesetArtistRoom_53: -861794175
-      NewTilesetArtistRoom_54: 134551899
-      NewTilesetArtistRoom_55: -2088419843
-      NewTilesetArtistRoom_56: -288462795
-      NewTilesetArtistRoom_57: 1374081626
-      NewTilesetArtistRoom_58: 910505043
-      NewTilesetArtistRoom_59: -127929325
-      NewTilesetArtistRoom_6: 518575901
-      NewTilesetArtistRoom_60: 1997997852
-      NewTilesetArtistRoom_61: 1985205135
-      NewTilesetArtistRoom_62: 1660350089
-      NewTilesetArtistRoom_63: -231511202
-      NewTilesetArtistRoom_64: 1848223295
-      NewTilesetArtistRoom_65: 197548436
-      NewTilesetArtistRoom_66: 900723388
-      NewTilesetArtistRoom_67: 1676982240
-      NewTilesetArtistRoom_68: 1205765401
-      NewTilesetArtistRoom_69: -1813515136
-      NewTilesetArtistRoom_7: 605761304
-      NewTilesetArtistRoom_70: 1055914747
-      NewTilesetArtistRoom_71: -1114212568
-      NewTilesetArtistRoom_72: 1003406694
-      NewTilesetArtistRoom_73: 1405299796
-      NewTilesetArtistRoom_74: -1144955410
-      NewTilesetArtistRoom_75: 1678561406
-      NewTilesetArtistRoom_76: -459034968
-      NewTilesetArtistRoom_77: -2007842216
-      NewTilesetArtistRoom_78: 1318216909
-      NewTilesetArtistRoom_79: -1356655553
-      NewTilesetArtistRoom_8: -1934912220
-      NewTilesetArtistRoom_80: 752398175
-      NewTilesetArtistRoom_81: -1307074781
-      NewTilesetArtistRoom_82: 648058816
-      NewTilesetArtistRoom_83: -944717753
-      NewTilesetArtistRoom_84: 401294727
-      NewTilesetArtistRoom_85: 33891264
-      NewTilesetArtistRoom_86: -1904883311
-      NewTilesetArtistRoom_87: -570373593
-      NewTilesetArtistRoom_88: -702609610
-      NewTilesetArtistRoom_89: 425733448
-      NewTilesetArtistRoom_9: 1114750529
-      NewTilesetArtistRoom_90: 943978218
-      NewTilesetArtistRoom_91: 729197839
-      NewTilesetArtistRoom_92: 438503236
-      NewTilesetArtistRoom_93: 1159360672
-      NewTilesetArtistRoom_94: -1871853213
-      NewTilesetArtistRoom_95: 1765002613
-      NewTilesetArtistRoom_96: -910476308
-      NewTilesetArtistRoom_97: 939818524
-      NewTilesetArtistRoom_98: -158999139
-      NewTilesetArtistRoom_99: -634028020
+      NewTileSetArtistRoom_0: 348189657
+      NewTileSetArtistRoom_1: -855653129
+      NewTileSetArtistRoom_10: 1746018861
+      NewTileSetArtistRoom_100: -214028523
+      NewTileSetArtistRoom_101: 1317212329
+      NewTileSetArtistRoom_102: -927961134
+      NewTileSetArtistRoom_103: -808266717
+      NewTileSetArtistRoom_104: 114051310
+      NewTileSetArtistRoom_105: 1599944138
+      NewTileSetArtistRoom_106: 1791900005
+      NewTileSetArtistRoom_107: -1162328056
+      NewTileSetArtistRoom_108: -989396574
+      NewTileSetArtistRoom_109: 1431231156
+      NewTileSetArtistRoom_11: 27843825
+      NewTileSetArtistRoom_110: -354400073
+      NewTileSetArtistRoom_111: 555166744
+      NewTileSetArtistRoom_112: 637556972
+      NewTileSetArtistRoom_113: -1388833708
+      NewTileSetArtistRoom_114: -1633158914
+      NewTileSetArtistRoom_115: 482151081
+      NewTileSetArtistRoom_116: 1121559758
+      NewTileSetArtistRoom_117: -670428537
+      NewTileSetArtistRoom_118: -1115123681
+      NewTileSetArtistRoom_119: 1589355665
+      NewTileSetArtistRoom_12: 704337621
+      NewTileSetArtistRoom_120: -1959950425
+      NewTileSetArtistRoom_121: -1976529723
+      NewTileSetArtistRoom_122: 1661730216
+      NewTileSetArtistRoom_123: 1424132689
+      NewTileSetArtistRoom_124: 1733122201
+      NewTileSetArtistRoom_125: -876162715
+      NewTileSetArtistRoom_126: 1238458832
+      NewTileSetArtistRoom_127: -254568065
+      NewTileSetArtistRoom_128: 1792434482
+      NewTileSetArtistRoom_129: 1403284334
+      NewTileSetArtistRoom_13: -370467385
+      NewTileSetArtistRoom_130: -338785251
+      NewTileSetArtistRoom_131: -1632343241
+      NewTileSetArtistRoom_132: 1814770394
+      NewTileSetArtistRoom_133: -1365357655
+      NewTileSetArtistRoom_134: 262505642
+      NewTileSetArtistRoom_135: 388169576
+      NewTileSetArtistRoom_136: -336207513
+      NewTileSetArtistRoom_137: -1256399336
+      NewTileSetArtistRoom_138: 1500515587
+      NewTileSetArtistRoom_139: 2036194724
+      NewTileSetArtistRoom_14: -1238920067
+      NewTileSetArtistRoom_140: 396323304
+      NewTileSetArtistRoom_141: 474733665
+      NewTileSetArtistRoom_142: 1946120489
+      NewTileSetArtistRoom_143: 550678444
+      NewTileSetArtistRoom_144: 1560527550
+      NewTileSetArtistRoom_145: 1971273660
+      NewTileSetArtistRoom_15: 1146154735
+      NewTileSetArtistRoom_16: -941496063
+      NewTileSetArtistRoom_17: 913845510
+      NewTileSetArtistRoom_18: 1306315146
+      NewTileSetArtistRoom_19: -931447642
+      NewTileSetArtistRoom_2: -824245801
+      NewTileSetArtistRoom_20: -687326387
+      NewTileSetArtistRoom_21: -952486810
+      NewTileSetArtistRoom_22: 557020395
+      NewTileSetArtistRoom_23: -1450918171
+      NewTileSetArtistRoom_24: -16150623
+      NewTileSetArtistRoom_25: -842172593
+      NewTileSetArtistRoom_26: -1617052191
+      NewTileSetArtistRoom_27: 285239610
+      NewTileSetArtistRoom_28: 990441110
+      NewTileSetArtistRoom_29: 305357417
+      NewTileSetArtistRoom_3: -1838033516
+      NewTileSetArtistRoom_30: 1841929655
+      NewTileSetArtistRoom_31: -625855206
+      NewTileSetArtistRoom_32: -167215694
+      NewTileSetArtistRoom_33: -272144712
+      NewTileSetArtistRoom_34: -2110697313
+      NewTileSetArtistRoom_35: 225333269
+      NewTileSetArtistRoom_36: -386392699
+      NewTileSetArtistRoom_37: -649361116
+      NewTileSetArtistRoom_38: 896170951
+      NewTileSetArtistRoom_39: -2091187046
+      NewTileSetArtistRoom_4: 1314183908
+      NewTileSetArtistRoom_40: -740248204
+      NewTileSetArtistRoom_41: -387191503
+      NewTileSetArtistRoom_42: 1922236790
+      NewTileSetArtistRoom_43: 1615791683
+      NewTileSetArtistRoom_44: 955199982
+      NewTileSetArtistRoom_45: 1964952
+      NewTileSetArtistRoom_46: -2132880397
+      NewTileSetArtistRoom_47: -440331299
+      NewTileSetArtistRoom_48: -2124009397
+      NewTileSetArtistRoom_49: -568890647
+      NewTileSetArtistRoom_5: 1307453161
+      NewTileSetArtistRoom_50: 1991366834
+      NewTileSetArtistRoom_51: 659543530
+      NewTileSetArtistRoom_52: -1758952949
+      NewTileSetArtistRoom_53: 2018976252
+      NewTileSetArtistRoom_54: -1095825602
+      NewTileSetArtistRoom_55: 1739493032
+      NewTileSetArtistRoom_56: 2037097111
+      NewTileSetArtistRoom_57: 1535913276
+      NewTileSetArtistRoom_58: -589317493
+      NewTileSetArtistRoom_59: -1176642135
+      NewTileSetArtistRoom_6: -2073817621
+      NewTileSetArtistRoom_60: -91447083
+      NewTileSetArtistRoom_61: 1839249346
+      NewTileSetArtistRoom_62: -751656950
+      NewTileSetArtistRoom_63: 125876768
+      NewTileSetArtistRoom_64: -1899256835
+      NewTileSetArtistRoom_65: 1441015024
+      NewTileSetArtistRoom_66: 1125642170
+      NewTileSetArtistRoom_67: 218282782
+      NewTileSetArtistRoom_68: -1098681271
+      NewTileSetArtistRoom_69: 1381845565
+      NewTileSetArtistRoom_7: -224676118
+      NewTileSetArtistRoom_70: -518671492
+      NewTileSetArtistRoom_71: 1689922352
+      NewTileSetArtistRoom_72: 475100911
+      NewTileSetArtistRoom_73: -974076049
+      NewTileSetArtistRoom_74: 27744255
+      NewTileSetArtistRoom_75: 668103198
+      NewTileSetArtistRoom_76: 981994946
+      NewTileSetArtistRoom_77: -1988037168
+      NewTileSetArtistRoom_78: 346591160
+      NewTileSetArtistRoom_79: 319152924
+      NewTileSetArtistRoom_8: -835460571
+      NewTileSetArtistRoom_80: -305446104
+      NewTileSetArtistRoom_81: 858842074
+      NewTileSetArtistRoom_82: 1767111706
+      NewTileSetArtistRoom_83: 241194325
+      NewTileSetArtistRoom_84: 1192074120
+      NewTileSetArtistRoom_85: 317641314
+      NewTileSetArtistRoom_86: 1183561275
+      NewTileSetArtistRoom_87: 1713675111
+      NewTileSetArtistRoom_88: -628084698
+      NewTileSetArtistRoom_89: -622804249
+      NewTileSetArtistRoom_9: -1168478276
+      NewTileSetArtistRoom_90: -952625572
+      NewTileSetArtistRoom_91: -2018506228
+      NewTileSetArtistRoom_92: 704961944
+      NewTileSetArtistRoom_93: 188331354
+      NewTileSetArtistRoom_94: -769512735
+      NewTileSetArtistRoom_95: 1952640561
+      NewTileSetArtistRoom_96: -710230590
+      NewTileSetArtistRoom_97: 1508436289
+      NewTileSetArtistRoom_98: 926853430
+      NewTileSetArtistRoom_99: 1587166932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
