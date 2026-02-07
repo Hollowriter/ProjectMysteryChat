@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Runtime.ExceptionServices;
+using System.Globalization;
 using UnityEngine;
 
 public class SaveDataDocument : SingletonBase<SaveDataDocument>
@@ -27,30 +27,33 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         SingletonAwake();
     }
 
-    public void Save() 
+    public void Save()
     {
         dataToSave.StageSaved = new StageSaved();
-        dataToSave.StageSaved.SceneName = LevelManager.instance.GetSceneName();
-        dataToSave.StageSaved.PositionX = (PlayerMovement.instance.gameObject.GetComponent<Transform>().position.x).ToString();
-        dataToSave.StageSaved.PositionY = (PlayerMovement.instance.gameObject.GetComponent<Transform>().position.y).ToString();
-        dataToSave.StageSaved.PositionZ = (PlayerMovement.instance.gameObject.GetComponent<Transform>().position.z).ToString();
-        dataToSave.StageSaved.CameraX = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.x).ToString();
-        dataToSave.StageSaved.CameraY = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.y).ToString();
-        dataToSave.StageSaved.CameraZ = (CameraFollower.instance.gameObject.GetComponent<Transform>().position.z).ToString();
-        dataToSave.EvidenceSaved = new EvidenceCollection();
+        dataToSave.StageSaved.SceneName =
+            LevelManager.instance.GetSceneName();
+        Vector3 playerPos = PlayerMovement.instance.transform.position;
+        Vector3 cameraPos = CameraFollower.instance.transform.position;
+        dataToSave.StageSaved.PositionX =
+            playerPos.x.ToString(CultureInfo.InvariantCulture);
+        dataToSave.StageSaved.PositionY =
+            playerPos.y.ToString(CultureInfo.InvariantCulture);
+        dataToSave.StageSaved.PositionZ =
+            playerPos.z.ToString(CultureInfo.InvariantCulture);
+        dataToSave.StageSaved.CameraX =
+            cameraPos.x.ToString(CultureInfo.InvariantCulture);
+        dataToSave.StageSaved.CameraY =
+            cameraPos.y.ToString(CultureInfo.InvariantCulture);
+        dataToSave.StageSaved.CameraZ =
+            cameraPos.z.ToString(CultureInfo.InvariantCulture);
         dataToSave.EvidenceSaved = EvidenceInventory.instance.GetCollection();
-        dataToSave.InteractionsDone = new InteractionCollection();
         dataToSave.InteractionsDone = InteractionsManager.instance.GetCollection();
-        dataToSave.plotPointsPassed = new PlotPointCollection();
         dataToSave.plotPointsPassed = PlotPointManager.instance.GetPlotPointCollection();
-        string json = JsonUtility.ToJson(dataToSave);
-        string str = json.ToString();
-        using (FileStream fs = new FileStream(path, FileMode.Create)) 
+        string json = JsonUtility.ToJson(dataToSave, true);
+        using (FileStream fs = new FileStream(path, FileMode.Create))
+        using (StreamWriter writer = new StreamWriter(fs))
         {
-            using (StreamWriter writer = new StreamWriter(fs)) 
-            {
-                writer.Write(str);
-            }
+            writer.Write(json);
         }
 #if UNITY_EDITOR
         UnityEditor.AssetDatabase.Refresh();
@@ -59,34 +62,44 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
 
     public void Load()
     {
-        if (System.IO.File.Exists(path)) 
+        if (!File.Exists(path))
+            return;
+
+        using (StreamReader reader = new StreamReader(path))
         {
-            using (StreamReader reader = new StreamReader(path)) 
-            {
-                string json = reader.ReadToEnd();
-                PlayerMovement.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.PositionZ));
-                CameraFollower.instance.GetComponent<Transform>().position = new Vector3(float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraX), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraY), float.Parse(JsonUtility.FromJson<SaveData>(json).StageSaved.CameraZ));
-                EvidenceInventory.instance.ClearInventory();
-                EvidenceInventory.instance.SetToCollection(JsonUtility.FromJson<SaveData>(json).EvidenceSaved);
-                InteractionsManager.instance.ClearInteractions();
-                InteractionsManager.instance.SetCollection(JsonUtility.FromJson<SaveData>(json).InteractionsDone);
-                PlotPointManager.instance.CheckPlotPointCollection(JsonUtility.FromJson<SaveData>(json).plotPointsPassed);
-                LevelManager.instance.ChangeScene(JsonUtility.FromJson<SaveData>(json).StageSaved.SceneName);
-            }
+            string json = reader.ReadToEnd();
+            SaveData data = JsonUtility.FromJson<SaveData>(json);
+            PlayerMovement.instance.transform.position = new Vector3(
+                float.Parse(data.StageSaved.PositionX, CultureInfo.InvariantCulture),
+                float.Parse(data.StageSaved.PositionY, CultureInfo.InvariantCulture),
+                float.Parse(data.StageSaved.PositionZ, CultureInfo.InvariantCulture)
+            );
+            CameraFollower.instance.transform.position = new Vector3(
+                float.Parse(data.StageSaved.CameraX, CultureInfo.InvariantCulture),
+                float.Parse(data.StageSaved.CameraY, CultureInfo.InvariantCulture),
+                float.Parse(data.StageSaved.CameraZ, CultureInfo.InvariantCulture)
+            );
+            EvidenceInventory.instance.ClearInventory();
+            EvidenceInventory.instance.SetToCollection(data.EvidenceSaved);
+            InteractionsManager.instance.ClearInteractions();
+            InteractionsManager.instance.SetCollection(data.InteractionsDone);
+            PlotPointManager.instance.CheckPlotPointCollection(data.plotPointsPassed);
+            LevelManager.instance.ChangeScene(data.StageSaved.SceneName);
         }
     }
 
-    public bool IsSomethingSaved() 
+    public bool IsSomethingSaved()
     {
-        if (System.IO.File.Exists(path)) 
+        if (!File.Exists(path))
+            return false;
+        using (StreamReader reader = new StreamReader(path))
         {
-            using (StreamReader reader = new StreamReader(path))
+            string json = reader.ReadToEnd();
+            SaveData data = JsonUtility.FromJson<SaveData>(json);
+            if (data.InteractionsDone != null &&
+                data.InteractionsDone.Interaction != null)
             {
-                string json = reader.ReadToEnd();
-                if (JsonUtility.FromJson<SaveData>(json).InteractionsDone != null) {
-                    if (JsonUtility.FromJson<SaveData>(json).InteractionsDone.Interaction != null)
-                        return JsonUtility.FromJson<SaveData>(json).InteractionsDone.Interaction.Length > 0;
-                }
+                return data.InteractionsDone.Interaction.Length > 0;
             }
         }
         return false;
