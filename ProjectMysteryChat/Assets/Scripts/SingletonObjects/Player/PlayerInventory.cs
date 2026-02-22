@@ -21,6 +21,7 @@ public class PlayerInventory : SingletonBase<PlayerInventory>
             if (EvidenceInventory.instance.GetActivated())
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(false);
+                ProfileInventory.instance.SetActivatedInventoryMembers(false);
                 ElectionBox.instance.SetButtonsActive(true);
                 TextBox.instance.SetNextButtonActive(true);
                 TextBox.instance.SetNextDebateButtonActive(true);
@@ -29,6 +30,7 @@ public class PlayerInventory : SingletonBase<PlayerInventory>
             else
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(true);
+                ProfileInventory.instance.SetActivatedInventoryMembers(false);
                 ElectionBox.instance.SetButtonsActive(false);
                 TextBox.instance.SetNextButtonActive(false);
                 TextBox.instance.SetNextDebateButtonActive(false);

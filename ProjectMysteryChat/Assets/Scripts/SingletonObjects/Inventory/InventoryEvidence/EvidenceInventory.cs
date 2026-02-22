@@ -145,19 +145,4 @@ public class EvidenceInventory : SingletonBase<EvidenceInventory>
     {
         return evidence;
     }
-
-    /*public Evidence GetEvidenceByName(string evidenceName)
-    {
-        if (!EvidenceEmpty())
-        {
-            for (int i = 0; i < evidence.Evidence.Length; i++)
-            {
-                if (evidence.Evidence[i].Item == evidenceName)
-                {
-                    return evidence.Evidence[i];
-                }
-            }
-        }
-        return GetNullEvidence();
-    }*/
 }
