@@ -51,7 +51,8 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         {
             if (ThereAreAnswers())
             {
-                InventoryInstruction.instance.activateNotedElement?.Invoke(); // Optimize this later. (Hollow)
+                InventoryInstruction.instance.activateNotedElement?.Invoke();
+                ProfilesInstruction.instance.activateNotedElement?.Invoke();
                 return GetActivated();
             }
         }
@@ -98,7 +99,8 @@ public class AnswerInspector : SingletonBase<AnswerInspector>
         ElectionBox.instance.DeactivateButtons();
         ElectionBox.instance.SetActivated(false);
         PortraitBoxes.instance.PutOnImage();
-        InventoryInstruction.instance.deactivateNotedElement?.Invoke(); // Optimize this later. (Hollow)
+        InventoryInstruction.instance.deactivateNotedElement?.Invoke();
+        ProfilesInstruction.instance.deactivateNotedElement?.Invoke();
         SetActivated(false);
         answers = null;
     }

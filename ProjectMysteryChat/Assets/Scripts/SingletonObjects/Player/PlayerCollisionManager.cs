@@ -59,6 +59,7 @@ public class PlayerCollisionManager : SingletonBase<PlayerCollisionManager>
         {
             StopCollideWithObject();
         }
-        SpaceInstruction.instance.deactivateElements?.Invoke();
+        if (SpaceInstruction.instance != null)
+            SpaceInstruction.instance.deactivateElements?.Invoke();
     }
 }

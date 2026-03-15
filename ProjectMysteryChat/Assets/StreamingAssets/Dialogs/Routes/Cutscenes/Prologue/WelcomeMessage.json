@@ -118,5 +118,14 @@
 		{
 			"MusicName":"CuadroDeDialogo"
 		}
+	],
+	"Profile":
+	[
+		{
+			"Icon":"/LostDecipher2/LostDecipher2-Neutral",
+			"Username":"LostDecipher2",
+			"Nicknames":"Cipher, Lost, Thomas Bentley (Real Name)",
+			"Description":"Vlogger specialized in mystery and curiosity content."
+		}
 	]
 }

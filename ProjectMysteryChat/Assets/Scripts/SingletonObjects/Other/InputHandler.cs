@@ -14,6 +14,7 @@ public class InputHandler : SingletonBase<InputHandler>
     public KeyCode walkRightArrow { get; set; }
     public KeyCode interact { get; set; }
     public KeyCode showInventory { get; set; }
+    public KeyCode showProfiles { get; set; }
     public KeyCode showGameplayMenu { get; set; }
 
    public bool inputDetected()
@@ -37,6 +38,7 @@ public class InputHandler : SingletonBase<InputHandler>
         walkRightArrow = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightArrowKey", "RightArrow"));
         interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "Space"));
         showInventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("inventoryKey", "E"));
+        showProfiles = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("profilesKey", "P"));
         showGameplayMenu = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("gameplayMenuKey", "Escape"));
     }
 

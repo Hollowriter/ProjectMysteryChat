@@ -22,7 +22,7 @@ public class PresentButton : SingletonBase<PresentButton>
     {
         if (AnswerInspector.instance != null)
         {
-            if (GetActivated() && AnswerInspector.instance.GetActivated())
+            if (GetActivated() && AnswerInspector.instance.GetActivated() && (ProfileInventory.instance.GetActivated() || EvidenceInventory.instance.GetActivated()))
             {
                 return GetActivated();
             }

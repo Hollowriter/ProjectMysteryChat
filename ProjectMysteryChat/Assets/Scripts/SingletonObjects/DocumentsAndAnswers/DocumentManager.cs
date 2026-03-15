@@ -42,6 +42,7 @@ public class DocumentManager : SingletonBase<DocumentManager>
             InteractionsManager.instance.SetPermanentInteraction(JsonUtility.FromJson<InteractionCollection>(json));
             MusicPlayer.instance.SetMusicStateFromDialog(JsonUtility.FromJson<LoneTrack>(json));
             EvidenceInventory.instance.AddEvidence(_fileName);
+            ProfileInventory.instance.AddProfile(_fileName);
         }
     }
 
