@@ -47,6 +47,7 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
         dataToSave.StageSaved.CameraZ =
             cameraPos.z.ToString(CultureInfo.InvariantCulture);
         dataToSave.EvidenceSaved = EvidenceInventory.instance.GetCollection();
+        dataToSave.ProfilesSaved = ProfileInventory.instance.GetCollection();
         dataToSave.InteractionsDone = InteractionsManager.instance.GetCollection();
         dataToSave.plotPointsPassed = PlotPointManager.instance.GetPlotPointCollection();
         string json = JsonUtility.ToJson(dataToSave, true);
@@ -81,6 +82,8 @@ public class SaveDataDocument : SingletonBase<SaveDataDocument>
             );
             EvidenceInventory.instance.ClearInventory();
             EvidenceInventory.instance.SetToCollection(data.EvidenceSaved);
+            ProfileInventory.instance.ClearInventory();
+            ProfileInventory.instance.SetToCollection(data.ProfilesSaved);
             InteractionsManager.instance.ClearInteractions();
             InteractionsManager.instance.SetCollection(data.InteractionsDone);
             PlotPointManager.instance.CheckPlotPointCollection(data.plotPointsPassed);

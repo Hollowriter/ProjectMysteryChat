@@ -29,6 +29,7 @@ public class SaveData
 {
     public StageSaved StageSaved;
     public EvidenceCollection EvidenceSaved;
+    public ProfileCollection ProfilesSaved;
     public InteractionCollection InteractionsDone;
     public PlotPointCollection plotPointsPassed;
 }

@@ -29,21 +29,24 @@ public class ProfilesInstruction : SingletonBase<ProfilesInstruction>
 
     private void ActivateDeactivateAll(Scene previousScene, Scene nextScene)
     {
-        if (nextScene.name != "Menu" && nextScene.name != "Prologue")
+        if (elements != null)
         {
-            for (int i = 0; i < elements.Count; i++)
+            if (nextScene.name != "Menu" && nextScene.name != "Prologue")
             {
-                elements[i].SetActive(true);
+                for (int i = 0; i < elements.Count; i++)
+                {
+                    elements[i].SetActive(true);
+                }
             }
-        }
-        else
-        {
-            for (int i = 0; i < elements.Count; i++)
+            else
             {
-                elements[i].SetActive(false);
+                for (int i = 0; i < elements.Count; i++)
+                {
+                    elements[i].SetActive(false);
+                }
             }
+            notedElement.SetActive(false);
         }
-        notedElement.SetActive(false);
     }
 
     private void ActivateNotedElement()

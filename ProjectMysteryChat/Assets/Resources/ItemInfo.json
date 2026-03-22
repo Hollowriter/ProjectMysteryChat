@@ -1,11 +1,11 @@
 {
     "StageSaved": {
         "SceneName": "MsMakiRoom",
-        "PositionX": "117.151",
-        "PositionY": "44.97833",
+        "PositionX": "117.2261",
+        "PositionY": "43.75769",
         "PositionZ": "0",
-        "CameraX": "117.151",
-        "CameraY": "44.97833",
+        "CameraX": "117.2261",
+        "CameraY": "43.75769",
         "CameraZ": "-16.12"
     },
     "EvidenceSaved": {
@@ -89,6 +89,106 @@
                 "Icon": "",
                 "Item": "nullified",
                 "Description": "No evidence found"
+            }
+        ]
+    },
+    "ProfilesSaved": {
+        "Profile": [
+            {
+                "Icon": "/LostDecipher2/LostDecipher2-Neutral",
+                "Username": "LostDecipher2",
+                "Nicknames": "Cipher, Lost, Thomas Bentley (Real Name)",
+                "Description": "Vlogger specialized in mystery and curiosity content."
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
+            },
+            {
+                "Icon": "",
+                "Username": "nullified",
+                "Nicknames": "No nicknames found",
+                "Description": "No description found"
             }
         ]
     },
