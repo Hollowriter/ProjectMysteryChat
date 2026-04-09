@@ -60,7 +60,7 @@ public class SingleTransitionManager : SingletonBase<SingleTransitionManager>
     {
         DocumentManager.instance.SetDocument(transition.Transition[0].Name);
         TextBox.instance.SetActivated(true);
-        TextBox.instance.ResetSpeechIndex();
+        //TextBox.instance.ResetSpeechIndex();
         PortraitBoxes.instance.PutOnImage();
     }
 

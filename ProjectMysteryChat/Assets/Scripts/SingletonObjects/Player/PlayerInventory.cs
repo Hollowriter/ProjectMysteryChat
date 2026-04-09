@@ -25,27 +25,27 @@ public class PlayerInventory : SingletonBase<PlayerInventory>
                 EvidenceInventory.instance.SetActivatedInventoryMembers(false);
                 ProfileInventory.instance.SetActivatedInventoryMembers(false);
                 ElectionBox.instance.SetButtonsActive(true);
-                TextBox.instance.SetNextButtonActive(true);
-                TextBox.instance.SetNextDebateButtonActive(true);
-                TextBox.instance.SetPreviousDebateButtonActive(true);
+                //TextBox.instance.SetNextButtonActive(true);
+                //TextBox.instance.SetNextDebateButtonActive(true);
+                //TextBox.instance.SetPreviousDebateButtonActive(true);
             }
             else if (ProfileInventory.instance.GetActivated()) 
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(true);
                 ProfileInventory.instance.SetActivatedInventoryMembers(false);
                 ElectionBox.instance.SetButtonsActive(false);
-                TextBox.instance.SetNextButtonActive(false);
-                TextBox.instance.SetNextDebateButtonActive(false);
-                TextBox.instance.SetPreviousDebateButtonActive(false);
+                //TextBox.instance.SetNextButtonActive(false);
+                //TextBox.instance.SetNextDebateButtonActive(false);
+                //TextBox.instance.SetPreviousDebateButtonActive(false);
             }
             else
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(true);
                 ProfileInventory.instance.SetActivatedInventoryMembers(false);
                 ElectionBox.instance.SetButtonsActive(false);
-                TextBox.instance.SetNextButtonActive(false);
-                TextBox.instance.SetNextDebateButtonActive(false);
-                TextBox.instance.SetPreviousDebateButtonActive(false);
+                //TextBox.instance.SetNextButtonActive(false);
+                //TextBox.instance.SetNextDebateButtonActive(false);
+                //TextBox.instance.SetPreviousDebateButtonActive(false);
             }
             showInventoryProcessed = true;
         }
@@ -60,27 +60,27 @@ public class PlayerInventory : SingletonBase<PlayerInventory>
                 EvidenceInventory.instance.SetActivatedInventoryMembers(false);
                 ProfileInventory.instance.SetActivatedInventoryMembers(false);
                 ElectionBox.instance.SetButtonsActive(true);
-                TextBox.instance.SetNextButtonActive(true);
-                TextBox.instance.SetNextDebateButtonActive(true);
-                TextBox.instance.SetPreviousDebateButtonActive(true);
+                //TextBox.instance.SetNextButtonActive(true);
+                //TextBox.instance.SetNextDebateButtonActive(true);
+                //TextBox.instance.SetPreviousDebateButtonActive(true);
             }
             else if (EvidenceInventory.instance.GetActivated()) 
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(false);
                 ProfileInventory.instance.SetActivatedInventoryMembers(true);
                 ElectionBox.instance.SetButtonsActive(false);
-                TextBox.instance.SetNextButtonActive(false);
-                TextBox.instance.SetNextDebateButtonActive(false);
-                TextBox.instance.SetPreviousDebateButtonActive(false);
+                //TextBox.instance.SetNextButtonActive(false);
+                //TextBox.instance.SetNextDebateButtonActive(false);
+                //TextBox.instance.SetPreviousDebateButtonActive(false);
             }
             else
             {
                 EvidenceInventory.instance.SetActivatedInventoryMembers(false);
                 ProfileInventory.instance.SetActivatedInventoryMembers(true);
                 ElectionBox.instance.SetButtonsActive(false);
-                TextBox.instance.SetNextButtonActive(false);
-                TextBox.instance.SetNextDebateButtonActive(false);
-                TextBox.instance.SetPreviousDebateButtonActive(false);
+                //TextBox.instance.SetNextButtonActive(false);
+                //TextBox.instance.SetNextDebateButtonActive(false);
+                //TextBox.instance.SetPreviousDebateButtonActive(false);
             }
             showProfilesProcessed = true;
         }
