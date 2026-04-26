@@ -11,7 +11,7 @@ public class TextBox : SingletonBase<TextBox>
     [Header("Chat UI")]
     [SerializeField] Transform content;
     [SerializeField] GameObject messagePrefab;
-    [SerializeField] ScrollRect scrollRect;
+    // [SerializeField] ScrollRect scrollRect;
     // [SerializeField] GameObject dialogueBackground;
     [Header("Config")]
     [SerializeField] float textSlowDown = 0.02f;
@@ -71,7 +71,7 @@ public class TextBox : SingletonBase<TextBox>
         textWritten = true;
         skipText = false;
         Canvas.ForceUpdateCanvases();
-        scrollRect.verticalNormalizedPosition = 0f;
+        //scrollRect.verticalNormalizedPosition = 0f;
     }
 
     void WriteText()
