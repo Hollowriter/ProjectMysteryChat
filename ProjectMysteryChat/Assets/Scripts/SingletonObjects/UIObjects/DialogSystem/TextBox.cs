@@ -11,6 +11,7 @@ public class TextBox : SingletonBase<TextBox>
     [Header("Chat UI")]
     [SerializeField] Transform content;
     [SerializeField] GameObject messagePrefab;
+    [SerializeField] LayoutHeightLimiter heightLimiter;
     // [SerializeField] ScrollRect scrollRect;
     // [SerializeField] GameObject dialogueBackground;
     [Header("Config")]
@@ -70,7 +71,9 @@ public class TextBox : SingletonBase<TextBox>
         }
         textWritten = true;
         skipText = false;
+        yield return null;
         Canvas.ForceUpdateCanvases();
+        heightLimiter.RefreshLayout();
         //scrollRect.verticalNormalizedPosition = 0f;
     }
 
@@ -198,7 +201,7 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
-    private void OnGUI()
+    private void Update()
     {
         BehaveSingleton();
     }

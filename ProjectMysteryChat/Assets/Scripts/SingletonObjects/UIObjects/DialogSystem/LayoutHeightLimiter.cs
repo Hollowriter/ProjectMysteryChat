@@ -4,19 +4,13 @@ using UnityEngine.UI;
 public class LayoutHeightLimiter : MonoBehaviour
 {
     [SerializeField] private RectTransform content;
-    [SerializeField] private float maxHeight = 500f;
-    [SerializeField] private ContentSizeFitter fitter;
+    [SerializeField] private float maxHeight = 300f;
 
-    void Update()
+    public void RefreshLayout()
     {
-        if (content.sizeDelta.y > maxHeight)
-        {
-            fitter.enabled = false;
-            content.sizeDelta = new Vector2(content.sizeDelta.x, maxHeight);
-        }
-        else
-        {
-            fitter.enabled = true;
-        }
+        Canvas.ForceUpdateCanvases();
+        float height = LayoutUtility.GetPreferredHeight(content);
+        float finalHeight = Mathf.Min(height, maxHeight);
+        content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, finalHeight);
     }
 }
