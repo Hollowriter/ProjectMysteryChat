@@ -12,6 +12,7 @@ public class TextBox : SingletonBase<TextBox>
     [SerializeField] Transform content;
     [SerializeField] GameObject messagePrefab;
     [SerializeField] LayoutHeightLimiter heightLimiter;
+    [SerializeField] VerticalLayoutLimiter verticalLayoutLimiter;
     // [SerializeField] ScrollRect scrollRect;
     // [SerializeField] GameObject dialogueBackground;
     [Header("Config")]
@@ -73,6 +74,7 @@ public class TextBox : SingletonBase<TextBox>
         skipText = false;
         yield return null;
         Canvas.ForceUpdateCanvases();
+        verticalLayoutLimiter.AddItem(msg);
         heightLimiter.RefreshLayout();
         //scrollRect.verticalNormalizedPosition = 0f;
     }

@@ -1749,6 +1749,7 @@ MonoBehaviour:
   messagePrefab: {fileID: 4653797623810955681, guid: 375a8aabbb740ec4680d199b0ddedd96,
     type: 3}
   heightLimiter: {fileID: 1847857446}
+  verticalLayoutLimiter: {fileID: 1847857447}
   textSlowDown: 0.01
   nextDebateButtonLocation: {fileID: 1026699357}
   prevDebateButtonLocation: {fileID: 811727355}
@@ -9077,7 +9078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: {fileID: 1847857442}
-  maxHeight: 500
+  maxHeight: 1500
 --- !u!114 &1847857447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9091,7 +9092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: {fileID: 1847857442}
-  maxItems: 5
+  maxItems: 3
 --- !u!1001 &1860416701
 PrefabInstance:
   m_ObjectHideFlags: 0

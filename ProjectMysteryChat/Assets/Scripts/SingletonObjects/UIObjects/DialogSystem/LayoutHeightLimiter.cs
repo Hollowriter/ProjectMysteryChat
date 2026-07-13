@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class LayoutHeightLimiter : MonoBehaviour
 {
     [SerializeField] private RectTransform content;
-    [SerializeField] private float maxHeight = 300f;
+    [SerializeField] private float maxHeight;
 
     public void RefreshLayout()
     {
