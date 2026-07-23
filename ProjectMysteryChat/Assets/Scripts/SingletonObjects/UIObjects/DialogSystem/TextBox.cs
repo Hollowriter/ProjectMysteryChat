@@ -14,7 +14,7 @@ public class TextBox : SingletonBase<TextBox>
     [SerializeField] LayoutHeightLimiter heightLimiter;
     [SerializeField] VerticalLayoutLimiter verticalLayoutLimiter;
     // [SerializeField] ScrollRect scrollRect;
-    // [SerializeField] GameObject dialogueBackground;
+    [SerializeField] GameObject dialogueCollection;
     [Header("Config")]
     [SerializeField] float textSlowDown = 0.02f;
     DialogCollection items;
@@ -32,8 +32,8 @@ public class TextBox : SingletonBase<TextBox>
         textWriting = false;
         textWritten = false;
         skipText = false;
-        /*if (dialogueBackground != null)
-            dialogueBackground.SetActive(false);*/
+        if (dialogueCollection != null)
+            dialogueCollection.SetActive(false);
     }
 
     private void Awake()
@@ -54,9 +54,10 @@ public class TextBox : SingletonBase<TextBox>
 
     IEnumerator DialogTyping(string _word)
     {
-       /*if (!dialogueBackground.activeInHierarchy)
-            dialogueBackground.SetActive(true);*/
+       if (!dialogueCollection.activeInHierarchy)
+            dialogueCollection.SetActive(true);
         GameObject msg = Instantiate(messagePrefab, content);
+        verticalLayoutLimiter.AddItem(msg);
         Text txt = msg.GetComponentInChildren<Text>();
         txt.text = "";
         foreach (char letter in _word.ToCharArray())
@@ -74,7 +75,6 @@ public class TextBox : SingletonBase<TextBox>
         skipText = false;
         yield return null;
         Canvas.ForceUpdateCanvases();
-        verticalLayoutLimiter.AddItem(msg);
         heightLimiter.RefreshLayout();
         //scrollRect.verticalNormalizedPosition = 0f;
     }
@@ -187,7 +187,7 @@ public class TextBox : SingletonBase<TextBox>
         if (speechIndex >= items.Dialogs.Length)
         {
             DocumentManager.instance.CheckElectionsAndInspector();
-            // dialogueBackground.SetActive(false);
+            dialogueCollection.SetActive(false);
         }
     }
 
