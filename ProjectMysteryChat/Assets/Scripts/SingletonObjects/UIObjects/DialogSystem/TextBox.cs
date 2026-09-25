@@ -112,7 +112,7 @@ public class TextBox : SingletonBase<TextBox>
         }
     }
 
-    void DebateButtonsAppear()
+    void DebateButtonsAppear() // Checkear los interrogatorios. (Recordatorio. Hollow)
     {
         if (textWritten && EvidenceInventory.instance.GetActivated() == false)
         {
